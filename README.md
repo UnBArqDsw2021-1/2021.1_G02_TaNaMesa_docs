@@ -1,28 +1,28 @@
-# RepositorioTemplate
-Esse repositório é para ser utilizado pelos grupos como um template inicial, da home page do Projeto.
-Demais diretrizes sobre a organização da wiki constam no Moodle Aprender 3.
+# 2021.1_G02_TaNaMesa_docs
 
-**!! Atenção: Renomeie o seu repositório para (Ano.Semestre)_(Grupo)_(NomeDoProjeto)*. !!** 
+Repositório para os documentos do projeto da disciplina de Desenho e Arquitetura de Software do grupo Tá na Mesa (Grupo 02) .
 
-**!! *Não coloque os nomes dos alunos no título do repositório*. !!**
-
-**!! *Exemplo de título correto: 2021.1_G1_ProjetoPandora*. !!** 
- 
- (Apague essa seção)
-
-# Nome do Projeto
+# Tá na Mesa
 
 **Código da Disciplina**: FGA0208<br>
-**Número do Grupo**: XX<br>
+**Número do Grupo**: 02<br>
 
 ## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+|Matrícula    | Aluno                              | GitHub        |
+| ----------  | ---------------------------------- | ------------- |
+| 19/0041871  | Abner Filipe Cunha Ribeiro         | abner423      |
+| 18/0041444  | Brenda Vitória dos Santos          | brendavsantos |
+| 18/0063162  | Daniel Primo de Melo               | danieldagerom |
+| 17/0161897  | Eduarda Servidio Claudino          | ServidioEC    |
+| 18/0015966  | Emily Dias Sousa                   | emysdias      |
+| 18/0033034  | Hérick Ferreira de Souza Portugues | herickport    |
+| 18/0113666  | Ítalo Alves Guimarães              | alvesitalo    |
+| 18/0114093  | Lucas Ursulino Boaventura          | lboaventura25 |
+| 18/0037439  | Sergio de Almeida Cipriano Júnior  | sergiosacj    |
+| 18/0114689  | Tiago Samuel Rodrigues             | tsrrodrigues  |
 
-## Sobre 
-Descreva o seu projeto em linhas gerais. 
+## Sobre 🍔
+Um sistema para que as pessoas possam chegar no restaurante fazer seus pedidos separados por pessoa e que facilite para daber o valor que cada um vai pagar ao final. 
 
 ## Screenshots Primeira Entrega <<FOCO: DSW(Base)>>
 Adicione 2 ou mais screenshots do projeto em termos de artefatos da Primeira Entrega.
