@@ -1,1 +1,13 @@
 site_name: My Docs
+theme:
+  palette:
+    primary: red
+  # logo: ./assets/planejamento/logos/telegram-logo-with-border.svg.png
+  # favicon: ./assets/planejamento/logos/telegram-logo.webp
+  name: material
+  features:
+    - navigation.tabs
+extra_css:
+  - stylesheets/styles.css
+
+dev_addr: "0.0.0.0:8000"
