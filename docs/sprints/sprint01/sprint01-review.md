@@ -1,10 +1,10 @@
 # Análise e Restrospectiva
 
 ## 1. Visão Geral
-**Número da Sprint:** 01 
-**Data de Início:** 26/07/2021   
-**Data de Término:** 02/08/2021  
-**Duração:** 7 dias 
+**Número da Sprint:** 01     
+**Data de Início:** 26/07/2021         
+**Data de Término:** 02/08/2021       
+**Duração:** 7 dias       
 
 ## 2. Membros
 |      Papel       |          Membro            |
