@@ -5,7 +5,7 @@ Repositório para os documentos do projeto da disciplina de Desenho e Arquitetur
 ## Alunos
 |Matrícula    | Aluno                              | GitHub                                                     |
 | ----------  | ---------------------------------- | ---------------------------------------------------------- |
-| 19/0041871  | Abner Filipe Cunha Ribeiro         | [@abner423](https://github.com/daniso123)                  |
+| 19/0041871  | Abner Filipe Cunha Ribeiro         | [@abner423](https://github.com/abner423)                  |
 | 18/0041444  | Brenda Vitória dos Santos          | [@brendavsantos](https://github.com/brendavsantos)         |
 | 18/0063162  | Daniel Primo de Melo               | [@danieldagerom](https://github.com/danieldagerom)         |
 | 17/0161897  | Eduarda Servidio Claudino          | [@ServidioEC](https://github.com/ServidioEC)               |
