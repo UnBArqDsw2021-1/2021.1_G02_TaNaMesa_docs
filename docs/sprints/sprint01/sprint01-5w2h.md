@@ -10,31 +10,31 @@
 
 ### 2.1 What (O que será feito)?
 
-&emsp;&emsp; Aplicação Tá na mesa que facilita os pedidos de grupos ou individual em restaurante.
+&emsp;&emsp;Aplicação Tá na mesa que facilita os pedidos de grupos ou individual em restaurante.
 
 ### 2.2 Why (por que será feito)?
 
-&emsp;&emsp; Para resolver problemas de restaurantes na questão de fazer pedido em grupo utilizando algo mais automatizado.
+&emsp;&emsp;Para resolver problemas de restaurantes na questão de fazer pedido em grupo utilizando algo mais automatizado.
 
 ### 2.3 Who (por quem será feito)?
 
-&emsp;&emsp; Vai ser desenvolvido por alunos da Universidade de Brasília que estão cursando Arquitetura e Desenho de Software no semestre 2021.1.
+&emsp;&emsp;Vai ser desenvolvido por alunos da Universidade de Brasília que estão cursando Arquitetura e Desenho de Software no semestre 2021.1.
 
 ### 2.4 Where (onde será feito)?
 
-&emsp;&emsp;
+&emsp;&emsp;Em restaurantes que usarem a aplicação.
 
 ### 2.5 When (quando será feito)?
 
-&emsp;&emsp;
+&emsp;&emsp;O projeto vai ter a duração de julho de 2021 até outubro de 2021 (2º semestre letivo de aula na UnB).
 
 ### 2.6 How (como será feito)?
 
-&emsp;&emsp;
+&emsp;&emsp;Será através de um sistema para que as pessoas possam chegar no restaurante, fazer seus pedidos separados por pessoa e que facilite para saber o valor que cada um vai pagar ao final. Com telas de ver menu, selecionar pedidos, terá parte de gerência onde o garçom recebe os pedidos e passa para a cozinha para que eles sejam preparados.
 
 ### 2.7 How much (quanto vai custar para fazer)?
 
-&emsp;&emsp;
+&emsp;&emsp;A aplicação não tem previsão de custos, mas pode ocorrer com a parte de poder imprimir os pedidos.
 
 ## 3. Referências
 
