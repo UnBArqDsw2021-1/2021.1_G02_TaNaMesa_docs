@@ -65,17 +65,11 @@ para obter a versão final do rich picture.
 ### RichPictures - Esboços no Papel
 
 
-[comment]: <> (Colocar a imagem da RP aqui)
-[comment]: <> (Colocar a imagem da RP aqui)
-[comment]: <> (Colocar a imagem da RP aqui)
-[comment]: <> (Colocar a imagem da RP aqui)
-[comment]: <> (Colocar a imagem da RP aqui)
-[comment]: <> (Colocar a imagem da RP aqui)
-[comment]: <> (Colocar a imagem da RP aqui)
-[comment]: <> (Colocar a imagem da RP aqui)
-[comment]: <> (Colocar a imagem da RP aqui)
+![RP01](./imagens/RP01.jpeg)
 **Autor:** [Sergio Cipriano](https://github.com/sergiosacj)
-**Autor:** [Eduarda Servideo](https://github.com/ServideoEC)
+
+![RP02](./imagens/RP02.jpeg)
+**Autor:** [Sergio Cipriano](https://github.com/sergiosacj)
 
 
 ## Referências Bibliográficas
