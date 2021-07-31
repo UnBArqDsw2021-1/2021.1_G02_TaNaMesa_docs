@@ -1,4 +1,9 @@
-## RichPictures
+# RichPictures
+
+## Introdução
+
+&emsp;&emsp; O Rich Picture é uma forma de representar o sistema e suas interações por meio de diagramas gráficos.
+É uma ferramenta que cabe muito bem em momentos iniciais ou de revisões do projeto fornecendo um modelo mental preliminar.
 
 ### RichPicture 01 - Visão do cliente
 
