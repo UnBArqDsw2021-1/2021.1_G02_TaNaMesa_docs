@@ -5,6 +5,16 @@
 &emsp;&emsp; O Rich Picture é uma forma de representar o sistema e suas interações por meio de diagramas gráficos.
 É uma ferramenta que cabe muito bem em momentos iniciais ou de revisões do projeto fornecendo um modelo mental preliminar.
 
+## Metodologia
+
+&emsp;&emsp; A metodologia Soft Systems Methodology (SSM), que é agrupa nela os conceitos de rich picture, foi
+proposta por Checkland (1999) apud Bernardo et al. (2008). Este método é utilizado para analisar problemas complexos
+de uma perspectiva de sistema, onde se observa os problemas e suas soluções correspondentes.<br>
+
+&emsp;&emsp; Para o rich picture foi feito a divisão que cada membro faria um modelo desenhado dos diagramas em algum
+papel, com isto foi escolhido a rich picture com mais detalhes e mais correta, e por fim foi feito a evolução do sistema
+para obter a versão final do rich picture.
+
 ### RichPicture 01 - Visão do cliente
 
 
