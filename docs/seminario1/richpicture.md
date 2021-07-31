@@ -24,6 +24,7 @@ para obter a versão final do rich picture.
 |--|--|
 |**Descrição**|  Pedido na visão do cliente. | 
 |**Autor**|      [Sergio Cipriano](https://github.com/sergiosacj) |
+|**Co-Autor**|   [Eduarda Servideo](https://github.com/ServideoEC) |
 
 
 ### RichPicture 02 - Visão da Cozinha
@@ -35,6 +36,7 @@ para obter a versão final do rich picture.
 |--|--|
 |**Descrição**|  Pedido na visão dos cozinheiros. | 
 |**Autor**|      [Sergio Cipriano](https://github.com/sergiosacj) |
+|**Co-Autor**|   [Eduarda Servideo](https://github.com/ServideoEC) |
 
 
 ### RichPicture 03 - Visão do Garçom
@@ -57,28 +59,6 @@ para obter a versão final do rich picture.
 |--|--|
 |**Descrição**|  Aplicação na visão do usuário com mais privilégios. | 
 |**Autor**|      [Eduarda Servideo](https://github.com/ServideoEC) |
-
-
-### RichPicture 05 - Visão do Restaurante sem TaNaMesa
-
-
-[comment]: <> (Colocar a imagem da RP aqui)
-
-| **RP05** | **Visão do Restaurante sem TaNaMesa**  |
-|--|--|
-|**Descrição**|  Visão geral do restaurante sem TaNaMesa | 
-|**Autor**|      [Sergio Cipriano](https://github.com/sergiosacj) |
-
-
-### RichPicture 06 - Visão do Restaurante com TaNaMesa
-
-
-[comment]: <> (Colocar a imagem da RP aqui)
-
-| **RP06** | **Visão do Restaurante com TaNaMesa**  |
-|--|--|
-|**Descrição**|  Visão geral do restaurante com TaNaMesa | 
-|**Autor**|      [Sergio Cipriano](https://github.com/sergiosacj) |
 
 
 ### RichPictures - Esboços no Papel
