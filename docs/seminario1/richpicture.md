@@ -20,6 +20,7 @@ para obter a versão final do rich picture.
 
 [comment]: <> (Colocar a imagem da RP aqui)
 
+
 | **RP01** | **Visão do cliente**  |
 |--|--|
 |**Descrição**|  Pedido na visão do cliente. | 
