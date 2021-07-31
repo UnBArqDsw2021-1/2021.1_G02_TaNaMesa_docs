@@ -62,3 +62,9 @@ Para representar os resultados obtidos através das análises, foi desenvolvido 
 | Permite dividir a conta de forma igual | ✔ | ✖ | ✖ | ✔ |
 | Permite pagar separadamente por comanda | ✖ | ✖ | ✖ | ✖ |
 | Permite selecionar forma de pagamento | ✔ | ✔ | ✔ | ✖ |
+
+## Histórico de Revisões
+
+|    Data    | Versão | Descrição |         Autor(es)          |
+| :--------- | :----- | :-------- | :------------------------- |
+| 31/07/2021 |  1.0   | Criação da estrutura do documento, relatório das primeiras duas análises.| [Brenda Santos](https://github.com/brendavsantos), [Tiago Samuel](https://github.com/tsrrodrigues) |
