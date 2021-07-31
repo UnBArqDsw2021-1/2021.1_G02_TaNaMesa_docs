@@ -1,13 +1,29 @@
-site_name: My Docs
+site_name: Tá Na Mesa
+site_description: Repositório da documentação da aplicação Tá Na Mesa desenvolvido na disciplina de Desenho e Arquitetura de Software
+copyright: Copyright &copy; 2021, <a href="https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs" target="_blank">Tá Na Mesa</a>
+repo_url: https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs
+site_dir: site
+dev_addr: "0.0.0.0:8000"
 theme:
+  name: "material"
+  logo: assets/img/logo-dagua.png
+  favicon: assets/img/logo-dagua.png
   palette:
     primary: red
-  # logo: ./assets/planejamento/logos/telegram-logo-with-border.svg.png
-  # favicon: ./assets/planejamento/logos/telegram-logo.webp
-  name: material
   features:
     - navigation.tabs
-extra_css:
-  - stylesheets/styles.css
 
-dev_addr: "0.0.0.0:8000"
+plugins:
+  - search
+
+extra_css:
+  - assets/css/extra.css
+  - assets/css/landing-page.css
+
+extra_javascript:
+  - assets/js/jquery.min.js
+  - assets/js/jquery.zoom.min.js
+  - assets/js/extra.js
+
+lang:
+  - "pt"
