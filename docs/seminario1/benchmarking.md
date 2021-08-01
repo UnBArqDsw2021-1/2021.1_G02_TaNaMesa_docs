@@ -24,6 +24,21 @@ Inicialmente foi pensado em quais os sistemas concorrentes à proposta idealizad
 
 ### Jeronimo
 
+| Objeto de Análise |  Descrição |
+| :---------------- | :--------- |
+| Permite selecionar opções de consumo | Permite selecionar se o pedido será consumido no estabelecimento ou será embalado para viagem. |
+| Gerenciar mesa | Não possui mecanismo de gerenciamento de mesa, pois o pedido é feito logo ao chegar no restaurante, antes do cliente sentar à mesa. |
+| Gerenciar membros | Não possui funcionalidade que permita separar os pedidos por membros. |
+| Chamar garçom/atendente | Não possui funcionalidades para solicitar atendimento, caso seja necessário o cliente deve se dirigir ao caixa ou ao totem novamente para realizar um segundo pedido. |
+| Exibir cardápio | Exibe categorias em que o cardápio é dividido, além de disponibilizar tais categorias sempre num menu lateral. |
+| Permite editar pedido | Permite a edição do pedido antes do fechamento do mesmo. |
+| Permite editar item | Permite a edição de itens antes do fechamento do pedido |
+| Mostrar comanda individual| Não possui funcionalidade que viabiliza pedidos individuais |
+| Mostrar extrato total do pedido| Mostra o extrato total do pedido através de uma barra inferior durante o pedido e antes do fechamento do mesmo. |
+| Permite dividir a conta de forma igual | Não possui funcionalidade que permite a divisão da conta. |
+| Permite pagar separadamente por comanda |  Não possui funcionalidade que permite a divisão da conta. |
+| Permite selecionar forma de pagamento | Permite selecionar formas de pagamento, dentre elas são disponibilizadas cartão de crédito, cartão de débito, pix, picpay, vale alimentação e mercado pago. |
+
 ### Mc Donalds
 
 | Objeto de Análise |  Descrição |
@@ -43,6 +58,21 @@ Inicialmente foi pensado em quais os sistemas concorrentes à proposta idealizad
 
 
 ### Bulls
+
+| Objeto de Análise |  Descrição |
+| :---------------- | :--------- |
+| Permite selecionar opções de consumo | Permite selecionar se o pedido será consumido no estabelecimento ou será embalado para viagem. |
+| Gerenciar mesa | Possui um mecanismo de gerenciamento de mesa, podendo haver vários pedidos para uma mesma mesa. |
+| Gerenciar membros | Não possui funcionalidade que permita separar os pedidos por membros. |
+| Chamar garçom/atendente | Possui um biorão na tela principal para charm um garçom/atendente. |
+| Exibir cardápio | Exibe categorias em que o cardápio é dividido, além de disponibilizar tais categorias sempre num menu lateral. |
+| Permite editar pedido | Permite a edição do pedido antes do fechamento do mesmo. |
+| Permite editar item | Permite a edição de itens antes do fechamento do pedido |
+| Mostrar comanda individual| Não possui funcionalidade que viabiliza pedidos individuais |
+| Mostrar extrato total do pedido| Mostra o extrato da comanda da mesa e do extrato do pedido. |
+| Permite dividir a conta de forma igual | Permite o cálculo de divisão de conta de forma igual entre os membros da mesa. |
+| Permite pagar separadamente por comanda |  Não possui funcionalidade que permite a divisão da conta por membros da mesa. |
+| Permite selecionar forma de pagamento | Não possui uma funcionalidade de formas de pagamento pelo serviço, isso é lidado diretamente com o garçom/atendente. |
 
 
 ## Resultado
@@ -67,4 +97,5 @@ Para representar os resultados obtidos através das análises, foi desenvolvido 
 
 |    Data    | Versão | Descrição |         Autor(es)          |
 | :--------- | :----- | :-------- | :------------------------- |
-| 31/07/2021 |  1.0   | Criação da estrutura do documento, relatório das primeiras duas análises.| [Brenda Santos](https://github.com/brendavsantos), [Tiago Samuel](https://github.com/tsrrodrigues) |
+| 31/07/2021 |  0.1   | Criação da estrutura do documento, relatório das primeiras duas análises.| [Brenda Santos](https://github.com/brendavsantos), [Tiago Samuel](https://github.com/tsrrodrigues) |
+| 31/07/2021 |  1.0   | Relatório das últimas duas análises e finalização da primeira versão do documento.| [Brenda Santos](https://github.com/brendavsantos), [Tiago Samuel](https://github.com/tsrrodrigues) |
