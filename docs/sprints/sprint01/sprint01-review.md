@@ -1,7 +1,7 @@
 # Análise e Restrospectiva
 
 ## 1. Visão Geral
-**Número da Sprint:** 01     
+**Número da Sprint:** 01 </br>
 **Data de Início:** 26/07/2021         
 **Data de Término:** 02/08/2021       
 **Duração:** 7 dias       
@@ -15,7 +15,7 @@
 | Desenvolvedor(a) |Brenda Santos, Daniel Primo, Ítalo Alves, Hérick Portugues, Lucas Boaventura, Eduarda Servidio, Tiago Samuel, Sergio Cipriano, Abner Filipe, Emily Dias |
 |   Arquiteto(a)   |Brenda Santos, Daniel Primo, Ítalo Alves, Hérick Portugues, Lucas Boaventura, Eduarda Servidio, Tiago Samuel, Sergio Cipriano, Abner Filipe, Emily Dias| 
 
-**Membros presentes na retrospectiva da sprint:** 
+**Membros presentes na retrospectiva da sprint:**  </br>
 **Membros faltantes:**
 
 ## 3. Resultados
