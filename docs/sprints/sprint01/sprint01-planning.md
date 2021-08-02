@@ -1,10 +1,14 @@
 # Planejamento 
 
 ## 1. Visão Geral
-**Número da Sprint:** 01 </br>
-**Data de Início:** 26/07/2021   
+
+**Número da Sprint:** 01  
+
+**Data de Início:** 26/07/2021  
+
 **Data de Término:** 02/08/2021  
-**Duração:** 7 dias  
+
+**Duração:** 7 dias
 
 ## 2. Membros
 |      Papel       |          Membro            |
@@ -15,7 +19,8 @@
 | Desenvolvedor(a) |Brenda Santos, Daniel Primo, Ítalo Alves, Hérick Portugues, Lucas Boaventura, Eduarda Servidio, Tiago Samuel, Sergio Cipriano, Abner Filipe, Emily Dias |
 |   Arquiteto(a)   |Brenda Santos, Daniel Primo, Ítalo Alves, Hérick Portugues, Lucas Boaventura, Eduarda Servidio, Tiago Samuel, Sergio Cipriano, Abner Filipe, Emily Dias| 
 
-**Membros presentes no planejamento da sprint:** Todos </br>
+**Membros presentes no planejamento da sprint:** Todos  
+
 **Membros faltantes:** Nenhum
 
 ## 3. Histórias
