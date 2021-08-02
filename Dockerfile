@@ -1,7 +1,7 @@
 FROM python:3.6
 
 # Installing dependencies
-RUN pip3 install mkdocs
+RUN pip3 install mkdocs==1.0.4
 RUN pip3 install mkdocs-material
 RUN pip3 install Pygments
 RUN pip3 install pymdown-extensions
