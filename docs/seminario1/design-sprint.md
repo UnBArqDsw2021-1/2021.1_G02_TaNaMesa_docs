@@ -148,15 +148,15 @@ O NFR Framework é uma abordagem para representar e analisar Requisitos Não-Fun
 A prototipagem auxilia no entendimento do potencial cliente em relação à solução proposta a ele. Ele é a ferramenta mais concreta antes da produção do produto, sendo possível realizar diversas correções e aprimoramentos para aumentar a qualidade.
 
 ## 6. Referências
-The Design Sprint. Disponível em: [aqui](https://www.gv.com/sprint/). Acesso em: 01 de agosto de 2021.
+> - The Design Sprint. Disponível em: [aqui](https://www.gv.com/sprint/). Acesso em: 01 de agosto de 2021.
 
-QR Comer. Design Sprint. Disponível em: [aqui](https://fga-desenho-2019-2.github.io/Wiki/seminario1/design_sprint/). Acesso em: 01 de agosto de 2021
+> - QR Comer. Design Sprint. Disponível em: [aqui](https://fga-desenho-2019-2.github.io/Wiki/seminario1/design_sprint/). Acesso em: 01 de agosto de 2021
 
-Chief of design. Design Sprint – O que é e para que serve o Design Sprint Google?. Disponível em: [aqui](https://www.chiefofdesign.com.br/design-sprint/). Acesso em: 01 de agosto de 2021.
+> - Chief of design. Design Sprint – O que é e para que serve o Design Sprint Google?. Disponível em: [aqui](https://www.chiefofdesign.com.br/design-sprint/). Acesso em: 01 de agosto de 2021.
 
-Slides Arquitetura e Desenho de Software. Aula Projeto e Desenho de Software. Profa. Milene Serrano. Pg 12-23, 42-44. Disponível em: [aqui](https://aprender3.unb.br/pluginfile.php/897124/mod_label/intro/Arquitetura%20e%20Desenho%20de%20software%20-%20Aula%20Projeto-DSW%20-%20Profa.%20Milene.pdf). Acesso em: 01 de agosto de 2021.
+> - Slides Arquitetura e Desenho de Software. Aula Projeto e Desenho de Software. Profa. Milene Serrano. Pg 12-23, 42-44. Disponível em: [aqui](https://aprender3.unb.br/pluginfile.php/897124/mod_label/intro/Arquitetura%20e%20Desenho%20de%20software%20-%20Aula%20Projeto-DSW%20-%20Profa.%20Milene.pdf). Acesso em: 01 de agosto de 2021.
 
-Projeto Requisitos de Software. Telegram. Disponível em: [aqui](https://requisitos-de-software.github.io/2020.2-Telegram/). Acesso em: 01 de agosto de 2021.
+> - Projeto Requisitos de Software. Telegram. Disponível em: [aqui](https://requisitos-de-software.github.io/2020.2-Telegram/). Acesso em: 01 de agosto de 2021.
 
 ## 7. Histórico de Revisões
 
