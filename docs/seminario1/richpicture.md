@@ -89,5 +89,5 @@ Figura 8: Esboço no Papel - Visão do Garçom. Autor: [Eduarda Servidio](https:
 | 31/07/2021 | 1.3    | Adicionando bibliografia          | [Sergio Cipriano](https://github.com/sergiosacj) |
 | 01/08/2021 | 1.4    | Adição dos esboços dos Rich Pictures 3 e 4         | [Eduarda Servidio](https://github.com/ServideoEC)|
 | 01/08/2021 | 1.5    | Correção de legendas              | [Eduarda Servidio](https://github.com/ServideoEC)|
-| 01/08/2021 | 1.4    | Adição dos Rich Pictures Finais   | [Eduarda Servidio](https://github.com/ServideoEC)|
+| 01/08/2021 | 1.6    | Adição dos Rich Pictures Finais   | [Eduarda Servidio](https://github.com/ServideoEC)|
 
