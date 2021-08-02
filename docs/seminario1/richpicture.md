@@ -1,4 +1,4 @@
-# RichPictures
+# Rich Pictures
 
 ## Introdução
 
@@ -25,7 +25,7 @@ para obter a versão final do rich picture.
 |--|--|
 |**Descrição**|  Pedido na visão do cliente. | 
 |**Autor**|      [Sergio Cipriano](https://github.com/sergiosacj) |
-|**Co-Autor**|   [Eduarda Servideo](https://github.com/ServideoEC) |
+|**Co-Autor**|   [Eduarda Servidio](https://github.com/ServideoEC) |
 
 
 ### RichPicture 02 - Visão da Cozinha
@@ -37,7 +37,7 @@ para obter a versão final do rich picture.
 |--|--|
 |**Descrição**|  Pedido na visão dos cozinheiros. | 
 |**Autor**|      [Sergio Cipriano](https://github.com/sergiosacj) |
-|**Co-Autor**|   [Eduarda Servideo](https://github.com/ServideoEC) |
+|**Co-Autor**|   [Eduarda Servidio](https://github.com/ServideoEC) |
 
 
 ### RichPicture 03 - Visão do Garçom
@@ -48,7 +48,7 @@ para obter a versão final do rich picture.
  **RP03** | **Visão do Garçom**  |
 |--|--|
 |**Descrição**|  Pedido na visão do garçom. | 
-|**Autor**|      [Eduarda Servideo](https://github.com/ServideoEC) |
+|**Autor**|      [Eduarda Servidio](https://github.com/ServideoEC) |
 
 
 ### RichPicture 04 - Visão da Gerência
@@ -59,17 +59,22 @@ para obter a versão final do rich picture.
  **RP04** | **Visão da Cozinha**  |
 |--|--|
 |**Descrição**|  Aplicação na visão do usuário com mais privilégios. | 
-|**Autor**|      [Eduarda Servideo](https://github.com/ServideoEC) |
+|**Autor**|      [Eduarda Servidio](https://github.com/ServideoEC) |
 
 
 ### RichPictures - Esboços no Papel
 
-
 ![RP01](./imagens/RP01.jpeg)
-**Autor:** [Sergio Cipriano](https://github.com/sergiosacj)
+Figura 5: Esboço no Papel - Visão da Cozinha. Autor: [Sergio Cipriano](https://github.com/sergiosacj)
 
 ![RP02](./imagens/RP02.jpeg)
-**Autor:** [Sergio Cipriano](https://github.com/sergiosacj)
+Figura 6: Esboço no Papel - Visão do Cliente. Autor: [Sergio Cipriano](https://github.com/sergiosacj)
+
+![RP03](./imagens/RP03.jpg)
+Figura 7: Esboço no Papel - Visão da Gerência. Autor: [Eduarda Servidio](https://github.com/ServideoEC)
+
+![RP04](./imagens/RP04.jpg)
+Figura 8: Esboço no Papel - Visão do Garçom. Autor: [Eduarda Servidio](https://github.com/ServideoEC)
 
 
 ## Referências Bibliográficas
@@ -87,3 +92,6 @@ para obter a versão final do rich picture.
 | 31/07/2021 | 1.1    | Adicionando introdução            | [Sergio Cipriano](https://github.com/sergiosacj) |
 | 31/07/2021 | 1.2    | Adicionando metodologia           | [Sergio Cipriano](https://github.com/sergiosacj) |
 | 31/07/2021 | 1.3    | Adicionando bibliografia          | [Sergio Cipriano](https://github.com/sergiosacj) |
+| 01/08/2021 | 1.4    | Adição dos Rich Pictures          | [Eduarda Servidio](https://github.com/ServideoEC)|
+| 01/08/2021 | 1.5    | Correção de legendas              | [Eduarda Servidio](https://github.com/ServideoEC)|
+
