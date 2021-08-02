@@ -60,15 +60,19 @@ para obter a versão final do rich picture.
 ### RichPictures - Esboços no Papel
 
 ![RP01](./imagens/RP01.jpeg)
+<br/>
 Figura 5: Esboço no Papel - Visão da Cozinha. Autor: [Sergio Cipriano](https://github.com/sergiosacj)
 
 ![RP02](./imagens/RP02.jpeg)
+<br/>
 Figura 6: Esboço no Papel - Visão do Cliente. Autor: [Sergio Cipriano](https://github.com/sergiosacj)
 
 ![RP03](./imagens/RP03.jpg)
+<br/>
 Figura 7: Esboço no Papel - Visão da Gerência. Autor: [Eduarda Servidio](https://github.com/ServideoEC)
 
 ![RP04](./imagens/RP04.jpg)
+<br/>
 Figura 8: Esboço no Papel - Visão do Garçom. Autor: [Eduarda Servidio](https://github.com/ServideoEC)
 
 
