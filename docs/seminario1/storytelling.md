@@ -33,7 +33,21 @@ Há 6 meses ele descobriu o aplicativo **Tá na Mesa** enquanto navegava pela in
 Ele consegue gerenciar mesas, adicionar lanches no cardápio e verificar o pagamento da conta final de cada uma delas.
 ![](./imagens/storytelling-gerente.jpg)
 
-## 3. Referências
+## 3. Resultado
+
+| Número | Requisito                                                 |
+| :----- | :-------------------------------------------------------- |
+| 1      | O usuário deve poder visualizar o cardápio                |
+| 2      | O usuário deve poder fazer pedidos                        |
+| 3      | O usuário deve poder pedir a conta                        |
+| 4      | O usuário deve poder dividir a conta                      |
+| 5      | O cozinheiro deve poder ver os pedidos de clientes        |
+| 6      | O cozinheiro deve poder informar que o pedido está pronto |
+| 7      | O gerente deve poder gerenciar mesas                      |
+| 8      | O gerente deve poder gerenciar o cardápio                 |
+| 9      | O gerente deve poder gerenciar a conta                    |
+
+## 4. Referências
 
 > - SERRANO, Maurício; SERRANO, Milene; Requisitos - Aula 07;
 
