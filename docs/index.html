@@ -13,12 +13,11 @@
 <script> 
 
 $(window).scroll(function(){
-  console.log( $(window).scrollTop())
-  $(".landing-section").css("opacity", 1 - $(window).scrollTop() / 1000);
   $(".logo").css("width", (25 + $(window).scrollTop() / 250) + "vw" );
 
-  if($(window).scrollTop() >= 900) 
-    $(".landing-section").css("opacity", 0 + $(window).scrollTop() / 2500);
+  if($(window).scrollTop() < 700) {
+    $(".landing-section").css("opacity", 1 - $(window).scrollTop() / 1000);
+  }
 });
 
 </script>
