@@ -13,7 +13,7 @@ João, Marcos e Jéssica são três amigos, eles se conhecem a um certo tempo e 
 Em um certo final de semana, eles decidiram ir a Lanchonete BigBurgers, que é a preferida de Jéssica. Ao chegar, Jéssica mostra a João e Marcos que eles podem conferir o cardápio e pedir os lanches direto no aplicativo **Tá Na Mesa**, por um tablet que a lanchonete disponibiliza em cada mesa do local.
 
 Depois de fazer o pedido e cada um comer o seu lanche, Marcos pensou que seria necessário chamar o garçom para pedir a sobremesa, porém, Jéssica o avisou que tudo pode ser feito pelo app. Após pedir as sobremesas, eles diviram a conta e pagaram, tudo pelo aplicativo. No fim, Marcos e João também aprovam a lanchonete pelo atendimento rápido e prático.
-![](https://i.imgur.com/VTfz7hE.jpg)
+![](./imagens/storytelling-cliente.jpg)
 
 ### Cozinheiro
 
@@ -22,7 +22,7 @@ O cozinheiro Leonardo trabalha na Lanchonete BigBurgers há 2 anos. Desde que en
 Porém, ele precisava de mais organização nos pedidos que os clientes faziam e o garçom levava para ele.
 
 Agora, ele recebe um pedido feito por um cliente pelo app e pode ver detalhes sobre esse pedido no mesmo instante, incluindo os ingredientes caso esqueça. E o garçom o recebe pronto para deixar na mesa.
-![](https://i.imgur.com/2NOfI7L.jpg)
+![](./imagens/storytelling-cozinheiro.jpg)
 
 ### Gerente
 
@@ -31,7 +31,7 @@ O gerente e também dono da Lanchonete BigBurguers fundou a empresa há 5 anos. 
 Há 6 meses ele descobriu o aplicativo **Tá na Mesa** enquanto navegava pela internet. Desde então, ele passou a gerir os processos de interesse da lanchonete pelo app.
 
 Ele consegue gerenciar mesas, adicionar lanches no cardápio e verificar o pagamento da conta final de cada uma delas.
-![](https://i.imgur.com/xektkOb.jpg)
+![](./imagens/storytelling-gerente.jpg)
 
 ## 3. Referências
 
