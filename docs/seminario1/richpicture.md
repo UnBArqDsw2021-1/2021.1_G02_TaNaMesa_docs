@@ -18,7 +18,7 @@ para obter a versão final do rich picture.
 ### 2.1 RichPicture 01 - Visão do cliente
 
 
-![RPF01](./imagens/RPF01.jpg)
+[![RPF01](./imagens/RPF01.jpg)](./imagens/RPF01.jpg)
 
 | **RP01** | **Visão do cliente**  |
 |--|--|
@@ -29,7 +29,7 @@ para obter a versão final do rich picture.
 
 ### 2.2 RichPicture 02 - Visão da Cozinha
 
-![RPF02](./imagens/RPF02.jpg)
+[![RPF02](./imagens/RPF02.jpg)](./imagens/RPF02.jpg)
 
  **RP02** | **Visão da Cozinha**  |
 |--|--|
@@ -40,7 +40,7 @@ para obter a versão final do rich picture.
 
 ### 2.3 RichPicture 03 - Visão do Garçom
 
-![RPF03](./imagens/RPF03.jpg)
+[![RPF03](./imagens/RPF03.jpg)](./imagens/RPF03.jpg)
 
  **RP03** | **Visão do Garçom**  |
 |--|--|
@@ -50,7 +50,7 @@ para obter a versão final do rich picture.
 
 ### 2.4 RichPicture 04 - Visão da Gerência
 
-![RPF04](./imagens/RPF04.jpg)
+[![RPF04](./imagens/RPF04.jpg)](./imagens/RPF04.jpg)
 
  **RP04** | **Visão da Cozinha**  |
 |--|--|
@@ -59,19 +59,19 @@ para obter a versão final do rich picture.
 
 ### 2.5 RichPictures - Esboços no Papel
 
-![RP01](./imagens/RP01.jpeg)
+[![RP01](./imagens/RP01.jpeg)](./imagens/RP01.jpeg)
 <br/>
 Figura 5: Esboço no Papel - Visão da Cozinha. Autor: [Sergio Cipriano](https://github.com/sergiosacj)
 
-![RP02](./imagens/RP02.jpeg)
+[![RP02](./imagens/RP02.jpeg)](./imagens/RP02.jpeg)
 <br/>
 Figura 6: Esboço no Papel - Visão do Cliente. Autor: [Sergio Cipriano](https://github.com/sergiosacj)
 
-![RP03](./imagens/RP03.jpg)
+[![RP03](./imagens/RP03.jpg)](./imagens/RP03.jpeg)
 <br/>
 Figura 7: Esboço no Papel - Visão da Gerência. Autor: [Eduarda Servidio](https://github.com/ServideoEC)
 
-![RP04](./imagens/RP04.jpg)
+[![RP04](./imagens/RP04.jpg)](./imagens/RP04.jpeg)
 <br/>
 Figura 8: Esboço no Papel - Visão do Garçom. Autor: [Eduarda Servidio](https://github.com/ServideoEC)
 
@@ -95,4 +95,5 @@ Figura 8: Esboço no Papel - Visão do Garçom. Autor: [Eduarda Servidio](https:
 | 01/08/2021 | 1.5    | Correção de legendas                        | [Eduarda Servidio](https://github.com/ServideoEC)|
 | 01/08/2021 | 1.6    | Adição dos Rich Pictures Finais             | [Eduarda Servidio](https://github.com/ServideoEC)|
 | 02/08/2021 | 1.8    | Adicionando pontuação nos tópicos           | [Sergio Cipriano](https://github.com/sergiosacj) |
+| 02/08/2021 | 1.9    | Adicionando links nas imagens               | [Sergio Cipriano](https://github.com/sergiosacj) |
 
