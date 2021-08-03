@@ -37,7 +37,7 @@
 |[#15 - Documentação da Sprint](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/15) | Brenda Santos |     3     | Concluido | 
 
 ## 4. Velocity
-
+Não foi possivel obter o gráfico de velocity pois serão gerados pelo zenhub, que não estava confiurado corretamente antes da finalização da sprint.
 
 ## 5. Retrospectiva
 
