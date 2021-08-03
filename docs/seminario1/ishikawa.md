@@ -5,7 +5,7 @@
 Diagramas de causa e efeito (ou diagrama de Ishikawa) são diagramas causais que mostram as causas potenciais de um evento específico. A ferramenta é usada para encontrar, organizar, classificar, documentar e exibir graficamente as causas de um determinado problema, agrupados por categorias, que facilitam o brainstorming de ideias e análise da ocorrência. Cada causa ou motivo de imperfeição é uma fonte de variação. As causas geralmente são agrupadas em categorias principais para identificar e classificar essas fontes de variação.
 
 ## 2. Diagrama
-![](https://i.imgur.com/sXD6C1z.jpg)
+![](./imagens/ishikawa.jpg)
 
 
 ## 3. Referências
@@ -19,3 +19,4 @@ Diagramas de causa e efeito (ou diagrama de Ishikawa) são diagramas causais que
 | Data       | Versão | Descrição            | Autor(es)                                    |
 | :--------- | :----- | :------------------- | :------------------------------------------- |
 | 01/08/2021 | 0.1    | Criação do documento | [Ítalo Alves](https://github.com/alvesitalo) |
+| 03/08/2021 | 0.2    | Revisão do documento | [Daniel Primo](https://github.com/danieldagerom) |
