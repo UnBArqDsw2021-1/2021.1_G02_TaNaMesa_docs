@@ -84,5 +84,5 @@ Em uma escala de 1 a 5, onde 1 é discordo totalmente e 5 é concordo totalmente
 
 | Data       | Versão | Descrição                                              | Autor(es)                                 |
 | :--------- | :----- | :----------------------------------------------------- | :---------------------------------------- |
-| 02/08/2021 | 0.1   | Adiciona estrutura do documento | [Lucas Boaventura](https://github.com/lboaventura25) |
-| 02/08/2021 | 0.2   | Adiciona imagens e analise dos questionários | [Lucas Boaventura](https://github.com/lboaventura25) |
+| 02/08/2021 | 0.1   | Adiciona estrutura do documento | [Lucas Boaventura](https://github.com/lboaventura25) e [Hérick Portugues](https://github.com/herickport) |
+| 02/08/2021 | 0.2   | Adiciona imagens e analise dos questionários | [Lucas Boaventura](https://github.com/lboaventura25) e [Hérick Portugues](https://github.com/herickport) |
