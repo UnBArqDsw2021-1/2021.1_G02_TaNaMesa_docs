@@ -1,11 +1,13 @@
 # Estudo de Benchmarking
+
+## 1. Introdução
 O estudo de benchmarking é realizado através da pesquisa e análise dos concorrentes do setor de forma que seja possível estabelecer comparações em relação aos serviços, produtos e mecanismos gerais de funcionamento. O principal intuito é possibilitar a identificação de melhorias e propor novas estratégias, principalmente quando é utilizado para criar um novo negócio. 
 
-## Metodologia
-Inicialmente foi pensado em quais os sistemas concorrentes à proposta idealizada pelo "Tá na mesa" já conhecidos pelos integrantes e foram acrescentados alguns outros através de pesquisas. Assim que foram identificados, os integrantes responsáveis pelo estudo foram até os estabelecimentos indicados e realizaram a análise do fluxo dos sistemas propostos para realizar pedidos. 
+## 2. Metodologia
+Inicialmente foi pensado em quais os sistemas concorrentes à proposta idealizada pelo "Tá Na Mesa" já conhecidos pelos integrantes e foram acrescentados alguns outros através de pesquisas. Assim que foram identificados, os integrantes responsáveis pelo estudo foram até os estabelecimentos indicados e realizaram a análise do fluxo dos sistemas propostos para realizar pedidos. 
 
-## Dados Obtidos
-### Burguer King
+## 2. Dados Obtidos
+### 2.1. Burguer King
 
 | Objeto de Análise |  Descrição |
 | :---------------- | :--------- |
@@ -22,7 +24,7 @@ Inicialmente foi pensado em quais os sistemas concorrentes à proposta idealizad
 | Permite pagar separadamente por comanda | Permite que o cliente escolha entre pagar a conta sozinho, dividir a conta em valores iguais ou escrever um valor a pagar(o cliente fica responsável por somar seus itens e digitar o valor). |
 | Permite selecionar forma de pagamento | Permite selecionar formas de pagamento, dentre elas são disponibilizadas cartão de crédito e cartão de débito. |
 
-### Jeronimo
+### 2.2. Jeronimo
 
 | Objeto de Análise |  Descrição |
 | :---------------- | :--------- |
@@ -39,7 +41,7 @@ Inicialmente foi pensado em quais os sistemas concorrentes à proposta idealizad
 | Permite pagar separadamente por comanda |  Não possui funcionalidade que permite a divisão da conta. |
 | Permite selecionar forma de pagamento | Permite selecionar formas de pagamento, dentre elas são disponibilizadas cartão de crédito, cartão de débito, pix, picpay, vale alimentação e mercado pago. |
 
-### Mc Donalds
+### 2.3. Mc Donalds
 
 | Objeto de Análise |  Descrição |
 | :---------------- | :--------- |
@@ -57,7 +59,7 @@ Inicialmente foi pensado em quais os sistemas concorrentes à proposta idealizad
 | Permite selecionar forma de pagamento | Permite selecionar formas de pagamento, dentre elas são disponibilizadas cartão de crédito, cartão de débito e pix. |
 
 
-### Bulls
+### 2.4. Bulls
 
 | Objeto de Análise |  Descrição |
 | :---------------- | :--------- |
@@ -75,7 +77,7 @@ Inicialmente foi pensado em quais os sistemas concorrentes à proposta idealizad
 | Permite selecionar forma de pagamento | Não possui uma funcionalidade de formas de pagamento pelo serviço, isso é lidado diretamente com o garçom/atendente. |
 
 
-## Resultado
+## 3. Resultado
 Para representar os resultados obtidos através das análises, foi desenvolvido um quadro comparativo utilizando como base alguns dos requisitos que constituem o projeto.
 
 |Requisito| Burguer King | Jeronimo | Mc Donalds | Bulls |
@@ -99,3 +101,4 @@ Para representar os resultados obtidos através das análises, foi desenvolvido 
 | :--------- | :----- | :-------- | :------------------------- |
 | 31/07/2021 |  0.1   | Criação da estrutura do documento, relatório das primeiras duas análises.| [Brenda Santos](https://github.com/brendavsantos), [Tiago Samuel](https://github.com/tsrrodrigues) |
 | 31/07/2021 |  1.0   | Relatório das últimas duas análises e finalização da primeira versão do documento.| [Brenda Santos](https://github.com/brendavsantos), [Tiago Samuel](https://github.com/tsrrodrigues) |
+| 03/08/2021 |  1.1   | Padronização do documento.| [Brenda Santos](https://github.com/brendavsantos), [Tiago Samuel](https://github.com/tsrrodrigues) |
