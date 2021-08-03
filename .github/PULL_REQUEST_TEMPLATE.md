@@ -1,25 +1,23 @@
 
 ## Issue 
-Resolves #
-<!-- Link the pull request's respective issue -->
+Resolve #
+<!-- Linkar a issue que o pull request soluciona -->
 
-## Description
-<!--- Describe your changes in detail -->
+## Descrição
+<!--- Descreva as mudanças de forma detalhada -->
 
-## Screenshots (if appropriate):
-<!--- You may want to show a new page functionality, for example -->
-<!--- If not appropriate, just delete this topic -->
+## Prints:
+<!--- Se não forem apropriados, apenas deletar tópico -->
 
 ## Checklist:
-<!--- Go over all the following points, and put an `x` in all the boxes that apply. -->
-<!--- If you're unsure about any of these, don't hesitate to ask. We're here to help! -->
-- [ ] My code follows the code style of this project.
-- [ ] My change requires a change to the documentation.
-- [ ] I have updated the documentation accordingly.
+<!--- Itens necessários para a aprovação-->
+- [ ] O código segue os padrões do projeto
+- [ ] 
 
-## Known problems (if appropriate):
-<!--- Your PR will not always be perfect and it can still be accepted. List some points for improvement. -->
-<!--- If not appropriate, just delete this topic -->
+## Problemas conhecidos:
+<!--- Erros não concertados e justificativa -->
 
-## How to validate?
-<!--- Give tips on how the reviewer of this PR does to validate what was done? (not always obvious) -->
+
+## Como validar?
+<!--- Como e o que o avaliador deve validar o que foi solucionado? -->
+
