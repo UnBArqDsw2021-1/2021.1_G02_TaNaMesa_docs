@@ -8,19 +8,13 @@ assignees: ''
 
 ---
 
-## Issue Description
-[Describe the issue breafly, putting necessary information for executing it.]
+## Descrição da issue
+Descrição com todas as informações necessárias para realizá-la.
 
-## Additional context
-[Add any other context or screenshots about the feature request here.]
+## Contexto adicional
+QUalquer outro contexto como prints, citações, dados...
 
-## Topics:
-- [ ] Topic 1
-- [ ] Topic 2
-- [ ] Topic 3
-
-## Assignees
-The issue must be assigned at least to one project contributor.
-
-## Labels
-The issue must be tagged with one or more adequate labels.
+## Tópicos:
+- [ ] Tópico 1
+- [ ] Tópico 2
+- [ ] Tópico 3
