@@ -12,11 +12,11 @@
 
 ### 3.1. Legenda
 
-[![Legenda-NFR](../assets/img/Legenda-NFR.png)](../assets/img/Legenda-NFR.png)
+[![Legenda-NFR](./imagens/Legenda-NFR.png)](./imagens/Legenda-NFR.png)
 
 ### 3.1. NFRF Geral
 
-[![NFR](../assets/img/NFR.png)](../assets/img/NFR.png)
+[![NFR](./imagens/NFR.png)](./imagens/img/NFR.png)
 
 ## 4. Referências
 
