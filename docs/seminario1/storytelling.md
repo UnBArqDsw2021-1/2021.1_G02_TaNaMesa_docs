@@ -24,6 +24,15 @@ Porém, ele precisava de mais organização nos pedidos que os clientes faziam e
 Agora, ele recebe um pedido feito por um cliente pelo app e pode ver detalhes sobre esse pedido no mesmo instante, incluindo os ingredientes caso esqueça. E o garçom o recebe pronto para deixar na mesa.
 ![](./imagens/storytelling-cozinheiro.jpg)
 
+### Garçom
+
+O Garçom é o que está em contato com o cliente, depois do app. Carla e Joel começaram a trabalhar na BigBurguers a pouco mais de um mês, mas já tiveram outras experiências como garçons. 
+
+No entanto, essa é a primeira vez que eles tem contato com um app que auxilia seu serviço e deixa muito mais prático.
+
+Com o app eles tem funções como ver pedidos, adicionar alimentos ou bebidas em pedidos já feitos, ou excluir pedidos, caso o cliente solicite.
+![](./imagens/storytelling-garçom.png)
+
 ### Gerente
 
 O gerente e também dono da Lanchonete BigBurguers fundou a empresa há 5 anos. Ele é formado em Administração e se interessa por tecnologia e inovação onde trabalha. Também tem muita familirialidade com smartphones.
@@ -41,11 +50,14 @@ Ele consegue gerenciar mesas, adicionar lanches no cardápio e verificar o pagam
 | 2      | O usuário deve poder fazer pedidos                        |
 | 3      | O usuário deve poder pedir a conta                        |
 | 4      | O usuário deve poder dividir a conta                      |
-| 5      | O cozinheiro deve poder ver os pedidos de clientes        |
-| 6      | O cozinheiro deve poder informar que o pedido está pronto |
-| 7      | O gerente deve poder gerenciar mesas                      |
-| 8      | O gerente deve poder gerenciar o cardápio                 |
-| 9      | O gerente deve poder gerenciar a conta                    |
+| 5      | O cozinheiro e o garçom devem poder ver os pedidos de clientes        |
+| 6      | O garçom deve poder adicionar itens de pedidos            |
+| 7      | O garçom deve poder excluir itens de pedidos              |
+| 8      | O garçom deve ser notificado quando pedidos ficarem prontos           |
+| 9      | O cozinheiro deve poder informar que o pedido está pronto |
+| 10     | O gerente deve poder gerenciar mesas                      |
+| 11     | O gerente deve poder gerenciar o cardápio                 |
+| 12     | O gerente deve poder gerenciar a conta                    |
 
 ## 4. Referências
 
@@ -60,3 +72,4 @@ Ele consegue gerenciar mesas, adicionar lanches no cardápio e verificar o pagam
 | 31/07/2021 | 0.1    | Criação do documento | [Ítalo Alves](https://github.com/alvesitalo)     |
 | 01/08/2021 | 0.2    | Adição dos tópicos   | [Ítalo Alves](https://github.com/alvesitalo)     |
 | 02/08/2021 | 0.3    | Revisão do documento | [Daniel Primo](https://github.com/danieldagerom) |
+| 03/08/2021 | 0.4    | Adição de hístorias  | [Daniel Primo](https://github.com/danieldagerom) |
