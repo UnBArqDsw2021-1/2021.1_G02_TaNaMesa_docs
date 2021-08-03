@@ -8,7 +8,7 @@
 
 ## 2. Protótipo
 
-### 2.1 Aplicação Cliente
+### 2.1. Aplicação Cliente
 
 - Home e Cardápio
   [![imagem1](../assets/img/aplicação-cliente-1.jpg)](../assets/img/aplicação-cliente-1.jpg)
@@ -16,17 +16,17 @@
 - Após selecionar cardápio, Detalhes dos pedidos e Extrato
   [![imagem2](../assets/img/aplicação-cliente-2.jpg)](../assets/img/aplicação-cliente-2.jpg)
 
-### 2.2 App Garçom
+### 2.2. App Garçom
 
 - Home e Detalhes
   [![imagem3](../assets/img/aplicação-garçom.jpg)](../assets/img/aplicação-garçom.jpg)
 
-### 2.3 Aplicação Cozinha
+### 2.3. Aplicação Cozinha
 
 - Home e Detalhes
   [![imagem4](../assets/img/aplicação-cozinha.jpg)](../assets/img/aplicação-cozinha.jpg)
 
-### 2.3 Aplicação Gerenciamento
+### 2.4. Aplicação Gerenciamento
 
 - Home e Pedidos
   [![imagem5](../assets/img/aplicação-gerente-1.jpg)](../assets/img/aplicação-gerente-1.jpg)
@@ -43,4 +43,4 @@
 | Data       | Versão | Descrição                                          | Autor(es)                                 |
 | :--------- | :----- | :------------------------------------------------- | :---------------------------------------- |
 | 31/07/2021 | 1.0    | Adição do documento e criação dos tópicos 1, 2 e 3 | [Emily Dias](https://github.com/emysdias) |
-| 02/08/2021 | 1.1    | Adição do subtópico 2.3 | [Emily Dias](https://github.com/emysdias) |
+| 02/08/2021 | 1.1    | Adição do subtópico 2.4 | [Emily Dias](https://github.com/emysdias) |
