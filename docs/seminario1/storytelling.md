@@ -35,7 +35,7 @@ Com o app eles tem funções como ver pedidos, adicionar alimentos ou bebidas em
 
 ### Gerente
 
-O gerente e também dono da Lanchonete BigBurguers fundou a empresa há 5 anos. Ele é formado em Administração e se interessa por tecnologia e inovação onde trabalha. Também tem muita familirialidade com smartphones.
+O gerente e também dono da Lanchonete BigBurguers fundou a empresa há 5 anos. Roberto é formado em Administração e se interessa por tecnologia e inovação onde trabalha. Também tem muita familirialidade com smartphones.
 
 Há 6 meses ele descobriu o aplicativo **Tá na Mesa** enquanto navegava pela internet. Desde então, ele passou a gerir os processos de interesse da lanchonete pelo app.
 
