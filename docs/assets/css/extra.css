@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.md-logo img {
+    width: 30px !important;
+    border-radius: 50%;
+    /* border: 1px solid #000000; */
+}
+
+.md-typeset__table {
+    width: 100%;
+    display: flex;
+    /* align-self: center; */
+    align-items: center;
+    justify-content: center;
+}
+
+.md-typeset__table table {
+    border-radius: 20px !important;
+    box-shadow: 0 0 5px #F5A851 !important;
+}
+
+td, th {
+    background: white;
+}
+
+p, h2 {
+    text-align: justify
+}
+p {
+    text-indent: 30px;
+}
+
+li p {
+    text-indent: 0;
+}
+
+h4 {
+    font-weight: 500 !important;
+    color: rgba(0,0,0,0.7);
+}
+
+body {
+    color: rgba(0, 0, 0, 1);
+    font-family: "Poppins", sans-serif;
+}
+
+.md-header {
+    background: linear-gradient(90deg, #c06a08, #891F09);
+    color: white !important;
+}
+
+.md-tabs {
+    background: linear-gradient(90deg, #c06a08, #891F09);
+    color: white !important;
+}
+
+.hoverable {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    transition: all 0.25s ease-out;
+}
+
+
+.hoverable:hover {
+    box-shadow: 0px 7px 8px -4px rgba(0, 0, 0, 0.2), 0px 12px 17px 2px rgba(0, 0, 0, 0.14), 0px 5px 22px 4px rgba(0, 0, 0, 0.12) !important;
+    cursor: move;
+}
+
+::placeholder {
+    color: white !important; 
+} 
+
+.md-container {
+    background: white;
+}
+
+.md-typeset table thead tr {
+    background: linear-gradient(90deg, #c06a08, #891F09);
+    color: white;
+}
+
+
+.md-typeset table thead th {
+    background-color: transparent !important;
+    color: white;
+}
+
+img[role="presentation"] {
+    background: white;
+}
+
+figcaption {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(212, 30, 30);
+}
+
+th {
+    font-weight: bold;
+}
+
+.md-typeset__table table tbody tr {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.md-typeset__scrollwrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.md-typeset__table {
+    width: auto;
+}
+
+.md-logo img {
+    border-radius: 50%;
+    /* border: 1px solid #000000; */
+}
+
+.release-video {
+    display: flex;
+    width: 100%;
+    height: 20rem;
+    border: 0;
+}
+
+.md-typeset__scrollwrap {
+    display: flex;
+    justify-content: center;
+    padding: 0 !important;
+}
