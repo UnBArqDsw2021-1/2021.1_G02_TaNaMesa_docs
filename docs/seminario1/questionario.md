@@ -66,7 +66,7 @@ Em uma escala de 1 a 5, onde 1 é discordo totalmente e 5 é concordo totalmente
 
 - Cerca de 65% gostariam de ver o cardápio em um tablet instalado nas mesas do estabelecimento.
 
-- Cerca de 66% gostariam de fazer o pedido digitlalmente.
+- Cerca de 66% gostariam de fazer o pedido digitalmente.
 
 - Cerca de 75% gostariam de poder chamar o garçom diretamente pelo tablet para tirar dúvidas ou fazer alguma observação.
 
