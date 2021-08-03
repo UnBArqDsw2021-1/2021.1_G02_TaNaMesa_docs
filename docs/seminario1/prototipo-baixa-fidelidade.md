@@ -14,17 +14,25 @@
   [![imagem1](../assets/img/aplicação-cliente-1.jpg)](../assets/img/aplicação-cliente-1.jpg)
 
 - Após selecionar cardápio, Detalhes dos pedidos e Extrato
-  [![imagem1](../assets/img/aplicação-cliente-2.jpg)](../assets/img/aplicação-cliente-2.jpg)
+  [![imagem2](../assets/img/aplicação-cliente-2.jpg)](../assets/img/aplicação-cliente-2.jpg)
 
 ### 2.2 App Garçom
 
 - Home e Detalhes
-  [![imagem1](../assets/img/aplicação-garçom.jpg)](../assets/img/aplicação-garçom.jpg)
+  [![imagem3](../assets/img/aplicação-garçom.jpg)](../assets/img/aplicação-garçom.jpg)
 
 ### 2.3 Aplicação Cozinha
 
 - Home e Detalhes
-  [![imagem1](../assets/img/aplicação-cozinha.jpg)](../assets/img/aplicação-cozinha.jpg)
+  [![imagem4](../assets/img/aplicação-cozinha.jpg)](../assets/img/aplicação-cozinha.jpg)
+
+### 2.3 Aplicação Gerenciamento
+
+- Home e Pedidos
+  [![imagem5](../assets/img/aplicação-gerente-1.jpg)](../assets/img/aplicação-gerente-1.jpg)
+
+- Mesas, Cardápio e Cadastro mesas
+  [![imagem6](../assets/img/aplicação-gerente-2.jpg)](../assets/img/aplicação-gerente-2.jpg)
 
 ## 3. Referências
 
@@ -34,4 +42,5 @@
 
 | Data       | Versão | Descrição                                          | Autor(es)                                 |
 | :--------- | :----- | :------------------------------------------------- | :---------------------------------------- |
-| 31/07/2021 | 0.1    | Adição do documento e criação dos tópicos 1, 2 e 3 | [Emily Dias](https://github.com/emysdias) |
+| 31/07/2021 | 1.0    | Adição do documento e criação dos tópicos 1, 2 e 3 | [Emily Dias](https://github.com/emysdias) |
+| 02/08/2021 | 1.1    | Adição do subtópico 2.3 | [Emily Dias](https://github.com/emysdias) |
