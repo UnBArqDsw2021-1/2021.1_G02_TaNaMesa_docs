@@ -8,11 +8,11 @@
 
 ### Cliente
 
-João, Marcos e Jéssica são três amigos, eles se conhecem a um certo tempo e cada um tem cerca de 22 anos de idade. Gostam de sair no fim de semana para comer em restaurantes e lanchonetes, com uma certa frequência.
+João, Jéssica e seu filho Marcos são uma família que gosta muito de comer em lanchonetes, e com uma certa frequência. Eles ouviram falar que a Lanchonete BigBurgues tinha um tipo de atendimento diferenciado, e resolveram visitar.
 
-Em um certo final de semana, eles decidiram ir a Lanchonete BigBurgers, que é a preferida de Jéssica. Ao chegar, Jéssica mostra a João e Marcos que eles podem conferir o cardápio e pedir os lanches direto no aplicativo **Tá Na Mesa**, por um tablet que a lanchonete disponibiliza em cada mesa do local.
+Ao chegar, todos eles foram muito bem recebidos pelo garçom, que prontamente mostrou como utilizar o aplicativo **Tá Na Mesa**, e que eles podem conferir o cardápio e pedir os lanches, por um tablet que a lanchonete disponibiliza em cada mesa do local.
 
-Depois de fazer o pedido e cada um comer o seu lanche, Marcos pensou que seria necessário chamar o garçom para pedir a sobremesa, porém, Jéssica o avisou que tudo pode ser feito pelo app. Após pedir as sobremesas, eles diviram a conta e pagaram, tudo pelo aplicativo. No fim, Marcos e João também aprovam a lanchonete pelo atendimento rápido e prático.
+Depois de fazer o pedido e cada um comer o seu lanche, João pensou que seria necessário chamar o garçom para pedir a sobremesa, porém, Jéssica o avisou que tudo pode ser feito pelo app. Após pedir as sobremesas, eles diviram a conta e pagaram, tudo pelo aplicativo. No fim, João e Jéssica também aprovam a lanchonete pelo atendimento rápido e prático.
 ![](./imagens/storytelling-cliente.jpg)
 
 ### Cozinheiro
