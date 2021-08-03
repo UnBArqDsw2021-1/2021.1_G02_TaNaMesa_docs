@@ -4,7 +4,7 @@
 
 A entrevista é uma forma de diálogo, formal ou informal, entre duas ou mais pessoas, onde o entrevistador busca respostas para um conjunto de questões previamente planejadas e os entrevistados se apresentam como fontes de informação. Trata-se, portanto, de uma técnica mais flexível, que aproxima o engenheiro de requisitos do usuário do sistema, permitindo adquirir informações de caráter subjetivo. Dessa forma, é uma técnica muito utilizada na elicitação de requisitos para encontrar os requisitos ideias para o sistema.
 
-Para realizar a entrevista de forma efetiva e de modo que a mesma não fuja do escopo pretendido, é necessário a criação de um roteiro. Dessa forma, foi criado um roteiro que teve como objetivo descobrir os principais incômodos de clientes ao ir à restaurantes e lanchonetes, problemas enfrentados ao realizar pedidos de forma tradicional (cardápio impresso e garçom) e dividir a conta, além da aceitação e sugestão dos entrevistados em relação ao uso de aplicativos para realizar tais tarefas. No tópico abaixo estão listadas as questões elaboradas para o roteiro.
+Para realizar a entrevista de forma efetiva e de modo que a mesma não fuja do escopo pretendido, é necessário a criação de um roteiro. Dessa forma, foi criado um roteiro que teve como objetivo descobrir os principais incômodos de clientes ao ir à restaurantes e lanchonetes, problemas enfrentados ao realizar pedidos de forma tradicional (cardápio impresso e garçom) e dividir a conta, além da aceitação e sugestão dos entrevistados em relação ao uso de aplicativos para realizar tais tarefas. No tópico abaixo estão listadas as questões elaboradas para o roteiro, seguido das respostas coletadas e dos requisitos elicitados com a técnica.
 
 ## 2. Roteiro
 
@@ -55,7 +55,27 @@ Para realizar a entrevista de forma efetiva e de modo que a mesma não fuja do e
 - Entrevistador: [Lucas Boaventura](https://github.com/lboaventura25)
 - Entrevista: [Entrevista 5](./entrevista_5.md)
 
-## 4. Referências
+## 4. Resultado
+
+Com as respostas coletadas nas entrevistas, foi possível elicitar os requisitos listados abaixo.
+
+| Número | Requisito                                                                            |
+| :----- | :----------------------------------------------------------------------------------- |
+| 1      | O cliente deve poder visualizar o cardápio                                           |
+| 2      | O cardápio deve ser dividido por categoria                                           |
+| 3      | O cardápio deve conter imagens, preços e ingredientes do prato                       |
+| 4      | O cliente deve conseguir selecionar os itens do cardápio                             |
+| 5      | O cliente deve poder adicionar ingredientes ao prato                                 |
+| 6      | O cliente deve poder remover ingredientes do prato                                   |
+| 7      | O cliente deve poder realizar pedidos                                                |
+| 8      | O cliente deve poder dividir a conta de acordo com o que cada pessoa da mesa pediu   |
+| 9      | O cliente deve poder dividir a gorjeta entre as pessoas da mesa                      |
+| 10     | O cliente deve conseguir alterar o pedido até alguns minutos após realizado          |
+| 11     | O cliente deve poder comentar e/ou curtir os pratos do cardápio                      |
+| 12     | O cliente deve conseguir visualizar os pratos mais pedidos                           |
+| 13     | O cliente deve receber sugestões de pratos, bebidas e sobremesas                     |
+
+## 5. Referências
 
 > - DevMedia. Técnicas para levantamento de Requisitos. Disponível em: https://www.devmedia.com.br/tecnicas-para-levantamento-de-requisitos/9151. Acesso em 31 de Julho de 2021.
 
@@ -65,3 +85,4 @@ Para realizar a entrevista de forma efetiva e de modo que a mesma não fuja do e
 | :--------- | :----- | :-------- | :------------------------- |
 | 31/07/2021 |  1.0   | Elaboração do roteiro das entrevistas | [Herick Portugues](https://github.com/herickport), [Lucas Boaventura](https://github.com/lboaventura25) |
 | 02/08/2021 |  1.1   | Criação da primeira versão do documento, com roteiro da entrevista e respostas | [Herick Portugues](https://github.com/herickport) |
+| 03/08/2021 |  1.2   | Adição dos requisitos elicitados | [Herick Portugues](https://github.com/herickport) |
