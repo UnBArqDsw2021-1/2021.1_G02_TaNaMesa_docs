@@ -1,19 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2 {
     font-family: 'Poppins', sans-serif;
+    font-weight: 700 !important;
+}
+
+h3,h4,h5,h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500 !important;
 }
 
 .md-logo img {
     width: 30px !important;
     border-radius: 50%;
-    /* border: 1px solid #000000; */
 }
 
 .md-typeset__table {
     width: 100%;
     display: flex;
-    /* align-self: center; */
     align-items: center;
     justify-content: center;
 }
@@ -88,8 +92,14 @@ body {
     color: white;
 }
 
+span[class="hoverable"] {
+    width: 100%;
+    cursor: pointer !important;
+}
+
 img[role="presentation"] {
     background: white;
+    visibility: hidden;
 }
 
 figcaption {
