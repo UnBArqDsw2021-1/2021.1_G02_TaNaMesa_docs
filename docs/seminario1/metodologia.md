@@ -6,8 +6,8 @@
 ### Kanban
 O Kanban trata-se de uma simbologia visual usada no desenvolvimento de produtos para registrar o progresso das atividades. Essa metodologia foi criada pela empresa Toyota e integra o famoso sistema Toyota de produção, além de ser orientado através de colunas, em que cada uma representa diferentes estados de completeza de uma atividade (a fazer, fazendo, feito). As atividades (cartões visuais) vão transitando entre as colunas, mostrando o andamento do projeto.
 
-* Pontos positivos:
-* Pontos negativos:
+* Pontos positivos: Priorização de atividades, controle sobre atividades, flexibilidade do fluxo de trabalho, comunicação integrada etc.
+* Pontos negativos: Produção vulnerável, pode gerar sobrecarga em algumas sprints caso seja mal planejado.
 
 ### XP
 XP é a sigla de uma metodologia ágil de desenvolvimento designada Extreme Programming, com foco em produzir softwares de qualidade e fornecer qualidade de vida aos desenvolvedores. Os cinco valores básicos do XP são:
@@ -17,8 +17,8 @@ XP é a sigla de uma metodologia ágil de desenvolvimento designada Extreme Prog
 4. Coragem: Coragem para tomar decisões mal-vistas no presente, que irão trazer bom retorno no futuro, como levantar problemas organizacionais que reduzem a produtividade do time, aceitar e reagir a um feedback negativo, parar de fazer algo que não está funcionando e tentar algo diferente.
 5. Respeito: É necessário respeito entre os membros da equipe para que haja boa comunicação, trabalhando juntos para identificar problemas e solucioná-los.
 
-* Pontos positivos:
-* Pontos negativos:
+* Pontos positivos: COesão entre os membros do time, maior sintonia com o projeto, alta produtividade.
+* Pontos negativos:Não possui avaliação de riscos, não possuir cliente real.
 
 ### Scrum
 Podemos definir o Scrum, de forma simplificada, como um método ágil, iterativo e incremental utilizado no gerenciamento de projetos, sendo atualmente um dos mais conhecidos e recorridos na
@@ -44,6 +44,9 @@ computação e demais áreas do conhecimento. Seu esqueleto pode ser especificad
 |    Sprint Backlog   |Versão fracionada do Backlog do produto, indica o planejamento do que será feito em uma sprint específica.|
 |      Incremento     |Artefato originado em cada sprint, deve ser parte potencial do produto que é entregue agregando valor ao cliente.|
 | Definição de pronto |Artefato de transparência que visa determinar entre todos os papéis envolvidos no scrum (PO, Scrum master e especialistas) qual seria a definição de que o produto está pronto para entrega.|
+
+* Pontos positivos: Ótima capacidade de adaptação, melhoria contínua, progresso transparente.
+* Pontos negativos: Prazos incertos, atraso de processo por conta das reuniões, pouca documentação.
 
 ### Composição da metodologia adotada no projeto
 Consideramos que uma metodologia híbrida se encaixa melhor no nosso contexto que possui uso de rotinas e artefatos diversos, além de ser possível sanar pontos fracos de uma metodologia usando alguns artefatos e rotinas de outras. Seja pela precariedade de documentação, no caso do Scrum; ou pela falta de rotinas, no caso do XP e Kanban.
