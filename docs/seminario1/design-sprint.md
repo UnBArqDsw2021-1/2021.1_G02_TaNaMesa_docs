@@ -12,6 +12,7 @@ Para o nosso projeto, foi escolhido a forma mais rápida de realizar a metodolog
 Nesta etapa o foco total é ter um compilado de insights, onde todos os membros participaram dando ideias de temas de projeto e avaliando as ideias dos outros membros do grupo. Utilizamos a técnica de barinstorming para atingir os resultados desta etapa, que estão sendo mostrados abaixo:
 
 ### 2.2. Sketch
+
 Aqui o foco é desenhar as ideias levantadas na etapa anterior, desenvolvendo alguns artefatos como Rich Picture para ajudar na exemplificação da ideia por cada integrante do grupo. Para facilitar a organização do documento, todos os artefatos desenvolvidos irão estar linkados em um tópico específico para isso no decorrer do documento.
 
 ### 2.3. Decision
@@ -25,7 +26,8 @@ Aqui irá acontecer a elaboração do protótipo da ideia escolhida. Aqui s euti
 ## 3. Propostas de temas analisadas
 
 ### Ideias de temas
-![ideias-temas-mapa-mental](./assets/design-sprint/ideias-temas.png)
+
+![ideias-temas-mapa-mental](../assets/img/design-sprint/ideias-temas.png)
 
 ### 3.1. Assistente virtual focado na saúde mental do usuário
 
@@ -46,29 +48,32 @@ Sistema de gerenciamento de plugins para o editor de texto. Um sistema independe
 ### 3.3. Sistema gerenciador de pedidos e mesas de um restaurante
 
 <b>Situação problema</b><br>
-Ineficiencia de atendimento em alguns restaurantes, fazendo com que haja demora para ocorrer os atendimentos e sujeitando pedidos a erros devido a desatenção de atendentes. 
+Ineficiencia de atendimento em alguns restaurantes, fazendo com que haja demora para ocorrer os atendimentos e sujeitando pedidos a erros devido a desatenção de atendentes.
 
 <b>Solução</b><br>
 Um sistema gerenciador de pedidos e mesas que permita que pedidos sejam feitos diretamente por eles, sem a necessidade da intervenção de um atendente. Agilizando o processo e blindando o mesmo de falhas de funcionários, trazendo uma melhor experiência para os consumidores.
 
 <b>Principais funcionalidades</b><br>
 APP DO CLIENTE:<br>
-* Login da mesa<br>
-* Listagem do cardápio do restaurante<br>
-* Chamar garçom/atendente<br>
-* Realizar pedidos por pessoa ou pela mesa<br>
-* Editar pedido<br>
-* Mostrar extrato de pedidos<br>
-* Dividir a conta por pessoa ou por valores iguais<br><br>
+
+- Login da mesa<br>
+- Listagem do cardápio do restaurante<br>
+- Chamar garçom/atendente<br>
+- Realizar pedidos por pessoa ou pela mesa<br>
+- Editar pedido<br>
+- Mostrar extrato de pedidos<br>
+- Dividir a conta por pessoa ou por valores iguais<br><br>
 
 APP DO GARÇOM:<br>
-* Login do garçom<br>
-* Controle de mesas que está atendendo<br>
-* Notificado quando chamado à alguma mesa<br>
-* Listar o extrato do pedido de cada mesa que está atendendo<br><br>
+
+- Login do garçom<br>
+- Controle de mesas que está atendendo<br>
+- Notificado quando chamado à alguma mesa<br>
+- Listar o extrato do pedido de cada mesa que está atendendo<br><br>
 
 APP DA COZINHA:<br>
-* Listagem dos pedidos a serem preparados<br>
+
+- Listagem dos pedidos a serem preparados<br>
 
 ## 4. Escolha do tema
 
@@ -87,7 +92,8 @@ Esta proposta foi recusada devido à pouca definição das principais funcionali
 Esta proposta foi escolhida devido ao tema da proposta, que foi acolhida por todos os membros do grupo, seu escopo de fácil implementação e fácil modularização, assim também como uma boa ideia de produto real, devido a varios problemas de soluções já implementadas no mercado.
 
 #### Escopo do tema escolhido
-![escopo-tema-mapa-mental](./assets/design-sprint/escopo-tema.png)
+
+![escopo-tema-mapa-mental](../assets/img/design-sprint/escopo-tema.png)
 
 ## 5. Artefatos desenvolvidos
 
@@ -127,7 +133,7 @@ How much - Quanto vai custar a implementação?
 
 A elicitação por meio de questionários é uma das técnicas que permite maior alcance já que lida com grande número de participantes e possibilita, de forma geral, a coleta de diversos tipos de dados tanto quantitativos quanto qualiativos. O planejamento e a metodologia utilizada para a criação dos quesstionários deve ser bem estruturada e priorizar a compreensão dos voluntários em relação a cada aspecto posto em estudo pelas questões.
 
-  Devido a possibilidade de levantar estatísticas sobre os grupos de usuários, os questionários são amplamente utilizados mas ainda sim possuem a desvantagem de não poder lidar com questões muito subjetivas quando se trata de um público maior. Conforme aumenta a quantidade de voluntários aos quais os questionários serão submetidos, mais complexa se torna a tarefa de analisar cada uma das respostas caso sejam abertas e passiveis de interpretação.
+Devido a possibilidade de levantar estatísticas sobre os grupos de usuários, os questionários são amplamente utilizados mas ainda sim possuem a desvantagem de não poder lidar com questões muito subjetivas quando se trata de um público maior. Conforme aumenta a quantidade de voluntários aos quais os questionários serão submetidos, mais complexa se torna a tarefa de analisar cada uma das respostas caso sejam abertas e passiveis de interpretação.
 
 ### 5.7. [Entrevistas]()
 
@@ -148,6 +154,7 @@ O NFR Framework é uma abordagem para representar e analisar Requisitos Não-Fun
 A prototipagem auxilia no entendimento do potencial cliente em relação à solução proposta a ele. Ele é a ferramenta mais concreta antes da produção do produto, sendo possível realizar diversas correções e aprimoramentos para aumentar a qualidade.
 
 ## 6. Referências
+
 > - The Design Sprint. Disponível em: [aqui](https://www.gv.com/sprint/). Acesso em: 01 de agosto de 2021.
 
 > - QR Comer. Design Sprint. Disponível em: [aqui](https://fga-desenho-2019-2.github.io/Wiki/seminario1/design_sprint/). Acesso em: 01 de agosto de 2021
@@ -160,6 +167,7 @@ A prototipagem auxilia no entendimento do potencial cliente em relação à solu
 
 ## 7. Histórico de Revisões
 
-|    Data    | Versão | Descrição |         Autor(es)          |
-| :--------- | :----- | :-------- | :------------------------- |
-| 01/08/2021 |  1.0   | Criação da primeira versão do documento| [Tiago Samuel](https://github.com/tsrrodrigues) |
+| Data       | Versão | Descrição                               | Autor(es)                                       |
+| :--------- | :----- | :-------------------------------------- | :---------------------------------------------- |
+| 01/08/2021 | 1.0    | Criação da primeira versão do documento | [Tiago Samuel](https://github.com/tsrrodrigues) |
+| 03/08/2021 | 1.4    | Arrumando paths das imagens             | [Emily Dias](https://github.com/emysdias)       |
