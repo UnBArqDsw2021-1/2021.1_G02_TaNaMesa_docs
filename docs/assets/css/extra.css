@@ -93,13 +93,14 @@ body {
 }
 
 span[class="hoverable"] {
-    width: 100%;
     cursor: pointer !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
 }
 
 img[role="presentation"] {
     background: white;
-    visibility: hidden;
 }
 
 figcaption {

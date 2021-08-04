@@ -11,7 +11,6 @@ O questionário possui perguntas que tem por objetivo olhar do ponto de vista do
 ## 3. Perguntas
 
 Abaixo estão as perguntas e suas respectivas respostas.
-2021.1_G02_TaNaMesa_docs/docs/assets/img/questionario/pergunta-1.png
 
 ### Pergunta 1
 
