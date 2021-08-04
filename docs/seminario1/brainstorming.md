@@ -26,7 +26,7 @@ Para a realização do nosso brainstorming, optamos por dividir em diferentes re
 
 ## Histórico de Revisões
 
-| Data       | Versão | Descrição                          | Autor(es)                                   |
-| :--------- | :----- | :--------------------------------- | :------------------------------------------ |
-| 31/07/2021 | 1.0    | Criação do Documento Brainstorming | [Abner Filipe](https://github.com/abner423) |
-| 03/08/2021 | 1.1    | Arrumando paths das imagens        | [Emily Dias](https://github.com/emysdias)   |
+| Data       | Versão | Descrição                          | Autor(es)                                                                                    |
+| :--------- | :----- | :--------------------------------- | :------------------------------------------------------------------------------------------- |
+| 31/07/2021 | 1.0    | Criação do Documento Brainstorming | [Abner Filipe](https://github.com/abner423)                                                  |
+| 03/08/2021 | 1.1    | Arrumando paths das imagens        | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |

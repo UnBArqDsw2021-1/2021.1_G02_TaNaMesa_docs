@@ -28,8 +28,8 @@
 
 ## Histórico de Revisões
 
-| Data       | Versão | Descrição                        | Autor(es)                                   |
-| :--------- | :----- | :------------------------------- | :------------------------------------------ |
-| 29/07/2021 | 1.0    | Criação do Diagrama NFR          | [Abner Filipe](https://github.com/abner423) |
-| 30/07/2021 | 1.1    | Adição da estrutura do documento | [Abner Filipe](https://github.com/abner423) |
-| 03/08/2021 | 1.2    | Arrumando paths das imagens      | [Emily Dias](https://github.com/emysdias)   |
+| Data       | Versão | Descrição                        | Autor(es)                                                                                    |
+| :--------- | :----- | :------------------------------- | :------------------------------------------------------------------------------------------- |
+| 29/07/2021 | 1.0    | Criação do Diagrama NFR          | [Abner Filipe](https://github.com/abner423)                                                  |
+| 30/07/2021 | 1.1    | Adição da estrutura do documento | [Abner Filipe](https://github.com/abner423)                                                  |
+| 03/08/2021 | 1.2    | Arrumando paths das imagens      | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |

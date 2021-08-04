@@ -78,15 +78,15 @@ Figura 8: Esboço no Papel - Visão do Garçom. Autor: [Eduarda Servidio](https:
 
 ## 4. Histórico de Revisões
 
-| Data       | Versão | Descrição                                  | Autor(es)                                         |
-| :--------- | :----- | :----------------------------------------- | :------------------------------------------------ |
-| 31/07/2021 | 1.0    | Criação da estrutura do documento          | [Sergio Cipriano](https://github.com/sergiosacj)  |
-| 31/07/2021 | 1.1    | Adicionando introdução                     | [Sergio Cipriano](https://github.com/sergiosacj)  |
-| 31/07/2021 | 1.2    | Adicionando metodologia                    | [Sergio Cipriano](https://github.com/sergiosacj)  |
-| 31/07/2021 | 1.3    | Adicionando bibliografia                   | [Sergio Cipriano](https://github.com/sergiosacj)  |
-| 01/08/2021 | 1.4    | Adição dos esboços dos Rich Pictures 3 e 4 | [Eduarda Servidio](https://github.com/ServideoEC) |
-| 01/08/2021 | 1.5    | Correção de legendas                       | [Eduarda Servidio](https://github.com/ServideoEC) |
-| 01/08/2021 | 1.6    | Adição dos Rich Pictures Finais            | [Eduarda Servidio](https://github.com/ServideoEC) |
-| 02/08/2021 | 1.8    | Adicionando pontuação nos tópicos          | [Sergio Cipriano](https://github.com/sergiosacj)  |
-| 02/08/2021 | 1.9    | Adicionando links nas imagens              | [Sergio Cipriano](https://github.com/sergiosacj)  |
-| 03/08/2021 | 2.0    | Arrumando paths das imagens                | [Emily Dias](https://github.com/emysdias)         |
+| Data       | Versão | Descrição                                  | Autor(es)                                                                                    |
+| :--------- | :----- | :----------------------------------------- | :------------------------------------------------------------------------------------------- |
+| 31/07/2021 | 1.0    | Criação da estrutura do documento          | [Sergio Cipriano](https://github.com/sergiosacj)                                             |
+| 31/07/2021 | 1.1    | Adicionando introdução                     | [Sergio Cipriano](https://github.com/sergiosacj)                                             |
+| 31/07/2021 | 1.2    | Adicionando metodologia                    | [Sergio Cipriano](https://github.com/sergiosacj)                                             |
+| 31/07/2021 | 1.3    | Adicionando bibliografia                   | [Sergio Cipriano](https://github.com/sergiosacj)                                             |
+| 01/08/2021 | 1.4    | Adição dos esboços dos Rich Pictures 3 e 4 | [Eduarda Servidio](https://github.com/ServideoEC)                                            |
+| 01/08/2021 | 1.5    | Correção de legendas                       | [Eduarda Servidio](https://github.com/ServideoEC)                                            |
+| 01/08/2021 | 1.6    | Adição dos Rich Pictures Finais            | [Eduarda Servidio](https://github.com/ServideoEC)                                            |
+| 02/08/2021 | 1.8    | Adicionando pontuação nos tópicos          | [Sergio Cipriano](https://github.com/sergiosacj)                                             |
+| 02/08/2021 | 1.9    | Adicionando links nas imagens              | [Sergio Cipriano](https://github.com/sergiosacj)                                             |
+| 03/08/2021 | 2.0    | Arrumando paths das imagens                | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |

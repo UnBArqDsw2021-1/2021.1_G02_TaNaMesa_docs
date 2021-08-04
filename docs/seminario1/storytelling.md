@@ -67,10 +67,10 @@ Ele consegue gerenciar mesas, adicionar lanches no cardápio e verificar o pagam
 
 ## Histórico de Revisões
 
-| Data       | Versão | Descrição                   | Autor(es)                                        |
-| :--------- | :----- | :-------------------------- | :----------------------------------------------- |
-| 31/07/2021 | 1.0    | Criação do documento        | [Ítalo Alves](https://github.com/alvesitalo)     |
-| 01/08/2021 | 1.1    | Adição dos tópicos          | [Ítalo Alves](https://github.com/alvesitalo)     |
-| 02/08/2021 | 1.2    | Revisão do documento        | [Daniel Primo](https://github.com/danieldagerom) |
-| 03/08/2021 | 1.3    | Adição de hístorias         | [Daniel Primo](https://github.com/danieldagerom) |
-| 03/08/2021 | 1.4    | Arrumando paths das imagens | [Emily Dias](https://github.com/emysdias)        |
+| Data       | Versão | Descrição                   | Autor(es)                                                                                    |
+| :--------- | :----- | :-------------------------- | :------------------------------------------------------------------------------------------- |
+| 31/07/2021 | 1.0    | Criação do documento        | [Ítalo Alves](https://github.com/alvesitalo)                                                 |
+| 01/08/2021 | 1.1    | Adição dos tópicos          | [Ítalo Alves](https://github.com/alvesitalo)                                                 |
+| 02/08/2021 | 1.2    | Revisão do documento        | [Daniel Primo](https://github.com/danieldagerom)                                             |
+| 03/08/2021 | 1.3    | Adição de hístorias         | [Daniel Primo](https://github.com/danieldagerom)                                             |
+| 03/08/2021 | 1.4    | Arrumando paths das imagens | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |

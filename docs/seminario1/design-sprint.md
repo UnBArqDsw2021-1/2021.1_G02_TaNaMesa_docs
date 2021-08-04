@@ -167,7 +167,7 @@ A prototipagem auxilia no entendimento do potencial cliente em relação à solu
 
 ## 7. Histórico de Revisões
 
-| Data       | Versão | Descrição                               | Autor(es)                                       |
-| :--------- | :----- | :-------------------------------------- | :---------------------------------------------- |
-| 01/08/2021 | 1.0    | Criação da primeira versão do documento | [Tiago Samuel](https://github.com/tsrrodrigues) |
-| 03/08/2021 | 1.4    | Arrumando paths das imagens             | [Emily Dias](https://github.com/emysdias)       |
+| Data       | Versão | Descrição                               | Autor(es)                                                                                    |
+| :--------- | :----- | :-------------------------------------- | :------------------------------------------------------------------------------------------- |
+| 01/08/2021 | 1.0    | Criação da primeira versão do documento | [Tiago Samuel](https://github.com/tsrrodrigues)                                              |
+| 03/08/2021 | 1.4    | Arrumando paths das imagens             | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |

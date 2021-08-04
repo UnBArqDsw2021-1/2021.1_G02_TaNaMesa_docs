@@ -145,4 +145,4 @@ Após a utilização da técnica de questionário foi possível levantar os requ
 | :--------- | :----- | :------------------------------------------- | :------------------------------------------------------------------------------------------------------- |
 | 02/08/2021 | 1.0    | Adiciona estrutura do documento              | [Lucas Boaventura](https://github.com/lboaventura25) e [Hérick Portugues](https://github.com/herickport) |
 | 02/08/2021 | 1.1    | Adiciona imagens e analise dos questionários | [Lucas Boaventura](https://github.com/lboaventura25) e [Hérick Portugues](https://github.com/herickport) |
-| 03/08/2021 | 1.2    | Arrumando paths das imagens                  | [Emily Dias](https://github.com/emysdias)                                                                |
+| 03/08/2021 | 1.2    | Arrumando paths das imagens                  | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos)             |

@@ -104,4 +104,4 @@ Para representar os resultados obtidos através das análises, foi desenvolvido 
 | 31/07/2021 | 1.0    | Criação da estrutura do documento, relatório das primeiras duas análises.          | [Brenda Santos](https://github.com/brendavsantos), [Tiago Samuel](https://github.com/tsrrodrigues) |
 | 31/07/2021 | 1.1    | Relatório das últimas duas análises e finalização da primeira versão do documento. | [Brenda Santos](https://github.com/brendavsantos), [Tiago Samuel](https://github.com/tsrrodrigues) |
 | 03/08/2021 | 1.2    | Padronização do documento.                                                         | [Brenda Santos](https://github.com/brendavsantos), [Tiago Samuel](https://github.com/tsrrodrigues) |
-| 03/08/2021 | 1.3    | Arrumando padrão do nome da aplicação                                              | [Emily Dias](https://github.com/emysdias)                                                          |
+| 03/08/2021 | 1.3    | Arrumando padrão do nome da aplicação                                              | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos)       |

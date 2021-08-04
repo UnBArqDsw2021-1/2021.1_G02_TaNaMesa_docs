@@ -105,7 +105,7 @@ responsável pela cozinha.
 
 ## 6. Histórico de Revisões
 
-|    Data    | Versão |                    Descrição                    |                    Autor(es)                     |
-| :--------: | :----: | :---------------------------------------------: | :----------------------------------------------: |
-| 03/08/2020 |  1.0   | Criação dos 6 tópicos dos documento de personas | [Sergio Cipriano](https://github.com/sergiosacj) |
-| 03/08/2021 |  1.1   |      Ajuste de tabelas e nome da aplicação      |    [Emily Dias](https://github.com/emysdias)     |
+|    Data    | Versão |                    Descrição                    |                                          Autor(es)                                           |
+| :--------: | :----: | :---------------------------------------------: | :------------------------------------------------------------------------------------------: |
+| 03/08/2020 |  1.0   | Criação dos 6 tópicos dos documento de personas |                       [Sergio Cipriano](https://github.com/sergiosacj)                       |
+| 03/08/2021 |  1.1   |      Ajuste de tabelas e nome da aplicação      | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |
