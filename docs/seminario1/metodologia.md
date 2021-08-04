@@ -1,6 +1,7 @@
 # Metodologia do Projeto
 
 ## 1. Introdução
+Este documento tem por finalidade definir a metodologia a ser utilizada no projeto, descrevendo as metodologias usadas como base e mostrando os artefatos e rotinas selecionados destas.
 
 ## 2. Metodologias
 ### Kanban
