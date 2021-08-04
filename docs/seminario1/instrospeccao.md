@@ -11,7 +11,7 @@ sistema deve ter para alcançar o sucesso.
 ## 2. Metodologia
 
 &emsp;&emsp; A técnica de Introspecção será aplicada utilizando como base as personas.
-Baseado nas especificações e características de cada persona, foi pensando qual
+Baseado nas especificações e características de cada persona, foi pensando em qual
 funcionalidade cada persona desejaria que tivesse para atender suas necessidades.
 
 ## 3. Participantes
@@ -19,11 +19,11 @@ funcionalidade cada persona desejaria que tivesse para atender suas necessidades
 - Sergio Cipriano
 - Brenda Santos
 
-## 4. Resultado
+## 4. Requisitos
 
 |Número| Persona | Requisito | Tipo de Requisito |
 |--|--|--|--|
-| 1  | Matheus H.   | Almeja ter acesso à todos os pedidos, podendo vizualiar inclusive a pessoa que pediu                                           | Funcional     |
+| 1  | Matheus H.   | Almeja ter acesso à todos os pedidos, podendo visualiar inclusive a pessoa que pediu                                           | Funcional     |
 | 2  | Matheus H.   | Quando a cozinha finalizar o pedido, deseja receber uma notificação com as informações da mesa e com o nome do autor do pedido | Funcional     |
 | 3  | Matheus H.   | Deseja ser notificado quando uma mesa chamar garçom                                                                            | Funcional     |
 | 4  | Matheus H.   | Deseja ser notificado quando o cliente desejar pedir conta                                                                     | Funcional     |
@@ -62,6 +62,7 @@ funcionalidade cada persona desejaria que tivesse para atender suas necessidades
 
 ## 6. Histórico de Revisões
 
-|    Data    | Versão |                    Descrição                   |                    Autor(es)                     |
-| :--------: | :----: | :--------------------------------------------: | :----------------------------------------------: |
-| 04/08/2020 |  1.0   | Criação dos 6 tópicos do documento de personas | [Sergio Cipriano](https://github.com/sergiosacj) |
+|    Data    | Versão |                       Descrição                     |                    Autor(es)                     |
+| :--------: | :----: | :-------------------------------------------------: | :----------------------------------------------: |
+| 04/08/2020 |  1.0   | Criação dos 6 tópicos do documento de instrospecção | [Sergio Cipriano](https://github.com/sergiosacj) |
+| 04/08/2020 |  1.1   | Arrumando detalhes apontados pela Eduarda Servideo  | [Sergio Cipriano](https://github.com/sergiosacj) |
