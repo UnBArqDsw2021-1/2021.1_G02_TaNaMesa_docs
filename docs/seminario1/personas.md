@@ -34,70 +34,70 @@ finais que não correspondam a um mesmo grupo. Uma recomendação comum é que o
 personas primárias." (Barbosa e Silva, 2019, p. 180).
 
 &emsp;&emsp; Como dito, o ideal é 3 personas. Entretanto, teremos 4 personas, cada uma representando um contato
-importante com uma das frentes do TaNaMesa. Assim, estará representado o cliente, o garçom, o gerente e o
+importante com uma das frentes do **Tá Na Mesa**. Assim, estará representado o cliente, o garçom, o gerente e o
 responsável pela cozinha.
 
-## 4. Personas do TaNaMesa
+## 4. Personas do **Tá Na Mesa**
 
 ### 4.1 Persona 1
 
-<img  src="https://media.discordapp.net/attachments/752588141298450563/762022517359509524/treinadora.jpeg?width=475&height=475" class="center" width="300", height = "200">
+<img src="https://media.discordapp.net/attachments/752588141298450563/762022517359509524/treinadora.jpeg?width=475&height=475" class="center" width="300", height = "200">
 
-| Persona                   | Maria Lee Oliveira |
-|---------------------------|--------------------|
-| Status:                   | Persona Primária |
-| Posição:                  | Cliente |
-| Nome:                     | Maria Lee Oliveira |
-| Idade:                    | 33 |
-| Escolaridade:             | Doutora em matemática |
+| Persona                   | Maria Lee Oliveira                                                                                                      |
+| ------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Status:                   | Persona Primária                                                                                                        |
+| Posição:                  | Cliente                                                                                                                 |
+| Nome:                     | Maria Lee Oliveira                                                                                                      |
+| Idade:                    | 33                                                                                                                      |
+| Escolaridade:             | Doutora em matemática                                                                                                   |
 | Objetivos / Expectativas: | Poder dividir a conta com os demais colegas professores de forma rápida e que seja condizente com os pedidos de cada um |
-| Relacionamentos:          | Casada |
-| Tarefas:                  | Pedir o que deseja comer utilizando o TaNaMesa |
+| Relacionamentos:          | Casada                                                                                                                  |
+| Tarefas:                  | Pedir o que deseja comer utilizando o **Tá Na Mesa**                                                                    |
 
 ### 4.2 Persona 2
 
-<img  src="https://media.discordapp.net/attachments/752588141298450563/762021875789594704/unknown.png?width=474&height=475" class="center" width="300", height = "200">
+<img src="https://media.discordapp.net/attachments/752588141298450563/762021875789594704/unknown.png?width=474&height=475" class="center" width="300", height = "200">
 
-| Persona                   | Matheus Henrique Bastos |
-|---------------------------|--------------------|
-| Status:                   | Persona Primária |
-| Posição:                  | Garçom |
-| Nome:                     | Matheus Henrique Bastos |
-| Idade:                    | 20 |
-| Escolaridade:             | Granduando em engenharia aeroespacial |
+| Persona                   | Matheus Henrique Bastos                                                                                                                  |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| Status:                   | Persona Primária                                                                                                                         |
+| Posição:                  | Garçom                                                                                                                                   |
+| Nome:                     | Matheus Henrique Bastos                                                                                                                  |
+| Idade:                    | 20                                                                                                                                       |
+| Escolaridade:             | Granduando em engenharia aeroespacial                                                                                                    |
 | Objetivos / Expectativas: | Almeja ficar encarregado apenas de servir os clientes e limpar as mesas. Espera que o app consiga cuidar de tudo relacionado aos pedidos |
-| Relacionamentos:          | Solteiro |
-| Tarefas:                  | Atender os clientes, limpar as mesas, entregar os pedidos corretamente |
+| Relacionamentos:          | Solteiro                                                                                                                                 |
+| Tarefas:                  | Atender os clientes, limpar as mesas, entregar os pedidos corretamente                                                                   |
 
 ### 4.3 Persona 3
 
-<img  src="https://media.discordapp.net/attachments/752588141298450563/762023496850472980/unknown.png?width=485&height=475" class="center" width="300", height = "200">
+<img src="https://media.discordapp.net/attachments/752588141298450563/762023496850472980/unknown.png?width=485&height=475" class="center" width="300", height = "200">
 
-| Persona                   | Juliana Figo Sabugueiro |
-|---------------------------|--------------------|
-| Status:                   | Persona Primária |
-| Posição:                  | Responsável pela cozinha |
-| Nome:                     | Juliana Figo Sabugueiro |
-| Idade:                    | 21 |
-| Escolaridade:             | Ensino médio completo |
+| Persona                   | Juliana Figo Sabugueiro                                                                                                                         |
+| ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| Status:                   | Persona Primária                                                                                                                                |
+| Posição:                  | Responsável pela cozinha                                                                                                                        |
+| Nome:                     | Juliana Figo Sabugueiro                                                                                                                         |
+| Idade:                    | 21                                                                                                                                              |
+| Escolaridade:             | Ensino médio completo                                                                                                                           |
 | Objetivos / Expectativas: | Receber os pedidos de forma rápida e direta. Assim que der baixa nos pedidos, espera também que o garçom seja notificado para servir o cliente. |
-| Relacionamentos:          | Solteira |
-| Tarefas:                  | Visualizar e dar baixa nos pedidos |
+| Relacionamentos:          | Solteira                                                                                                                                        |
+| Tarefas:                  | Visualizar e dar baixa nos pedidos                                                                                                              |
 
 ### 4.4 Persona 4
 
-<img  src="https://media.discordapp.net/attachments/752588141298450563/762023274770595870/unknown.png?width=469&height=475" class="center" width="300", height = "200">
+<img src="https://media.discordapp.net/attachments/752588141298450563/762023274770595870/unknown.png?width=469&height=475" class="center" width="300", height = "200">
 
-| Persona                   | André Muds |
-|---------------------------|--------------------|
-| Status:                   | Persona Primária |
-| Posição:                  | Gerente |
-| Nome:                     | André Muds |
-| Idade:                    | 34 |
-| Escolaridade:             | Doutor em ciência de computação pela PUC |
+| Persona                   | André Muds                                                                                                                       |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| Status:                   | Persona Primária                                                                                                                 |
+| Posição:                  | Gerente                                                                                                                          |
+| Nome:                     | André Muds                                                                                                                       |
+| Idade:                    | 34                                                                                                                               |
+| Escolaridade:             | Doutor em ciência de computação pela PUC                                                                                         |
 | Objetivos / Expectativas: | Ter o controle sobre todas as mesas, ter histórico de todos os pedidos, ter acesso à um relatório que relacione pedidos e baixas |
-| Relacionamentos:          | Casado |
-| Tarefas:                  | Gerenciar restaurante que utiliza o TaNaMesa |
+| Relacionamentos:          | Casado                                                                                                                           |
+| Tarefas:                  | Gerenciar restaurante que utiliza o **Tá Na Mesa**                                                                               |
 
 ## 5. Bibliografia
 
@@ -105,8 +105,7 @@ responsável pela cozinha.
 
 ## 6. Histórico de Revisões
 
-|Data|Versão|Descrição|Autor|
-|:-:|:-:|:-:|:-:|
-| Data       | Versão | Descrição                                       | Autor(es)                                        |
-| :--------- | :----- | :---------------------------------------------- | :----------------------------------------------- |
-| 03/08/2020 | 1.0    | Criação dos 6 tópicos dos documento de personas | [Sergio Cipriano](https://github.com/sergiosacj) |
+|    Data    | Versão |                    Descrição                    |                    Autor(es)                     |
+| :--------: | :----: | :---------------------------------------------: | :----------------------------------------------: |
+| 03/08/2020 |  1.0   | Criação dos 6 tópicos dos documento de personas | [Sergio Cipriano](https://github.com/sergiosacj) |
+| 03/08/2021 |  1.1   |      Ajuste de tabelas e nome da aplicação      |    [Emily Dias](https://github.com/emysdias)     |
