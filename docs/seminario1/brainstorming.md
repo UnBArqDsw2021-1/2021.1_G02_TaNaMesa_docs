@@ -10,15 +10,15 @@ Para a realização do nosso brainstorming, optamos por dividir em diferentes re
 
 ### 2.1 Brainstorming para o tema do projeto
 
-<img src="./imagens/brain-tema.jpg" alt="brain-tema" width="400"/>
+<img src="../../assets/img/brain-tema.jpg" alt="brain-tema" width="400"/>
 
 ### 2.2 Brainstorming para o nome do projeto
 
-<img src="./imagens/brain-nome-projeto.jpg" alt="brain-nome-projeto" width="300"/>
+<img src="../../assets/img/brain-nome-projeto.jpg" alt="brain-nome-projeto" width="300"/>
 
 ### 2.3 Brainstorming para funcionalidades do projeto
 
-[![brain-funcionalidades](./imagens/brain-funcionalidades.png)](./imagens/brain-funcionalidades.png)
+[![brain-funcionalidades](../assets/img/brain-funcionalidades.png)](../assets/img/brain-funcionalidades.png)
 
 ## 3. Referências
 
@@ -29,3 +29,4 @@ Para a realização do nosso brainstorming, optamos por dividir em diferentes re
 | Data       | Versão | Descrição                          | Autor(es)                                   |
 | :--------- | :----- | :--------------------------------- | :------------------------------------------ |
 | 31/07/2021 | 1.0    | Criação do Documento Brainstorming | [Abner Filipe](https://github.com/abner423) |
+| 03/08/2021 | 1.1    | Arrumando paths das imagens        | [Emily Dias](https://github.com/emysdias)   |

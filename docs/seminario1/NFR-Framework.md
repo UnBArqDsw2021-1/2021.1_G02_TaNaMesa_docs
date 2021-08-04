@@ -12,11 +12,11 @@
 
 ### 3.1. Legenda
 
-[![Legenda-NFR](./imagens/Legenda-NFR.png)](./imagens/Legenda-NFR.png)
+[![Legenda-NFR](../assets/img/Legenda-NFR.png)](../assets/img/Legenda-NFR.png)
 
 ### 3.1. NFRF Geral
 
-[![NFR](./imagens/NFR.png)](./imagens/img/NFR.png)
+[![NFR](../assets/img/NFR.png)](../assets/img/NFR.png)
 
 ## 4. Referências
 
@@ -30,5 +30,6 @@
 
 | Data       | Versão | Descrição                        | Autor(es)                                   |
 | :--------- | :----- | :------------------------------- | :------------------------------------------ |
-| 29/07/2021 | 0.1    | Criação do Diagrama NFR          | [Abner Filipe](https://github.com/abner423) |
-| 30/07/2021 | 1.0    | Adição da estrutura do documento | [Abner Filipe](https://github.com/abner423) |
+| 29/07/2021 | 1.0    | Criação do Diagrama NFR          | [Abner Filipe](https://github.com/abner423) |
+| 30/07/2021 | 1.1    | Adição da estrutura do documento | [Abner Filipe](https://github.com/abner423) |
+| 03/08/2021 | 1.2    | Arrumando paths das imagens      | [Emily Dias](https://github.com/emysdias)   |
