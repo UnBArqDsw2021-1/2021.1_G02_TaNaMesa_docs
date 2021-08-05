@@ -27,7 +27,7 @@ Para o nosso projeto, foi escolhido a forma mais rápida de realizar a metodolog
 
 ### Ideias de temas
 
-![ideias-temas-mapa-mental](../assets/img/design-sprint/ideias-temas.png)
+![ideias-temas-mapa-mental](../assets/img/seminario1/design-sprint/ideias-temas.png)
 
 ### 3.1. Assistente virtual focado na saúde mental do usuário
 
@@ -93,22 +93,22 @@ APP DA COZINHA:<br>
 
 #### Escopo do tema escolhido
 
-![escopo-tema-mapa-mental](../assets/img/design-sprint/escopo-tema.png)
+![escopo-tema-mapa-mental](../assets/img/seminario1/design-sprint/escopo-tema.png)
 
 ## 5. Artefatos desenvolvidos
 
-### 5.1. [Brainstorming]()
+### 5.1. Brainstorming
 
 &emsp;&emsp; Brainstorming é uma técnica que fornece informações sobre os tipos de conteúdos e características que os usuários querem e desejam em um produto. (Courage e Baxter, 2005)
 
 &emsp;&emsp; A sessão começa com uma pergunta que resume o objetivo de entender o que os usuátios querem e precisam, e pode ser conduzida em aproximadamente uma hora. Nela deve haver um moderador resposável por fazer as perguntas e registrar as ideias dos participantes. Os resultados dessa atividade podem servir diretamente a especificação funcional e documentação de design.
 
-### 5.2. [Rich Pictures]()
+### 5.2. Rich Pictures
 
 &emsp;&emsp; Trata-se de uma forma de modelagem de ideias, pouco formal, e ideal para reuniões com clientes e/ou em times de desenvolvimento. Baseia-se em rascunhar desenhos e usar textos curtos e objetivos para expressar um momento, um desejo, uma atividade, dentre outras necessidades. Os desenhos podem ser feitos à mão livre ou via um software. Idealmente, são feitos, no momento da reunião, à mão livre.
 Essa técnica de anotação é prática, útil, e facilita registrar momentos e impressões junto aos interessados. Isso contribuiu para com o levantamento dos requisitos, uma das primeiras atividades da Engenharia de Requisitos. Mas também pode ser utilizada em tempo de projeto/design.
 
-### 5.3. [5W2H]()
+### 5.3. 5W2H
 
 &emsp;&emsp; É um conjunto de questões utilizadas para compor planos de ação de maneira rápida e eficiente. Seu principal propósito é a definição de tarefas eficazes e seu acompanhamento, de maneira visual, ágil e simples.
 
@@ -121,35 +121,35 @@ When - Quando deve ser implementado?<br>
 How - Como deve ser conduzido?<br>
 How much - Quanto vai custar a implementação?
 
-### 5.4. [Diagrama de Ishikawa]()
+### 5.4. Diagrama de Ishikawa
 
 &emsp;&emsp; É uma diagramação que analisa, sob diferentes pontos de vista, uma série de causas que podem lear a um dado efeito. Utilizado para analisar um problema ou risco e suas possíveis causas.
 
-### 5.5. [Estudo de Benchmarking]()
+### 5.5. Estudo de Benchmarking
 
 &emsp;&emsp; É um estudo feito para analisar soluções similares do mercado com a proposta de produto, analisando diversos fatores como requisitos básicos e diferenciais entre um e outro. Sempre absorvendo os pontos positivos das soluções já existentes e aprendendo com os pontos negativos, melhorando a solução que irá ser construída.
 
-### 5.6. [Questionários]()
+### 5.6. Questionários
 
 &emsp;&emsp; A elicitação por meio de questionários é uma das técnicas que permite maior alcance já que lida com grande número de participantes e possibilita, de forma geral, a coleta de diversos tipos de dados tanto quantitativos quanto qualiativos. O planejamento e a metodologia utilizada para a criação dos quesstionários deve ser bem estruturada e priorizar a compreensão dos voluntários em relação a cada aspecto posto em estudo pelas questões.
 
 &emsp;&emsp; Devido a possibilidade de levantar estatísticas sobre os grupos de usuários, os questionários são amplamente utilizados mas ainda sim possuem a desvantagem de não poder lidar com questões muito subjetivas quando se trata de um público maior. Conforme aumenta a quantidade de voluntários aos quais os questionários serão submetidos, mais complexa se torna a tarefa de analisar cada uma das respostas caso sejam abertas e passiveis de interpretação.
 
-### 5.7. [Entrevistas]()
+### 5.7. Entrevistas
 
 &emsp;&emsp; A entrevista é uma forma de diálogo, formal ou informal, entre duas ou mais pessoas, onde o entrevistador busca respostas para um conjunto de questões previamente planejadas e os entrevistados se apresentam como fontes de informação. Trata-se, portanto, de uma técnica mais flexível, que aproxima o engenheiro de requisitos do usuário do sistema, permitindo adquirir informações de caráter subjetivo. Dessa forma, é uma técnica muito utilizada na elicitação de requisitos para encontrar os requisitos ideias para o sistema.
 
-### 5.8. [Storytelling]()
+### 5.8. Storytelling
 
 &emsp;&emsp; Storytelling é um termo em inglês, que significa contar história. Pode ser definda como uma técnica de elicitação de requisitos que tem como principal característica a criação de uma ou mais histórias que ilustram as necessidades do usuário de forma que seja possível notar as ações do cotidiano e perceber as principais necessidades que o sistema deverá atender, empregando sempre técnicas de contagem de histórias motivadoras com uma linguagem simples durante o processo de construção.
 
 &emsp;&emsp; Devido ao cenário atual de ensino remoto, a técnica oferece facilidade em sua realização pois não necessita que todos os participantes estejam no mesmo lugar, nem presentes ao mesmo tempo.
 
-### 5.9. [NFR]()
+### 5.9. NFR
 
 &emsp;&emsp; O NFR Framework é uma abordagem para representar e analisar Requisitos Não-Funcionais. Seu objetivo é ajudar desenvolvedores na implementação de soluções personalizadas, levando em consideração as características do domínio e do sistema em questão. Tais características incluem Requisitos Não-funcionais, Requisitos funcionais, prioridades e carga de trabalho. Esses fatores determinam a escolha de alternativas de desenvolvimento para um determinado sistema (CHUNG et al., 2000). O modelo utilizado no NFR Framework é chamado Softgoal Interdependency Graph (SIG).
 
-### 5.10. [Protótipo]()
+### 5.10. Protótipo
 
 &emsp;&emsp; A prototipagem auxilia no entendimento do potencial cliente em relação à solução proposta a ele. Ele é a ferramenta mais concreta antes da produção do produto, sendo possível realizar diversas correções e aprimoramentos para aumentar a qualidade.
 
@@ -167,8 +167,8 @@ How much - Quanto vai custar a implementação?
 
 ## 7. Histórico de Revisões
 
-| Data       | Versão | Descrição                               | Autor(es)                                                                                    |
-| :--------- | :----- | :-------------------------------------- | :------------------------------------------------------------------------------------------- |
-| 01/08/2021 | 1.0    | Criação da primeira versão do documento | [Tiago Samuel](https://github.com/tsrrodrigues)                                              |
-| 03/08/2021 | 1.1    | Arrumando paths das imagens             | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |
-| 04/08/2021 | 1.2    | Arrumando espaçamento                   | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |
+| Data       | Versão | Descrição                                | Autor(es)                                                                                    |
+| :--------- | :----- | :--------------------------------------- | :------------------------------------------------------------------------------------------- |
+| 01/08/2021 | 1.0    | Criação da primeira versão do documento  | [Tiago Samuel](https://github.com/tsrrodrigues)                                              |
+| 03/08/2021 | 1.1    | Arrumando paths das imagens              | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |
+| 04/08/2021 | 1.2    | Arrumando espaçamento e path das imagens | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |

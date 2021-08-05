@@ -10,15 +10,15 @@
 
 ### 2.1 Brainstorming para o tema do projeto
 
-<img src="../../assets/img/brain-tema.jpg" alt="brain-tema" width="400"/>
+<img src="../../assets/img/seminario1/brainstorming/brain-tema.jpg" alt="brain-tema" width="400"/>
 
 ### 2.2 Brainstorming para o nome do projeto
 
-<img src="../../assets/img/brain-nome-projeto.jpg" alt="brain-nome-projeto" width="300"/>
+<img src="../../assets/img/seminario1/brainstorming/brain-nome-projeto.jpg" alt="brain-nome-projeto" width="300"/>
 
 ### 2.3 Brainstorming para funcionalidades do projeto
 
-[![brain-funcionalidades](../assets/img/brain-funcionalidades.png)](../assets/img/brain-funcionalidades.png)
+[![brain-funcionalidades](../assets/img/seminario1/brainstorming/brain-funcionalidades.png)](../assets/img/seminario1/brainstorming/brain-funcionalidades.png)
 
 ## 3. Referências
 
@@ -26,8 +26,8 @@
 
 ## Histórico de Revisões
 
-| Data       | Versão | Descrição                          | Autor(es)                                                                                    |
-| :--------- | :----- | :--------------------------------- | :------------------------------------------------------------------------------------------- |
-| 31/07/2021 | 1.0    | Criação do Documento Brainstorming | [Abner Filipe](https://github.com/abner423)                                                  |
-| 03/08/2021 | 1.1    | Arrumando paths das imagens        | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |
-| 04/08/2021 | 1.2    | Arrumando espaçamento              | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |
+| Data       | Versão | Descrição                                | Autor(es)                                                                                    |
+| :--------- | :----- | :--------------------------------------- | :------------------------------------------------------------------------------------------- |
+| 31/07/2021 | 1.0    | Criação do Documento Brainstorming       | [Abner Filipe](https://github.com/abner423)                                                  |
+| 03/08/2021 | 1.1    | Arrumando paths das imagens              | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |
+| 04/08/2021 | 1.2    | Arrumando espaçamento e path das imagens | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |

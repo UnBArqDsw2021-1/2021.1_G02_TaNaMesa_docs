@@ -17,7 +17,7 @@ para obter a versão final do rich picture.
 
 ### 2.1 RichPicture 01 - Visão do cliente
 
-[![RPF01](../assets/img/RPF01.jpg)](../assets/img/RPF01.jpg)
+[![RPF01](../assets/img/seminario1/rich-picture/RPF01.jpg)](../assets/img/seminario1/rich-picture/RPF01.jpg)
 
 | **RP01**      | **Visão do cliente**                              |
 | ------------- | ------------------------------------------------- |
@@ -27,7 +27,7 @@ para obter a versão final do rich picture.
 
 ### 2.2 RichPicture 02 - Visão da Cozinha
 
-[![RPF02](../assets/img/RPF02.jpg)](../assets/img/RPF02.jpg)
+[![RPF02](../assets/img/seminario1/rich-picture/RPF02.jpg)](../assets/img/seminario1/rich-picture/RPF02.jpg)
 
 | **RP02**      | **Visão da Cozinha**                              |
 | ------------- | ------------------------------------------------- |
@@ -37,7 +37,7 @@ para obter a versão final do rich picture.
 
 ### 2.3 RichPicture 03 - Visão do Garçom
 
-[![RPF03](../assets/img/RPF03.jpg)](../assets/img/RPF03.jpg)
+[![RPF03](../assets/img/seminario1/rich-picture/RPF03.jpg)](../assets/img/seminario1/rich-picture/RPF03.jpg)
 
 | **RP03**      | **Visão do Garçom**                               |
 | ------------- | ------------------------------------------------- |
@@ -46,7 +46,7 @@ para obter a versão final do rich picture.
 
 ### 2.4 RichPicture 04 - Visão da Gerência
 
-[![RPF04](../assets/img/RPF04.jpg)](../assets/img/RPF04.jpg)
+[![RPF04](../assets/img/seminario1/rich-picture/RPF04.jpg)](../assets/img/seminario1/rich-picture/RPF04.jpg)
 
 | **RP04**      | **Visão da Cozinha**                                |
 | ------------- | --------------------------------------------------- |
@@ -55,19 +55,19 @@ para obter a versão final do rich picture.
 
 ### 2.5 RichPictures - Esboços no Papel
 
-[![RP01](../assets/img/RP01.jpeg)](../assets/img/RP01.jpeg)
+[![RP01](../assets/img/seminario1/rich-picture/RP01.jpeg)](../assets/img/seminario1/rich-picture/RP01.jpeg)
 <br/>
 Figura 5: Esboço no Papel - Visão da Cozinha. Autor: [Sergio Cipriano](https://github.com/sergiosacj)
 
-[![RP02](../assets/img/RP02.jpeg)](../assets/img/RP02.jpeg)
+[![RP02](../assets/img/seminario1/rich-picture/RP02.jpeg)](../assets/img/seminario1/rich-picture/RP02.jpeg)
 <br/>
 Figura 6: Esboço no Papel - Visão do Cliente. Autor: [Sergio Cipriano](https://github.com/sergiosacj)
 
-[![RP03](../assets/img/RP03.jpg)](../assets/img/RP03.jpg)
+[![RP03](../assets/img/seminario1/rich-picture/RP03.jpg)](../assets/img/seminario1/rich-picture/RP03.jpg)
 <br/>
 Figura 7: Esboço no Papel - Visão da Gerência. Autor: [Eduarda Servidio](https://github.com/ServideoEC)
 
-[![RP04](../assets/img/RP04.jpg)](../assets/img/RP04.jpg)
+[![RP04](../assets/img/seminario1/rich-picture/RP04.jpg)](../assets/img/seminario1/rich-picture/RP04.jpg)
 <br/>
 Figura 8: Esboço no Papel - Visão do Garçom. Autor: [Eduarda Servidio](https://github.com/ServideoEC)
 
@@ -90,3 +90,4 @@ Figura 8: Esboço no Papel - Visão do Garçom. Autor: [Eduarda Servidio](https:
 | 02/08/2021 | 1.7    | Adicionando pontuação nos tópicos          | [Sergio Cipriano](https://github.com/sergiosacj)                                             |
 | 02/08/2021 | 1.8    | Adicionando links nas imagens              | [Sergio Cipriano](https://github.com/sergiosacj)                                             |
 | 03/08/2021 | 1.9    | Arrumando paths das imagens                | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |
+| 04/08/2021 | 2.0    | Arrumando espaçamento e path das imagens   | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |

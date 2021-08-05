@@ -11,28 +11,28 @@
 ### 2.1. Aplicação Cliente
 
 - Home e Cardápio
-  [![imagem1](../assets/img/aplicação-cliente-1.jpg)](../assets/img/aplicação-cliente-1.jpg)
+  [![imagem1](../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-cliente-1.jpg)](../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-cliente-1.jpg)
 
 - Após selecionar cardápio, Detalhes dos pedidos e Extrato
-  [![imagem2](../assets/img/aplicação-cliente-2.jpg)](../assets/img/aplicação-cliente-2.jpg)
+  [![imagem2](../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-cliente-2.jpg)](../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-cliente-2.jpg)
 
 ### 2.2. App Garçom
 
 - Home e Detalhes
-  [![imagem3](../assets/img/aplicação-garçom.jpg)](../assets/img/aplicação-garçom.jpg)
+  [![imagem3](../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-garçom.jpg)](../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-garçom.jpg)
 
 ### 2.3. Aplicação Cozinha
 
 - Home e Detalhes
-  [![imagem4](../assets/img/aplicação-cozinha.jpg)](../assets/img/aplicação-cozinha.jpg)
+  [![imagem4](../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-cozinha.jpg)](../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-cozinha.jpg)
 
 ### 2.4. Aplicação Gerenciamento
 
 - Home e Pedidos
-  [![imagem5](../assets/img/aplicação-gerente-1.jpg)](../assets/img/aplicação-gerente-1.jpg)
+  [![imagem5](../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-gerente-1.jpg)](../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-gerente-1.jpg)
 
 - Mesas, Cardápio e Cadastro mesas
-  [![imagem6](../assets/img/aplicação-gerente-2.jpg)](../assets/img/aplicação-gerente-2.jpg)
+  [![imagem6](../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-gerente-2.jpg)](../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-gerente-2.jpg)
 
 ## 3. Resultado
 
@@ -74,4 +74,4 @@
 | :--------- | :----- | :------------------------------------------------- | :------------------------------------------------------------------------------------------- |
 | 31/07/2021 | 1.0    | Adição do documento e criação dos tópicos 1, 2 e 3 | [Emily Dias](https://github.com/emysdias)                                                    |
 | 02/08/2021 | 1.1    | Adição do subtópico 2.4 e tópico 3                 | [Emily Dias](https://github.com/emysdias)                                                    |
-| 04/08/2021 | 1.2    | Arrumando espaçamento                              | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |
+| 04/08/2021 | 1.2    | Arrumando espaçamento e path das imagens           | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |

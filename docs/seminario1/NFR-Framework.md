@@ -12,11 +12,11 @@
 
 ### 3.1. Legenda
 
-[![Legenda-NFR](../assets/img/Legenda-NFR.png)](../assets/img/Legenda-NFR.png)
+[![Legenda-NFR](../assets/img/seminario1/NFR/Legenda-NFR.png)](../assets/img/seminario1/NFR/Legenda-NFR.png)
 
 ### 3.1. NFRF Geral
 
-[![NFR](../assets/img/NFR.png)](../assets/img/NFR.png)
+[![NFR](../assets/img/seminario1/NFR/NFR.png)](../assets/img/seminario1/NFR/NFR.png)
 
 ## 4. Referências
 
@@ -28,9 +28,9 @@
 
 ## Histórico de Revisões
 
-| Data       | Versão | Descrição                        | Autor(es)                                                                                    |
-| :--------- | :----- | :------------------------------- | :------------------------------------------------------------------------------------------- |
-| 29/07/2021 | 1.0    | Criação do Diagrama NFR          | [Abner Filipe](https://github.com/abner423)                                                  |
-| 30/07/2021 | 1.1    | Adição da estrutura do documento | [Abner Filipe](https://github.com/abner423)                                                  |
-| 03/08/2021 | 1.2    | Arrumando paths das imagens      | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |
-| 04/08/2021 | 1.3    | Arrumando espaçamento            | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |
+| Data       | Versão | Descrição                                | Autor(es)                                                                                    |
+| :--------- | :----- | :--------------------------------------- | :------------------------------------------------------------------------------------------- |
+| 29/07/2021 | 1.0    | Criação do Diagrama NFR                  | [Abner Filipe](https://github.com/abner423)                                                  |
+| 30/07/2021 | 1.1    | Adição da estrutura do documento         | [Abner Filipe](https://github.com/abner423)                                                  |
+| 03/08/2021 | 1.2    | Arrumando paths das imagens              | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |
+| 04/08/2021 | 1.3    | Arrumando espaçamento e path das imagens | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |
