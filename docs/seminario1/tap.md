@@ -1,7 +1,7 @@
 # Termo de abertura do projeto
 
 ## 1. Introdução
-Este documento tem por objetivo a apresentação do projeto **Ta Na Mesa**, abordado na disciplina Arquitetura e Desenho de Software. Ele por sua vez traz informações relevantes sobre o que se trata o projeto, riscos levantados, principais requisitos de alto nível e respectivamente uma análise do custo do projeto.
+&emsp;&emsp; Este documento tem por objetivo a apresentação do projeto **Ta Na Mesa**, abordado na disciplina Arquitetura e Desenho de Software. Ele por sua vez traz informações relevantes sobre o que se trata o projeto, riscos levantados, principais requisitos de alto nível e respectivamente uma análise do custo do projeto.
 
 ## 2. Stakeholders
 | Matrícula   | Membro                             | GitHub                                                     |
@@ -21,15 +21,15 @@ Este documento tem por objetivo a apresentação do projeto **Ta Na Mesa**, abor
 Milene Serrano
 
 ## 3. Descrição do Projeto
-O **Ta Na Mesa** é uma aplicação que visa melhorar a experiência do consumidor dentro de um restaurante ou qualquer outro tipo de estabelecimento que fornece comida, mostrando o cardapio ao cliente e permitindo que ele faça um pedido sem precisar chamar um atendente ou garçom.
+&emsp;&emsp; O **Ta Na Mesa** é uma aplicação que visa melhorar a experiência do consumidor dentro de um restaurante ou qualquer outro tipo de estabelecimento que fornece comida, mostrando o cardapio ao cliente e permitindo que ele faça um pedido sem precisar chamar um atendente ou garçom.
 
 ## 4. Propósito e Justificativa
-O propósito do **Ta Na Mesa** é deixar o processo de pedidos mais eficiente e menos propício ao erro, além de fornecer ao cliente a opção de não precisar de um atendente para continuar seu pedido. É comum termos erros de pedidos ou desentendimentos durante o atendimento, além de fornecer uma experiência melhor ao cliente de não precisar ser atendido por um atendente que não foi bem treinado ou não possui a habilidade de atendimento.  
+&emsp;&emsp; O propósito do **Ta Na Mesa** é deixar o processo de pedidos mais eficiente e menos propício ao erro, além de fornecer ao cliente a opção de não precisar de um atendente para continuar seu pedido. É comum termos erros de pedidos ou desentendimentos durante o atendimento, além de fornecer uma experiência melhor ao cliente de não precisar ser atendido por um atendente que não foi bem treinado ou não possui a habilidade de atendimento.  
 
 ## 5. Objetivos Mensuráveis do Projeto e Critérios de Sucesso Relacionados
-O objetivo principal do **Ta Na Mesa** é melhorar a experiência do consumidor do estabelecimento e deixar todo o processo de pedidos mais eficiente e eficaz.
+&emsp;&emsp; O objetivo principal do **Ta Na Mesa** é melhorar a experiência do consumidor do estabelecimento e deixar todo o processo de pedidos mais eficiente e eficaz.
 
-Na tabela abaixo estão listados os objetivos e seus respectivos critérios de sucesso:
+&emsp;&emsp; Na tabela abaixo estão listados os objetivos e seus respectivos critérios de sucesso:
 
 |Objetivo|Critérios de Sucesso|
 |--------|--------------------|
@@ -37,7 +37,7 @@ Na tabela abaixo estão listados os objetivos e seus respectivos critérios de s
 |Melhorar o processo de realização de pedidos, deixando-o mais eficiente e menos propício a erros.|-Acelerar o processo<br>-Não permitir erros na realização de pedidos por parte do cliente<br>-Deixar os garçoms/atendentes livres para entregarem os pedidos| 
 
 ## 6. Requisitos de Alto Nível
-A solução, em alto nível, deverá seguir as seguintes diretrizes:
+&emsp;&emsp; A solução, em alto nível, deverá seguir as seguintes diretrizes:
 * Deverá estar disponível em cada mesa do estabelecimento através de um tablet ou celular fornecido pelo restaurante;
 * Deverá ter um design simples, que seja objetivo para que o usuário consiga realizar com rapidez o que deseja e que ainda trasmita segurança e conforto para o mesmo;
 * Os dados devem ser armazenados de forma segura não sendo possível acessar os pedidos de outra mesa pela aplicação de uma mesa específica;
@@ -59,11 +59,11 @@ A solução, em alto nível, deverá seguir as seguintes diretrizes:
 
 ## 8. Estimativa de Custo
 
-Valores fixos mensais se alongam por 4 meses que é o prazo do projeto.
+&emsp;&emsp; Valores fixos mensais se alongam por 4 meses que é o prazo do projeto.
 
 ### 8.1. Custo de Mão de Obra
 
-Para a mão de obra foi levado em consideração as 8 pessoas que estão participando do projeto, sendo contratadas como Desenvolvedores Júnior dentro do projeto.
+&emsp;&emsp; Para a mão de obra foi levado em consideração as 8 pessoas que estão participando do projeto, sendo contratadas como Desenvolvedores Júnior dentro do projeto.
 Com o levantamento dentro do Site Glassdoor, chegou-se a um valor médio de R$ 2.810,00 como salário médio dessa categoria em Brasília. Foi considerado 4 meses de projeto que é o tempo que irá levar a disciplina.
 
 |Papel|Salário|Quantidade de Pessoas|Preço Total|
@@ -72,21 +72,21 @@ Com o levantamento dentro do Site Glassdoor, chegou-se a um valor médio de R$ 2
 
 ### 8.2. Logística e Aquisições
 
-Para o levantamento de custos foram considerados computadores com a especificação de um processador i5, 256GB de Espaço de Armazenamento SSD, 8 Gb de memória RAM, sendo eles notebooks da marca Dell com o custo, até o dia 05/08/2021, de R$ 4.099,00.
+&emsp;&emsp; Para o levantamento de custos foram considerados computadores com a especificação de um processador i5, 256GB de Espaço de Armazenamento SSD, 8 Gb de memória RAM, sendo eles notebooks da marca Dell com o custo, até o dia 05/08/2021, de R$ 4.099,00.
 
 ### 8.3. Infraestrutura
 
-Considerando uma cultura de DevOps, popular atualmente, e tecnologias populares para *deploy* e orquestração de aplicações conteinerizadas, como o Kubernetes, faz-se necessário uma infraestrutura capaz de sustentar diferentes ambientes e que seja tolerante a falhas.
+&emsp;&emsp; Considerando uma cultura de DevOps, popular atualmente, e tecnologias populares para *deploy* e orquestração de aplicações conteinerizadas, como o Kubernetes, faz-se necessário uma infraestrutura capaz de sustentar diferentes ambientes e que seja tolerante a falhas.
 
-Vamos considerar o serviço da Heroku para realizarmos os deploys das APIs da aplicação, que fornece seus serviços de graça para estudantes, então não vamos precisar nos preocupar com esses custos.
+&emsp;&emsp; Vamos considerar o serviço da Heroku para realizarmos os deploys das APIs da aplicação, que fornece seus serviços de graça para estudantes, então não vamos precisar nos preocupar com esses custos.
 
-Já para o banco de dados, utilizaremos o serviço Relational Database Service(RDS) da AWS, que possui um nível gratuito de:
+&emsp;&emsp; Já para o banco de dados, utilizaremos o serviço Relational Database Service(RDS) da AWS, que possui um nível gratuito de:
 * 750 horas de uso de instâncias db.t2.micro Single-AZ do Amazon RDS para execução de MySQL, MariaDB, PostgreSQL, Oracle BYOL ou SQL Server (executando SQL Server Express Edition) – horas suficientes para executar uma instância de banco de dados continuamente todos os meses
 * 20 GB de armazenamento de banco de dados de SSD
 * 20 GB de armazenamento de backup para seus backups de banco de dados automatizados e quaisquer snapshots de banco de dados iniciados por usuário
-Esses níveis são suficientes para nossa aplicação por agora.
+&emsp;&emsp; Esses níveis são suficientes para nossa aplicação por agora.
 
-Para realizar o deploy do aplicativo, iremos primeiramente subir na loja Play Store, que permite que publiquemos o aplicativo sem custos adicionais.
+&emsp;&emsp; Para realizar o deploy do aplicativo, iremos primeiramente subir na loja Play Store, que permite que publiquemos o aplicativo sem custos adicionais.
 
 Obs: Todos os valores referidos aqui são referentes ao mês de Agosto de 2021.
 
@@ -101,7 +101,7 @@ Obs: Todos os valores referidos aqui são referentes ao mês de Agosto de 2021.
 
 ## 9. Critérios de Pronto para o Projeto
 
-A finalização do projeto do **Ta Na Mesa** será alcançado quando todo o software estiver desenvolvido e todos os testes e documentação técnica do projeto estiver implementado dentro dos limites de prazo e custos estabelecidos neste documento.
+&emsp;&emsp; A finalização do projeto do **Ta Na Mesa** será alcançado quando todo o software estiver desenvolvido e todos os testes e documentação técnica do projeto estiver implementado dentro dos limites de prazo e custos estabelecidos neste documento.
 
 ## Referências
 
@@ -125,3 +125,4 @@ A finalização do projeto do **Ta Na Mesa** será alcançado quando todo o soft
 | :--------- | :----- | :-------- | :------------------------- |
 | 03/08/2021 |  0.1   | Criação da estrutura do documento, relatório das primeiras informações do projeto.| [Tiago Samuel](https://github.com/tsrrodrigues) |
 | 05/08/2021 |  1.0   | Finalização da primeira versão do documento.| [Tiago Samuel](https://github.com/tsrrodrigues) |
+| 05/08/2021 |  1.1   | Adição de indentação nos parágrafos.| [Tiago Samuel](https://github.com/tsrrodrigues) |
