@@ -103,7 +103,7 @@ responsável pela cozinha.
 
 > - BARBOSA, Simone; DINIZ, Bruno. Interação Humano-Computador, Editora Elsevier, Rio de Janeiro, 2010.
 
-## 6. Histórico de Revisões
+## Histórico de Revisões
 
 |    Data    | Versão |                    Descrição                    |                                          Autor(es)                                           |
 | :--------: | :----: | :---------------------------------------------: | :------------------------------------------------------------------------------------------: |

@@ -165,7 +165,7 @@ How much - Quanto vai custar a implementação?
 
 > - Projeto Requisitos de Software. Telegram. Disponível em: [aqui](https://requisitos-de-software.github.io/2020.2-Telegram/). Acesso em: 01 de agosto de 2021.
 
-## 7. Histórico de Revisões
+## Histórico de Revisões
 
 | Data       | Versão | Descrição                                | Autor(es)                                                                                    |
 | :--------- | :----- | :--------------------------------------- | :------------------------------------------------------------------------------------------- |

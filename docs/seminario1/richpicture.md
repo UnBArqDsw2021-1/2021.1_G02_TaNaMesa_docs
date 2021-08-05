@@ -76,7 +76,7 @@ Figura 8: Esboço no Papel - Visão do Garçom. Autor: [Eduarda Servidio](https:
 > - Rich Pictures. BetterEvaluation. Disponível em: https://www.betterevaluation.org/en/evaluation-options/richpictures, acesso em: 17 de fev. de 2021;
 > - The Rich Picture: A Tool forReasoning About Work Context. Andrew Monk and Steve Howard. Disponível em: https://www.ics.uci.edu/~wscacchi/Software-Process/Readings/RichPicture.pdf, acesso em: 17 de fev. de 2021.
 
-## 4. Histórico de Revisões
+## Histórico de Revisões
 
 | Data       | Versão | Descrição                                  | Autor(es)                                                                                    |
 | :--------- | :----- | :----------------------------------------- | :------------------------------------------------------------------------------------------- |
