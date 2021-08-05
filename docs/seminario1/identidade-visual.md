@@ -10,7 +10,7 @@ A identidade visual, no nosso projeto, é o conjunto de todas as formas visuais 
 | **-** | **Identidade Visual**  |
 |--|--|
 |**Descrição**|  Manual de identidade visual | 
-|**Autor**|      [Eduarda Servidio](https://github.com/ServideoEC) e [Daniel Primo](https://github.com/danieldagerom) |
+|**Autores**|      [Eduarda Servidio](https://github.com/ServideoEC) e [Daniel Primo](https://github.com/danieldagerom) |
 
 
 ## 3. Ferramentas utilizadas
@@ -28,3 +28,4 @@ PONTO DESIGN. Identidade Visual. Disponível em: <https://www.pontodesign.com.br
 | Data       | Versão | Descrição            | Autor(es)                                        |
 | :--------- | :----- | :------------------- | :----------------------------------------------- |
 | 04/08/2021 | 0.1    | Criação do documento e adição dos 5 tópicos | [Eduarda Servidio](https://github.com/ServideoEC)     |
+| 04/08/2021 | 0.2    | Revisão | [Daniel Primo](https://github.com/danieldagerom)     |
