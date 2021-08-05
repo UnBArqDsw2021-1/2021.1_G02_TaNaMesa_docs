@@ -7,7 +7,7 @@ A identidade visual, no nosso projeto, é o conjunto de todas as formas visuais 
 
 <iframe src="https://docs.google.com/presentation/d/1cqHehaKPVooiFK7OJ0o08Ob8CfAje1CwZLQSL7UhIYc/edit?usp=sharing" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-| **RP01** | **Identidade Visual**  |
+| **-** | **Identidade Visual**  |
 |--|--|
 |**Descrição**|  Manual de identidade visual | 
 |**Autor**|      [Eduarda Servidio](https://github.com/ServideoEC) e [Daniel Primo](https://github.com/danieldagerom) |
