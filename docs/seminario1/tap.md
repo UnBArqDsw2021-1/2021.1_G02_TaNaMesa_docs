@@ -4,29 +4,58 @@
 Este documento tem por objetivo a apresentação do projeto **Ta Na Mesa**, abordado na disciplina Arquitetura e Desenho de Software. Ele por sua vez traz informações relevantes sobre o que se trata o projeto, riscos levantados, principais requisitos de alto nível e respectivamente uma análise do custo do projeto.
 
 ## 2. Stakeholders
-|Membro|E-mail|Matrícula|
-|------|------|---------|
-|[Abner Filipe](https://github.com/abner423) |-|-|
-|[Emily Dias](https://github.com/emysdias)|-|-|
-|[Lucas Boaventura](https://github.com/lboaventura25)|-|-|
-|[Sergio Cipriano](https://github.com/sergiosacj)|-|-|
-|[Hérick Portugues](https://github.com/herickport)|-|-|
-|[Eduarda Servidio](https://github.com/ServideoEC)|-|-|
-|[Ítalo Alves](https://github.com/alvesitalo)|-|-|
-|[Daniel Primo](https://github.com/danieldagerom)|-|-|
+| Matrícula   | Membro                             | GitHub                                                     |
+| ----------  | ---------------------------------- | ---------------------------------------------------------- |
+| 19/0041871  | Abner Filipe Cunha Ribeiro         | [@abner423](https://github.com/abner423)                   |
+| 18/0041444  | Brenda Vitória dos Santos          | [@brendavsantos](https://github.com/brendavsantos)         |
+| 18/0063162  | Daniel Primo de Melo               | [@danieldagerom](https://github.com/danieldagerom)         |
+| 17/0161897  | Eduarda Servidio Claudino          | [@ServidioEC](https://github.com/ServidioEC)               |
+| 18/0015966  | Emily Dias Sousa                   | [@emysdias](https://github.com/emysdias)                   |
+| 18/0033034  | Hérick Ferreira de Souza Portugues | [@herickport](https://github.com/herickport)               |
+| 18/0113666  | Ítalo Alves Guimarães              | [@alvesitalo](https://github.com/alvesitalo)               |
+| 18/0114093  | Lucas Ursulino Boaventura          | [@lboaventura25](https://github.com/lboaventura25)         |
+| 18/0037439  | Sergio de Almeida Cipriano Júnior  | [@sergiosacj](https://github.com/sergiosacj)               |
+| 18/0114689  | Tiago Samuel Rodrigues             | [@tsrrodrigues](https://github.com/tsrrodrigues)           |
 
 ### Orientadora
 Milene Serrano
 
 ## 3. Descrição do Projeto
+O **Ta Na Mesa** é uma aplicação que visa melhorar a experiência do consumidor dentro de um restaurante ou qualquer outro tipo de estabelecimento que fornece comida, mostrando o cardapio ao cliente e permitindo que ele faça um pedido sem precisar chamar um atendente ou garçom.
 
 ## 4. Propósito e Justificativa
+O propósito do **Ta Na Mesa** é deixar o processo de pedidos mais eficiente e menos propício ao erro, além de fornecer ao cliente a opção de não precisar de um atendente para continuar seu pedido. É comum termos erros de pedidos ou desentendimentos durante o atendimento, além de fornecer uma experiência melhor ao cliente de não precisar ser atendido por um atendente que não foi bem treinado ou não possui a habilidade de atendimento.  
 
 ## 5. Objetivos Mensuráveis do Projeto e Critérios de Sucesso Relacionados
+O objetivo principal do **Ta Na Mesa** é melhorar a experiência do consumidor do estabelecimento e deixar todo o processo de pedidos mais eficiente e eficaz.
+
+Na tabela abaixo estão listados os objetivos e seus respectivos critérios de sucesso:
+
+|Objetivo|Critérios de Sucesso|
+|--------|--------------------|
+|Melhorar a experiência do consumidor no estabelecimento|-Possibilidade de realizar um pedido sem a necessidade de receber um atendimento pessoal por parte de um garçom<br>-Mostrar o cardápio do estabelecimento<br>-Mostrar o extrato de pedidos realizados|
+|Melhorar o processo de realização de pedidos, deixando-o mais eficiente e menos propício a erros.|-Acelerar o processo<br>-Não permitir erros na realização de pedidos por parte do cliente<br>-Deixar os garçoms/atendentes livres para entregarem os pedidos| 
 
 ## 6. Requisitos de Alto Nível
+A solução, em alto nível, deverá seguir as seguintes diretrizes:
+* Deverá estar disponível em cada mesa do estabelecimento através de um tablet ou celular fornecido pelo restaurante;
+* Deverá ter um design simples, que seja objetivo para que o usuário consiga realizar com rapidez o que deseja e que ainda trasmita segurança e conforto para o mesmo;
+* Os dados devem ser armazenados de forma segura não sendo possível acessar os pedidos de outra mesa pela aplicação de uma mesa específica;
+* O estabelecimento poderá disponibilizar seus produtos no cardápio;
+* A cozinha deverá receber os pedidos realizados;
+* Os garçoms deverão ter controle sob as mesas que estão atendendo;
+* Caso o cliente queira, deverá ser possível chamar um atendente;
 
 ## 7. Riscos de Alto Nível
+
+| Risco | Impacto |  Ação preventiva | Ação corretiva |
+| ---------- | ----------	| ---------------- | -------------- |
+| Defeito no Equipamento | Atraso | Manutenção periódica | Pareamento na equipe  |
+|Equipe não adaptada com tecnologia| Produto não ser concluído | Treinamentos| Pareamento e disposição de ajuda externa, se necessário, limitando-se apenas a encontrar a solução |
+|Abandono da disciplina por membro da equipe |  Sobrecarga da equipe  |   	        Estar sempre em comunicação ativa para que os membros se sintam motivados|   	Revisão do projeto e replanejamento da entrega|
+|Problemas de comunicação|Problemas de gerenciamento|Estar sempre alinhado à equipe quanto às atividades e dificuldades|Verificar o que causou a falha de comunicação para efetivamente integrar a equipe|
+|Produto não atende necessidade do cliente e estabelecimento|Insatisfação do estabelecimento|Avaliar sempre as métricas de valor para tomar decisões rapidamente|Refinar o entendimento de valor do cliente|
+|Membro faltante nas reuniões semanais|Falha de comunicação|Definir datas que a maioria dos membros estão disponíveis|Alinhar o membro sobre a reunião|
 
 ## 8. Estimativa de Custo
 
@@ -39,28 +68,25 @@ Com o levantamento dentro do Site Glassdoor, chegou-se a um valor médio de R$ 2
 
 |Papel|Salário|Quantidade de Pessoas|Preço Total|
 |--------|--------------|----------|-----------|
-|Desenvolvedores Júnior|R$ 2.810,00 mensais| 8 |R$ 89.920,00|
+|Desenvolvedores Júnior|R$ 2.810,00 mensais| 10 |R$ 28.100,00|
 
 ### 8.2. Logística e Aquisições
 
-Para o levantamento de custos foram considerados computadores com a especificação de um processador i5, 1 Tb de Espaço de Armazenamento, 8 Gb de memória RAM, sendo eles notebooks da marca Dell com o custo, até o dia 03/08/2021, de R$ 3.000,00.
+Para o levantamento de custos foram considerados computadores com a especificação de um processador i5, 256GB de Espaço de Armazenamento SSD, 8 Gb de memória RAM, sendo eles notebooks da marca Dell com o custo, até o dia 05/08/2021, de R$ 4.099,00.
 
 ### 8.3. Infraestrutura
 
 Considerando uma cultura de DevOps, popular atualmente, e tecnologias populares para *deploy* e orquestração de aplicações conteinerizadas, como o Kubernetes, faz-se necessário uma infraestrutura capaz de sustentar diferentes ambientes e que seja tolerante a falhas.
 
-Vamos considerar então xxxxxx máquinas virtuais, em um serviço de computação em nuvem e com uma configuração mínima capaz de rodar serviços e conteiners *docker*. 
+Vamos considerar o serviço da Heroku para realizarmos os deploys das APIs da aplicação, que fornece seus serviços de graça para estudantes, então não vamos precisar nos preocupar com esses custos.
 
-No site da Digital Ocean uma máquina com xxxxGb de mémoria RAM, xxx núcleo de CPU e xxxxGb de armazenamento está custando $xxxx dólares, considerando o dólar custando R$xxxxxx reais, o custo final de uma máquina seria R$ xxxxx reais.
+Já para o banco de dados, utilizaremos o serviço Relational Database Service(RDS) da AWS, que possui um nível gratuito de:
+* 750 horas de uso de instâncias db.t2.micro Single-AZ do Amazon RDS para execução de MySQL, MariaDB, PostgreSQL, Oracle BYOL ou SQL Server (executando SQL Server Express Edition) – horas suficientes para executar uma instância de banco de dados continuamente todos os meses
+* 20 GB de armazenamento de banco de dados de SSD
+* 20 GB de armazenamento de backup para seus backups de banco de dados automatizados e quaisquer snapshots de banco de dados iniciados por usuário
+Esses níveis são suficientes para nossa aplicação por agora.
 
-Já o Domínio arrecadado na GoDaddy(xxxxxx) com o endereço: <xxxxxxxxxxx>. Está saindo por cerca de R$ xxxxxx anuais.
-
-
-
-| Recursos                                         | Preço Unitário | Quantidade | Preço Total |
-| ------------------------------------------------ | -------------- | ---------- | ----------- |
-| Máquina Virtual                                  | R$ xxxxx       | xxxx          | R$ xxxxx   |
-| Domínio                                          | R$ xxxxx       | -          | R$ xxxxx    |
+Para realizar o deploy do aplicativo, iremos primeiramente subir na loja Play Store, que permite que publiquemos o aplicativo sem custos adicionais.
 
 Obs: Todos os valores referidos aqui são referentes ao mês de Agosto de 2021.
 
@@ -68,10 +94,10 @@ Obs: Todos os valores referidos aqui são referentes ao mês de Agosto de 2021.
 
 |Tipo de Custo|Valor|
 |-------------|-----|
-|Custo de Mão de Obra|R$ 89.920,00|
-|Logística e Aquisições| R$ 32.000,00|
-|Infraestrutura| R$ xxxxx|
-|**Total**| **R$ xxxxxxxxx**|
+|Custo de Mão de Obra|R$ 112.400,00|
+|Logística e Aquisições| R$ 40.990,00|
+|Infraestrutura| R$ 0,00|
+|**Total**| **R$ 153.390,00**|
 
 ## 9. Critérios de Pronto para o Projeto
 
@@ -79,20 +105,23 @@ A finalização do projeto do **Ta Na Mesa** será alcançado quando todo o soft
 
 ## Referências
 
-> - Project Charter Template. Disponível em: <https://github.com/fga-eps-mds/A-Disciplina/blob/master/GPP_Material/04%20-%20inicializacao/Project-Charter.doc>. Acesso em 19 de agosto de 2019.
+> - Documentação Translate-me, 2019. Página TAP - Termo de Abertura do Projeto. Disponível em: <https://translate-me.github.io/docs/documentos/gerencia/tap/>. Acesso em 05 de Agosto de 2021.
 
-> - Documentação Translate-me, 2019. Página TAP - Termo de Abertura do Projeto. Disponível em: <https://translate-me.github.io/docs/documentos/gerencia/tap/>. Acesso em 20 de Agosto de 2019.
+> - Documentação Kalkuli, 2018. Página Termo de Abertura do Projeto. Disponível em: <https://fga-eps-mds.github.io/2018.2-Kalkuli/docs/tap>. Acesso em 05 de Agosto de 2021.
 
-> - Documentação Kalkuli, 2018. Página Termo de Abertura do Projeto. Disponível em: <https://fga-eps-mds.github.io/2018.2-Kalkuli/docs/tap>. Acesso em 20 de Agosto de 2019.
+> - Documentaçaõ QRComer, 2019. Página Termo de Abertura do Projeto. Disponível em: <https://fga-desenho-2019-2.github.io/Wiki/seminario1/tap/> Acesso em 05 de Agosto de 2021.
 
-> - Glassdoor Company. Página Salários de Desenvolvedor Júnior em Área de Brasília. Disponível em: <https://www.glassdoor.com.br/Sal%C3%A1rios/bras%C3%ADlia-desenvolvedor-j%C3%BAnior-sal%C3%A1rio-SRCH_IL.0,8_IM1010_KO9,29.htm>. Acesso em 20 de Agosto de 2019.
+> - Glassdoor Company. Página Salários de Desenvolvedor Júnior em Área de Brasília. Disponível em: <https://www.glassdoor.com.br/Sal%C3%A1rios/bras%C3%ADlia-desenvolvedor-j%C3%BAnior-sal%C3%A1rio-SRCH_IL.0,8_IM1010_KO9,29.htm>. Acesso em 05 de Agosto de 2021.
 
-> - Dell. Página Inspiron 15 3000. Disponível em: <https://www.dell.com/pt-br/shop/notebooks-dell/inspiron-15-3000/spd/inspiron-15-3567-laptop/ci3567w1241bf>. Acesso em 20 de Agosto de 2019.
+> - Dell. Inspiron I15-3501-A45P. Disponível em: <https://www.pontofrio.com.br/notebook-dell-core-i5-1135g7-8gb-256gb-ssd-tela-15-6-windows-10-inspiron-i15-3501-a45p-55026262/p/55026262?utm_medium=cpc&utm_source=GP_PLA&IdSku=55026262&idLojista=16&utm_campaign=1p_smart-shopping>. Acesso em 05 de Agosto de 2021.
 
-> - Digital Ocean. Página Pricing. Disponível em: <https://www.digitalocean.com/pricing/>. Acesso em 20 de Agosto de 2019.
+> - RDS Free Tier. Disponível em: <https://aws.amazon.com/pt/rds/free/> Acesso em 05 de Agosto de 2021.
+
+> - Heroku Pricing. Disponível me: <https://www.heroku.com/pricing> Acesso em 05 de Agosto de 2021.
 
 ## Histórico de Revisões
 
 |    Data    | Versão | Descrição |         Autor(es)          |
 | :--------- | :----- | :-------- | :------------------------- |
 | 03/08/2021 |  0.1   | Criação da estrutura do documento, relatório das primeiras informações do projeto.| [Tiago Samuel](https://github.com/tsrrodrigues) |
+| 05/08/2021 |  1.0   | Finalização da primeira versão do documento.| [Tiago Samuel](https://github.com/tsrrodrigues) |
