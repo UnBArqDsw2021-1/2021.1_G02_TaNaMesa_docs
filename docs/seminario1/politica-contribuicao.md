@@ -63,13 +63,13 @@ Exemplo:
     2-vision-document
 
 ## 5 Política de Commits
-Os commits devem ser atômicos (uma contribuição pequena para resolver um problema específico). A mensagem do commit deve relatar o que foi feito de maneira sucinta e direta, além disso ela precisa estar em português, começar com um verbo e com a primeira letra maiúscula. 
+Os commits devem ser atômicos (uma contribuição pequena para resolver um problema específico). A mensagem do commit deve começar com o numero da issue no github entre parênteses, deve conter o que foi feito de maneira sucinta e direta, além disso ela precisa estar em português, começar com um verbo e com a primeira letra maiúscula. 
 
 Contribuições feitas por mais de uma pessoa devem conter o comando "Co-authored-by" para identificar todos os autores envolvidos.
 
 Exemplo de contribuição feita por um autor:
 
-    git commit -m "Adiciona estrutura inicial do documento de identidade visual"
+    git commit -m "(#18) Adiciona estrutura inicial do documento de identidade visual"
 
 Exemplo de contribuição feita por mais de um autor:
 
