@@ -2,9 +2,9 @@
 
 ## 1. Introdução
 
-&emsp;&emsp;O protótipo de baixa fidelidade é a melhor alternativa para um início de projeto, onde pode ser identificado problemas de usabilidade, pode-se testar conceitos da aplicação e descobrir o valor que o produto final pode gerar aos seus clientes.
+&emsp;&emsp; O protótipo de baixa fidelidade é a melhor alternativa para um início de projeto, onde pode ser identificado problemas de usabilidade, pode-se testar conceitos da aplicação e descobrir o valor que o produto final pode gerar aos seus clientes.
 
-&emsp;&emsp;O protótipo de baixa fidelidade é barato e rápido de fazer, além de servir como base para a criação de novos protótipos, com níveis maiores de fidelidade, durante o desenvolvimento do produto.
+&emsp;&emsp; O protótipo de baixa fidelidade é barato e rápido de fazer, além de servir como base para a criação de novos protótipos, com níveis maiores de fidelidade, durante o desenvolvimento do produto.
 
 ## 2. Protótipo
 
@@ -70,7 +70,8 @@
 
 ## Histórico de Revisões
 
-| Data       | Versão | Descrição                                          | Autor(es)                                 |
-| :--------- | :----- | :------------------------------------------------- | :---------------------------------------- |
-| 31/07/2021 | 1.0    | Adição do documento e criação dos tópicos 1, 2 e 3 | [Emily Dias](https://github.com/emysdias) |
-| 02/08/2021 | 1.1    | Adição do subtópico 2.4 e tópico 3                 | [Emily Dias](https://github.com/emysdias) |
+| Data       | Versão | Descrição                                          | Autor(es)                                                                                    |
+| :--------- | :----- | :------------------------------------------------- | :------------------------------------------------------------------------------------------- |
+| 31/07/2021 | 1.0    | Adição do documento e criação dos tópicos 1, 2 e 3 | [Emily Dias](https://github.com/emysdias)                                                    |
+| 02/08/2021 | 1.1    | Adição do subtópico 2.4 e tópico 3                 | [Emily Dias](https://github.com/emysdias)                                                    |
+| 04/08/2021 | 1.2    | Arrumando espaçamento                              | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |

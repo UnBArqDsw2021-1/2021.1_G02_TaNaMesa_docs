@@ -2,11 +2,11 @@
 
 ## 1. Introdução
 
-Brainstorming é uma técnica utilizada para propor soluções a um problema específico e dessa forma deixar mais claro o objetivo ou tema proposto. Consiste em uma reunião também chamada de tempestade de ideias, na qual os participantes devem ter liberdade de expor suas sugestões e debater sobre as contribuições dos colegas.
+&emsp;&emsp; Brainstorming é uma técnica utilizada para propor soluções a um problema específico e dessa forma deixar mais claro o objetivo ou tema proposto. Consiste em uma reunião também chamada de tempestade de ideias, na qual os participantes devem ter liberdade de expor suas sugestões e debater sobre as contribuições dos colegas.
 
 ## 2. Brainstorming
 
-Para a realização do nosso brainstorming, optamos por dividir em diferentes reuniões por meio de diferentes métodos mas sempre guiado por um lider e conversas antes para ambientação e contextualização de todos. Os resultados podem ser observados logo em seguida:
+&emsp;&emsp; Para a realização do nosso brainstorming, optamos por dividir em diferentes reuniões por meio de diferentes métodos mas sempre guiado por um lider e conversas antes para ambientação e contextualização de todos. Os resultados podem ser observados logo em seguida:
 
 ### 2.1 Brainstorming para o tema do projeto
 
@@ -30,3 +30,4 @@ Para a realização do nosso brainstorming, optamos por dividir em diferentes re
 | :--------- | :----- | :--------------------------------- | :------------------------------------------------------------------------------------------- |
 | 31/07/2021 | 1.0    | Criação do Documento Brainstorming | [Abner Filipe](https://github.com/abner423)                                                  |
 | 03/08/2021 | 1.1    | Arrumando paths das imagens        | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |
+| 04/08/2021 | 1.2    | Arrumando espaçamento              | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |

@@ -2,7 +2,7 @@
 
 ## 1. Introdução
 
-&emsp;&emsp;Storytelling é um termo em inglês, que significa contar história. É uma técnica de criação de narrativas, que também pode ser utilizada para que o engenheiro de software identifique o público alvo de seu projeto, qual é o problema que deve ser resolvido e como ele pode ser resolvido.
+&emsp;&emsp; Storytelling é um termo em inglês, que significa contar história. É uma técnica de criação de narrativas, que também pode ser utilizada para que o engenheiro de software identifique o público alvo de seu projeto, qual é o problema que deve ser resolvido e como ele pode ser resolvido.
 
 ## 2. Histórias
 
@@ -74,3 +74,4 @@ Ele consegue gerenciar mesas, adicionar lanches no cardápio e verificar o pagam
 | 02/08/2021 | 1.2    | Revisão do documento        | [Daniel Primo](https://github.com/danieldagerom)                                             |
 | 03/08/2021 | 1.3    | Adição de hístorias         | [Daniel Primo](https://github.com/danieldagerom)                                             |
 | 03/08/2021 | 1.4    | Arrumando paths das imagens | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |
+| 04/08/2021 | 1.5    | Arrumando espaçamento       | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |

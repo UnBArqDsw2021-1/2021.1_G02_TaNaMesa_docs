@@ -2,16 +2,15 @@
 
 ## 1. Introdução
 
-Questionário é uma técnica de elicitação de requisitos. Através dele podemos fazer análises subjetivas, por meio de uma pesquisa com várias pessoas. Antes da criação desse documento foi confeccionado um questionário no [_Google Forms_](https://workspace.google.com/intl/pt-BR/products/forms/?utm_source=google&utm_medium=cpc&utm_campaign=latam-BR-all-pt-dr-bkws-all-all-trial-e-dr-1009897-LUAC0011908&utm_content=text-ad-none-any-DEV_c-CRE_477535133211-ADGP_Hybrid%20%7C%20BKWS%20-%20MIX%20%7C%20Txt%20~%20Forms-KWID_43700057676889044-kwd-10647024857&utm_term=KW_google%20forms-ST_google%20forms&gclid=CjwKCAjwr56IBhAvEiwA1fuqGktqD-lXkUkcdn9v7B8hbBukmFjcpGL4xDynT4RSzGsv2qPdKOBwEBoC_hUQAvD_BwE&gclsrc=aw.ds) a fim de elicitar os requisitos da aplicação **Tá Na Mesa**.
+&emsp;&emsp; Questionário é uma técnica de elicitação de requisitos. Através dele podemos fazer análises subjetivas, por meio de uma pesquisa com várias pessoas. Antes da criação desse documento foi confeccionado um questionário no [_Google Forms_](https://workspace.google.com/intl/pt-BR/products/forms/?utm_source=google&utm_medium=cpc&utm_campaign=latam-BR-all-pt-dr-bkws-all-all-trial-e-dr-1009897-LUAC0011908&utm_content=text-ad-none-any-DEV_c-CRE_477535133211-ADGP_Hybrid%20%7C%20BKWS%20-%20MIX%20%7C%20Txt%20~%20Forms-KWID_43700057676889044-kwd-10647024857&utm_term=KW_google%20forms-ST_google%20forms&gclid=CjwKCAjwr56IBhAvEiwA1fuqGktqD-lXkUkcdn9v7B8hbBukmFjcpGL4xDynT4RSzGsv2qPdKOBwEBoC_hUQAvD_BwE&gclsrc=aw.ds) a fim de elicitar os requisitos da aplicação **Tá Na Mesa**.
 
 ## 2. Metodologia
 
-O questionário possui perguntas que tem por objetivo olhar do ponto de vista dos usuários em potencial da aplicação quais são os principais problemas encontrados ao visitar restaurantes, lanchonetes e semelhantes. Por conseguinte, podemos checar se os problemas apontados pelos usuários seriam resolvidos com a aplicação proposta pelo nosso grupo. O questionário foi divulgado em grupos da faculdade, de familiares e de pessoas conhecidas dos integrates do nosso grupo. Ao total, foram coletadas 94 respostas.
+&emsp;&emsp; O questionário possui perguntas que tem por objetivo olhar do ponto de vista dos usuários em potencial da aplicação quais são os principais problemas encontrados ao visitar restaurantes, lanchonetes e semelhantes. Por conseguinte, podemos checar se os problemas apontados pelos usuários seriam resolvidos com a aplicação proposta pelo nosso grupo. O questionário foi divulgado em grupos da faculdade, de familiares e de pessoas conhecidas dos integrates do nosso grupo. Ao total, foram coletadas 94 respostas.
 
 ## 3. Perguntas
 
-Abaixo estão as perguntas e suas respectivas respostas.
-2021.1_G02_TaNaMesa_docs/docs/assets/img/questionario/pergunta-1.png
+&emsp;&emsp; Abaixo estão as perguntas e suas respectivas respostas.
 
 ### Pergunta 1
 
@@ -99,13 +98,13 @@ Abaixo estão as perguntas e suas respectivas respostas.
 
 ## 4. Análise
 
-De acordo com os resultados levantados 46,8% das pessoas costumam frequentar restaurantes e lanchonetes de 1 a 3 vezes por semana. E desses cerca de 51% preferem o uso de cardápios impressos que de acordo com outras perguntas isso acontece porque os cardápios digitais não geram as mesmas expectativas que os impressos. É necessário que os cardápios digitais envolvam os usuários para se tornar mais interessante e completo que os já existentes.
+&emsp;&emsp; De acordo com os resultados levantados 46,8% das pessoas costumam frequentar restaurantes e lanchonetes de 1 a 3 vezes por semana. E desses cerca de 51% preferem o uso de cardápios impressos que de acordo com outras perguntas isso acontece porque os cardápios digitais não geram as mesmas expectativas que os impressos. É necessário que os cardápios digitais envolvam os usuários para se tornar mais interessante e completo que os já existentes.
 
-Os principais problemas já encontrados pelas pessoas ao fazer o pedido são: dificuldade para chamar o garçom, demora do garçom e demora pra receber o cardápio. Ou seja, muitos problemas se resumem a falhas do garçom ou pouca disponibilidade de garçons nos resturantes. Cardápios pouco detalhados e com poucas imagens também fazem os clientes terem problemas, em alguns momentos disseram que os cardápios digitais possuem pouquissímas imagens, deram a ideia de ter alguns vídeos nos cardápios digitais. Cerca de 84% já vivenciaram alguma situação em que o garçom errou o pedido, o que traz a necessidade de um sistema imparcial que possa gravar os pedidos e ser obsservado pelos clientes para terem certeza de seus pedidos.
+&emsp;&emsp; Os principais problemas já encontrados pelas pessoas ao fazer o pedido são: dificuldade para chamar o garçom, demora do garçom e demora pra receber o cardápio. Ou seja, muitos problemas se resumem a falhas do garçom ou pouca disponibilidade de garçons nos resturantes. Cardápios pouco detalhados e com poucas imagens também fazem os clientes terem problemas, em alguns momentos disseram que os cardápios digitais possuem pouquissímas imagens, deram a ideia de ter alguns vídeos nos cardápios digitais. Cerca de 84% já vivenciaram alguma situação em que o garçom errou o pedido, o que traz a necessidade de um sistema imparcial que possa gravar os pedidos e ser obsservado pelos clientes para terem certeza de seus pedidos.
 
-Em 91% das respostas, quando as pessoas saem com amigos costumam dividir a conta da mesa, 30% gostariam de dividir a conta com os familiares presentes e 30% dividem a conta com seus namorados. E quase 62% das pessoas tiveram problemas em dividir a conta com as pessoas que estavam em sua mesa. As principais dificuldades encontradas são: fazer os cálculos e para lembrar o que pediu, lembrar quanto valem os itens do cardápio, demora no pagamento e porque o resturante só dividia a conta em partes iguais.
+&emsp;&emsp; Em 91% das respostas, quando as pessoas saem com amigos costumam dividir a conta da mesa, 30% gostariam de dividir a conta com os familiares presentes e 30% dividem a conta com seus namorados. E quase 62% das pessoas tiveram problemas em dividir a conta com as pessoas que estavam em sua mesa. As principais dificuldades encontradas são: fazer os cálculos e para lembrar o que pediu, lembrar quanto valem os itens do cardápio, demora no pagamento e porque o resturante só dividia a conta em partes iguais.
 
-Em uma escala de 1 a 5, onde 1 é discordo totalmente e 5 é concordo totalmente. Levando em consideração os que votaram 4 ou 5:
+&emsp;&emsp; Em uma escala de 1 a 5, onde 1 é discordo totalmente e 5 é concordo totalmente. Levando em consideração os que votaram 4 ou 5:
 
 - Cerca de 65% gostariam de ver o cardápio em um tablet instalado nas mesas do estabelecimento.
 
@@ -117,7 +116,7 @@ Em uma escala de 1 a 5, onde 1 é discordo totalmente e 5 é concordo totalmente
 
 ## 5. Requisitos
 
-Após a utilização da técnica de questionário foi possível levantar os requisitos listados abaixo.
+&emsp;&emsp; Após a utilização da técnica de questionário foi possível levantar os requisitos listados abaixo.
 
 | Número | Requisito                                                                                                                                         |
 | :----: | :------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -146,3 +145,4 @@ Após a utilização da técnica de questionário foi possível levantar os requ
 | 02/08/2021 | 1.0    | Adiciona estrutura do documento              | [Lucas Boaventura](https://github.com/lboaventura25) e [Hérick Portugues](https://github.com/herickport) |
 | 02/08/2021 | 1.1    | Adiciona imagens e analise dos questionários | [Lucas Boaventura](https://github.com/lboaventura25) e [Hérick Portugues](https://github.com/herickport) |
 | 03/08/2021 | 1.2    | Arrumando paths das imagens                  | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos)             |
+| 04/08/2021 | 1.3    | Arrumando espaçamento                        | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos)             |
