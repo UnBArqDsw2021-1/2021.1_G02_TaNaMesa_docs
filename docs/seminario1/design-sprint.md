@@ -21,7 +21,7 @@ Para o nosso projeto, foi escolhido a forma mais rápida de realizar a metodolog
 
 ### 2.4. Prototype
 
-&emsp;&emsp; Aqui irá acontecer a elaboração do protótipo da ideia escolhida. Aqui s eutiliza o que é chamado de "realistic looking" para se ter um protótipo bem fidedigno à solução desejada.
+&emsp;&emsp; Aqui irá acontecer a elaboração do protótipo da ideia escolhida. Aqui se utiliza o que é chamado de "realistic looking" para se ter um protótipo bem fidedigno à solução desejada.
 
 ## 3. Propostas de temas analisadas
 
