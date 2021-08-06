@@ -42,7 +42,7 @@ A solução, em alto nível, deverá seguir as seguintes diretrizes:
 
 * Deverá estar disponível em cada mesa do estabelecimento através de um tablet ou celular fornecido pelo restaurante;
 
-* Deverá ter um design simples, que seja objetivo para que o usuário consiga realizar com rapidez o que deseja e que ainda trasmita segurança e conforto para o mesmo;
+* Deverá ter um design simples, que seja objetivo para que o usuário consiga realizar com rapidez o que deseja e que ainda transmita segurança e conforto para o mesmo;
 
 * Os dados devem ser armazenados de forma segura não sendo possível acessar os pedidos de outra mesa pela aplicação de uma mesa específica;
 
@@ -138,3 +138,4 @@ A finalização do projeto do **Tá Na Mesa** será alcançado quando todo o sof
 | 03/08/2021 |  0.1   | Criação da estrutura do documento, relatório das primeiras informações do projeto.| [Tiago Samuel](https://github.com/tsrrodrigues) |
 | 05/08/2021 |  1.0   | Finalização da primeira versão do documento.| [Tiago Samuel](https://github.com/tsrrodrigues) |
 | 05/08/2021 |  1.1   | Adição de indentação nos parágrafos.| [Tiago Samuel](https://github.com/tsrrodrigues) |
+| 06/08/2021 |  1.2   | Revisão do documento. | [Hérick Portugues](https://github.com/herickport) |
