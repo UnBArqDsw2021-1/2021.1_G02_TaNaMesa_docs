@@ -218,7 +218,7 @@
 
 ## Histórico de Revisões
 
-| Data       | Versão | Descrição                         | Autor(es)                                         |
-| :--------- | :----- | :-------------------------------- | :------------------------------------------------ |
-| 03/08/2021 | 1.0    | Criação do Documento              | [Brenda Santos](https://github.com/brendavsantos) |
-| 06/08/2021 | 1.1    | Arrumando enumeração do documento | [Emily Dias](https://github.com/emysdias)         |
+| Data       | Versão | Descrição                         | Autor(es)                                                                                    |
+| :--------- | :----- | :-------------------------------- | :------------------------------------------------------------------------------------------- |
+| 03/08/2021 | 1.0    | Criação do Documento              | [Brenda Santos](https://github.com/brendavsantos), [Emily Dias](https://github.com/emysdias) |
+| 06/08/2021 | 1.1    | Arrumando enumeração do documento | [Brenda Santos](https://github.com/brendavsantos), [Emily Dias](https://github.com/emysdias) |
