@@ -60,7 +60,7 @@ funcionalidade cada persona desejaria que tivesse para atender suas necessidades
   - Software Requeriments Engineering. Disponível em: https://web.uettaxila.edu.pk/CMS/SP2013/seSREbs/notes%5CSRE%20Lec_%204.pdf Acesso em: 04 ago. 2021.
   - Elicitação de Requisitos. PUC-RIO. Disponível em: http://www2.dbd.puc-rio.br/pergamum/tesesabertas/0521479_08_cap_02.pdf Acesso em: 04 ago. 2020.
 
-## 6. Histórico de Revisões
+## Histórico de Revisões
 
 |    Data    | Versão |                       Descrição                     |                    Autor(es)                     |
 | :--------: | :----: | :-------------------------------------------------: | :----------------------------------------------: |

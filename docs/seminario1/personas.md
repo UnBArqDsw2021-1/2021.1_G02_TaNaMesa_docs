@@ -1,6 +1,6 @@
 # Personas
 
-## 1. Descrição
+## 1. Introdução
 
 &emsp;&emsp; Uma persona é um personagem fictício, arquétipo hipotético de um grupo de usuários reais,
 criada para descrever um usuário típico (Cooper et al., 2007; Pruitt e Adlin,2006; Cooper, 1999). É
@@ -103,9 +103,10 @@ responsável pela cozinha.
 
 > - BARBOSA, Simone; DINIZ, Bruno. Interação Humano-Computador, Editora Elsevier, Rio de Janeiro, 2010.
 
-## 6. Histórico de Revisões
+## Histórico de Revisões
 
-|    Data    | Versão |                    Descrição                    |                    Autor(es)                     |
-| :--------: | :----: | :---------------------------------------------: | :----------------------------------------------: |
-| 03/08/2020 |  1.0   | Criação dos 6 tópicos dos documento de personas | [Sergio Cipriano](https://github.com/sergiosacj) |
-| 03/08/2021 |  1.1   |      Ajuste de tabelas e nome da aplicação      |    [Emily Dias](https://github.com/emysdias)     |
+|    Data    | Versão |                    Descrição                    |                                          Autor(es)                                           |
+| :--------: | :----: | :---------------------------------------------: | :------------------------------------------------------------------------------------------: |
+| 03/08/2020 |  1.0   | Criação dos 6 tópicos dos documento de personas |                       [Sergio Cipriano](https://github.com/sergiosacj)                       |
+| 03/08/2021 |  1.1   |      Ajuste de tabelas e nome da aplicação      | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |
+| 04/08/2021 |  1.2   |              Arrumando espaçamento              | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |
