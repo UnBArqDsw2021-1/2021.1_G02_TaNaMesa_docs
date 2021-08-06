@@ -73,7 +73,7 @@ Exemplo de contribuição feita por um autor:
 
 Exemplo de contribuição feita por mais de um autor:
 
-    git commit -m "Cria model do usuário
+    git commit -m "(#48) Cria model do usuário
 
     Co-authored-by: Pessoa <emailgit@email.com>"
 
