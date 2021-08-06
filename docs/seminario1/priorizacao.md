@@ -2,11 +2,11 @@
 
 ## 1. Introdução
 
-&emsp;&emsp; Projetos são empreendimentos com recursos limitados. Em função disso, sempre é necessário priorizar onde os recursos serão empregados. Em relação ao requisitos em software é importante fazer a priorização para ver por onde a aplicação caminhará, quais serão as prioridades e quais não serão. Existem diversas técnicas, e nesse arquivo será usado a técnica MoSCoW.
+Projetos são empreendimentos com recursos limitados. Em função disso, sempre é necessário priorizar onde os recursos serão empregados. Em relação ao requisitos em software é importante fazer a priorização para ver por onde a aplicação caminhará, quais serão as prioridades e quais não serão. Existem diversas técnicas, e nesse arquivo será usado a técnica MoSCoW.
 
 ## 2. MoSCoW
 
-&emsp;&emsp; O MoSCoW (Must have, Should have, Could have and Won’t have) é uma das técnicas de priorização e o foco é nos requisitos mais importantes. Ajuda a comunicar o que será feito de imediato ou não.
+O MoSCoW (Must have, Should have, Could have and Won’t have) é uma das técnicas de priorização e o foco é nos requisitos mais importantes. Ajuda a comunicar o que será feito de imediato ou não.
 
 - Must have: são os requisitos indispensáveis para a entrega. Se forem atrasados, todo o produto final atrasará em consequência.
 - Should have: são importantes, mas não são vitais do ponto de vista estratégico para o produto final.
