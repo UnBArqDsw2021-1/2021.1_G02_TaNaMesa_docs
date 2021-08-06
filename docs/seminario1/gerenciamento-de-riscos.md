@@ -2,11 +2,11 @@
 
 ## 1. Introdução
 
-&emsp;&emsp; O plano de gerenciamento de riscos trata da execução de atividades de gerenciamento de risco. Neste documento, o objetivo é facilitar a visualização dos riscos através da identificação e mapeamento para auxiliar na tomada de decisões relacionadas, a fim de que a produtividade do projeto possa ser mantida até sua conclusão.
+O plano de gerenciamento de riscos trata da execução de atividades de gerenciamento de risco. Neste documento, o objetivo é facilitar a visualização dos riscos através da identificação e mapeamento para auxiliar na tomada de decisões relacionadas, a fim de que a produtividade do projeto possa ser mantida até sua conclusão.
 
 ## 2. Categoria de Riscos
 
-&emsp;&emsp; Riscos são condições incertas que, caso ocorram, podem trazer benefícios ou maleficios aos objetivos do projeto. Como existem diversos vetores que possibilitariam essas ocorrências, foram agrupadas algumas classificações dos riscos, são elas:
+Riscos são condições incertas que, caso ocorram, podem trazer benefícios ou maleficios aos objetivos do projeto. Como existem diversos vetores que possibilitariam essas ocorrências, foram agrupadas algumas classificações dos riscos, são elas:
 
 - **Técnico:** Abordam tecnologia, requisitos, complexidade, desempenho, interfaces, confiabilidade e qualidade.
 - **Externo:** Abordam riscos relativos ao cliente, mercado, ambiente de trabalho e fatores pessoais.
@@ -27,7 +27,7 @@
 
 ### 3.2. Impacto
 
-&emsp;&emsp; Para se quantificar o impacto do risco no projeto o custo, o tempo, o escopo e a qualidade devem ser levados em conta.
+Para se quantificar o impacto do risco no projeto o custo, o tempo, o escopo e a qualidade devem ser levados em conta.
 
 |   **Impacto**   |                     **Descrição**                      | **Peso** |
 | :-------------: | :----------------------------------------------------: | :------: |
@@ -39,7 +39,7 @@
 
 ### 3.3. Prioridade
 
-&emsp;&emsp; Através da multiplicação entre as estimativas de impacto e probabilidade é possível calcular a prioridade dos riscos. A partir desses valores é determinada a urgência da inicialização de medidas de mitigação e resolução dos riscos.
+Através da multiplicação entre as estimativas de impacto e probabilidade é possível calcular a prioridade dos riscos. A partir desses valores é determinada a urgência da inicialização de medidas de mitigação e resolução dos riscos.
 
 | **Probabilidade x Impacto** | **Muito Baixo** | **Baixo** | **Médio** | **Alto** | **Muito Alto** |
 | :-------------------------: | :-------------: | :-------: | :-------: | :------: | :------------: |
@@ -191,7 +191,7 @@
 
 ## 5. Comportamento dos Riscos
 
-&emsp;&emsp; Ao final da etapa de desenvolvimento da aplicação os riscos já foram identificados, monitorados e tratados(ou não) de forma completa. Tendo em mãos toda a evolução ou involução desses riscos, é possível estabelecer algumas relações entre o período em que o projeto se encontra e o comportamento dos riscos. Com o principal objetivo de ilustrar de forma clara e simplificada o desdobramento ao longo das sprints, foi desenvolvida uma tabela das prioridades atribuidas a cada risco em cada sprint.
+Ao final da etapa de desenvolvimento da aplicação os riscos já foram identificados, monitorados e tratados(ou não) de forma completa. Tendo em mãos toda a evolução ou involução desses riscos, é possível estabelecer algumas relações entre o período em que o projeto se encontra e o comportamento dos riscos. Com o principal objetivo de ilustrar de forma clara e simplificada o desdobramento ao longo das sprints, foi desenvolvida uma tabela das prioridades atribuidas a cada risco em cada sprint.
 
 |     | Sprint 1 | Sprint 2 | Sprint 3 | Sprint 4 | Sprint 5 | Sprint 6 | Sprint 7 |
 | :-: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
