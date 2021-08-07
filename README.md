@@ -25,10 +25,20 @@ Repositório para os documentos do projeto da disciplina de Desenho e Arquitetur
 Um sistema para que as pessoas possam chegar no restaurante fazer seus pedidos separados por pessoa e que facilite para daber o valor que cada um vai pagar ao final. 
 
 ## Screenshots Primeira Entrega <<FOCO: DSW(Base)>>
-Adicione 2 ou mais screenshots do projeto em termos de artefatos da Primeira Entrega.
+
+![planejamento](https://media.discordapp.net/attachments/825425258437541938/873344818623954974/planejamento.png?width=895&height=618)
+![design sprint](https://media.discordapp.net/attachments/825425258437541938/873344800345182228/design_sprint.png?width=932&height=618)
+![politica de contribuicao](https://media.discordapp.net/attachments/825425258437541938/873344837334728734/politica_contribuicao.png?width=1066&height=618)
+![modelagem bpmn](https://media.discordapp.net/attachments/825425258437541938/873344785761579048/bpmn.png?width=890&height=618)
+![rich picture](https://media.discordapp.net/attachments/825425258437541938/873344884554219570/rich_picture.png?width=411&height=618)
 
 ## Vídeo(s) Primeira Entrega <<FOCO: DSW(Base)>>
-Adicione o(s)s vídeo(s) da Primeira Entrega.
+
+### Desenho de Software (Base):
+
+#### 1.1 - [Módulo Projeto Não Orientado a Abordagens Específicas](https://youtu.be/CRVCdgAnnIQ)
+
+#### 1.2 - [Módulo Processos / Metodologias / Abordagens](https://www.youtube.com/watch?v=nVlvndTlpY4)
 
 ## Screenshots Segunda Entrega <<FOCO: DSW(Modelagem)>>
 Adicione 2 ou mais screenshots do projeto em termos de artefatos da Segunda Entrega.
