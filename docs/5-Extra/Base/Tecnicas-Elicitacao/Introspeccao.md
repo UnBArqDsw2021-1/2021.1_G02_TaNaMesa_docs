@@ -2,7 +2,7 @@
 
 ## 1. Introdução
 
-&emsp;&emsp; A introspecção é o primeiro e mais intuitivo método para tentar
+A introspecção é o primeiro e mais intuitivo método para tentar
 entender quais propriedades um sistema deve ter para ter sucesso. É uma técnica
 que tem como base você se colocar no lugar do cliente para descobrir quais as
 suas necessidades e desejos. Ou seja, imaginar quais as propriedades que um
@@ -10,7 +10,7 @@ sistema deve ter para alcançar o sucesso.
 
 ## 2. Metodologia
 
-&emsp;&emsp; A técnica de Introspecção será aplicada utilizando como base as personas.
+A técnica de Introspecção será aplicada utilizando como base as personas.
 Baseado nas especificações e características de cada persona, foi pensando em qual
 funcionalidade cada persona desejaria que tivesse para atender suas necessidades.
 

@@ -2,7 +2,7 @@
 
 ## 1. Introdução
 
-&emsp;&emsp; A identidade visual, no nosso projeto, é o conjunto de todas as formas visuais que irão fazer parte da nossa aplicação. Geralmente o manual de identidade visual engloba a logomarca, as cores, as fontes e os demais itens que serão utilizados no desenvolvimento do projeto.
+A identidade visual, no nosso projeto, é o conjunto de todas as formas visuais que irão fazer parte da nossa aplicação. Geralmente o manual de identidade visual engloba a logomarca, as cores, as fontes e os demais itens que serão utilizados no desenvolvimento do projeto.
 ## 2. Manual de identidade visual
 
 <iframe src="https://docs.google.com/presentation/d/1cqHehaKPVooiFK7OJ0o08Ob8CfAje1CwZLQSL7UhIYc/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>

@@ -2,11 +2,11 @@
 
 ## 1. Introdução
 
-&emsp;&emsp; O estudo de benchmarking é realizado através da pesquisa e análise dos concorrentes do setor de forma que seja possível estabelecer comparações em relação aos serviços, produtos e mecanismos gerais de funcionamento. O principal intuito é possibilitar a identificação de melhorias e propor novas estratégias, principalmente quando é utilizado para criar um novo negócio.
+O estudo de benchmarking é realizado através da pesquisa e análise dos concorrentes do setor de forma que seja possível estabelecer comparações em relação aos serviços, produtos e mecanismos gerais de funcionamento. O principal intuito é possibilitar a identificação de melhorias e propor novas estratégias, principalmente quando é utilizado para criar um novo negócio.
 
 ## 2. Metodologia
 
-&emsp;&emsp; Inicialmente foi pensado em quais os sistemas concorrentes à proposta idealizada pelo **Tá Na Mesa** já conhecidos pelos integrantes e foram acrescentados alguns outros através de pesquisas. Assim que foram identificados, os integrantes responsáveis pelo estudo foram até os estabelecimentos indicados e realizaram a análise do fluxo dos sistemas propostos para realizar pedidos.
+Inicialmente foi pensado em quais os sistemas concorrentes à proposta idealizada pelo **Tá Na Mesa** já conhecidos pelos integrantes e foram acrescentados alguns outros através de pesquisas. Assim que foram identificados, os integrantes responsáveis pelo estudo foram até os estabelecimentos indicados e realizaram a análise do fluxo dos sistemas propostos para realizar pedidos.
 
 ## 2. Dados Obtidos
 
@@ -80,7 +80,7 @@
 
 ## 3. Resultado
 
-&emsp;&emsp; Para representar os resultados obtidos através das análises, foi desenvolvido um quadro comparativo utilizando como base alguns dos requisitos que constituem o projeto.
+Para representar os resultados obtidos através das análises, foi desenvolvido um quadro comparativo utilizando como base alguns dos requisitos que constituem o projeto.
 
 | Requisito                               | Burguer King | Jeronimo | Mc Donalds | Bulls |
 | :-------------------------------------- | :----------: | :------: | :--------: | :---: |

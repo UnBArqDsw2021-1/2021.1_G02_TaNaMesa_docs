@@ -33,7 +33,7 @@
 |[#6 - Realização do Estudo de Benchmarking](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/6) | Brenda, Tiago |     3     | Concluido | 
 |[#19 - Realização de Questionários](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/19) | Herick, Lucas |     3     | Concluido | 
 |[#20 - Realização de Entrevistas](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/20) | Herick, Lucas |     3     | Concluido | 
-|[#11 - Criação do Storyelling](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/11) | Italo, Daniel |     8     | Concluido | 
+|[#11 - Criação do Storytelling](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/11) | Italo, Daniel |     8     | Concluido | 
 |[#17 - Aplicação do NFR](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/17) | Abner Filipe|     5    | Concluido | 
 |[#21 - Realização do Brainstorming](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/21) | Abner Filipe |     3     | Concluido | 
 |[#1 - Estilização do mkdocs](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/1) | Lucas Boaventura |     1     | Concluido | 

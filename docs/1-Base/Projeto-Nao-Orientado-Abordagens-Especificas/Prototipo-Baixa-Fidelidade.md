@@ -2,37 +2,37 @@
 
 ## 1. Introdução
 
-&emsp;&emsp; O protótipo de baixa fidelidade é a melhor alternativa para um início de projeto, onde pode ser identificado problemas de usabilidade, pode-se testar conceitos da aplicação e descobrir o valor que o produto final pode gerar aos seus clientes.
+O protótipo de baixa fidelidade é a melhor alternativa para um início de projeto, onde pode ser identificado problemas de usabilidade, pode-se testar conceitos da aplicação e descobrir o valor que o produto final pode gerar aos seus clientes.
 
-&emsp;&emsp; O protótipo de baixa fidelidade é barato e rápido de fazer, além de servir como base para a criação de novos protótipos, com níveis maiores de fidelidade, durante o desenvolvimento do produto.
+O protótipo de baixa fidelidade é barato e rápido de fazer, além de servir como base para a criação de novos protótipos, com níveis maiores de fidelidade, durante o desenvolvimento do produto.
 
 ## 2. Protótipo
 
 ### 2.1. Aplicação Cliente
 
 - Home e Cardápio
-  [![imagem1](../../../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-cliente-1.jpg)](../../../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-cliente-1.jpg)
+  [![imagem1](../../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-cliente-1.jpg)](../../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-cliente-1.jpg)
 
 - Após selecionar cardápio, Detalhes dos pedidos e Extrato
-  [![imagem2](../../../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-cliente-2.jpg)](../../../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-cliente-2.jpg)
+  [![imagem2](../../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-cliente-2.jpg)](../../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-cliente-2.jpg)
 
 ### 2.2. App Garçom
 
 - Home e Detalhes
-  [![imagem3](../../../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-garçom.jpg)](../../../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-garçom.jpg)
+  [![imagem3](../../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-garçom.jpg)](../../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-garçom.jpg)
 
 ### 2.3. Aplicação Cozinha
 
 - Home e Detalhes
-  [![imagem4](../../../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-cozinha.jpg)](../../../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-cozinha.jpg)
+  [![imagem4](../../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-cozinha.jpg)](../../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-cozinha.jpg)
 
 ### 2.4. Aplicação Gerenciamento
 
 - Home e Pedidos
-  [![imagem5](../../../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-gerente-1.jpg)](../../../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-gerente-1.jpg)
+  [![imagem5](../../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-gerente-1.jpg)](../../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-gerente-1.jpg)
 
 - Mesas, Cardápio e Cadastro mesas
-  [![imagem6](../../../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-gerente-2.jpg)](../../../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-gerente-2.jpg)
+  [![imagem6](../../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-gerente-2.jpg)](../../assets/img/seminario1/prototipo-baixa-fidelidade/aplicação-gerente-2.jpg)
 
 ## 3. Resultado
 

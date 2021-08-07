@@ -2,21 +2,21 @@
 
 ## 1. Introdução
 
-&emsp;&emsp; O NFR Framework da abreviação de Non-Functional-Requirements, proposto por Chung, é uma representação sistemática e global de NFRs orientada a projetos com uma abordagem qualitativa. Ele pode ser visto como uma análise de requisitos que trata de forma detalhada os requisitos não-funcionais do sistema, porque decompõe requisitos em outros mais específicos podendo então tratar ambiguidades e prioridades entre eles.
+O NFR Framework da abreviação de Non-Functional-Requirements, proposto por Chung, é uma representação sistemática e global de NFRs orientada a projetos com uma abordagem qualitativa. Ele pode ser visto como uma análise de requisitos que trata de forma detalhada os requisitos não-funcionais do sistema, porque decompõe requisitos em outros mais específicos podendo então tratar ambiguidades e prioridades entre eles.
 
 ## 2. Metodologia
 
-&emsp;&emsp; Baseado em alguns requisitos não funcionais foram priorizados e estruturados para realização do artefato.
+Baseado em alguns requisitos não funcionais foram priorizados e estruturados para realização do artefato.
 
 ## 3. NFR Framework
 
 ### 3.1. Legenda
 
-[![Legenda-NFR](../../../../assets/img/seminario1/NFR/Legenda-NFR.png)](../../../../assets/img/seminario1/NFR/Legenda-NFR.png)
+[![Legenda-NFR](../../../assets/img/seminario1/NFR/Legenda-NFR.png)](../../../assets/img/seminario1/NFR/Legenda-NFR.png)
 
 ### 3.1. NFRF Geral
 
-[![NFR](../../../../assets/img/seminario1/NFR/NFR.png)](../../../../assets/img/seminario1/NFR/NFR.png)
+[![NFR](../../../assets/img/seminario1/NFR/NFR.png)](../../../assets/img/seminario1/NFR/NFR.png)
 
 ## 4. Referências
 
