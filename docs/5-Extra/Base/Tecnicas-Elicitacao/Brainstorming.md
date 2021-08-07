@@ -10,15 +10,15 @@
 
 ### 2.1 Brainstorming para o tema do projeto
 
-<img src="../../../../../assets/img/seminario1/brainstorming/brain-tema.jpg" alt="brain-tema" width="400"/>
+<img src="../../../../assets/img/seminario1/brainstorming/brain-tema.jpg" alt="brain-tema" width="400"/>
 
 ### 2.2 Brainstorming para o nome do projeto
 
-<img src="../../../../../assets/img/seminario1/brainstorming/brain-nome-projeto.jpg" alt="brain-nome-projeto" width="300"/>
+<img src="../../../../assets/img/seminario1/brainstorming/brain-nome-projeto.jpg" alt="brain-nome-projeto" width="300"/>
 
 ### 2.3 Brainstorming para funcionalidades do projeto
 
-[![brain-funcionalidades](../../../../../assets/img/seminario1/brainstorming/brain-funcionalidades.png)](../../../../../assets/img/seminario1/brainstorming/brain-funcionalidades.png)
+[![brain-funcionalidades](../../../../assets/img/seminario1/brainstorming/brain-funcionalidades.png)](../../../../assets/img/seminario1/brainstorming/brain-funcionalidades.png)
 
 ## 3. Referências
 

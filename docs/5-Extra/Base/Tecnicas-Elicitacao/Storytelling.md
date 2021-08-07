@@ -14,7 +14,7 @@ Ao chegar, todos eles foram muito bem recebidos pelo garçom, que prontamente mo
 
 Depois de fazer o pedido e cada um comer o seu lanche, João pensou que seria necessário chamar o garçom para pedir a sobremesa, porém, Jéssica o avisou que tudo pode ser feito pelo app. Após pedir as sobremesas, eles diviram a conta e pagaram, tudo pelo aplicativo. No fim, João e Jéssica também aprovam a lanchonete pelo atendimento rápido e prático.
 
-[ ![cliente](../../../../../assets/img/seminario1/storytelling/storytelling-cliente.jpg) ](../../../../../assets/img/seminario1/storytelling/storytelling-cliente.jpg)
+[ ![cliente](../../../../assets/img/seminario1/storytelling/storytelling-cliente.jpg) ](../../../../assets/img/seminario1/storytelling/storytelling-cliente.jpg)
 
 ### Cozinheiro
 
@@ -23,7 +23,7 @@ O cozinheiro Leonardo trabalha na Lanchonete BigBurgers há 2 anos. Desde que en
 Porém, ele precisava de mais organização nos pedidos que os clientes faziam e o garçom levava para ele.
 
 Agora, ele recebe um pedido feito por um cliente pelo app e pode ver detalhes sobre esse pedido no mesmo instante, incluindo os ingredientes caso esqueça. E o garçom o recebe pronto para deixar na mesa.
-[ ![cozinheiro](../../../../../assets/img/seminario1/storytelling/storytelling-cozinheiro.jpg) ](../../../../../assets/img/seminario1/storytelling/storytelling-cozinheiro.jpg)
+[ ![cozinheiro](../../../../assets/img/seminario1/storytelling/storytelling-cozinheiro.jpg) ](../../../../assets/img/seminario1/storytelling/storytelling-cozinheiro.jpg)
 
 ### Garçom
 
@@ -32,7 +32,7 @@ O Garçom é o que está em contato com o cliente, depois do app. Carla e Joel c
 No entanto, essa é a primeira vez que eles tem contato com um app que auxilia seu serviço e deixa muito mais prático.
 
 Com o app eles tem funções como ver pedidos, adicionar alimentos ou bebidas em pedidos já feitos, ou excluir pedidos, caso o cliente solicite.
-[ ![garçom](../../../../../assets/img/seminario1/storytelling/storytelling-garçom.png) ](../../../../../assets/img/seminario1/storytelling/storytelling-garçom.png)
+[ ![garçom](../../../../assets/img/seminario1/storytelling/storytelling-garçom.png) ](../../../../assets/img/seminario1/storytelling/storytelling-garçom.png)
 
 ### Gerente
 
@@ -41,7 +41,7 @@ O gerente e também dono da Lanchonete BigBurguers fundou a empresa há 5 anos. 
 Há 6 meses ele descobriu o aplicativo **Tá na Mesa** enquanto navegava pela internet. Desde então, ele passou a gerir os processos de interesse da lanchonete pelo app.
 
 Ele consegue gerenciar mesas, adicionar lanches no cardápio e verificar o pagamento da conta final de cada uma delas.
-[ ![gerente](../../../../../assets/img/seminario1/storytelling/storytelling-gerente.jpg) ](../../../../../assets/img/seminario1/storytelling/storytelling-gerente.jpg)
+[ ![gerente](../../../../assets/img/seminario1/storytelling/storytelling-gerente.jpg) ](../../../../assets/img/seminario1/storytelling/storytelling-gerente.jpg)
 
 ## 3. Resultado
 
