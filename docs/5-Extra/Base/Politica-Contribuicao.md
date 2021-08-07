@@ -30,7 +30,7 @@ Tanto o título como a descrição da issue devem estar escritos em português e
 
 ### 4.1 Repositórios de Código
 
-![Git Flow Código](../assets/img/politica-contribuicao/GitFlowDevelopment.png)
+![Git Flow Código](../../../../assets/img/politica-contribuicao/GitFlowDevelopment.png)
 
 <figcaption>Figura 01. Imagem que contém o git flow de desenvolvimento.</figcaption>
 
@@ -44,7 +44,7 @@ O Git Flow dos repositórios de código será tratado da forma mostrada na image
 
 ### 4.2 Repositório de Documentação
 
-![Git Flow Documentação](../assets/img/politica-contribuicao/GitFlowDocumentation.png)
+![Git Flow Documentação](../../../../assets/img/politica-contribuicao/GitFlowDocumentation.png)
 
 <figcaption>Figura 02. Imagem que contém o git flow de documentação.</figcaption>
 

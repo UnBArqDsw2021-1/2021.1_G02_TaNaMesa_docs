@@ -12,11 +12,11 @@
 
 ### 3.1. Legenda
 
-[![Legenda-NFR](../assets/img/seminario1/NFR/Legenda-NFR.png)](../assets/img/seminario1/NFR/Legenda-NFR.png)
+[![Legenda-NFR](../../../../../assets/img/seminario1/NFR/Legenda-NFR.png)](../../../../../assets/img/seminario1/NFR/Legenda-NFR.png)
 
 ### 3.1. NFRF Geral
 
-[![NFR](../assets/img/seminario1/NFR/NFR.png)](../assets/img/seminario1/NFR/NFR.png)
+[![NFR](../../../../../assets/img/seminario1/NFR/NFR.png)](../../../../../assets/img/seminario1/NFR/NFR.png)
 
 ## 4. Referências
 

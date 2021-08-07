@@ -10,15 +10,15 @@
 
 ### 2.1 Mapa mental para o tema do projeto
 
-[![ideias-temas](../assets/img/seminario1/mapa-mental/ideias-temas.png)](../assets/img/seminario1/mapa-mental/ideias-temas.png)
+[![ideias-temas](../../../assets/img/seminario1/mapa-mental/ideias-temas.png)](../../../assets/img/seminario1/mapa-mental/ideias-temas.png)
 
 ### 2.2 Mapa mental para escopo do tema
 
-[![escopo-tema](../assets/img/seminario1/mapa-mental/escopo-tema.png)](../assets/img/seminario1/mapa-mental/escopo-tema.png)
+[![escopo-tema](../../../assets/img/seminario1/mapa-mental/escopo-tema.png)](../../../assets/img/seminario1/mapa-mental/escopo-tema.png)
 
 ### 2.3 Mapa mental para possíveis funcionalidades do produto
 
-[![mapa-mental-funcionalidades](../assets/img/seminario1/mapa-mental/mapa-mental-funcionalidades.png)](../assets/img/seminario1/mapa-mental/mapa-mental-funcionalidades.png)
+[![mapa-mental-funcionalidades](../../../assets/img/seminario1/mapa-mental/mapa-mental-funcionalidades.png)](../../../assets/img/seminario1/mapa-mental/mapa-mental-funcionalidades.png)
 
 ## 3. Referências
 

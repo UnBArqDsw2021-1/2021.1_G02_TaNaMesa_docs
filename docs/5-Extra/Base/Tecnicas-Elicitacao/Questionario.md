@@ -14,85 +14,85 @@
 
 ### Pergunta 1
 
-[ ![P01](../assets/img/seminario1/questionario/pergunta-1.png) ](../assets/img/seminario1/questionario/pergunta-1.png)
+[ ![P01](../../../../../assets/img/seminario1/questionario/pergunta-1.png) ](../../../../../assets/img/seminario1/questionario/pergunta-1.png)
 
 <figcaption>Figura 1. Imagem que contém o gráfico de respostas da 1ª pergunta.</figcaption>
 
 ### Pergunta 2
 
-[ ![P02](../assets/img/seminario1/questionario/pergunta-2.png) ](../assets/img/seminario1/questionario/pergunta-2.png)
+[ ![P02](../../../../../assets/img/seminario1/questionario/pergunta-2.png) ](../../../../../assets/img/seminario1/questionario/pergunta-2.png)
 
 <figcaption>Figura 2. Imagem que contém o gráfico de respostas da 2ª pergunta.</figcaption>
 
 ### Pergunta 3
 
-[ ![P03](../assets/img/seminario1/questionario/pergunta-3.png) ](../assets/img/seminario1/questionario/pergunta-3.png)
+[ ![P03](../../../../../assets/img/seminario1/questionario/pergunta-3.png) ](../../../../../assets/img/seminario1/questionario/pergunta-3.png)
 
 <figcaption>Figura 3. Imagem que contém o gráfico de respostas da 3ª pergunta.</figcaption>
 
 ### Pergunta 4
 
-[ ![P04](../assets/img/seminario1/questionario/pergunta-4.png) ](../assets/img/seminario1/questionario/pergunta-4.png)
+[ ![P04](../../../../../assets/img/seminario1/questionario/pergunta-4.png) ](../../../../../assets/img/seminario1/questionario/pergunta-4.png)
 
 <figcaption>Figura 4. Imagem que contém o gráfico de respostas da 4ª pergunta.</figcaption>
 
 ### Pergunta 5
 
-[ ![P05](../assets/img/seminario1/questionario/pergunta-5.png) ](../assets/img/seminario1/questionario/pergunta-5.png)
+[ ![P05](../../../../../assets/img/seminario1/questionario/pergunta-5.png) ](../../../../../assets/img/seminario1/questionario/pergunta-5.png)
 
 <figcaption>Figura 5. Imagem que contém o gráfico de respostas da 5ª pergunta.</figcaption>
 
 ### Pergunta 6
 
-[ ![P06](../assets/img/seminario1/questionario/pergunta-6.png) ](../assets/img/seminario1/questionario/pergunta-6.png)
+[ ![P06](../../../../../assets/img/seminario1/questionario/pergunta-6.png) ](../../../../../assets/img/seminario1/questionario/pergunta-6.png)
 
 <figcaption>Figura 6. Imagem que contém o gráfico de respostas da 6ª pergunta.</figcaption>
 
 ### Pergunta 7
 
-[ ![P07](../assets/img/seminario1/questionario/pergunta-7.png) ](../assets/img/seminario1/questionario/pergunta-7.png)
+[ ![P07](../../../../../assets/img/seminario1/questionario/pergunta-7.png) ](../../../../../assets/img/seminario1/questionario/pergunta-7.png)
 
 <figcaption>Figura 7. Imagem que contém o gráfico de respostas da 7ª pergunta.</figcaption>
 
 ### Pergunta 8
 
-[ ![P08](../assets/img/seminario1/questionario/pergunta-8.png) ](../assets/img/seminario1/questionario/pergunta-8.png)
+[ ![P08](../../../../../assets/img/seminario1/questionario/pergunta-8.png) ](../../../../../assets/img/seminario1/questionario/pergunta-8.png)
 
 <figcaption>Figura 8. Imagem que contém o gráfico de respostas da 8ª pergunta.</figcaption>
 
 ### Pergunta 9
 
-[ ![P09](../assets/img/seminario1/questionario/pergunta-9.png) ](../assets/img/seminario1/questionario/pergunta-9.png)
+[ ![P09](../../../../../assets/img/seminario1/questionario/pergunta-9.png) ](../../../../../assets/img/seminario1/questionario/pergunta-9.png)
 
 <figcaption>Figura 9. Imagem que contém o gráfico de respostas da 9ª pergunta.</figcaption>
 
 ### Pergunta 10
 
-[ ![P010](../assets/img/seminario1/questionario/pergunta-10.png) ](../assets/img/seminario1/questionario/pergunta-10.png)
+[ ![P010](../../../../../assets/img/seminario1/questionario/pergunta-10.png) ](../../../../../assets/img/seminario1/questionario/pergunta-10.png)
 
 <figcaption>Figura 10. Imagem que contém o gráfico de respostas da 10ª pergunta.</figcaption>
 
 ### Pergunta 11
 
-[ ![P011](../assets/img/seminario1/questionario/pergunta-11.png) ](../assets/img/seminario1/questionario/pergunta-11.png)
+[ ![P011](../../../../../assets/img/seminario1/questionario/pergunta-11.png) ](../../../../../assets/img/seminario1/questionario/pergunta-11.png)
 
 <figcaption>Figura 11. Imagem que contém o gráfico de respostas da 11ª pergunta.</figcaption>
 
 ### Pergunta 12
 
-[ ![P012](../assets/img/seminario1/questionario/pergunta-12.png) ](../assets/img/seminario1/questionario/pergunta-12.png)
+[ ![P012](../../../../../assets/img/seminario1/questionario/pergunta-12.png) ](../../../../../assets/img/seminario1/questionario/pergunta-12.png)
 
 <figcaption>Figura 12. Imagem que contém o gráfico de respostas da 12ª pergunta.</figcaption>
 
 ### Pergunta 13
 
-[ ![P013](../assets/img/seminario1/questionario/pergunta-13.png) ](../assets/img/seminario1/questionario/pergunta-13.png)
+[ ![P013](../../../../../assets/img/seminario1/questionario/pergunta-13.png) ](../../../../../assets/img/seminario1/questionario/pergunta-13.png)
 
 <figcaption>Figura 13. Imagem que contém o gráfico de respostas da 13ª pergunta.</figcaption>
 
 ### Pergunta 14
 
-[ ![P014](../assets/img/seminario1/questionario/pergunta-14.png) ](../assets/img/seminario1/questionario/pergunta-14.png)
+[ ![P014](../../../../../assets/img/seminario1/questionario/pergunta-14.png) ](../../../../../assets/img/seminario1/questionario/pergunta-14.png)
 
 <figcaption>Figura 14. Imagem que contém o gráfico de respostas da 14ª pergunta.</figcaption>
 

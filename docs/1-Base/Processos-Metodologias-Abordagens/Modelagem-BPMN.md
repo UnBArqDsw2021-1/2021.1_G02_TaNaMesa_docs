@@ -8,21 +8,21 @@ No projeto, a notação BPMN foi utilizada para documentar e especificar as etap
 
 ## 2. Notação BPMN
 
-[![BPMN01](../assets/img/seminario1/bpmn/BPMN01.png)](../assets/img/seminario1/bpmn/BPMN01.png)
+[![BPMN01](../../../assets/img/seminario1/bpmn/BPMN01.png)](../../../assets/img/seminario1/bpmn/BPMN01.png)
 
 | **BPMN01**    | **BPMN Projeto**                                   |
 |---------------|---------------------------------------------------|
 | **Descrição** | Modelagem BPMN para ilustrar o processo de desenvolvimento do projeto |
 | **Autor**     | [Herick Portugues](https://github.com/herickport) |
 
-[![BPMN02](../assets/img/seminario1/bpmn/BPMN02.png)](../assets/img/seminario1/bpmn/BPMN02.png)
+[![BPMN02](../../../assets/img/seminario1/bpmn/BPMN02.png)](../../../assets/img/seminario1/bpmn/BPMN02.png)
 
 | **BPMN02**    | **BPMN Sprint**                                   |
 |---------------|---------------------------------------------------|
 | **Descrição** | Modelagem BPMN para ilustrar o processo de desenvolvimento de uma sprint |
 | **Autor**     | [Herick Portugues](https://github.com/herickport) |
 
-[![BPMN03](../assets/img/seminario1/bpmn/BPMN03.png)](../assets/img/seminario1/bpmn/BPMN03.png)
+[![BPMN03](../../../assets/img/seminario1/bpmn/BPMN03.png)](../../../assets/img/seminario1/bpmn/BPMN03.png)
 
 | **BPMN03**    | **BPMN Issue**                                   |
 |---------------|---------------------------------------------------|

@@ -14,6 +14,52 @@ theme:
   features:
     - navigation.tabs
 
+nav:
+  - Base:
+    - Projeto Não Orientado a Abordagens Específicas:
+      - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Design-Sprint.md
+      - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Rich-Picture.md
+      - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Mapa-Mental.md
+      - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Ishikawa.md
+      - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/5W2H.md
+      - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Plano-Riscos.md
+      - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/TAP.md
+      - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Prototipo-Baixa-Fidelidade.md
+      - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Priorizacao-MOSCOW.md
+      
+    - Processos / Metodologias / Abordagens:
+      - 1-Base/Processos-Metodologias-Abordagens/Metodologia.md
+      - 1-Base/Processos-Metodologias-Abordagens/Modelagem-BPMN.md
+    
+  - Iniciativas Extras:
+    - Documentação das Sprints:
+      - Sprint 01:
+        - 5-Extra/Sprints/Sprint-01/Planning-01.md
+        - 5-Extra/Sprints/Sprint-01/Review-01.md
+      - Sprint 02:
+        - 5-Extra/Sprints/Sprint-02/Planning-02.md
+      #   - 5-Extra/Sprints/Sprint-02/Review-02.md
+
+    - Base:
+      - 5-Extra/Base/Personas.md
+      - Técnicas de Elicitação:
+        - 5-Extra/Base/Tecnicas-Elicitacao/Brainstorming.md
+        - 5-Extra/Base/Tecnicas-Elicitacao/Benchmarking.md
+        - 5-Extra/Base/Tecnicas-Elicitacao/Introspeccao.md
+        - 5-Extra/Base/Tecnicas-Elicitacao/Storytelling.md
+        - 5-Extra/Base/Tecnicas-Elicitacao/Questionario.md
+        - Entrevistas:
+          - 5-Extra/Base/Tecnicas-Elicitacao/Entrevistas/Roteiro-Entrevista.md
+          - 5-Extra/Base/Tecnicas-Elicitacao/Entrevistas/Entrevista-1.md
+          - 5-Extra/Base/Tecnicas-Elicitacao/Entrevistas/Entrevista-2.md
+          - 5-Extra/Base/Tecnicas-Elicitacao/Entrevistas/Entrevista-3.md
+          - 5-Extra/Base/Tecnicas-Elicitacao/Entrevistas/Entrevista-4.md
+          - 5-Extra/Base/Tecnicas-Elicitacao/Entrevistas/Entrevista-5.md
+        - 5-Extra/Base/Tecnicas-Elicitacao/NFR-Framework.md
+    
+      - 5-Extra/Base/Identidade-Visual.md
+      - 5-Extra/Base/Politica-Contribuicao.md
+
 plugins:
   - search
 
