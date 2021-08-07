@@ -22,14 +22,16 @@ Repositório para os documentos do projeto da disciplina de Desenho e Arquitetur
 | 18/0114689  | Tiago Samuel Rodrigues             | [@tsrrodrigues](https://github.com/tsrrodrigues)           |
 
 ## Sobre 🍔
-Um sistema para que as pessoas possam chegar no restaurante fazer seus pedidos separados por pessoa e que facilite para daber o valor que cada um vai pagar ao final. 
+
+Um sistema para que as pessoas possam chegar no restaurante fazer seus pedidos separados por pessoa e que facilite para saber o valor que cada um vai pagar ao final. 
 
 ## Screenshots Primeira Entrega <<FOCO: DSW(Base)>>
 
-![planejamento](https://media.discordapp.net/attachments/825425258437541938/873344818623954974/planejamento.png?width=895&height=618)
-![design sprint](https://media.discordapp.net/attachments/825425258437541938/873344800345182228/design_sprint.png?width=932&height=618)
-![politica de contribuicao](https://media.discordapp.net/attachments/825425258437541938/873344837334728734/politica_contribuicao.png?width=1066&height=618)
-![modelagem bpmn](https://media.discordapp.net/attachments/825425258437541938/873344785761579048/bpmn.png?width=890&height=618)
+![TAP](https://media.discordapp.net/attachments/825425258437541938/873380671920435250/Captura_de_tela_de_2021-08-06_22-37-33.png?width=1099&height=618)
+![ishikawa](https://media.discordapp.net/attachments/825425258437541938/873380673661046874/Captura_de_tela_de_2021-08-06_22-37-40.png?width=1099&height=618)
+![design sprint](https://media.discordapp.net/attachments/825425258437541938/873380665536700436/Captura_de_tela_de_2021-08-06_22-36-59.png?width=1099&height=618)
+![modelagem bpmn](https://media.discordapp.net/attachments/825425258437541938/873380668732739625/Captura_de_tela_de_2021-08-06_22-37-22.png?width=1099&height=618)
+![identidade visual](https://media.discordapp.net/attachments/825425258437541938/873380675200380948/Captura_de_tela_de_2021-08-06_22-38-46.png?width=1099&height=618)
 ![rich picture](https://media.discordapp.net/attachments/825425258437541938/873344884554219570/rich_picture.png?width=411&height=618)
 
 ## Vídeo(s) Primeira Entrega <<FOCO: DSW(Base)>>
