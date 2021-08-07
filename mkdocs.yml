@@ -59,6 +59,9 @@ nav:
     
       - 5-Extra/Base/Identidade-Visual.md
       - 5-Extra/Base/Politica-Contribuicao.md
+    
+  - Apresentações:
+    - Apresentacoes/entrega-1.md
 
 plugins:
   - search
