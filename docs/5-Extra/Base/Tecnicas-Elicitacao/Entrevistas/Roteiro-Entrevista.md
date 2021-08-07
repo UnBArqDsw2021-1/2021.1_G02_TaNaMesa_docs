@@ -33,27 +33,27 @@ Para realizar a entrevista de forma efetiva e de modo que a mesma não fuja do e
 ### Entrevista 1
 - Entrevistado: Renan Welz Schadt
 - Entrevistador: [Lucas Boaventura](https://github.com/lboaventura25)
-- Entrevista: [Entrevista 1](./entrevista_1.md)
+- Entrevista: [Entrevista 1](./Entrevista-1.md)
 
 ### Entrevista 2
 - Entrevistado: Rosângela Ferreira
 - Entrevistador: [Herick Portugues](https://github.com/herickport)
-- Entrevista: [Entrevista 2](./entrevista_2.md)
+- Entrevista: [Entrevista 2](./Entrevista-2.md)
 
 ### Entrevista 3
 - Entrevistado: Natália Schulz Teixeira
 - Entrevistador: [Lucas Boaventura](https://github.com/lboaventura25)
-- Entrevista: [Entrevista 3](./entrevista_3.md)
+- Entrevista: [Entrevista 3](./Entrevista-3.md)
 
 ### Entrevista 4
 - Entrevistado: Henrick Portugues
 - Entrevistador: [Herick Portugues](https://github.com/herickport)
-- Entrevista: [Entrevista 4](./entrevista_4.md)
+- Entrevista: [Entrevista 4](./Entrevista-4.md)
 
 ### Entrevista 5
 - Entrevistado: Mônica Ursulino Boaventura
 - Entrevistador: [Lucas Boaventura](https://github.com/lboaventura25)
-- Entrevista: [Entrevista 5](./entrevista_5.md)
+- Entrevista: [Entrevista 5](./Entrevista-5.md)
 
 ## 4. Resultado
 

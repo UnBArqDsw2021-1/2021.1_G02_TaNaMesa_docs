@@ -2,109 +2,109 @@
 
 ## 1. Introdução
 
-&emsp;&emsp; Questionário é uma técnica de elicitação de requisitos. Através dele podemos fazer análises subjetivas, por meio de uma pesquisa com várias pessoas. Antes da criação desse documento foi confeccionado um questionário no [_Google Forms_](https://workspace.google.com/intl/pt-BR/products/forms/?utm_source=google&utm_medium=cpc&utm_campaign=latam-BR-all-pt-dr-bkws-all-all-trial-e-dr-1009897-LUAC0011908&utm_content=text-ad-none-any-DEV_c-CRE_477535133211-ADGP_Hybrid%20%7C%20BKWS%20-%20MIX%20%7C%20Txt%20~%20Forms-KWID_43700057676889044-kwd-10647024857&utm_term=KW_google%20forms-ST_google%20forms&gclid=CjwKCAjwr56IBhAvEiwA1fuqGktqD-lXkUkcdn9v7B8hbBukmFjcpGL4xDynT4RSzGsv2qPdKOBwEBoC_hUQAvD_BwE&gclsrc=aw.ds) a fim de elicitar os requisitos da aplicação **Tá Na Mesa**.
+Questionário é uma técnica de elicitação de requisitos. Através dele podemos fazer análises subjetivas, por meio de uma pesquisa com várias pessoas. Antes da criação desse documento foi confeccionado um questionário no [_Google Forms_](https://workspace.google.com/intl/pt-BR/products/forms/?utm_source=google&utm_medium=cpc&utm_campaign=latam-BR-all-pt-dr-bkws-all-all-trial-e-dr-1009897-LUAC0011908&utm_content=text-ad-none-any-DEV_c-CRE_477535133211-ADGP_Hybrid%20%7C%20BKWS%20-%20MIX%20%7C%20Txt%20~%20Forms-KWID_43700057676889044-kwd-10647024857&utm_term=KW_google%20forms-ST_google%20forms&gclid=CjwKCAjwr56IBhAvEiwA1fuqGktqD-lXkUkcdn9v7B8hbBukmFjcpGL4xDynT4RSzGsv2qPdKOBwEBoC_hUQAvD_BwE&gclsrc=aw.ds) a fim de elicitar os requisitos da aplicação **Tá Na Mesa**.
 
 ## 2. Metodologia
 
-&emsp;&emsp; O questionário possui perguntas que tem por objetivo olhar do ponto de vista dos usuários em potencial da aplicação quais são os principais problemas encontrados ao visitar restaurantes, lanchonetes e semelhantes. Por conseguinte, podemos checar se os problemas apontados pelos usuários seriam resolvidos com a aplicação proposta pelo nosso grupo. O questionário foi divulgado em grupos da faculdade, de familiares e de pessoas conhecidas dos integrates do nosso grupo. Ao total, foram coletadas 94 respostas.
+O questionário possui perguntas que tem por objetivo olhar do ponto de vista dos usuários em potencial da aplicação quais são os principais problemas encontrados ao visitar restaurantes, lanchonetes e semelhantes. Por conseguinte, podemos checar se os problemas apontados pelos usuários seriam resolvidos com a aplicação proposta pelo nosso grupo. O questionário foi divulgado em grupos da faculdade, de familiares e de pessoas conhecidas dos integrates do nosso grupo. Ao total, foram coletadas 94 respostas.
 
 ## 3. Perguntas
 
-&emsp;&emsp; Abaixo estão as perguntas e suas respectivas respostas.
+Abaixo estão as perguntas e suas respectivas respostas.
 
 ### Pergunta 1
 
-[ ![P01](../../../../assets/img/seminario1/questionario/pergunta-1.png) ](../../../../assets/img/seminario1/questionario/pergunta-1.png)
+[ ![P01](../../../assets/img/seminario1/questionario/pergunta-1.png) ](../../../assets/img/seminario1/questionario/pergunta-1.png)
 
 <figcaption>Figura 1. Imagem que contém o gráfico de respostas da 1ª pergunta.</figcaption>
 
 ### Pergunta 2
 
-[ ![P02](../../../../assets/img/seminario1/questionario/pergunta-2.png) ](../../../../assets/img/seminario1/questionario/pergunta-2.png)
+[ ![P02](../../../assets/img/seminario1/questionario/pergunta-2.png) ](../../../assets/img/seminario1/questionario/pergunta-2.png)
 
 <figcaption>Figura 2. Imagem que contém o gráfico de respostas da 2ª pergunta.</figcaption>
 
 ### Pergunta 3
 
-[ ![P03](../../../../assets/img/seminario1/questionario/pergunta-3.png) ](../../../../assets/img/seminario1/questionario/pergunta-3.png)
+[ ![P03](../../../assets/img/seminario1/questionario/pergunta-3.png) ](../../../assets/img/seminario1/questionario/pergunta-3.png)
 
 <figcaption>Figura 3. Imagem que contém o gráfico de respostas da 3ª pergunta.</figcaption>
 
 ### Pergunta 4
 
-[ ![P04](../../../../assets/img/seminario1/questionario/pergunta-4.png) ](../../../../assets/img/seminario1/questionario/pergunta-4.png)
+[ ![P04](../../../assets/img/seminario1/questionario/pergunta-4.png) ](../../../assets/img/seminario1/questionario/pergunta-4.png)
 
 <figcaption>Figura 4. Imagem que contém o gráfico de respostas da 4ª pergunta.</figcaption>
 
 ### Pergunta 5
 
-[ ![P05](../../../../assets/img/seminario1/questionario/pergunta-5.png) ](../../../../assets/img/seminario1/questionario/pergunta-5.png)
+[ ![P05](../../../assets/img/seminario1/questionario/pergunta-5.png) ](../../../assets/img/seminario1/questionario/pergunta-5.png)
 
 <figcaption>Figura 5. Imagem que contém o gráfico de respostas da 5ª pergunta.</figcaption>
 
 ### Pergunta 6
 
-[ ![P06](../../../../assets/img/seminario1/questionario/pergunta-6.png) ](../../../../assets/img/seminario1/questionario/pergunta-6.png)
+[ ![P06](../../../assets/img/seminario1/questionario/pergunta-6.png) ](../../../assets/img/seminario1/questionario/pergunta-6.png)
 
 <figcaption>Figura 6. Imagem que contém o gráfico de respostas da 6ª pergunta.</figcaption>
 
 ### Pergunta 7
 
-[ ![P07](../../../../assets/img/seminario1/questionario/pergunta-7.png) ](../../../../assets/img/seminario1/questionario/pergunta-7.png)
+[ ![P07](../../../assets/img/seminario1/questionario/pergunta-7.png) ](../../../assets/img/seminario1/questionario/pergunta-7.png)
 
 <figcaption>Figura 7. Imagem que contém o gráfico de respostas da 7ª pergunta.</figcaption>
 
 ### Pergunta 8
 
-[ ![P08](../../../../assets/img/seminario1/questionario/pergunta-8.png) ](../../../../assets/img/seminario1/questionario/pergunta-8.png)
+[ ![P08](../../../assets/img/seminario1/questionario/pergunta-8.png) ](../../../assets/img/seminario1/questionario/pergunta-8.png)
 
 <figcaption>Figura 8. Imagem que contém o gráfico de respostas da 8ª pergunta.</figcaption>
 
 ### Pergunta 9
 
-[ ![P09](../../../../assets/img/seminario1/questionario/pergunta-9.png) ](../../../../assets/img/seminario1/questionario/pergunta-9.png)
+[ ![P09](../../../assets/img/seminario1/questionario/pergunta-9.png) ](../../../assets/img/seminario1/questionario/pergunta-9.png)
 
 <figcaption>Figura 9. Imagem que contém o gráfico de respostas da 9ª pergunta.</figcaption>
 
 ### Pergunta 10
 
-[ ![P010](../../../../assets/img/seminario1/questionario/pergunta-10.png) ](../../../../assets/img/seminario1/questionario/pergunta-10.png)
+[ ![P010](../../../assets/img/seminario1/questionario/pergunta-10.png) ](../../../assets/img/seminario1/questionario/pergunta-10.png)
 
 <figcaption>Figura 10. Imagem que contém o gráfico de respostas da 10ª pergunta.</figcaption>
 
 ### Pergunta 11
 
-[ ![P011](../../../../assets/img/seminario1/questionario/pergunta-11.png) ](../../../../assets/img/seminario1/questionario/pergunta-11.png)
+[ ![P011](../../../assets/img/seminario1/questionario/pergunta-11.png) ](../../../assets/img/seminario1/questionario/pergunta-11.png)
 
 <figcaption>Figura 11. Imagem que contém o gráfico de respostas da 11ª pergunta.</figcaption>
 
 ### Pergunta 12
 
-[ ![P012](../../../../assets/img/seminario1/questionario/pergunta-12.png) ](../../../../assets/img/seminario1/questionario/pergunta-12.png)
+[ ![P012](../../../assets/img/seminario1/questionario/pergunta-12.png) ](../../../assets/img/seminario1/questionario/pergunta-12.png)
 
 <figcaption>Figura 12. Imagem que contém o gráfico de respostas da 12ª pergunta.</figcaption>
 
 ### Pergunta 13
 
-[ ![P013](../../../../assets/img/seminario1/questionario/pergunta-13.png) ](../../../../assets/img/seminario1/questionario/pergunta-13.png)
+[ ![P013](../../../assets/img/seminario1/questionario/pergunta-13.png) ](../../../assets/img/seminario1/questionario/pergunta-13.png)
 
 <figcaption>Figura 13. Imagem que contém o gráfico de respostas da 13ª pergunta.</figcaption>
 
 ### Pergunta 14
 
-[ ![P014](../../../../assets/img/seminario1/questionario/pergunta-14.png) ](../../../../assets/img/seminario1/questionario/pergunta-14.png)
+[ ![P014](../../../assets/img/seminario1/questionario/pergunta-14.png) ](../../../assets/img/seminario1/questionario/pergunta-14.png)
 
 <figcaption>Figura 14. Imagem que contém o gráfico de respostas da 14ª pergunta.</figcaption>
 
 ## 4. Análise
 
-&emsp;&emsp; De acordo com os resultados levantados 46,8% das pessoas costumam frequentar restaurantes e lanchonetes de 1 a 3 vezes por semana. E desses cerca de 51% preferem o uso de cardápios impressos que de acordo com outras perguntas isso acontece porque os cardápios digitais não geram as mesmas expectativas que os impressos. É necessário que os cardápios digitais envolvam os usuários para se tornar mais interessante e completo que os já existentes.
+De acordo com os resultados levantados 46,8% das pessoas costumam frequentar restaurantes e lanchonetes de 1 a 3 vezes por semana. E desses cerca de 51% preferem o uso de cardápios impressos que de acordo com outras perguntas isso acontece porque os cardápios digitais não geram as mesmas expectativas que os impressos. É necessário que os cardápios digitais envolvam os usuários para se tornar mais interessante e completo que os já existentes.
 
-&emsp;&emsp; Os principais problemas já encontrados pelas pessoas ao fazer o pedido são: dificuldade para chamar o garçom, demora do garçom e demora pra receber o cardápio. Ou seja, muitos problemas se resumem a falhas do garçom ou pouca disponibilidade de garçons nos resturantes. Cardápios pouco detalhados e com poucas imagens também fazem os clientes terem problemas, em alguns momentos disseram que os cardápios digitais possuem pouquissímas imagens, deram a ideia de ter alguns vídeos nos cardápios digitais. Cerca de 84% já vivenciaram alguma situação em que o garçom errou o pedido, o que traz a necessidade de um sistema imparcial que possa gravar os pedidos e ser obsservado pelos clientes para terem certeza de seus pedidos.
+Os principais problemas já encontrados pelas pessoas ao fazer o pedido são: dificuldade para chamar o garçom, demora do garçom e demora pra receber o cardápio. Ou seja, muitos problemas se resumem a falhas do garçom ou pouca disponibilidade de garçons nos resturantes. Cardápios pouco detalhados e com poucas imagens também fazem os clientes terem problemas, em alguns momentos disseram que os cardápios digitais possuem pouquissímas imagens, deram a ideia de ter alguns vídeos nos cardápios digitais. Cerca de 84% já vivenciaram alguma situação em que o garçom errou o pedido, o que traz a necessidade de um sistema imparcial que possa gravar os pedidos e ser obsservado pelos clientes para terem certeza de seus pedidos.
 
-&emsp;&emsp; Em 91% das respostas, quando as pessoas saem com amigos costumam dividir a conta da mesa, 30% gostariam de dividir a conta com os familiares presentes e 30% dividem a conta com seus namorados. E quase 62% das pessoas tiveram problemas em dividir a conta com as pessoas que estavam em sua mesa. As principais dificuldades encontradas são: fazer os cálculos e para lembrar o que pediu, lembrar quanto valem os itens do cardápio, demora no pagamento e porque o resturante só dividia a conta em partes iguais.
+Em 91% das respostas, quando as pessoas saem com amigos costumam dividir a conta da mesa, 30% gostariam de dividir a conta com os familiares presentes e 30% dividem a conta com seus namorados. E quase 62% das pessoas tiveram problemas em dividir a conta com as pessoas que estavam em sua mesa. As principais dificuldades encontradas são: fazer os cálculos e para lembrar o que pediu, lembrar quanto valem os itens do cardápio, demora no pagamento e porque o resturante só dividia a conta em partes iguais.
 
-&emsp;&emsp; Em uma escala de 1 a 5, onde 1 é discordo totalmente e 5 é concordo totalmente. Levando em consideração os que votaram 4 ou 5:
+Em uma escala de 1 a 5, onde 1 é discordo totalmente e 5 é concordo totalmente. Levando em consideração os que votaram 4 ou 5:
 
 - Cerca de 65% gostariam de ver o cardápio em um tablet instalado nas mesas do estabelecimento.
 
@@ -116,7 +116,7 @@
 
 ## 5. Requisitos
 
-&emsp;&emsp; Após a utilização da técnica de questionário foi possível levantar os requisitos listados abaixo.
+Após a utilização da técnica de questionário foi possível levantar os requisitos listados abaixo.
 
 | Número | Requisito                                                                                                                                         |
 | :----: | :------------------------------------------------------------------------------------------------------------------------------------------------ |

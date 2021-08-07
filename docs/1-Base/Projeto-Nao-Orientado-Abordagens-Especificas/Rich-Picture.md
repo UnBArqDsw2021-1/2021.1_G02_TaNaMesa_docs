@@ -2,22 +2,22 @@
 
 ## 1. Introdução
 
-&emsp;&emsp; O Rich Picture é uma forma de representar o sistema e suas interações por meio de diagramas gráficos.
+O Rich Picture é uma forma de representar o sistema e suas interações por meio de diagramas gráficos.
 É uma ferramenta que cabe muito bem em momentos iniciais ou de revisões do projeto fornecendo um modelo mental preliminar.
 
 ## 2. Metodologia
 
-&emsp;&emsp; A metodologia Soft Systems Methodology (SSM), que é agrupa nela os conceitos de rich picture, foi
+A metodologia Soft Systems Methodology (SSM), que é agrupa nela os conceitos de rich picture, foi
 proposta por Checkland (1999) apud Bernardo et al. (2008). Este método é utilizado para analisar problemas complexos
 de uma perspectiva de sistema, onde se observa os problemas e suas soluções correspondentes.<br>
 
-&emsp;&emsp; Para o rich picture foi feito a divisão que cada membro faria um modelo desenhado dos diagramas em algum
+Para o rich picture foi feito a divisão que cada membro faria um modelo desenhado dos diagramas em algum
 papel, com isto foi escolhido a rich picture com mais detalhes e mais correta, e por fim foi feito a evolução do sistema
 para obter a versão final do rich picture.
 
 ### 2.1 RichPicture 01 - Visão do cliente
 
-[![RPF01](../../../assets/img/seminario1/rich-picture/RPF01.jpg)](../../../assets/img/seminario1/rich-picture/RPF01.jpg)
+[![RPF01](../../assets/img/seminario1/rich-picture/RPF01.jpg)](../../assets/img/seminario1/rich-picture/RPF01.jpg)
 
 | **RP01**      | **Visão do cliente**                              |
 | ------------- | ------------------------------------------------- |
@@ -27,7 +27,7 @@ para obter a versão final do rich picture.
 
 ### 2.2 RichPicture 02 - Visão da Cozinha
 
-[![RPF02](../../../assets/img/seminario1/rich-picture/RPF02.jpg)](../../../assets/img/seminario1/rich-picture/RPF02.jpg)
+[![RPF02](../../assets/img/seminario1/rich-picture/RPF02.jpg)](../../assets/img/seminario1/rich-picture/RPF02.jpg)
 
 | **RP02**      | **Visão da Cozinha**                              |
 | ------------- | ------------------------------------------------- |
@@ -37,7 +37,7 @@ para obter a versão final do rich picture.
 
 ### 2.3 RichPicture 03 - Visão do Garçom
 
-[![RPF03](../../../assets/img/seminario1/rich-picture/RPF03.jpg)](../../../assets/img/seminario1/rich-picture/RPF03.jpg)
+[![RPF03](../../assets/img/seminario1/rich-picture/RPF03.jpg)](../../assets/img/seminario1/rich-picture/RPF03.jpg)
 
 | **RP03**      | **Visão do Garçom**                               |
 | ------------- | ------------------------------------------------- |
@@ -46,7 +46,7 @@ para obter a versão final do rich picture.
 
 ### 2.4 RichPicture 04 - Visão da Gerência
 
-[![RPF04](../../../assets/img/seminario1/rich-picture/RPF04.jpg)](../../../assets/img/seminario1/rich-picture/RPF04.jpg)
+[![RPF04](../../assets/img/seminario1/rich-picture/RPF04.jpg)](../../assets/img/seminario1/rich-picture/RPF04.jpg)
 
 | **RP04**      | **Visão da Cozinha**                                |
 | ------------- | --------------------------------------------------- |
@@ -55,19 +55,19 @@ para obter a versão final do rich picture.
 
 ### 2.5 RichPictures - Esboços no Papel
 
-[![RP01](../../../assets/img/seminario1/rich-picture/RP01.jpeg)](../../../assets/img/seminario1/rich-picture/RP01.jpeg)
+[![RP01](../../assets/img/seminario1/rich-picture/RP01.jpeg)](../../assets/img/seminario1/rich-picture/RP01.jpeg)
 <br/>
 Figura 5: Esboço no Papel - Visão da Cozinha. Autor: [Sergio Cipriano](https://github.com/sergiosacj)
 
-[![RP02](../../../assets/img/seminario1/rich-picture/RP02.jpeg)](../../../assets/img/seminario1/rich-picture/RP02.jpeg)
+[![RP02](../../assets/img/seminario1/rich-picture/RP02.jpeg)](../../assets/img/seminario1/rich-picture/RP02.jpeg)
 <br/>
 Figura 6: Esboço no Papel - Visão do Cliente. Autor: [Sergio Cipriano](https://github.com/sergiosacj)
 
-[![RP03](../../../assets/img/seminario1/rich-picture/RP03.jpg)](../../../assets/img/seminario1/rich-picture/RP03.jpg)
+[![RP03](../../assets/img/seminario1/rich-picture/RP03.jpg)](../../assets/img/seminario1/rich-picture/RP03.jpg)
 <br/>
 Figura 7: Esboço no Papel - Visão da Gerência. Autor: [Eduarda Servidio](https://github.com/ServideoEC)
 
-[![RP04](../../../assets/img/seminario1/rich-picture/RP04.jpg)](../../../assets/img/seminario1/rich-picture/RP04.jpg)
+[![RP04](../../assets/img/seminario1/rich-picture/RP04.jpg)](../../assets/img/seminario1/rich-picture/RP04.jpg)
 <br/>
 Figura 8: Esboço no Papel - Visão do Garçom. Autor: [Eduarda Servidio](https://github.com/ServideoEC)
 
