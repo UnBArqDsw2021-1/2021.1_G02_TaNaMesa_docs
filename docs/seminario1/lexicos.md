@@ -190,3 +190,4 @@ Todos os léxicos estão organizados respeitando a seguinte tabela:
 | Data       | Versão | Descrição            | Autor(es)                                    |
 | :--------- | :----- | :------------------- | :------------------------------------------- |
 | 07/08/2021 | 0.1    | Criação do documento | [Ítalo Alves](https://github.com/alvesitalo) |
+| 10/08/2021 | 0.2    | Revisão do documento | [Ítalo Alves](https://github.com/alvesitalo) |
