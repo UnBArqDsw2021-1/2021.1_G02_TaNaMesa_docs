@@ -53,6 +53,42 @@ Todos os léxicos estão organizados respeitando a seguinte tabela:
 | **Impacto**       | - Um Gerente pode visualizar o histórico de ações dos Garçons;<br> - Um Gerente pode cadastrar Garçons;<br> - Um Gerente pode remover Garçons;<br> - Um Gerente pode cadastrar, alterar e deletar o cardápio. |
 | **Sinônimo**      | Administrador                                                                                                                                                                                                 |
 
+### L05 - Cardápio
+
+| L05               | Cardápio                                                                   |
+| ----------------- | -------------------------------------------------------------------------- |
+| **Classificação** | Objeto                                                                     |
+| **Noção**         | - Um menu com diversos itens e preços de pratos que o restaurante oferece. |
+| **Impacto**       | - O Usuário faz seus pedidos por ele.                                      |
+| **Sinônimo**      | Menu                                                                       |
+
+### L06 - Ver Cardápio
+
+| L06               | Ver Cardápio                                                                                                                                                                                        |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Classificação** | Verbo                                                                                                                                                                                               |
+| **Noção**         | - Ação realizada pelo cliente para acessar o cardápio do restaurante.                                                                                                                               |
+| **Impacto**       | - O cliente pode ver quais são os itens oferecidos pelo restaurante;<br>- O cliente pode consultar os preços dos produtos que o restaurante oferece;<br>- O cliente pode escolher o que quer pedir. |
+| **Sinônimo**      | - Olhar cardápio;<br>- Acessar cardápio.                                                                                                                                                            |
+
+### L07 - Cadastrar Cardápio
+
+| L07               | Cadastrar Cardápio                                                                                                                 |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| **Classificação** | Verbo                                                                                                                              |
+| **Noção**         | - Cadastro de um novo cardápio ou novos itens e seus preços para o cardápio já existente.                                          |
+| **Impacto**       | - O Gerente cadastra novo cardápio ou novos itens e seus preços para que os clientes possam ter um variedade de opções para comer. |
+| **Sinônimo**      | Cadastrar menu, cadastrar novos itens.                                                                                             |
+
+### L08 - Alterar Cardápio
+
+| L08               | Alterar Cardápio                                                                                              |
+| ----------------- | ------------------------------------------------------------------------------------------------------------- |
+| **Classificação** | Verbo                                                                                                         |
+| **Noção**         | - Alteração de itens e preços no cardápio já existente.                                                       |
+| **Impacto**       | - O Gerente altera itens e seus preços para que os clientes possam ter sempre os pratos e preços atualizados. |
+| **Sinônimo**      | Alterar menu, alterar novos itens                                                                             |
+
 ## 3. Referências
 
 > - SERRANO, Maurício; SERRANO, Milene; Requisitos - Aula 10;
