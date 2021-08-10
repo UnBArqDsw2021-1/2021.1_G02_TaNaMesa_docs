@@ -89,6 +89,42 @@ Todos os léxicos estão organizados respeitando a seguinte tabela:
 | **Impacto**       | - O Gerente altera itens e seus preços para que os clientes possam ter sempre os pratos e preços atualizados. |
 | **Sinônimo**      | Alterar menu, alterar novos itens                                                                             |
 
+### L09 - Mesa
+
+| L09               | Mesa                                                  |
+| ----------------- | ----------------------------------------------------- |
+| **Classificação** | Objeto                                                |
+| **Noção**         | - Simula uma conta onde os pedidos ficam registrados. |
+| **Impacto**       | - O cliente só pode realizar pedidos através da mesa. |
+| **Sinônimo**      | Conta                                                 |
+
+### L10 - Pedidos
+
+| L10               | Pedidos                                                                                                                                                                                                                                                          |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Classificação** | Objeto                                                                                                                                                                                                                                                           |
+| **Noção**         | - Os itens que foram pedidos pelo cliente.                                                                                                                                                                                                                       |
+| **Impacto**       | - Um pedido pode ser solicitado por clientes;<br> - O Garçom vê o pedido e manda para o Cozinheiro;<br> - O Cozinheiro prepara o pedido;<br> - O Garçom leva o pedido até a mesa do Cliente;<br> - O Cliente pode ver a lista dos pedidos que fez até o momento. |
+| **Sinônimo**      | -                                                                                                                                                                                                                                                                |
+
+### L11 - Fazer Pedido
+
+| L11               | Fazer Pedido                                                                                                                                                                                           |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Classificação** | Verbo                                                                                                                                                                                                  |
+| **Noção**         | - Ação realizada pelo cliente de escolher itens no cardápio do restaurante e pedir para que sejam trazidos até sua mesa.                                                                               |
+| **Impacto**       | - Os itens serão adicionado aos Pedidos da mesa;<br> - Os valores dos itens serão somados na Conta da mesa;<br> - Os itens,depois de preparados, serão levados até à mesa do cliente que os solicitou. |
+| **Sinônimo**      | Pedir                                                                                                                                                                                                  |
+
+### L12 - Modificar pedido
+
+| L12               | Modificar pedido                                                                      |
+| ----------------- | ------------------------------------------------------------------------------------- |
+| **Classificação** | Verbo                                                                                 |
+| **Noção**         | - Alterar um pedido que ainda não foi processado pelo restaurante.                    |
+| **Impacto**       | - Permite ao Cliente alterar um pedido que ainda não foi processado pelo restaurante. |
+| **Sinônimo**      | Alterar pedido, Substituir pedido                                                     |
+
 ## 3. Referências
 
 > - SERRANO, Maurício; SERRANO, Milene; Requisitos - Aula 10;
