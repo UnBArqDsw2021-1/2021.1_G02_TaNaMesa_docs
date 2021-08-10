@@ -125,6 +125,60 @@ Todos os léxicos estão organizados respeitando a seguinte tabela:
 | **Impacto**       | - Permite ao Cliente alterar um pedido que ainda não foi processado pelo restaurante. |
 | **Sinônimo**      | Alterar pedido, Substituir pedido                                                     |
 
+### L13 - Cancelar Pedido
+
+| L13               | Cancelar Pedido                                                                                                                                                                                       |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Classificação** | Verbo                                                                                                                                                                                                 |
+| **Noção**         | - Ação realizada pelo Cliente de remover um ou mais itens dos Pedidos que fez.                                                                                                                        |
+| **Impacto**       | - Os itens cancelados serão retirados dos Pedidos a serem entregues.<br> - Os valores dos itens retirados serão subtraídos da Conta.<br> - Os itens retirados não serão entregues na mesa do Cliente. |
+| **Sinônimo**      | Retirar pedido, Remover pedido                                                                                                                                                                        |
+
+### L14 - Pedir a Conta
+
+| L14               | Pedir a Conta                                                                                                                                          |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Classificação** | Verbo                                                                                                                                                  |
+| **Noção**         | - Ação realizada pelo cliente de encerrar os Pedidos e ter o somatório total dos gastos que fez.                                                       |
+| **Impacto**       | - A Conta será fechada;<br> - Não serão feitos mais Pedidos;<br> - O sistema irá gerar uma lista dos Pedidos e a soma final dos preços desses Pedidos. |
+| **Sinônimo**      | Fechar a Conta                                                                                                                                         |
+
+### L15 - Chamar Garçom
+
+| L05               | Chamar Garçom                                                                               |
+| ----------------- | ------------------------------------------------------------------------------------------- |
+| **Classificação** | Verbo                                                                                       |
+| **Noção**         | - Ação realizada pelo cliente de requisitar a presença de um Garçom à sua mesa.             |
+| **Impacto**       | - Um Garçom vê a solicitação;<br> - O Garçom vai até a mesa onde o cliente está o chamando. |
+| **Sinônimo**      | -                                                                                           |
+
+### L16 - Fazer pagamento
+
+| L16               | Fazer pagamento                                                        |
+| ----------------- | ---------------------------------------------------------------------- |
+| **Classificação** | Verbo                                                                  |
+| **Noção**         | - Ação realizada pelo cliente de pagar a Conta dos itens consumidos.   |
+| **Impacto**       | - A Conta é paga;<br> - A mesa pode ser liberada para outros clientes. |
+| **Sinônimo**      | Pagar Conta                                                            |
+
+### L17 - Tablet
+
+| L17               | Tablet                                                                    |
+| ----------------- | ------------------------------------------------------------------------- |
+| **Classificação** | Objeto                                                                    |
+| **Noção**         | - Telefone celular com tamanho maior e recursos de um computador pessoal. |
+| **Impacto**       | - O Usuário faz interações todas as interações através do celular.        |
+| **Sinônimo**      | smartphone                                                                |
+
+### L18 - Internet
+
+| L18               | Internet                                                                                                      |
+| ----------------- | ------------------------------------------------------------------------------------------------------------- |
+| **Classificação** | Objeto                                                                                                        |
+| **Noção**         | - Rede de computadores que trocam dados e mensagens utilizando um protocolo comum.                            |
+| **Impacto**       | - O restaurante conecta seus Tablets a internet para poder gerenciar seu estabelecimento pelo app Tá Na Mesa. |
+| **Sinônimo**      | web, rede                                                                                                     |
+
 ## 3. Referências
 
 > - SERRANO, Maurício; SERRANO, Milene; Requisitos - Aula 10;
