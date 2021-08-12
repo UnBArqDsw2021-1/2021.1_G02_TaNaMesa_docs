@@ -61,7 +61,8 @@ nav:
           - 5-Extra/Base/Politica-Contribuicao.md
 
       - Modelagem:
-          - 5-Extra/Modelagem/Casos-de-Uso.md
+        - 5-Extra/Modelagem/Casos-de-Uso.md
+        - 5-Extra/Modelagem/Modelo-Dados.md
 
   - Apresentações:
       - Apresentacoes/entrega-1.md
@@ -78,4 +79,4 @@ extra_javascript:
   - assets/js/jquery.zoom.min.js
   - assets/js/extra.js
 
-dev_addr: "0.0.0.0:8000"
+dev_addr: '0.0.0.0:8000'
