@@ -62,3 +62,16 @@ MESA(_idMesa_, _cpfGarcom_)
 | GARCOM  | Pode visualizar e atualizar o status dos pedidos | SELECT, UPDATE | PEDIDO |
 | GERENTE | Pode visualizar e editar todas as tabelas da base de dados | * | * |
 
+## 4. Diagrama Entidade-Relacionamento (DE-R)
+
+## 5. Diagrama Lógico de Dados (DLD)
+
+## 6. Dicionário de Dados
+
+## 7. Histórico de Revisões
+
+| Data | Versão | Descrição | Autor(es) |
+| :-: | :-: | :-: | :-: |
+| 12/08/2020 | 1.0 | Criação do documento com a Introdução e a Metodologia | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
+| 12/08/2020 | 1.1 | Adição de tópico sobre as notações                    | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
+| 13/08/2020 | 1.2 | Criação do ME-R                                       | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
