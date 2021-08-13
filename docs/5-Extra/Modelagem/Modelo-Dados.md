@@ -22,3 +22,43 @@ o Dicionário de Dados, descrevendo as entidades e os atributos do nosso modelo.
 |Atributo multivalorado|escrito entre chaves|
 |Atributo composto|atributos precisam estar entre parêntese|
 
+## 3. Modelo Entidade-Relacionamento (ME-R)
+
+### 3.1 Descrevendo as Entidades
+
+```
+FUNCIONARIO
+CLIENTE
+PEDIDO
+ITEM
+MESA
+```
+
+### 3.2 Descrevendo os Atributos
+
+```
+FUNCIONARIO(_cpf_, nome, ocupacao)
+CLIENTE(_idCliente_, _nome_)
+PEDIDO(_idPedido_, status, idCliente, nomeCliente, idMesa)
+ITEM(_idItem_, nome, preco, desconto, descricao, observacao, categoria, _cpfGerente_)
+MESA(_idMesa_, _cpfGarcom_)
+```
+
+### 3.3 Descrevendo os Relacionamentos
+
+| **Entidade A** | **Relação (A com B)** | **Entidade B** | **Descrição** | **Cardinalidade**|
+|:--:|:--:|:--:|:--:|:--:|
+| CLIENTE | realiza | PEDIDO | Um CLIENTE realiza um PEDIDO com um ou vários itens, enquanto um PEDIDO pode ser realizado por vários clientes | n:1 |
+| PEDIDO | contem | ITEM | Um PEDIDO pode conter um ou mais ITEM e um ITEM pode estar contido em um ou mais PEDIDO diferentes | n:m |
+| FUNCIONARIO | atende | MESA | Um FUNCIONARIO atende uma ou várias MESA, mas uma mesa pode ser atendida por apenas um FUNCIONARIO | 1:n |
+| MESA | possui | PEDIDO | Uma mesa possui um ou vários PEDIDO, enquanto um PEDIDO precisa associado à apenas uma MESA | 1:n |
+| FUNCIONARIO | gerencia | ITEM | Um FUNCIONARIO pode adicionar ou remover um ou vários ITEM e um ITEM pode ser gerenciado por apenas uma ocupacao de FUNCIONARIO | 1:n |
+
+### 3.4 Descrevendo usuários
+
+| **Usuário** | **Descrição** | **Permissões** | **Tabela** |
+|:--:|:--:|:--:|
+| COZINHA | Pode visualizar e atualizar o status dos pedidos | SELECT, UPDATE | PEDIDO |
+| GARCOM  | Pode visualizar e atualizar o status dos pedidos | SELECT, UPDATE | PEDIDO |
+| GERENTE | Pode visualizar e editar todas as tabelas da base de dados | * | * |
+
