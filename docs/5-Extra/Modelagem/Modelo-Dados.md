@@ -13,8 +13,12 @@ Nesse documento, iremos apresentar o ME-R (Modelo Entidade-Relacionamento), o DE
 (Diagrama Entidade-Relacionamento), DLD (Diagrama Lógico de Dados) e, por fim,
 o Dicionário de Dados, descrevendo as entidades e os atributos do nosso modelo.
 
-## Histórico de Revisões
+## 2.1 Notação
 
-|    Data    | Versão |                      Descrição                       |                                             Autor(es)                                               |
-| :--------: | :----: | :--------------------------------------------------: | :-------------------------------------------------------------------------------------------------: |
-| 12/08/2020 |  1.0   | Criação do documento com a Introdução e a Metodologia| [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
+| **Nomenclatura** | **Descrição** |
+|:--:|:--:|
+|Entidades|nome em maiúsculo|
+|Chave primária|começa e termina com o caracter '\_'(underline)|
+|Atributo multivalorado|escrito entre chaves|
+|Atributo composto|atributos precisam estar entre parêntese|
+
