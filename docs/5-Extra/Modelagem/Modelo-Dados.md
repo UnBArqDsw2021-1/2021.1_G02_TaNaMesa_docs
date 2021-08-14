@@ -69,20 +69,23 @@ MESA(_idMesa_, cpfGarcom)
 
 ## 6. Dicionário de Dados
 
-Entidade: FUNCIONARIO
+Entidade: **FUNCIONARIO**
+
 | Atributo | Propriedade do aributo | Tipo de Dado | Tamanho | Descrição |
 | :-: | :-: | :-: | :-: | :-: |
 | cpf | Chave Primária | bigint | 11 | Identificador de cada funcionário |
 | nome | Obrigatório | varchar | 50 | Nome completo de cada funcionário |
 | ocupacao | Obrigatório | enum('gerente','cozinha', 'garcom') | 10 | Representa a atuação do funcionário dentro do restaurante |
 
-Entidade: CLIENTE
+Entidade: **CLIENTE**
+
 | Atributo | Propriedade do aributo | Tipo de Dado | Tamanho | Descrição |
 | :-: | :-: | :-: | :-: | :-: |
 | idCliente | Chave Primária | int | - | Chave identificadora do cliente, é gerada automaticamente pelo banco |
 | nome | Chave Primária | varchar | 50 | Nome fornecido pelo cliente para constar na comanda individual |
 
-Entidade: PEDIDO
+Entidade: **PEDIDO**
+
 | Atributo | Propriedade do aributo | Tipo de Dado | Tamanho | Descrição |
 | :-: | :-: | :-: | :-: | :-: |
 | idPedido | Chave Primária | int | - | Chave identificadora de cada pedido individual realizado por uma mesa |
@@ -91,7 +94,8 @@ Entidade: PEDIDO
 | nomeCliente | Chave Extrageira | varchar | 50 | Nome fornecido pelo cliente para constar na comanda individual |
 | idMesa | Chave Extrageira | int | - | Chave identificadora de cada mesa disbonivel para uso dos clientes |
 
-Entidade: ITEM
+Entidade: **ITEM**
+
 | Atributo | Propriedade do aributo | Tipo de Dado | Tamanho | Descrição |
 | :-: | :-: | :-: | :-: | :-: |
 | idItem | Chave Primária | int | - | Chave identificadora de cada item disponível para pedidos no cardápio|
@@ -100,10 +104,11 @@ Entidade: ITEM
 | desconto | Opcional | int | 2 | Desconto que pode ser aplicado ao item em caso de promoção (sempre em porcentagem) |
 | descricao | Obrigatório | varchar | 100 | Descrição do item contendo todos os ingredientes presentes em sua composição |
 | observacao | Opcional | varchar | 100 | Observação manual que pode ser feita pelos clientes caso queiram retirar algum ingrediente do item |
-| categoria | Obrigatório | enum('hamburgueres','petiscos','molhos adicionais','saladas','bebidas','sobremesas')| 20 | Grupo no qual os itens disponíveis são divididos |
+| categoria | Obrigatório | enum('hamburgueres','petiscos',<br />'molhos adicionais',<br />'saladas','bebidas','sobremesas')| 20 | Grupo no qual os itens disponíveis são divididos |
 | cpfGerente | Chave Estrangeira | bigint | 11 | Chave identificadora do gerente do estabelecimento, responsável pela criação e edição dos itens |
 
-Entidade: MESA
+Entidade: **MESA**
+
 | Atributo | Propriedade do aributo | Tipo de Dado | Tamanho | Descrição |
 | :-: | :-: | :-: | :-: | :-: |
 | idMesa | Chave Primária | int | - | Chave identificadora de cada mesa disbonivel para uso dos clientes |
@@ -117,4 +122,5 @@ Entidade: MESA
 | 12/08/2020 | 1.0 | Criação do documento com a Introdução e a Metodologia | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
 | 12/08/2020 | 1.1 | Adição de tópico sobre as notações                    | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
 | 13/08/2020 | 1.2 | Criação do ME-R                                       | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
-| 14/08/2020 | 1.3 | Criação do dicionário de dados                                       | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
+| 14/08/2020 | 1.3 | Criação do dicionário de dados                        | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
+
