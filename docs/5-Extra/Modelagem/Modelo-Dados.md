@@ -21,6 +21,7 @@ o Dicionário de Dados, descrevendo as entidades e os atributos do nosso modelo.
 |Chave primária|começa e termina com o caracter '\_'(underline)|
 |Atributo multivalorado|escrito entre chaves|
 |Atributo composto|atributos precisam estar entre parêntese|
+|Atributo obrigatório|Sinônimo de NOT NULL|
 
 ## 3. Modelo Entidade-Relacionamento (ME-R)
 
@@ -40,8 +41,8 @@ MESA
 FUNCIONARIO(_cpf_, nome, ocupacao)
 CLIENTE(_idCliente_, _nome_)
 PEDIDO(_idPedido_, status, idCliente, nomeCliente, idMesa)
-ITEM(_idItem_, nome, preco, desconto, descricao, observacao, categoria, _cpfGerente_)
-MESA(_idMesa_, _cpfGarcom_)
+ITEM(_idItem_, nome, preco, desconto, descricao, observacao, categoria, cpfGerente)
+MESA(_idMesa_, cpfGarcom)
 ```
 
 ### 3.3 Descrevendo os Relacionamentos
@@ -67,6 +68,47 @@ MESA(_idMesa_, _cpfGarcom_)
 ## 5. Diagrama Lógico de Dados (DLD)
 
 ## 6. Dicionário de Dados
+
+Entidade: FUNCIONARIO
+| Atributo | Propriedade do aributo | Tipo de Dado | Tamanho | Descrição |
+| :-: | :-: | :-: | :-: | :-: |
+| cpf | Chave Primária | bigint | 11 | Identificador de cada funcionário |
+| nome | Obrigatório | varchar | 50 | Nome completo de cada funcionário |
+| ocupacao | Obrigatório | enum('gerente','cozinha', 'garcom') | 10 | Representa a atuação do funcionário dentro do restaurante |
+
+Entidade: CLIENTE
+| Atributo | Propriedade do aributo | Tipo de Dado | Tamanho | Descrição |
+| :-: | :-: | :-: | :-: | :-: |
+| idCliente | Chave Primária | int | - | Chave identificadora do cliente, é gerada automaticamente pelo banco |
+| nome | Chave Primária | varchar | 50 | Nome fornecido pelo cliente para constar na comanda individual |
+
+Entidade: PEDIDO
+| Atributo | Propriedade do aributo | Tipo de Dado | Tamanho | Descrição |
+| :-: | :-: | :-: | :-: | :-: |
+| idPedido | Chave Primária | int | - | Chave identificadora de cada pedido individual realizado por uma mesa |
+| status | Obrigatório | enum('na fila','na cozinha','preparado','na mesa')| 10 | Situação do pedido após ser efetuado pelo cliente |
+| idCliente | Chave Extrageira | int | - | Chave identificadora do cliente, é gerada automaticamente pelo banco |
+| nomeCliente | Chave Extrageira | varchar | 50 | Nome fornecido pelo cliente para constar na comanda individual |
+| idMesa | Chave Extrageira | int | - | Chave identificadora de cada mesa disbonivel para uso dos clientes |
+
+Entidade: ITEM
+| Atributo | Propriedade do aributo | Tipo de Dado | Tamanho | Descrição |
+| :-: | :-: | :-: | :-: | :-: |
+| idItem | Chave Primária | int | - | Chave identificadora de cada item disponível para pedidos no cardápio|
+| nome | Obrigatório | varchar | 50 | Nome do item fornecido pelo gerente no momento do cadastro |
+| preco | Obrigatório | float | (4,2) | Preço individual do item sem incluir qualquer desconto |
+| desconto | Opcional | int | 2 | Desconto que pode ser aplicado ao item em caso de promoção (sempre em porcentagem) |
+| descricao | Obrigatório | varchar | 100 | Descrição do item contendo todos os ingredientes presentes em sua composição |
+| observacao | Opcional | varchar | 100 | Observação manual que pode ser feita pelos clientes caso queiram retirar algum ingrediente do item |
+| categoria | Obrigatório | enum('hamburgueres','petiscos','molhos adicionais','saladas','bebidas','sobremesas')| 20 | Grupo no qual os itens disponíveis são divididos |
+| cpfGerente | Chave Estrangeira | bigint | 11 | Chave identificadora do gerente do estabelecimento, responsável pela criação e edição dos itens |
+
+Entidade: MESA
+| Atributo | Propriedade do aributo | Tipo de Dado | Tamanho | Descrição |
+| :-: | :-: | :-: | :-: | :-: |
+| idMesa | Chave Primária | int | - | Chave identificadora de cada mesa disbonivel para uso dos clientes |
+| cpfGarcom | Chave Extrageira | bigint | 11 | Chave identificadora do garçom responsável pelo atendimento da mesa |
+
 
 ## 7. Histórico de Revisões
 
