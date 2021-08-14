@@ -65,7 +65,11 @@ MESA(_idMesa_, cpfGarcom)
 
 ## 4. Diagrama Entidade-Relacionamento (DE-R)
 
+[![DER](https://cdn.discordapp.com/attachments/825425258437541938/876128978639945799/DER.png)](https://cdn.discordapp.com/attachments/825425258437541938/876128978639945799/DER.png)
+
 ## 5. Diagrama Lógico de Dados (DLD)
+
+[![DLD](https://cdn.discordapp.com/attachments/825425258437541938/876128973476728852/DLD.png)](https://cdn.discordapp.com/attachments/825425258437541938/876128973476728852/DLD.png)
 
 ## 6. Dicionário de Dados
 
