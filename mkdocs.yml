@@ -26,11 +26,15 @@ nav:
       - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/TAP.md
       - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Prototipo-Baixa-Fidelidade.md
       - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Priorizacao-MOSCOW.md
-      
     - Processos / Metodologias / Abordagens:
       - 1-Base/Processos-Metodologias-Abordagens/Metodologia.md
       - 1-Base/Processos-Metodologias-Abordagens/Modelagem-BPMN.md
-    
+  - Modelagem:
+    - Módulo Projeto Orientado a Abordagens Tradicionais:
+      - Modelagem UML Estática:
+        - 2-Modelagem/Notacao-UML-Diagramas-Dinamicos/Diagrama-Comunicacao.md
+      - Modelagem UML Dinâmica:
+        - 2-Modelagem/Notacao-UML-Diagramas-Dinamicos/Diagrama-Comunicacao.md
   - Iniciativas Extras:
     - Documentação das Sprints:
       - Sprint 01:
@@ -39,7 +43,6 @@ nav:
       - Sprint 02:
         - 5-Extra/Sprints/Sprint-02/Planning-02.md
       #   - 5-Extra/Sprints/Sprint-02/Review-02.md
-
     - Base:
       - 5-Extra/Base/Personas.md
       - Técnicas de Elicitação:
@@ -56,10 +59,8 @@ nav:
           - 5-Extra/Base/Tecnicas-Elicitacao/Entrevistas/Entrevista-4.md
           - 5-Extra/Base/Tecnicas-Elicitacao/Entrevistas/Entrevista-5.md
         - 5-Extra/Base/Tecnicas-Elicitacao/NFR-Framework.md
-    
       - 5-Extra/Base/Identidade-Visual.md
       - 5-Extra/Base/Politica-Contribuicao.md
-    
   - Apresentações:
     - Apresentacoes/entrega-1.md
 
