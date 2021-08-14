@@ -16,21 +16,11 @@ Os diagramas de comunicação, também chamados de colaboração, são um tipo d
 de interação UML que mostra interações entre as partes do software, utilizando
 mensagens sequenciadas num arranjo de forma livre.
 
-## 2.1 Microserviço do Usuário Cliente
+Separamos nossa metodologia em duas etapas. A primeira envolve a descrição detalhada
+dos microserviços, enquanto a segunda envolve o diagrama de comunicação esquematizado.
 
-
-
-## 2.2 Microserviço do Usuário Cozinha
-
-
-
-## 2.3 Microserviço do Usuário Garcom
-
-
-
-## 2.4 Microserviço do Usuário Gerente
-
-
+## 2.1 Microserviços detalhados
+## 2.2 Microserviços esquematizados
 
 ## 3. Referências
 
@@ -43,4 +33,5 @@ mensagens sequenciadas num arranjo de forma livre.
 | Data       | Versão | Descrição                                             | Autor(es)                                                                                            |
 | :--------- | :----- | :---------------------------------------------------- | :--------------------------------------------------------------------------------------------------- |
 | 14/08/2021 | 1.0    | Criação da estrutura do documento                     | [Sergio Cipriano1](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
+| 14/08/2021 | 1.1    | Definição da metodologia                              | [Sergio Cipriano1](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
 
