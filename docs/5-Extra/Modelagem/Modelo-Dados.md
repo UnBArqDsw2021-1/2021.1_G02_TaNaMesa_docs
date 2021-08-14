@@ -30,7 +30,7 @@ o Dicionário de Dados, descrevendo as entidades e os atributos do nosso modelo.
 ```
 FUNCIONARIO
 CLIENTE
-PEDIDO
+COMANDA
 ITEM
 MESA
 ```
@@ -39,8 +39,8 @@ MESA
 
 ```
 FUNCIONARIO(_cpf_, nome, ocupacao)
-CLIENTE(_idCliente_, _nome_)
-PEDIDO(_idPedido_, status, idCliente, nomeCliente, idMesa)
+CLIENTE(_idCliente_, _nome_, idComanda)
+COMANDA(_idComanda_, status, idMesa)
 ITEM(_idItem_, nome, preco, desconto, descricao, observacao, categoria, cpfGerente)
 MESA(_idMesa_, cpfGarcom)
 ```
@@ -49,18 +49,18 @@ MESA(_idMesa_, cpfGarcom)
 
 | **Entidade A** | **Relação (A com B)** | **Entidade B** | **Descrição** | **Cardinalidade**|
 |:--:|:--:|:--:|:--:|:--:|
-| CLIENTE | realiza | PEDIDO | Um CLIENTE realiza um PEDIDO com um ou vários itens, enquanto um PEDIDO pode ser realizado por vários clientes | n:1 |
-| PEDIDO | contem | ITEM | Um PEDIDO pode conter um ou mais ITEM e um ITEM pode estar contido em um ou mais PEDIDO diferentes | n:m |
+| CLIENTE | realiza | COMANDA | Um CLIENTE realiza um COMANDA com um ou vários itens, enquanto um COMANDA pode ser realizado por vários clientes | n:1 |
+| COMANDA | contem | ITEM | Um COMANDA pode conter um ou mais ITEM e um ITEM pode estar contido em um ou mais COMANDA diferentes | n:m |
 | FUNCIONARIO | atende | MESA | Um FUNCIONARIO atende uma ou várias MESA, mas uma mesa pode ser atendida por apenas um FUNCIONARIO | 1:n |
-| MESA | possui | PEDIDO | Uma mesa possui um ou vários PEDIDO, enquanto um PEDIDO precisa associado à apenas uma MESA | 1:n |
+| MESA | possui | COMANDA | Uma mesa possui um ou vários COMANDA, enquanto um COMANDA precisa associado à apenas uma MESA | 1:n |
 | FUNCIONARIO | gerencia | ITEM | Um FUNCIONARIO pode adicionar ou remover um ou vários ITEM e um ITEM pode ser gerenciado por apenas uma ocupacao de FUNCIONARIO | 1:n |
 
 ### 3.4 Descrevendo usuários
 
 | **Usuário** | **Descrição** | **Permissões** | **Tabela** |
 |:--:|:--:|:--:|:--:|
-| COZINHA | Pode visualizar e atualizar o status dos pedidos | SELECT, UPDATE | PEDIDO |
-| GARCOM  | Pode visualizar e atualizar o status dos pedidos | SELECT, UPDATE | PEDIDO |
+| COZINHA | Pode visualizar e atualizar o status dos comandas | SELECT, UPDATE | COMANDA |
+| GARCOM  | Pode visualizar e atualizar o status dos comandas | SELECT, UPDATE | COMANDA |
 | GERENTE | Pode visualizar e editar todas as tabelas da base de dados | * | * |
 
 ## 4. Diagrama Entidade-Relacionamento (DE-R)
@@ -83,22 +83,21 @@ Entidade: **CLIENTE**
 | :-: | :-: | :-: | :-: | :-: |
 | idCliente | Chave Primária | int | - | Chave identificadora do cliente, é gerada automaticamente pelo banco |
 | nome | Chave Primária | varchar | 50 | Nome fornecido pelo cliente para constar na comanda individual |
+| idComanda | Chave Estrangeira | int | - | Chave identificadora de cada comanda individual realizado por uma mesa |
 
-Entidade: **PEDIDO**
+Entidade: **COMANDA**
 
 | Atributo | Propriedade do aributo | Tipo de Dado | Tamanho | Descrição |
 | :-: | :-: | :-: | :-: | :-: |
-| idPedido | Chave Primária | int | - | Chave identificadora de cada pedido individual realizado por uma mesa |
-| status | Obrigatório | enum('na fila','na cozinha','preparado','na mesa')| 10 | Situação do pedido após ser efetuado pelo cliente |
-| idCliente | Chave Extrageira | int | - | Chave identificadora do cliente, é gerada automaticamente pelo banco |
-| nomeCliente | Chave Extrageira | varchar | 50 | Nome fornecido pelo cliente para constar na comanda individual |
-| idMesa | Chave Extrageira | int | - | Chave identificadora de cada mesa disbonivel para uso dos clientes |
+| idComanda | Chave Primária | int | - | Chave identificadora de cada comanda individual realizado por uma mesa |
+| status | Obrigatório | enum('na fila','na cozinha','preparado','na mesa')| 10 | Situação do comanda após ser efetuado pelo cliente |
+| idMesa | Chave Estrangeira | int | - | Chave identificadora de cada mesa disbonivel para uso dos clientes |
 
 Entidade: **ITEM**
 
 | Atributo | Propriedade do aributo | Tipo de Dado | Tamanho | Descrição |
 | :-: | :-: | :-: | :-: | :-: |
-| idItem | Chave Primária | int | - | Chave identificadora de cada item disponível para pedidos no cardápio|
+| idItem | Chave Primária | int | - | Chave identificadora de cada item disponível para comandas no cardápio|
 | nome | Obrigatório | varchar | 50 | Nome do item fornecido pelo gerente no momento do cadastro |
 | preco | Obrigatório | float | (4,2) | Preço individual do item sem incluir qualquer desconto |
 | desconto | Opcional | int | 2 | Desconto que pode ser aplicado ao item em caso de promoção (sempre em porcentagem) |
@@ -112,7 +111,7 @@ Entidade: **MESA**
 | Atributo | Propriedade do aributo | Tipo de Dado | Tamanho | Descrição |
 | :-: | :-: | :-: | :-: | :-: |
 | idMesa | Chave Primária | int | - | Chave identificadora de cada mesa disbonivel para uso dos clientes |
-| cpfGarcom | Chave Extrageira | bigint | 11 | Chave identificadora do garçom responsável pelo atendimento da mesa |
+| cpfGarcom | Chave Estrangeira | bigint | 11 | Chave identificadora do garçom responsável pelo atendimento da mesa |
 
 
 ## 7. Histórico de Revisões
@@ -123,4 +122,5 @@ Entidade: **MESA**
 | 12/08/2020 | 1.1 | Adição de tópico sobre as notações                    | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
 | 13/08/2020 | 1.2 | Criação do ME-R                                       | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
 | 14/08/2020 | 1.3 | Criação do dicionário de dados                        | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
+| 14/08/2020 | 1.4 | Criação do DE-R                                       | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
 
