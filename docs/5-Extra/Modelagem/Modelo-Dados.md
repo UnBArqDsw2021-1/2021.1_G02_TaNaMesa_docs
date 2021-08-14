@@ -57,7 +57,7 @@ MESA(_idMesa_, _cpfGarcom_)
 ### 3.4 Descrevendo usuários
 
 | **Usuário** | **Descrição** | **Permissões** | **Tabela** |
-|:--:|:--:|:--:|
+|:--:|:--:|:--:|:--:|
 | COZINHA | Pode visualizar e atualizar o status dos pedidos | SELECT, UPDATE | PEDIDO |
 | GARCOM  | Pode visualizar e atualizar o status dos pedidos | SELECT, UPDATE | PEDIDO |
 | GERENTE | Pode visualizar e editar todas as tabelas da base de dados | * | * |
