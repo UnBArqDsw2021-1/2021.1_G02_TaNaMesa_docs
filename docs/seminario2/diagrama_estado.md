@@ -9,7 +9,7 @@ Os diagramas de estados, que são do tipo dinâmico, mostram as possibilidades d
 
 [![D01](../../assets/img/seminario2/diagrama_estado/D01.jpg)](../../assets/img/seminario2/diagrama_estado/D01.jpg)
 
-| **Diagrama 1 ** | **Visão do cliente, do garçom e da cozinha**                                                              |
+| **Diagrama 1**  | **Visão do cliente, do garçom e da cozinha**                                                              |
 | --------------- | --------------------------------------------------------------------------------------------------------- |
 | **Descrição**   | Diagrama de Estado com a visão do cliente, do garçom e da cozinha.                                        |
 | **Autores**     | [Eduarda Servidio](https://github.com/ServideoEC) e [Lucas Boaventura](https://github.com/lboaventura25)  |
