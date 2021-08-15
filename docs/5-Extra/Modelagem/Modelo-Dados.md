@@ -65,11 +65,11 @@ MESA(_idMesa_, cpfGarcom)
 
 ## 4. Diagrama Entidade-Relacionamento (DE-R)
 
-[![DER](https://cdn.discordapp.com/attachments/825425258437541938/876128978639945799/DER.png)](https://cdn.discordapp.com/attachments/825425258437541938/876128978639945799/DER.png)
+[![DER](https://media.discordapp.net/attachments/825425258437541938/876457342718345226/DER.png)](https://cdn.discordapp.com/attachments/825425258437541938/876128978639945799/DER.png)
 
 ## 5. Diagrama Lógico de Dados (DLD)
 
-[![DLD](https://cdn.discordapp.com/attachments/825425258437541938/876128973476728852/DLD.png)](https://cdn.discordapp.com/attachments/825425258437541938/876128973476728852/DLD.png)
+[![DLD](https://media.discordapp.net/attachments/825425258437541938/876457233406394378/DLD.png)](https://cdn.discordapp.com/attachments/825425258437541938/876128973476728852/DLD.png)
 
 ## 6. Dicionário de Dados
 
@@ -127,6 +127,7 @@ Entidade: **MESA**
 | 13/08/2020 | 1.2 | Criação do ME-R                                       | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
 | 14/08/2020 | 1.3 | Criação do dicionário de dados                        | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
 | 14/08/2020 | 1.4 | Criação do DE-R                                       | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
-| 15/08/2020 | 1.5 | Adicionando novo atributo data para comanda           | [Sergio Cipriano](https://github.com/sergiosacj)                                                    |
-| 15/08/2020 | 1.5 | Corrigindo relacionamento entre COMANDA e CLIENTE     | [Sergio Cipriano](https://github.com/sergiosacj)                                                    |
+| 15/08/2020 | 1.5 | Adicionando novo atributo data para comanda           | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
+| 15/08/2020 | 1.5 | Corrigindo relacionamento entre COMANDA e CLIENTE     | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
+| 15/08/2020 | 1.6 | Atualizando imagens do DE-R e DLD                     | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
 
