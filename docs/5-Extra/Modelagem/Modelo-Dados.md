@@ -39,8 +39,8 @@ MESA
 
 ```
 FUNCIONARIO(_cpf_, nome, ocupacao)
-CLIENTE(_idCliente_, _nome_, idComanda)
-COMANDA(_idComanda_, status, idMesa)
+CLIENTE(_idCliente_, _nome_)
+COMANDA(_idComanda_, status, data, idMesa, idCliente, nomeCliente)
 ITEM(_idItem_, nome, preco, desconto, descricao, observacao, categoria, cpfGerente)
 MESA(_idMesa_, cpfGarcom)
 ```
@@ -49,7 +49,7 @@ MESA(_idMesa_, cpfGarcom)
 
 | **Entidade A** | **Relação (A com B)** | **Entidade B** | **Descrição** | **Cardinalidade**|
 |:--:|:--:|:--:|:--:|:--:|
-| CLIENTE | realiza | COMANDA | Um CLIENTE realiza um COMANDA com um ou vários itens, enquanto um COMANDA pode ser realizado por vários clientes | n:1 |
+| COMANDA | pertence | CLIENTE | Um ou vários CLIENTE possuem uma ou várias COMANDA com um ou vários itens | n:1 |
 | COMANDA | contem | ITEM | Um COMANDA pode conter um ou mais ITEM e um ITEM pode estar contido em um ou mais COMANDA diferentes | n:m |
 | FUNCIONARIO | atende | MESA | Um FUNCIONARIO atende uma ou várias MESA, mas uma mesa pode ser atendida por apenas um FUNCIONARIO | 1:n |
 | MESA | possui | COMANDA | Uma mesa possui um ou vários COMANDA, enquanto um COMANDA precisa associado à apenas uma MESA | 1:n |
@@ -127,4 +127,6 @@ Entidade: **MESA**
 | 13/08/2020 | 1.2 | Criação do ME-R                                       | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
 | 14/08/2020 | 1.3 | Criação do dicionário de dados                        | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
 | 14/08/2020 | 1.4 | Criação do DE-R                                       | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
+| 15/08/2020 | 1.5 | Adicionando novo atributo data para comanda           | [Sergio Cipriano](https://github.com/sergiosacj)                                                    |
+| 15/08/2020 | 1.5 | Corrigindo relacionamento entre COMANDA e CLIENTE     | [Sergio Cipriano](https://github.com/sergiosacj)                                                    |
 
