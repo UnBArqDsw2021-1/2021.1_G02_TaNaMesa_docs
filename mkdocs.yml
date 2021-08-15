@@ -34,7 +34,9 @@ nav:
   - Modelagem:
     - Modelagem Ágil:
       - 2-Modelagem/Modelagem Ágil/Backlog.md
-    
+    - Diagrama Dinâmicos:
+      - 2-Modelagem/Diagramas-Dinâmicos/Diagrama-de-atividade.md
+
   - Iniciativas Extras:
       - Documentação das Sprints:
           - Sprint 01:
