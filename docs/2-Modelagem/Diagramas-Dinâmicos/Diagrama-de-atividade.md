@@ -2,33 +2,45 @@
 
 ## 1. Introdução
 
-O digrama de atividades é considerado um diagrama de comportamento porque descreve o que é necessário acontecer no sistema sendo modelado, e tem por objetivo mostrar o fluxo de atividades em um único processo. Os diagramas ajudam a unir as pessoas das áreas de negócios e de desenvolvimento de uma organização para entender o mesmo processo e comportamento.
+O digrama de atividades é considerado um diagrama de comportamento porque descreve o que é necessário acontecer no sistema sendo modelado, e tem por objetivo mostrar o fluxo de atividades em um único processo. Os diagramas ajudam a unir as pessoas das áreas de negócios e de desenvolvimento de uma organização para entender o mesmo processo e comportamento. Para a criação dos diagramas foi utilizado o "whimsical", ferramenta que auxilia bastante.
 
 ### 2. Diagramas
 
 #### 2.1. Diagrama de Cliente
 
-[![diagrama-cliente](../../assets/img/seminario2/diagrama-de-atividades/DiagramaCliente.png)](../../assets/img/seminario2/diagrama-de-atividades/DiagramaCliente.png)
+[![DAF01](../../assets/img/seminario2/diagrama-de-atividades/DiagramaCliente.png)](../../assets/img/seminario2/diagrama-de-atividades/DiagramaCliente.png)
 
-<center>Autor: Abner Filipe</center>
+| **DAF01**     | **Diagrama de Cliente**                     |
+| ------------- | ------------------------------------------- |
+| **Descrição** | Descrição do fluxo de cliente               |
+| **Autor**     | [Abner Filipe](https://github.com/abner423) |
 
 #### 2.2. Diagrama da Cozinha
 
-[![diagrama-cliente](../../assets/img/seminario2/diagrama-de-atividades/DiagramaCozinha.png)](../../assets/img/seminario2/diagrama-de-atividades/DiagramaCozinha.png)
+[![DAF02](../../assets/img/seminario2/diagrama-de-atividades/DiagramaCozinha.png)](../../assets/img/seminario2/diagrama-de-atividades/DiagramaCozinha.png)
 
-<center>Autor: Abner Filipe</center>
+| **DAF02**     | **Diagrama da Cozinha**                     |
+| ------------- | ------------------------------------------- |
+| **Descrição** | Descrição do fluxo da cozinha               |
+| **Autor**     | [Abner Filipe](https://github.com/abner423) |
 
 #### 2.3. Diagrama do Garçom
 
-[![diagrama-cliente](../../assets/img/seminario2/diagrama-de-atividades/DiagramaGarcom.png)](../../assets/img/seminario2/diagrama-de-atividades/DiagramaGarcom.png)
+[![DAF03](../../assets/img/seminario2/diagrama-de-atividades/DiagramaGarcom.png)](../../assets/img/seminario2/diagrama-de-atividades/DiagramaGarcom.png)
 
-<center>Autor: Abner Filipe</center>
+| **DAF03**     | **Diagrama do Garçom**                      |
+| ------------- | ------------------------------------------- |
+| **Descrição** | Descrição do fluxo do garçom                |
+| **Autor**     | [Abner Filipe](https://github.com/abner423) |
 
 #### 2.4. Diagrama do Gerente
 
-[![diagrama-cliente](../../assets/img/seminario2/diagrama-de-atividades/DiagramaGerente.png)](../../assets/img/seminario2/diagrama-de-atividades/DiagramaGerente.png)
+[![DAF04](../../assets/img/seminario2/diagrama-de-atividades/DiagramaGerente.png)](../../assets/img/seminario2/diagrama-de-atividades/DiagramaGerente.png)
 
-<center>Autor: Abner Filipe</center>
+| **DAF04**     | **Diagrama do Gerente**                     |
+| ------------- | ------------------------------------------- |
+| **Descrição** | Descrição do fluxo do gerente               |
+| **Autor**     | [Abner Filipe](https://github.com/abner423) |
 
 ## 3. Referências
 
