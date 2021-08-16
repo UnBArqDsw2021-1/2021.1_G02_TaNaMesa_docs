@@ -68,6 +68,9 @@ nav:
         - 5-Extra/Modelagem/Casos-de-Uso.md
         - 5-Extra/Modelagem/Modelo-Dados.md
 
+      - Arquitetura:
+          - 5-Extra/Arquitetura/arquitetura.md
+
   - Apresentações:
       - Apresentacoes/entrega-1.md
 
