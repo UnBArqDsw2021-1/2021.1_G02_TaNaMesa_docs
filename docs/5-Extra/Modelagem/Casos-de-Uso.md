@@ -106,6 +106,7 @@
 > - Diagrama de caso de uso UML: O que é, como fazer e exemplos. Disponível [aqui](https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml). Acesso em 15 de agosto de 2021
 > - Entendendo definitivamente o que é um Caso de Uso. Disponível [aqui](https://www.ateomomento.com.br/o-que-e-caso-de-uso/). Acesso em 15 de agosto de 2021
 > - Caso de Uso – Include, Extend e Generalização. Disponível [aqui](https://www.ateomomento.com.br/caso-de-uso-include-extend-e-generalizacao/). Acesso em 15 de agosto de 2021
+> - Ferramenta utilizada: [Lucidchart](https://www.lucidchart.com/pages/pt)
 
 ## Histórico de Revisões
 
