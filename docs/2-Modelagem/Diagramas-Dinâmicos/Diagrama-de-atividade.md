@@ -50,7 +50,8 @@ O digrama de atividades é considerado um diagrama de comportamento porque descr
 
 ## Histórico de Revisões
 
-| Data       | Versão | Descrição                         | Autor(es)                                   |
-| :--------- | :----- | :-------------------------------- | :------------------------------------------ |
-| 14/08/2021 | 1.0    | Criação dos diagramas             | [Abner Filipe](https://github.com/abner423) |
-| 15/08/2021 | 1.1    | Adição do documento e dos tópicos | [Emily Dias](https://github.com/emysdias)   |
+| Data       | Versão | Descrição                         | Autor(es)                                                                             |
+| :--------- | :----- | :-------------------------------- | :------------------------------------------------------------------------------------ |
+| 14/08/2021 | 1.0    | Criação dos diagramas             | [Abner Filipe](https://github.com/abner423)                                           |
+| 15/08/2021 | 1.1    | Adição do documento e dos tópicos | [Emily Dias](https://github.com/emysdias)                                             |
+| 17/08/2021 | 1.2    | Mudando diagrama de cliente       | [Emily Dias](https://github.com/emysdias),[Abner Filipe](https://github.com/abner423) |
