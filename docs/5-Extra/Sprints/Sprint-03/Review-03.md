@@ -35,7 +35,7 @@
 | [#65 Backlog do Produto priorizado](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/65) | Herick, Daniel | 5 | Concluido |
 | Backlog da Sprint | Herick, Daniel | 3 | Em aberto | 
 
-## 5. Retrospectiva
+## 4. Retrospectiva
 
 ### Pontos Positivos:
 * Integração com o monitor
@@ -53,7 +53,7 @@
 * Membros serem mais pontuais
 
 
-## 6. Análise do Scrum Master
+## 5. Análise do Scrum Master
 ### Time
 Membros estão um pouco mais organizados e tomando decisões de forma mais uniforme e ágil. Integração continua boa, principalmente nos pareamentos.
 
