@@ -1,14 +1,14 @@
 # Descrição Arquitetural
 
-Este documento tem como objetivo fazer uma descrição inicial do Documento de Arquitetura que será desenvolvido ao longo da disciplina.
-
 ## 1. Introdução
 
-## 1.1 Finalidade
+Este documento tem como objetivo fazer uma descrição inicial do Documento de Arquitetura que será desenvolvido ao longo da disciplina.
+
+### 1.1 Finalidade
 
 O objetivo central desse documento é especificar algumas decisões tomadas pelo grupo através de reuniões pelo Discord. Ao longo do documento será descrito alguns pontos arquiteturais que foram levados em consideração neste momento inicial do projeto, além de buscar facilitar a visualização do resultado da estrutura da aplicação **Tá Na Mesa**.
 
-## 1.2 Escopo
+### 1.2 Escopo
 
 Este documento se aplica ao processo de desenvolvimento do **Tá Na Mesa**, aplicação desenvolvida na disciplina Arquitetura e Desenho de Software, na Universidade de Brasília.
 
@@ -20,23 +20,10 @@ Modelo de representação dos serviços implementados e as interações estabele
 
 #### 2.1.1 Front-End 
 
-- **Flutter**
+- **Flutter**        
 
-Flutter é o kit de ferramentas de interface do usuário, de código aberto, criado pelo Google para criar aplicativos facilmente e compilar nativamente para dispositivos móveis(Android e IOS), Web e Desktop com base no mesmo código fonte. Este framework foi criado utilizando a linguagem Dart.
-
-- **ReactJS**
-
-ReactJS é uma biblioteca de código aberto com foco em criar interfaces de usuário em páginas Web. Este framework é mantido pelo Facebook, Instagram e outras empresas além de um comunidade de desenvolvedores. Esta biblioteca foi criada utilizando a linguagem JavaScript.
-
-#### 2.1.2 Back-End 
-
-- **Node.js**
-
-Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite execução de códigos JavScript fora do navegador. Este software foi criado utilizando a linguagem JavScript.
-
-#### 2.1.3 Banco de dados
-
-- **PostgreSQL**
+      - Arquitetura:
+          - 5-Extra/Arquitetura/arquitetura.md**
 
 PostgreSQL é um SGBD(Sistema Gerenciador de Banco de Dados) relacional, desenvolvido como um projeto de código aberto, que já conta com mais de 30 anos de desenvolvimento ativo. é um sistema muito conhecido por sua forte reputação de confiabilidade e recursos de desempenho.
 
@@ -90,7 +77,7 @@ No software descrito nessa Wiki possui os seguintes módulos:
 
 > - **NODE.JS**. In: WIKIPÉDIA, a enciclopédia livre. Flórida: Wikimedia Foundation, 2019. Disponível em: https://pt.wikipedia.org/w/index.php?title=Node.js&oldid=55592828. Acesso em: 16 de agosto de 2021.
 
-> -MALLAWAARACHCHI, Vijini. 10 Common Software Architectural Patterns in a nutshell. [S. l.], 2017. Disponível em: https://towardsdatascience.com/10-common-software-architectural-patterns-in-a-nutshell-a0b47a1e9013. Acesso em: 16 de agosto de 2021.
+> - MALLAWAARACHCHI, Vijini. 10 Common Software Architectural Patterns in a nutshell. [S. l.], 2017. Disponível em: https://towardsdatascience.com/10-common-software-architectural-patterns-in-a-nutshell-a0b47a1e9013. Acesso em: 16 de agosto de 2021.
 
 > - PANT, Prabhu. **A complete guide to PostgreSQL**. [S. l.], 2018. Disponível em: https://medium.com/@heyPrabhu/a-complete-guide-to-postgresql-e4d1cefb9866. Acesso em: 16 de agosto de 2021.
 
@@ -106,4 +93,5 @@ No software descrito nessa Wiki possui os seguintes módulos:
 | :--------- | :----- | :------------------------------------------- | :------------------------------------------------------------------------------------------------------- |
 | 16/08/2021 | 0.1    | Adiciona estrutura do documento              | [Lucas Boaventura](https://github.com/lboaventura25)                                                     |
 | 16/08/2021 | 1.0    | Cria o documento                             | [Lucas Boaventura](https://github.com/lboaventura25)                                                     |
+| 17/08/2021 | 1.1    | Adiciona correção de formatação no documento | [Lucas Boaventura](https://github.com/lboaventura25)                                                     |
 
