@@ -31,7 +31,7 @@
 | [#57 Diagrama de Atividades](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/57)|  Emily, Abner  | 5 | Concluido |
 | [#60 Diagrama de Estados](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/60)   | Lucas, Eduarda | 5 | Concluido |
 | [#64 Diagrama de Casos de Uso](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/64)|  Tiago, Italo  | 8 | Concluido |
-| Documento de Arquitetura      |  Lucas, Abner  | 5 | Concluido | 
+| [#70 Documento de Arquitetura](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/70)|  Lucas, Abner  | 5 | Concluido | 
 | [#65 Backlog do Produto priorizado](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/65) | Herick, Daniel | 5 | Concluido |
 | Backlog da Sprint | Herick, Daniel | 3 | Em aberto | 
 
