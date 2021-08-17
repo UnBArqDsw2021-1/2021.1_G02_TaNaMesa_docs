@@ -26,7 +26,7 @@
 ## 3. Resultados
 |  História  | Responsáveis  | pontuação | Status |
 | :--------  | :-----------  | :-------: | :----: |
-| Padronização de documentos e organizar repositório |  Brenda, Emily     |     3     |    
+| Padronização de documentos e organizar repositório |  Brenda, Emily     |     3     | Concluido |
 | [#41 Criação de política de branchs e commits](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/41) |    Lucas   |    2    | Concluido | 
 | [#28 Documento de metodologias](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/28) |   Brenda   |   3   | Concluido | 
 | [#37 Modelagem BPMN](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/37) |  Herick  |   5   | Concluido |     
