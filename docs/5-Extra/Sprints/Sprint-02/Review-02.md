@@ -40,9 +40,6 @@
 | [#36 Documento de identidade visual](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/36) |  Daniel, Eduarda |   3   | Concluido |   
 | [#24 - Documentação da Sprint](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/24) | Brenda Santos |     3     | Concluido | 
 
-## 4. Velocity
-
-
 ## 5. Retrospectiva
 
 ### Pontos Positivos:
