@@ -22,9 +22,6 @@ Modelo de representação dos serviços implementados e as interações estabele
 
 - **Flutter**        
 
-      - Arquitetura:
-          - 5-Extra/Arquitetura/arquitetura.md**
-
 PostgreSQL é um SGBD(Sistema Gerenciador de Banco de Dados) relacional, desenvolvido como um projeto de código aberto, que já conta com mais de 30 anos de desenvolvimento ativo. é um sistema muito conhecido por sua forte reputação de confiabilidade e recursos de desempenho.
 
 ### 2.2 Motivação Arquitetural
