@@ -35,9 +35,6 @@
 | [#65 Backlog do Produto priorizado](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/65) | Herick, Daniel | 5 | Concluido |
 | Backlog da Sprint | Herick, Daniel | 3 | Em aberto | 
 
-## 4. Velocity
-
-
 ## 5. Retrospectiva
 
 ### Pontos Positivos:
