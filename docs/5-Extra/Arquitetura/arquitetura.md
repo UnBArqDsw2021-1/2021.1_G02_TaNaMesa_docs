@@ -45,7 +45,7 @@ No software descrito nessa Wiki possui os seguintes módulos:
 
 ### 2.4 Diagrama de Contexto
 
-[ ![Arquitetura](../../../assets/img/seminario2/arquitetura/arquitetura.png) ](../../../assets/img/seminario2/arquitetura/arquitetura.png)
+[ ![Arquitetura](../../assets/img/seminario2/arquitetura/arquitetura.png) ](../../assets/img/seminario2/arquitetura/arquitetura.png)
 
 ## 3. Restrições e Metas Arquiteturais
 
