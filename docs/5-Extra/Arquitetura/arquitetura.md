@@ -34,7 +34,7 @@ Node.js é um software de código aberto, multiplataforma, baseado no interpreta
 
 - **PostgreSQL**
 
-PostgreSQL é um SGBD(Sistema Gerenciador de Banco de Dados) relacional, desenvolvido como um projeto de código aberto, que já conta com mais de 30 anos de desenvolvimento ativo. é um sistema muito conhecido por sua forte reputação de confiabilidade e recursos de desempenho.
+PostgreSQL é um SGBD(Sistema Gerenciador de Banco de Dados) relacional, desenvolvido como um projeto de código aberto, que já conta com mais de 30 anos de desenvolvimento ativo. É um sistema muito conhecido por sua forte reputação de confiabilidade e recursos de desempenho.
 
 
 ### 2.2 Motivação Arquitetural
@@ -52,7 +52,7 @@ No software descrito nessa Wiki possui os seguintes módulos:
 - **Order**, responsável por toda interação com os pedidos dos clientes.
 - **Menu**, responsável por toda criação de produtos e separação por categorias.
 - **Auth**, responsável por todo sistema de autenticação dos usuários no sistema.
-- **Employee**, responsável por toda interação dos garçons no sistema, como serem chamdos por alguma mesa.
+- **Employee**, responsável por toda interação dos garçons no sistema, como serem chamados por alguma mesa.
 - **Table**, responsável por toda interação com as mesas do estabelecimento.
 - **Gateway**, responsável por intermediar a comunicação entre o Front-End e o Back-End.
 ---
@@ -67,9 +67,9 @@ O PWA (Progressive Web App), que será usado no Front-end da aplicação possui 
 
 <figcaption>Figura 1. Resultado do diagrama de contexto.</figcaption>
 
-|     Tema da Reunuião      |       Participantes                                                                     |
+|     Tema da Reunião      |       Participantes                                                                     |
 | :------------ | :------------------------------------------------------------------------ |
-| Definição do diagrama de contexto e tecnologias da aplciação |                      **Todos** os membros do grupo estavam presentes.                      |
+| Definição do diagrama de contexto e tecnologias da aplicação |                      **Todos** os membros do grupo estavam presentes.                      |
 
 ## 3. Restrições e Metas Arquiteturais
 
@@ -78,7 +78,7 @@ O PWA (Progressive Web App), que será usado no Front-end da aplicação possui 
 |     Metas      |                                                                            |
 | :------------: | :------------------------------------------------------------------------: |
 | Escalabilidade |                       A aplicação deve ser escalável                       |
-|   Segurança    | A aplicação deve tratar de forma de segura os dados sensíveis dos usuários |
+|   Segurança    | A aplicação deve tratar de forma segura os dados sensíveis dos usuários |
 |     Deploy     |                A aplicação deve possuir deploy automatizado                |
 
 ### 3.2 Restrições
@@ -118,4 +118,5 @@ O PWA (Progressive Web App), que será usado no Front-end da aplicação possui 
 | 16/08/2021 | 1.0    | Cria o documento                             | [Lucas Boaventura](https://github.com/lboaventura25)                                                     |
 | 17/08/2021 | 1.1    | Adiciona correção de formatação no documento | [Lucas Boaventura](https://github.com/lboaventura25)                                                     |
 | 17/08/2021 | 1.2    | Atualiza arquitetura após redefinição em grupo      | [Lucas Boaventura](https://github.com/lboaventura25)                                                     |
+| 18/08/2021 | 1.3    | Correção de alguns erros de português      | [Eduarda Servidio](https://github.com/ServideoEC)                                                    |
 
