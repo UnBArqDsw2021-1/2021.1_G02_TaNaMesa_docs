@@ -91,7 +91,7 @@ Histórias de usuários são, resumidamente, uma forma simplificada de descrever
 | US30 | Eu, como garçom, gostaria de ver quais pedidos já estão prontos, para que eu possa entregá-los | Must | REQ45 |
 | US31 | Eu, como cozinheiro, gostaria de visualizar quantos pedidos estão ativos nas mesas, para poder preparar propriamente | Should | REQ48 |
 
-## 5. Bibliografia
+## 5. Referências
 
 > - Epic, Feature e User Story (Epico, Funcionalidade e História de Usuário). Disponível em: https://www.ateomomento.com.br/epic-feature-e-user-story/. Acesso em: 15 ago 2021;
 
@@ -106,3 +106,4 @@ Histórias de usuários são, resumidamente, uma forma simplificada de descrever
 | 15/08/2021 | 1.0    | Criação do documento | [Hérick Potugues](https://github.com/herickport), [Daniel Primo](https://github.com/danieldagerom) |
 | 15/08/2021 | 1.1    | Definição do épicos e features | [Hérick Potugues](https://github.com/herickport), [Daniel Primo](https://github.com/danieldagerom) |
 | 16/08/2021 | 1.2    | Descrição das histórias de usuário | [Hérick Potugues](https://github.com/herickport), [Daniel Primo](https://github.com/danieldagerom) |
+| 18/08/2021 | 1.3    | Padronização Referências | [Eduarda Servidio](https://github.com/ServideoEC) |
