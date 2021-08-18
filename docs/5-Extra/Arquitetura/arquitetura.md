@@ -47,6 +47,10 @@ As tecnologias disponíveis no mercado foram analisadas e basicamente todas real
 
 A arquitetura de microsserviços é uma abordagem que separa uma aplicação única em pequenos blocos independentes. Estes blocos são chamados de serviços que executam suas próprias regras de negócio e se comunicam, quase sempre, por meio de métodos HTTP. A divisão dos serviços no projeto **Tá Na Mesa** foi feita levando em conta a abordagem de sub-domínios, técnica que leva em conta o ponto de vista de negócio para estabelecer a distribução de responsabilidades entre os serviços.
 
+A API Gateway é um padrão de projeto voltado para microsserviços muito utilizado, mas não obrigatória. Nós vamos utilizar ela para ter um único ponto de entrada no Back-End do software, assim será fornecido uma API personalizada pro cliente, com mais um nível de segurança na camada que lida com o banco de dados e que cuidará da autenticação dos usuários.
+
+Dentro de cada serviço usaremos a API RESTful, que é uma arquitetura baseada em **protocolo HTTP** (Comunicação Web). REST é um tipo de arquitetura e comunicação muito utilizado para os serviços Web. 
+
 No software descrito nessa Wiki possui os seguintes módulos:
 
 - **Order**, responsável por toda interação com os pedidos dos clientes.
@@ -106,9 +110,11 @@ O PWA (Progressive Web App), que será usado no Front-end da aplicação possui 
 
 > - RICHARDSON, Chris. **What are microservices?**. [S. l.]. Disponível em: https://microservices.io/index.html. Acesso em: 16 de agosto de 2021.
 
-> - WAYNER, Peter. **The top 5 software architecture patterns**: how to make the right choice. [S. l.]. Disponível em: https://techbeacon.com/app-dev-testing/top-5-software-architecture-patterns-how-make-right-choice. 16 de agosto de 2021.
+> - WAYNER, Peter. **The top 5 software architecture patterns**. Disponível em: https://techbeacon.com/app-dev-testing/top-5-software-architecture-patterns-how-make-right-choice. 16 de agosto de 2021.
 
-> - GoodBarber Team. **PWAs - Fundamentos da tecnologia e estudos de casos poderosos**: how to make the right choice. [S. l.]. Disponível em: https://pt.goodbarber.com/blog/pwas-fundamentos-da-tecnologia-e-estudos-de-casos-poderosos-a783/. 17 de agosto de 2021.
+> - GoodBarber Team. **PWAs - Fundamentos da tecnologia e estudos de casos poderosos**. Disponível em: https://pt.goodbarber.com/blog/pwas-fundamentos-da-tecnologia-e-estudos-de-casos-poderosos-a783/. 17 de agosto de 2021.
+
+> - Thiago Távora. **O que é API RESTful?**. Disponível em: https://www.iset.com.br/blog/o-que-e-api-restful-entenda-aqui/. 17 de agosto de 2021.
 
 ## Histórico de Revisões
 
@@ -119,4 +125,5 @@ O PWA (Progressive Web App), que será usado no Front-end da aplicação possui 
 | 17/08/2021 | 1.1    | Adiciona correção de formatação no documento | [Lucas Boaventura](https://github.com/lboaventura25)                                                     |
 | 17/08/2021 | 1.2    | Atualiza arquitetura após redefinição em grupo      | [Lucas Boaventura](https://github.com/lboaventura25)                                                     |
 | 18/08/2021 | 1.3    | Correção de alguns erros de português      | [Eduarda Servidio](https://github.com/ServideoEC)                                                    |
+| 18/08/2021 | 2.0    | Adiciona descrição da arquitetura interna dos serviços      | [Lucas Boaventura](https://github.com/lboaventura25)                                                    |
 
