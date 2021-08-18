@@ -25,9 +25,9 @@ Histórias de usuários são, resumidamente, uma forma simplificada de descrever
 
 > Eu, como < TIPO DE USUÁRIO >, gostaria de < OBJETIVO >, para < RAZÃO >
 
-### 4.1 Épico Comanda
+### 4.1. Épico Comanda
 
-#### 4.1.1 Feature Pedido
+#### 4.1.1. Feature Pedido
 
 | ID | Descrição | Priorização | Rastreabilidade |
 |:---:|:---:|:---:|:---:|
@@ -43,7 +43,7 @@ Histórias de usuários são, resumidamente, uma forma simplificada de descrever
 | US10 | Eu, como garçom/cozinheiro gostaria de editar itens de um pedido, para poder fazer alterações em caso de necessidade | Could | REQ06, REQ07 |
 | US11 | Eu, como garçom/gerente, gostaria de ver o status dos pedidos das mesas, para poder ver o andamento dos pedidos | Could | REQ42 |
 
-#### 4.1.2 Feature Conta
+#### 4.1.2. Feature Conta
 
 | ID | Descrição | Priorização | Rastreabilidade |
 |:---:|:---:|:---:|:---:|
@@ -54,7 +54,7 @@ Histórias de usuários são, resumidamente, uma forma simplificada de descrever
 | US16 | Eu, como cliente, gostaria de ver o total da minha conta no meu nome, para ter melhor discriminação do que foi pedido | Should | REQ54  |
 | US17 | Eu, como cliente, gostaria de selecionar a forma de pagamento, para auxiliar na hora do pagamento | Could | REQ18  |
 
-#### 4.1.3 Feature Avaliação
+#### 4.1.3. Feature Avaliação
 
 | ID | Descrição | Priorização | Rastreabilidade |
 |:---:|:---:|:---:|:---:|
@@ -62,9 +62,9 @@ Histórias de usuários são, resumidamente, uma forma simplificada de descrever
 | US19 | Eu, como cliente, gostaria de deixar críticas/sugestões, para poder avaliar o estabelecimento | Could | REQ26 |
 | US20 | Eu, como cliente, gostaria de receber sugestões de pratos, bebidas e sobremesas, para facilitar na escolha do pedido | Could | REQ56 |
 
-### 4.2 Épico Restaurante
+### 4.2. Épico Restaurante
 
-#### 4.2.1 Feature Cardápio
+#### 4.2.1. Feature Cardápio
 
 | ID | Descrição | Priorização | Rastreabilidade |
 |:---:|:---:|:---:|:---:|
@@ -73,7 +73,7 @@ Histórias de usuários são, resumidamente, uma forma simplificada de descrever
 | US23 | Eu, como cliente, gostaria de visualizar os ingredientes de cada prato, para minha melhor comodidade e segurança | Must | REQ30 |
 | US24 | Eu, como cliente, gostaria de ver as promoções do cardápio, para poder economizar nos pedidos | Could | REQ25 |
 
-#### 4.2.2 Feature Garçom
+#### 4.2.2. Feature Garçom
 
 | ID | Descrição | Priorização | Rastreabilidade |
 |:---:|:---:|:---:|:---:|
@@ -83,7 +83,7 @@ Histórias de usuários são, resumidamente, uma forma simplificada de descrever
 | US28 | Eu, como gerente, gostaria de editar os usuários garçons, para manter a organização | Should | REQ20, REQ40 |
 
 
-#### 4.2.3 Feature Mesa
+#### 4.2.3. Feature Mesa
 
 | ID | Descrição | Priorização | Rastreabilidade |
 |:---:|:---:|:---:|:---:|
@@ -106,4 +106,4 @@ Histórias de usuários são, resumidamente, uma forma simplificada de descrever
 | 15/08/2021 | 1.0    | Criação do documento | [Hérick Potugues](https://github.com/herickport), [Daniel Primo](https://github.com/danieldagerom) |
 | 15/08/2021 | 1.1    | Definição do épicos e features | [Hérick Potugues](https://github.com/herickport), [Daniel Primo](https://github.com/danieldagerom) |
 | 16/08/2021 | 1.2    | Descrição das histórias de usuário | [Hérick Potugues](https://github.com/herickport), [Daniel Primo](https://github.com/danieldagerom) |
-| 18/08/2021 | 1.3    | Padronização Referências | [Eduarda Servidio](https://github.com/ServideoEC) |
+| 18/08/2021 | 1.3    | Padronização das Referências e tópicos | [Eduarda Servidio](https://github.com/ServideoEC) |
