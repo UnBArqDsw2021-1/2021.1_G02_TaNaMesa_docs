@@ -7,7 +7,7 @@ Os diagramas de estados, que são do tipo dinâmico, mostram as possibilidades d
 ## 2. Diagramas
 ### 2.1 Diagrama de Estado envolvendo Cliente, Garçom e Cozinha
 
-[![D01](../../assets/img/seminario2/diagrama_estado/D01.jpg)](../../assets/img/seminario2/diagrama_estado/D01.jpg)
+[![D01](../../assets/img/seminario2/diagrama-estados/D01.jpg)](../../assets/img/seminario2/diagrama-estados/D01.jpg)
 
 | **Diagrama 1**  | **Visão do cliente, do garçom e da cozinha**                                                              |
 | --------------- | --------------------------------------------------------------------------------------------------------- |
@@ -16,7 +16,7 @@ Os diagramas de estados, que são do tipo dinâmico, mostram as possibilidades d
 
 ### 2.2 Diagrama de Estado envolvendo a Gerência
 
-[![D02](../../assets/img/seminario2/diagrama_estado/D02.jpg)](../../assets/img/seminario2/diagrama_estado/D02.jpg)
+[![D02](../../assets/img/seminario2/diagrama-estados/D02.jpg)](../../assets/img/seminario2/diagrama-estados/D02.jpg)
 
 | **Diagrama 2**  | **Visão da Gerência**                                                                                     |
 | --------------- | --------------------------------------------------------------------------------------------------------- |
