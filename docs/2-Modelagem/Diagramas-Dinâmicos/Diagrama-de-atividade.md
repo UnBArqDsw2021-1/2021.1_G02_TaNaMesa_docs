@@ -2,7 +2,7 @@
 
 ## 1. Introdução
 
-O diagrama de atividades é considerado um diagrama de comportamento porque descreve o que é necessário acontecer no sistema. Esse diagrama é modelado e tem por objetivo mostrar o fluxo de atividades em um único processo. Os diagramas ajudam a unir as pessoas das áreas de negócios e de desenvolvimento de uma organização para entender o mesmo processo e comportamento. Para a criação dos diagramas foi utilizado o "whimsical", ferramenta que auxilia bastante no desenvolvimento dos diagramas.
+O diagrama de atividades é considerado um diagrama de comportamento porque descreve o que é necessário acontecer no sistema. Esse diagrama é modelado tem por objetivo mostrar o fluxo de atividades em um único processo. Os diagramas ajudam a unir as pessoas das áreas de negócios e de desenvolvimento de uma organização para entender o mesmo processo e comportamento. Para a criação dos diagramas foi utilizado o "whimsical", ferramenta que auxilia bastante no desenvolvimento dos diagramas.
 
 ### 2. Diagramas
 
@@ -55,4 +55,4 @@ O diagrama de atividades é considerado um diagrama de comportamento porque desc
 | 14/08/2021 | 1.0    | Criação dos diagramas             | [Abner Filipe](https://github.com/abner423)                                           |
 | 15/08/2021 | 1.1    | Adição do documento e dos tópicos | [Emily Dias](https://github.com/emysdias)                                             |
 | 17/08/2021 | 1.2    | Mudando diagrama de cliente       | [Emily Dias](https://github.com/emysdias),[Abner Filipe](https://github.com/abner423) |
-| 18/08/2021 | 1.3    | Correção na introdução            | [Emily Dias](https://github.com/emysdias),[Abner Filipe](https://github.com/abner423) |
+| 18/08/2021 | 1.3    | Correção na introdução            | [Eduarda Servidio](https://github.com/ServideoEC) |
