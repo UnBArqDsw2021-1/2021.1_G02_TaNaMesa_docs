@@ -20,9 +20,22 @@ Modelo de representação dos serviços implementados e as interações estabele
 
 #### 2.1.1 Front-End 
 
-- **Flutter**        
+- **ReactJS**
+
+ReactJS é uma biblioteca de código aberto com foco em criar interfaces de usuário em páginas Web. Este framework é mantido pelo Facebook, Instagram e outras empresas além de um comunidade de desenvolvedores. Esta biblioteca foi criada utilizando a linguagem JavaScript. Possui uma metodologia de desenvolvimento de software conhecida como PWA (Progressive Web App), que pode ser visto como uma evolução híbrida entre as páginas web e um aplicativo móvel.
+
+#### 2.1.2 Back-End 
+
+- **Node.js**
+
+Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite execução de códigos JavScript fora do navegador. Este software foi criado utilizando a linguagem JavScript.
+
+#### 2.1.3 Banco de dados
+
+- **PostgreSQL**
 
 PostgreSQL é um SGBD(Sistema Gerenciador de Banco de Dados) relacional, desenvolvido como um projeto de código aberto, que já conta com mais de 30 anos de desenvolvimento ativo. é um sistema muito conhecido por sua forte reputação de confiabilidade e recursos de desempenho.
+
 
 ### 2.2 Motivação Arquitetural
 
@@ -38,14 +51,25 @@ No software descrito nessa Wiki possui os seguintes módulos:
 
 - **Order**, responsável por toda interação com os pedidos dos clientes.
 - **Menu**, responsável por toda criação de produtos e separação por categorias.
-- **User**, responsável por todo sistema de login dos usuários no sistema.
+- **Auth**, responsável por todo sistema de autenticação dos usuários no sistema.
 - **Employee**, responsável por toda interação dos garçons no sistema, como serem chamdos por alguma mesa.
 - **Table**, responsável por toda interação com as mesas do estabelecimento.
 - **Gateway**, responsável por intermediar a comunicação entre o Front-End e o Back-End.
+---
+
+- **PWA (App Shell)**
+
+O PWA (Progressive Web App), que será usado no Front-end da aplicação possui uma arquitetura seguindo o modelo de App Shell (Casca de aplicativo). Este formato diminui as solicitações de atualização da página, porque separa as partes do aplicativo que são constantes a maior parte do tempo, como o menu, header, footer e outras partes do layout da página, essas partes constantes em conjunto são chamadas de App Shell. Fazendo isso gera uma fluidez de um aplicativo móvel, rodando um código Web.
 
 ### 2.4 Diagrama de Contexto
 
 [ ![Arquitetura](../../assets/img/seminario2/arquitetura/arquitetura.png) ](../../assets/img/seminario2/arquitetura/arquitetura.png)
+
+<figcaption>Figura 1. Resultado do diagrama de contexto.</figcaption>
+
+|     Tema da Reunuião      |       Participantes                                                                     |
+| :------------ | :------------------------------------------------------------------------ |
+| Definição do diagrama de contexto e tecnologias da aplciação |                      **Todos** os membros do grupo estavam presentes.                      |
 
 ## 3. Restrições e Metas Arquiteturais
 
@@ -84,6 +108,8 @@ No software descrito nessa Wiki possui os seguintes módulos:
 
 > - WAYNER, Peter. **The top 5 software architecture patterns**: how to make the right choice. [S. l.]. Disponível em: https://techbeacon.com/app-dev-testing/top-5-software-architecture-patterns-how-make-right-choice. 16 de agosto de 2021.
 
+> - GoodBarber Team. **PWAs - Fundamentos da tecnologia e estudos de casos poderosos**: how to make the right choice. [S. l.]. Disponível em: https://pt.goodbarber.com/blog/pwas-fundamentos-da-tecnologia-e-estudos-de-casos-poderosos-a783/. 17 de agosto de 2021.
+
 ## Histórico de Revisões
 
 | Data       | Versão | Descrição                                    | Autor(es)                                                                                                |
@@ -91,4 +117,5 @@ No software descrito nessa Wiki possui os seguintes módulos:
 | 16/08/2021 | 0.1    | Adiciona estrutura do documento              | [Lucas Boaventura](https://github.com/lboaventura25)                                                     |
 | 16/08/2021 | 1.0    | Cria o documento                             | [Lucas Boaventura](https://github.com/lboaventura25)                                                     |
 | 17/08/2021 | 1.1    | Adiciona correção de formatação no documento | [Lucas Boaventura](https://github.com/lboaventura25)                                                     |
+| 17/08/2021 | 1.2    | Atualiza arquitetura após redefinição em grupo      | [Lucas Boaventura](https://github.com/lboaventura25)                                                     |
 
