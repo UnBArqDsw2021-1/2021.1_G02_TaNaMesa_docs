@@ -36,6 +36,7 @@ nav:
       - 2-Modelagem/Modelagem Ágil/Backlog.md
     - Diagrama Dinâmicos:
       - 2-Modelagem/Diagramas-Dinâmicos/Diagrama-de-atividade.md
+      - 2-Modelagem/Diagramas-Dinâmicos/diagrama-estado.md
 
   - Iniciativas Extras:
       - Documentação das Sprints:
