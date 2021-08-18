@@ -118,7 +118,7 @@ Entidade: **MESA**
 | cpfGarcom | Chave Estrangeira | bigint | 11 | Chave identificadora do garçom responsável pelo atendimento da mesa |
 
 
-## 7. Histórico de Revisões
+## Histórico de Revisões
 
 | Data | Versão | Descrição | Autor(es) |
 | :-: | :-: | :-: | :-: |
