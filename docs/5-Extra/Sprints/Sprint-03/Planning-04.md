@@ -28,9 +28,10 @@
 |  História  | Responsáveis  | pontuação |
 | :--------  | :-----------  | :-------: |
 |Configurar repositório|Sérgio e Lucas|5|
-|Organizar wiki de acordo com diretrizes|Emily|2|
+|[#68 Organizar wiki de acordo com diretrizes](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/68)|Emily|2|
 |Diagrama de classes|Tiago e Abner|5|
 |Diagrama de pacotes|Tiago e Daniel|5|
-|Diagrama de componentes|Emily e Herick|5|
-|Protótipo de alta fidelidade|Italo, Brenda e Eduarda|8|
-|Diagrama de sequência (dívida)|Herick e Daniel|5|
+|[#69 Diagrama de componentes](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/69)|Emily e Herick|5|
+|[#78 Protótipo de alta fidelidade](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/78)|Italo, Brenda e Eduarda|8|
+|[#63 Diagrama de sequência (dívida)](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/63)|Herick e Daniel|5|
+|[#72 Documentação sprint 4](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/72)|Brenda|3|
