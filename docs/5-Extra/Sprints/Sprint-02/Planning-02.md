@@ -1,9 +1,13 @@
 # Planejamento 
 
 ## 1. Visão Geral
-**Número da Sprint:** 02         
-**Data de Início:** 02/08/2021             
-**Data de Término:** 09/08/2021            
+
+**Número da Sprint:** 02    
+
+**Data de Início:** 02/08/2021  
+
+**Data de Término:** 09/08/2021 
+           
 **Duração:** 7 dias            
 
 ## 2. Membros
