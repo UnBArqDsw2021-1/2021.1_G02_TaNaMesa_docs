@@ -19,7 +19,8 @@
 | Desenvolvedor(a) |Brenda Santos, Daniel Primo, Ítalo Alves, Hérick Portugues, Lucas Boaventura, Eduarda Servidio, Tiago Samuel, Sergio Cipriano, Abner Filipe, Emily Dias |
 |   Arquiteto(a)   |Brenda Santos, Daniel Primo, Ítalo Alves, Hérick Portugues, Lucas Boaventura, Eduarda Servidio, Tiago Samuel, Sergio Cipriano, Abner Filipe, Emily Dias| 
 
-**Membros presentes na retrospectiva da sprint:** Todos 
+**Membros presentes na retrospectiva da sprint:** Todos      
+
 **Membros faltantes:** Nenhum
 
 ## 3. Resultados
@@ -58,4 +59,4 @@
 Membros estão um pouco mais organizados e tomando decisões de forma mais uniforme e ágil. Integração continua boa, principalmente nos pareamentos.
 
 ### Histórias
-Organização e realização das histórias foram muito complicadas pois todas as issues eram relacionadas de alguma forma com a arquitetura (que ainda não havia sido minimamente discutida) e eram basicamente compostas por diagramas muito dependentes um do outro.
+Organização e realização das histórias foram muito complicadas pois todas as issues eram relacionadas de alguma forma com a arquitetura (que ainda não havia sido minimamente discutida) e eram basicamente compostas por diagramas muito dependentes um do outro. Além disso, como não vimos muito sentido em criar um backlog da sprint referente à apenas documentações, resolvemos criar quando der inicio ao desenvolvimento.
