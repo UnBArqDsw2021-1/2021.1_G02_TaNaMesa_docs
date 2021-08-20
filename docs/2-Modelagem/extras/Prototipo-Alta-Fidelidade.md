@@ -13,10 +13,10 @@ e facilmente conduzido pelo usuário. (ROGERS; SHARP; PREECE, 2013).
 
 ## 2. Metodologia
 
-O protótipo da aplicação Ta Na Mesa foi construído com a ferramenta Figma utilizando
-como base as visões do Cliente, do Garçom, da Cozinha e da Gerência, bem como a priorização
-dos requisitos levantados para o projeto. O design do protótipo segue os padrões de cores,
-tipografia e versões da logo definidos no manual de Identidade Visual.
+O protótipo da aplicação Ta Na Mesa foi construído com a ferramenta <a href = "https://www.figma.com/">Figma</a> utilizando
+como base <a href = "https://unbarqdsw2021-1.github.io/2021.1_G02_TaNaMesa_docs/1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Rich-Picture/">as visões do Cliente, do Garçom, da Cozinha e da Gerência</a>,
+bem como a < a href = "https://unbarqdsw2021-1.github.io/2021.1_G02_TaNaMesa_docs/1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Priorizacao-MOSCOW/">priorização</a> dos requisitos levantados para o projeto.
+O design do protótipo segue os padrões de cores, tipografia e versões da logo definidos no manual de <a href = "https://unbarqdsw2021-1.github.io/2021.1_G02_TaNaMesa_docs/1-Base/extras/Identidade-Visual/">Identidade Visual</a>.
 
 ## 3. Protótipo de Alta Fidelidade
 
