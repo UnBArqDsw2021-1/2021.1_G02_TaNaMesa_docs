@@ -27,7 +27,7 @@
 
 |  História  | Responsáveis  | pontuação |
 | :--------  | :-----------  | :-------: |
-|Configurar repositório|Sérgio e Lucas|5|
+|[#81 Configurar repositório](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/81)|Sérgio e Lucas|5|
 |[#68 Organizar wiki de acordo com diretrizes](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/68)|Emily|2|
 |[#82 Diagrama de classes](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/82)|Tiago e Abner|5|
 |[#83 Diagrama de pacotes](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/83)|Tiago e Daniel|5|

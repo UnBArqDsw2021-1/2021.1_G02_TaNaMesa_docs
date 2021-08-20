@@ -38,7 +38,10 @@ nav:
               - 5-Extra/Sprints/Sprint-01/Review-01.md
           - Sprint 02:
               - 5-Extra/Sprints/Sprint-02/Planning-02.md
-        #   - 5-Extra/Sprints/Sprint-02/Review-02.md
+        #     - 5-Extra/Sprints/Sprint-02/Review-02.md
+          - Sprint 04:
+              - 5-Extra/Sprints/Sprint-04/Planning-04.md
+        #     - 5-Extra/Sprints/Sprint-04/Review-04.md
 
       - Base:
           - 5-Extra/Base/Personas.md
