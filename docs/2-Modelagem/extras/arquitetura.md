@@ -126,4 +126,4 @@ O PWA (Progressive Web App), que será usado no Front-end da aplicação possui 
 | 17/08/2021 | 1.2    | Atualiza arquitetura após redefinição em grupo      | [Lucas Boaventura](https://github.com/lboaventura25)                                                     |
 | 18/08/2021 | 1.3    | Correção de alguns erros de português      | [Eduarda Servidio](https://github.com/ServideoEC)                                                    |
 | 18/08/2021 | 2.0    | Adiciona descrição da arquitetura interna dos serviços      | [Lucas Boaventura](https://github.com/lboaventura25)                                                    |
-
+| 20/08/2021 | 2.1    | Revisa o documento      | [Tiago Rodrigues](https://github.com/tsrrodrigues)                                                    |
