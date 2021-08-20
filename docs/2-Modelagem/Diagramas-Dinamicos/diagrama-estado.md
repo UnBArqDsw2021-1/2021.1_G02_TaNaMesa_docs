@@ -37,3 +37,4 @@ Os diagramas de estados, que são do tipo dinâmico, mostram as possibilidades d
 | 14/08/2021 | 1.1    | Criação dos diagramas                        | [Eduarda Servidio](https://github.com/ServideoEC) e [Lucas Boaventura](https://github.com/lboaventura25) |
 | 14/08/2021 | 1.2    | Adição da Introdução e dos Diagramas         | [Eduarda Servidio](https://github.com/ServideoEC)                                                        |
 | 20/08/2021 | 1.3    | Revisa documento e adiciona na pasta correta | [Lucas Boaventura](https://github.com/lboaventura25)                                                     |
+| 20/08/2021 | 1.4    | Revisa documento | [Tiago Rodrigues](https://github.com/tsrrodrigues)                                                     |
