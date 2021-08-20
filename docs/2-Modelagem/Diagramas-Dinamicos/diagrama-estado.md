@@ -31,8 +31,9 @@ Os diagramas de estados, que são do tipo dinâmico, mostram as possibilidades d
 
 ## Histórico de Revisões
 
-| Data       | Versão | Descrição                                  | Autor(es)                                                                                    |
-| :--------- | :----- | :----------------------------------------- | :------------------------------------------------------------------------------------------- |
-| 14/08/2021 | 1.0    | Criação do documento                       | [Eduarda Servidio](https://github.com/ServideoEC)                                                        |
-| 14/08/2021 | 1.1    | Criação dos diagramas                      | [Eduarda Servidio](https://github.com/ServideoEC) e [Lucas Boaventura](https://github.com/lboaventura25) |
-| 14/08/2021 | 1.2    | Adição da Introdução e dos Diagramas       | [Eduarda Servidio](https://github.com/ServideoEC)                                                        |
+| Data       | Versão | Descrição                                    | Autor(es)                                                                                                |
+| :--------- | :----- | :-----------------------------------------   | :-------------------------------------------------------------------------------------------             |
+| 14/08/2021 | 1.0    | Criação do documento                         | [Eduarda Servidio](https://github.com/ServideoEC)                                                        |
+| 14/08/2021 | 1.1    | Criação dos diagramas                        | [Eduarda Servidio](https://github.com/ServideoEC) e [Lucas Boaventura](https://github.com/lboaventura25) |
+| 14/08/2021 | 1.2    | Adição da Introdução e dos Diagramas         | [Eduarda Servidio](https://github.com/ServideoEC)                                                        |
+| 20/08/2021 | 1.3    | Revisa documento e adiciona na pasta correta | [Lucas Boaventura](https://github.com/lboaventura25)                                                     |
