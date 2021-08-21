@@ -10,6 +10,12 @@
 ![Diagrama de Classes](../../assets/img/seminario2/diagrama-de-classes/diagrama-de-classes.png)
 <figcaption>Figura 01. Imagem que contém o diagrama de classes da aplicação.</figcaption>
 
+| DC01       | Diagrama de Classes  |
+| :--------- | :------------------  |
+| **Versão**    | Atual: 1.0 (20/08)<br>Anterior: - |
+| **Descrição** | Diagrama UML de classes da aplicação |
+| **Autor**     | [Abner Filipe](https://github.com/abner423) e [Tiago Samuel](https://github.com/tsrrodrigues) |
+
 ## 3. Referências
 
 > - O que é um diagrama de classe UML? Disponível [aqui](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml). Acesso em 20 de agosto de 2021
