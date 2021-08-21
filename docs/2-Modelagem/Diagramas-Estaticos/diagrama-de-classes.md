@@ -7,7 +7,8 @@
 
 ## 2. Diagramas
 
-
+![Diagrama de Classes](../../assets/img/seminario2/diagrama-de-classes/diagrama-de-classes.png)
+<figcaption>Figura 01. Imagem que contém o diagrama de classes da aplicação.</figcaption>
 
 ## 3. Referências
 
@@ -21,3 +22,4 @@
 | Data       | Versão | Descrição                                             | Autor(es)                                                                                    |
 | :--------- | :----- | :---------------------------------------------------- | :------------------------------------------------------------------------------------------- |
 | 20/08/2021 | 0.1    | Criação do documento | [Abner Filipe](https://github.com/abner423), [Tiago Samuel](https://github.com/tsrrodrigues) |
+| 20/08/2021 | 0.2    | Adição do diagrama de classes | [Abner Filipe](https://github.com/abner423), [Tiago Samuel](https://github.com/tsrrodrigues) |
