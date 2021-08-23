@@ -1,4 +1,4 @@
-# Diagrama de pacotes
+# Diagrama de Pacotes
 
 ## 1. Introdução
 
@@ -56,3 +56,4 @@ Outro contexto escolhido foi o de classes. Ele foi escolhido pela equipe, pois m
 | 21/08/2021 | 1.0    | Criação do documento | [Daniel Primo](https://github.com/danieldagerom) e [Tiago Samuel](https://github.com/tsrrodrigues) |
 | 23/08/2021 | 1.1    | Revisado             | [Eduarda Servidio](https://github.com/ServideoEC) |
 | 23/08/2021 | 1.2    | Revisa o documento e altera uma citação da descrição arquitetural do projeto             | [Lucas Boaventura](https://github.com/lboaventura25) |
+| 23/08/2021 | 1.3    | Corrige o título do documento             | [Herick Portugues](https://github.com/herickport) |

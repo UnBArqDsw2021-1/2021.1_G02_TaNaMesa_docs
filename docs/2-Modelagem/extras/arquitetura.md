@@ -28,7 +28,7 @@ ReactJS é uma biblioteca de código aberto com foco em criar interfaces de usu�
 
 - **Node.js**
 
-Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite execução de códigos JavScript fora do navegador. Este software foi criado utilizando a linguagem JavScript.
+Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite execução de códigos JavScript fora do navegador. Este software foi criado utilizando a linguagem JavaScript.
 
 #### 2.1.3 Banco de dados
 
@@ -128,3 +128,4 @@ O PWA (Progressive Web App), que será usado no Front-end da aplicação possui 
 | 18/08/2021 | 2.0    | Adiciona descrição da arquitetura interna dos serviços | [Lucas Boaventura](https://github.com/lboaventura25) |
 | 20/08/2021 | 2.1    | Revisa o documento                                     | [Tiago Rodrigues](https://github.com/tsrrodrigues)   |
 | 23/08/2021 | 2.2    | Revisa o documento                                     | [Ítalo Alves](https://github.com/alvesitalo)         |
+| 23/08/2021 | 2.3    | Corrige erro ortográfico                               | [Herick Portugues](https://github.com/herickport)    |
