@@ -55,6 +55,7 @@ nav:
     - Modelagem Ágil:
       - 2-Modelagem/Modelagem Ágil/Backlog.md
     - Notação UML - Diagramas Dinâmicos:
+      - 2-Modelagem/Diagramas-Dinamicos/Diagrama-Sequencia.md
       - 2-Modelagem/Diagramas-Dinamicos/Diagrama-de-atividade.md
       - 2-Modelagem/Diagramas-Dinamicos/Diagrama-estado.md
     - Notação UML - Diagramas Estáticos:
