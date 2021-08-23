@@ -6,7 +6,7 @@ Diagramas de pacotes são diagramas de cunho estático, mas também com viés or
 
 ## 2. Definição dos Diagramas
 
-Considerando que o diagrama de pacotes pode se basear em diversos contextos, foram escolhidos dois para documentarmos a nossa aplicação. Primeiramente foi escolhido um diagrama de pacotes da aplicação como um todo, baseado no [documento de arquitetura](https://unbarqdsw2021-1.github.io/2021.1_G02_TaNaMesa_docs/2-Modelagem/extras/arquitetura/). A equipe escolheu este contexto, pois ele dá uma visão clara e concisa de como funciona o projeto em sua forma estrutural, mostrando bem quais são os pacotes dessa estrutura.
+Considerando que o diagrama de pacotes pode se basear em diversos contextos, foram escolhidos dois para documentarmos a nossa aplicação. Primeiramente foi escolhido um diagrama de pacotes da aplicação como um todo, tendo como referência a [Descrição Arquitetural](https://unbarqdsw2021-1.github.io/2021.1_G02_TaNaMesa_docs/2-Modelagem/extras/arquitetura/) do **Tá Na Mesa**. A equipe escolheu este contexto, pois ele dá uma visão clara e concisa de como funciona o projeto em sua forma estrutural, mostrando bem quais são os pacotes dessa estrutura.
 
 Outro contexto escolhido foi o de classes. Ele foi escolhido pela equipe, pois mostra, de uma forma funcional, a aplicação. Com esse diagrama, temos o contexto de funcionamento do produto, entendendo quais são suas entidades e como elas se relacionam.
 
@@ -15,7 +15,7 @@ Outro contexto escolhido foi o de classes. Ele foi escolhido pela equipe, pois m
 ### 3.1. Diagrama de Pacotes da Aplicação
 
 [![DP01](../../assets/img/seminario2/diagrama-de-pacotes/DP01.png)](../../assets/img/seminario2/diagrama-de-pacotes/DP01.png)
-<figcaption>Figura 01. Imagem que contém o diagrama de pacotes da aplicação.</figcaption>
+<figcaption>Figura 1. Imagem que contém o diagrama de pacotes da aplicação.</figcaption>
 
 | DP01       | Diagrama de Pacotes da Aplicação  |
 | :--------- | :------------------  |
@@ -26,7 +26,7 @@ Outro contexto escolhido foi o de classes. Ele foi escolhido pela equipe, pois m
 ### 3.2. Diagrama de Pacotes de Classes
 
 [![DP02](../../assets/img/seminario2/diagrama-de-pacotes/DP02.png)](../../assets/img/seminario2/diagrama-de-pacotes/DP02.png)
-<figcaption>Figura 02. Imagem que contém o diagrama de pacotes de classes.</figcaption>
+<figcaption>Figura 2. Imagem que contém o diagrama de pacotes de classes.</figcaption>
 
 | DP02       | Diagrama de Pacotes de Classes  |
 | :--------- | :------------------  |
@@ -55,3 +55,4 @@ Outro contexto escolhido foi o de classes. Ele foi escolhido pela equipe, pois m
 | :--------- | :----- | :------------------- | :------------------------------------------- |
 | 21/08/2021 | 1.0    | Criação do documento | [Daniel Primo](https://github.com/danieldagerom) e [Tiago Samuel](https://github.com/tsrrodrigues) |
 | 23/08/2021 | 1.1    | Revisado             | [Eduarda Servidio](https://github.com/ServideoEC) |
+| 23/08/2021 | 1.2    | Revisa o documento e altera uma citação da descrição arquitetural do projeto             | [Lucas Boaventura](https://github.com/lboaventura25) |
