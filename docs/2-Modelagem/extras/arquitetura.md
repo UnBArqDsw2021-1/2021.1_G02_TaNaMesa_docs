@@ -18,13 +18,13 @@ Modelo de representação dos serviços implementados e as interações estabele
 
 ### 2.1 Tecnologias
 
-#### 2.1.1 Front-End 
+#### 2.1.1 Front-End
 
 - **ReactJS**
 
 ReactJS é uma biblioteca de código aberto com foco em criar interfaces de usuário em páginas Web. Este framework é mantido pelo Facebook, Instagram e outras empresas além de um comunidade de desenvolvedores. Esta biblioteca foi criada utilizando a linguagem JavaScript. Possui uma metodologia de desenvolvimento de software conhecida como PWA (Progressive Web App), que pode ser visto como uma evolução híbrida entre as páginas web e um aplicativo móvel.
 
-#### 2.1.2 Back-End 
+#### 2.1.2 Back-End
 
 - **Node.js**
 
@@ -35,7 +35,6 @@ Node.js é um software de código aberto, multiplataforma, baseado no interpreta
 - **PostgreSQL**
 
 PostgreSQL é um SGBD(Sistema Gerenciador de Banco de Dados) relacional, desenvolvido como um projeto de código aberto, que já conta com mais de 30 anos de desenvolvimento ativo. É um sistema muito conhecido por sua forte reputação de confiabilidade e recursos de desempenho.
-
 
 ### 2.2 Motivação Arquitetural
 
@@ -49,7 +48,7 @@ A arquitetura de microsserviços é uma abordagem que separa uma aplicação ún
 
 A API Gateway é um padrão de projeto voltado para microsserviços muito utilizado, mas não obrigatória. Nós vamos utilizar ela para ter um único ponto de entrada no Back-End do software, assim será fornecido uma API personalizada pro cliente, com mais um nível de segurança na camada que lida com o banco de dados e que cuidará da autenticação dos usuários.
 
-Dentro de cada serviço usaremos a API RESTful, que é uma arquitetura baseada em **protocolo HTTP** (Comunicação Web). REST é um tipo de arquitetura e comunicação muito utilizado para os serviços Web. 
+Dentro de cada serviço usaremos a API RESTful, que é uma arquitetura baseada em **protocolo HTTP** (Comunicação Web). REST é um tipo de arquitetura e comunicação muito utilizado para os serviços Web.
 
 No software descrito nessa Wiki possui os seguintes módulos:
 
@@ -59,6 +58,7 @@ No software descrito nessa Wiki possui os seguintes módulos:
 - **Employee**, responsável por toda interação dos garçons no sistema, como serem chamados por alguma mesa.
 - **Table**, responsável por toda interação com as mesas do estabelecimento.
 - **Gateway**, responsável por intermediar a comunicação entre o Front-End e o Back-End.
+
 ---
 
 - **PWA (App Shell)**
@@ -71,30 +71,30 @@ O PWA (Progressive Web App), que será usado no Front-end da aplicação possui 
 
 <figcaption>Figura 1. Resultado do diagrama de contexto.</figcaption>
 
-|     Tema da Reunião      |       Participantes                                                                     |
-| :------------ | :------------------------------------------------------------------------ |
-| Definição do diagrama de contexto e tecnologias da aplicação |                      **Todos** os membros do grupo estavam presentes.                      |
+| Tema da Reunião                                              | Participantes                                    |
+| :----------------------------------------------------------- | :----------------------------------------------- |
+| Definição do diagrama de contexto e tecnologias da aplicação | **Todos** os membros do grupo estavam presentes. |
 
 ## 3. Restrições e Metas Arquiteturais
 
 ### 3.1 Metas
 
-|     Metas      |                                                                            |
-| :------------: | :------------------------------------------------------------------------: |
-| Escalabilidade |                       A aplicação deve ser escalável                       |
+|     Metas      |                                                                         |
+| :------------: | :---------------------------------------------------------------------: |
+| Escalabilidade |                     A aplicação deve ser escalável                      |
 |   Segurança    | A aplicação deve tratar de forma segura os dados sensíveis dos usuários |
-|     Deploy     |                A aplicação deve possuir deploy automatizado                |
+|     Deploy     |              A aplicação deve possuir deploy automatizado               |
 
 ### 3.2 Restrições
 
-|  Restrições   |                                                                |
-| :-----------: | :------------------------------------------------------------: |
-| Conectividade |   É necessária a conexão com internet para utilização do App   |
-|  Plataforma   |         A aplicação terá suporte somente para Android          |
-|    Público    |  A aplicação será desenvolvida voltada ao público brasileiro   |
-|   Linguagem   |      A aplicação será desenvolvida em português do Brasil      |
-|    Equipe     |             A equipe possui apenas 10 integrantes              |
-|     Prazo     | O escopo proposto pode ser alterado ao longo da disciplina     |
+|  Restrições   |                                                             |
+| :-----------: | :---------------------------------------------------------: |
+| Conectividade | É necessária a conexão com internet para utilização do App  |
+|  Plataforma   |        A aplicação terá suporte somente para Android        |
+|    Público    | A aplicação será desenvolvida voltada ao público brasileiro |
+|   Linguagem   |    A aplicação será desenvolvida em português do Brasil     |
+|    Equipe     |            A equipe possui apenas 10 integrantes            |
+|     Prazo     | O escopo proposto pode ser alterado ao longo da disciplina  |
 
 ## 4. Referências
 
@@ -118,12 +118,13 @@ O PWA (Progressive Web App), que será usado no Front-end da aplicação possui 
 
 ## Histórico de Revisões
 
-| Data       | Versão | Descrição                                    | Autor(es)                                                                                                |
-| :--------- | :----- | :------------------------------------------- | :------------------------------------------------------------------------------------------------------- |
-| 16/08/2021 | 0.1    | Adiciona estrutura do documento              | [Lucas Boaventura](https://github.com/lboaventura25)                                                     |
-| 16/08/2021 | 1.0    | Cria o documento                             | [Lucas Boaventura](https://github.com/lboaventura25)                                                     |
-| 17/08/2021 | 1.1    | Adiciona correção de formatação no documento | [Lucas Boaventura](https://github.com/lboaventura25)                                                     |
-| 17/08/2021 | 1.2    | Atualiza arquitetura após redefinição em grupo      | [Lucas Boaventura](https://github.com/lboaventura25)                                                     |
-| 18/08/2021 | 1.3    | Correção de alguns erros de português      | [Eduarda Servidio](https://github.com/ServideoEC)                                                    |
-| 18/08/2021 | 2.0    | Adiciona descrição da arquitetura interna dos serviços      | [Lucas Boaventura](https://github.com/lboaventura25)                                                    |
-| 20/08/2021 | 2.1    | Revisa o documento      | [Tiago Rodrigues](https://github.com/tsrrodrigues)                                                    |
+| Data       | Versão | Descrição                                              | Autor(es)                                            |
+| :--------- | :----- | :----------------------------------------------------- | :--------------------------------------------------- |
+| 16/08/2021 | 0.1    | Adiciona estrutura do documento                        | [Lucas Boaventura](https://github.com/lboaventura25) |
+| 16/08/2021 | 1.0    | Cria o documento                                       | [Lucas Boaventura](https://github.com/lboaventura25) |
+| 17/08/2021 | 1.1    | Adiciona correção de formatação no documento           | [Lucas Boaventura](https://github.com/lboaventura25) |
+| 17/08/2021 | 1.2    | Atualiza arquitetura após redefinição em grupo         | [Lucas Boaventura](https://github.com/lboaventura25) |
+| 18/08/2021 | 1.3    | Correção de alguns erros de português                  | [Eduarda Servidio](https://github.com/ServideoEC)    |
+| 18/08/2021 | 2.0    | Adiciona descrição da arquitetura interna dos serviços | [Lucas Boaventura](https://github.com/lboaventura25) |
+| 20/08/2021 | 2.1    | Revisa o documento                                     | [Tiago Rodrigues](https://github.com/tsrrodrigues)   |
+| 23/08/2021 | 2.2    | Revisa o documento                                     | [Ítalo Alves](https://github.com/alvesitalo)         |
