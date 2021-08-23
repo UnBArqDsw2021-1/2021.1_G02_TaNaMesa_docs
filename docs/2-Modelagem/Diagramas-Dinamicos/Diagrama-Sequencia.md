@@ -17,6 +17,8 @@ Para o desenvolvimento do diagrama foi utilizado as ferramentas do site [LucidCh
 
 [![DS01](../../assets/img/seminario2/diagrama-sequencia/DiagramaPedido.png)](../../assets/img/seminario2/diagrama-sequencia/DiagramaPedido.png)
 
+<figcaption>Figura 1. Resultado do diagrama de sequência da aplicação.</figcaption>
+
 
 | **DS01**     | **Diagrama de Sequência - Realizar Pedido**                     |
 | ------------- | ------------------------------------------- |
@@ -37,3 +39,4 @@ Para o desenvolvimento do diagrama foi utilizado as ferramentas do site [LucidCh
 | :--------- | :----- | :-------------------------------- | :------------------------------------------------------------------------------------ |
 | 22/08/2021 | 1.0    | Elaboração do diagrama            | [Daniel Primo](https://github.com/danieldagerom) e [Herick Portugues](https://github.com/herickport) |
 | 22/08/2021 | 1.1    | Criação do documento              | [Daniel Primo](https://github.com/danieldagerom) e [Herick Portugues](https://github.com/herickport) |
+| 23/08/2021 | 1.2    | Revisa o documento e adiciona legenda na imagem              | [Lucas Boaventura](https://github.com/lboaventura25) |
