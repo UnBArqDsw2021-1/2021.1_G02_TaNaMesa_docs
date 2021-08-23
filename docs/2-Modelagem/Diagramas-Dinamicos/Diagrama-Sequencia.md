@@ -38,3 +38,4 @@ Para o desenvolvimento do diagrama foi utilizado as ferramentas do site [LucidCh
 | 22/08/2021 | 1.1    | Criação do documento                            | [Daniel Primo](https://github.com/danieldagerom) e [Herick Portugues](https://github.com/herickport) |
 | 23/08/2021 | 1.2    | Revisa o documento e adiciona legenda na imagem | [Lucas Boaventura](https://github.com/lboaventura25)                                                 |
 | 23/08/2021 | 1.3    | Revisão do documento                            | [Emily Dias](https://github.com/emysdias)                                                            |
+| 23/08/2021 | 1.4    | Revisa o documento                              | [Eduarda Servidio](https://github.com/ServideoEC)                                                         
