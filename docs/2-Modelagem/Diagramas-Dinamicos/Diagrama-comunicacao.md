@@ -40,6 +40,6 @@ dos microserviços, enquanto a segunda envolve o diagrama de comunicação esque
 
 | Data       | Versão | Descrição    | Autor(es)       |
 | :--------- | :----- | :----------- | :-------------- |
-| 14/08/2021 | 1.0    | Criação da estrutura do documento | [Sergio Cipriano1](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
-| 14/08/2021 | 1.1    | Definição da metodologia          | [Sergio Cipriano1](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
-| 23/08/2021 | 1.2    | Adição dos diagramas              | [Sergio Cipriano1](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
+| 14/08/2021 | 1.0    | Criação da estrutura do documento | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
+| 14/08/2021 | 1.1    | Definição da metodologia          | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
+| 23/08/2021 | 1.2    | Adição dos diagramas              | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |

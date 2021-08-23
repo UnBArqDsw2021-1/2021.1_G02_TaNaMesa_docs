@@ -54,7 +54,7 @@ funcionalidade cada persona desejaria que tivesse para atender suas necessidades
 | 29 | André Muds   | Criar usuários garçons                                                                                                         | Funcional     |
 | 30 | André Muds   | Remover usuários garçons                                                                                                       | Funcional     |
 
-## 5. Bibliografia
+## 5. Referências
 
 > - SOMMERVILLE. Ian. 2011. Engenharia de Software.
   - Software Requeriments Engineering. Disponível em: https://web.uettaxila.edu.pk/CMS/SP2013/seSREbs/notes%5CSRE%20Lec_%204.pdf Acesso em: 04 ago. 2021.
@@ -67,3 +67,4 @@ funcionalidade cada persona desejaria que tivesse para atender suas necessidades
 | 04/08/2020 |  1.0   | Criação dos 6 tópicos do documento de instrospecção | [Sergio Cipriano](https://github.com/sergiosacj) |
 | 04/08/2020 |  1.1   | Arrumando detalhes apontados pela Eduarda Servidio  | [Sergio Cipriano](https://github.com/sergiosacj) |
 | 04/08/2020 |  1.2   | Renomeando documento corretamente                   | [Sergio Cipriano](https://github.com/sergiosacj) |
+| 18/08/2020 |  1.3   | Padronizando referências                   | [Eduarda Servidio](https://github.com/ServideoEC) |

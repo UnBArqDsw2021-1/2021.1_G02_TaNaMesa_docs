@@ -15,71 +15,71 @@ O MoSCoW (Must have, Should have, Could have and Won’t have) é uma das técni
 
 ## 3. Requisitos priorizados com o MoSCoW
 
-| Número | Requisito                                                                                                                                         | Prioridade  | Documento    |
-| :----- | :------------------------------------------------------------------------------------------------------------------------------------------------ | :---------- | :----------- |
-| US01   | O usuário deve poder visualizar o cardápio                                                                                                        | Must have   | Storytelling |
-| US02   | O usuário deve poder fazer pedidos                                                                                                                | Must have   | Storytelling |
-| US03   | O usuário deve poder pedir a conta                                                                                                                | Must have   | Storytelling |
-| US04   | O usuário deve poder dividir a conta de forma igual                                                                                               | Must have   | Storytelling |
-| US05   | O cozinheiro e o garçom devem poder ver os pedidos de clientes                                                                                    | Must have   | Storytelling |
-| US06   | O garçom deve poder adicionar itens de pedidos                                                                                                    | Could have  | Storytelling |
-| US07   | O garçom deve poder excluir itens de pedidos                                                                                                      | Could have  | Storytelling |
-| US08   | O gerente deve poder gerenciar a conta                                                                                                            | Must have   | Storytelling |
-| US09   | O cozinheiro deve poder informar que o pedido está pronto                                                                                         | Must have   | Storytelling |
-| US10   | O gerente deve poder gerenciar mesas                                                                                                              | Must have   | Storytelling |
-| US11   | O gerente deve poder gerenciar o cardápio                                                                                                         | Must have   | Storytelling |
-| US12   | O cliente conseguir chamar garçom/atendente                                                                                                       | Must have   | Benchmarking |
-| US13   | O cliente poder editar pedido                                                                                                                     | Should have | Benchmarking |
-| US14   | O cliente poder editar os itens                                                                                                                   | Should have | Benchmarking |
-| US15   | O cliente poder ver comanda individual                                                                                                            | Must have   | Benchmarking |
-| US16   | O cliente poder ver o extrato total do pedido                                                                                                     | Must have   | Benchmarking |
-| US17   | O cliente poder pagar separadamente por comanda                                                                                                   | Must have   | Benchmarking |
-| US18   | O cliente poder selecionar forma de pagamento                                                                                                     | Could have  | Benchmarking |
-| US19   | Quando a cozinha finalizar o pedido, deseja receber uma notificação com as informações da mesa e com o nome do autor do pedido                    | Should have | Introspecção |
-| US20   | O gerente poder remover usuários garçons                                                                                                          | Should have | Introspecção |
-| US21   | O garçom ser notificado quando o cliente desejar pedir conta                                                                                      | Must have   | Introspecção |
-| US22   | O cliente consegui fazer o pedido de forma fácil, mesmo chegando em horário diferente dos demais                                                  | Should have | Introspecção |
-| US23   | O cliente poder chamar o garçom pelo app                                                                                                          | Must have   | Introspecção |
-| US24   | O cliente poder realizar pedido sem precisar chamar o garçom                                                                                      | Must have   | Introspecção |
-| US25   | O cliente poder verificar promoções especiais na tela inicial                                                                                     | Could have  | Introspecção |
-| US26   | O cliente poder deixar críticas/sugestões                                                                                                         | Could have  | Introspecção |
-| US27   | O cliente poder escolher se a bebida vai ser servida junto da comida                                                                              | Should have | Introspecção |
-| US28   | O cozinheiro poder visualizar quando um novo pedido chega na cozinha                                                                              | Must have   | Introspecção |
-| US29   | Finalizar o pedido assim que a cozinha prepará-lo                                                                                                 | Must have   | Introspecção |
-| US30   | O cliente poder ver os ingredientes do pedido                                                                                                     | Should have | Introspecção |
-| US31   | O gerente poder adicionar mesas                                                                                                                   | Must have   | Introspecção |
-| US32   | O gerente poder remover mesas                                                                                                                     | Must have   | Introspecção |
-| US33   | O gerente poder visualizar todos os pedidos de uma mesa                                                                                           | Must have   | Introspecção |
-| US34   | O gerente poder visualizar todos os pedidos de um cliente                                                                                         | Must have   | Introspecção |
-| US35   | O gerente poder visualizar todo o histórico de pedidos do restaurante                                                                             | Should have | Introspecção |
-| US36   | O garçom poder visualizar o tempo que um pedido demorou para ser finalizado                                                                       | Could have  | Introspecção |
-| US37   | O gerente poder adicionar itens do cardápio                                                                                                       | Must have   | Introspecção |
-| US38   | O gerente poder remover itens do cardápio                                                                                                         | Must have   | Introspecção |
-| US39   | O gerente poder visualizar quem fechou a conta com uma determinada mesa                                                                           | Could have  | Introspecção |
-| US40   | O gerente poder criar usuários garçons                                                                                                            | Should have | Introspecção |
-| US41   | O cliente conseguir enviar pedido                                                                                                                 | Must have   | Protótipo    |
-| US42   | O gerente ser capaz de ver status dos pedidos das mesas                                                                                           | Could have  | Protótipo    |
-| US43   | O cliente ser capaz de transitar entre as telas                                                                                                   | Must have   | Protótipo    |
-| US44   | O cliente ser capaz de fazer outro pedido                                                                                                         | Must have   | Protótipo    |
-| US45   | O garçom ser capaz de ver quais mesas os pedidos foram preparados                                                                                 | Must have   | Protótipo    |
-| US46   | O garçom ser capaz de avisar qual mesa o pedido já foi entregue                                                                                   | Must have   | Protótipo    |
-| US47   | O garçom ser capaz de ver detalhes do pedido que as mesas pediram                                                                                 | Must have   | Protótipo    |
-| US48   | O cozinheiro ser capaz de ver os pedidos ativos das mesas                                                                                         | Should have | Protótipo    |
-| US49   | O cozinheiro conseguir avisar que o pedido da mesa x foi terminado                                                                                | Must have   | Protótipo    |
-| US50   | O cozinheiro ver os pedidos que foram finalizados                                                                                                 | Must have   | Protótipo    |
-| US51   | O gerente ser capaz de editar detalhes das mesas                                                                                                  | Should have | Protótipo    |
-| US52   | O garçom deve poder ver uma fila com as mesas que precisam de atendimento.                                                                        | Should have | Questionário |
-| US53   | O garçom deve poder ver a quanto tempo as mesas já estão esperando por atendimento.                                                               | Could have  | Questionário |
-| US54   | O cliente deve poder visualizar a conta a ser paga por nome das pessoas que fizeram os pedidos, detalhado por item e valor presentes no cardápio. | Must have   | Questionário |
-| US55   | O cardápio deve ser dividido por categoria                                                                                                        | Should have | Entrevista   |
-| US56   | O cliente deve receber sugestões de pratos, bebidas e sobremesas                                                                                  | Could have  | Entrevista   |
-| US57   | O cardápio deve conter imagens, preços e ingredientes do prato                                                                                    | Must have   | Entrevista   |
-| US58   | O cliente deve poder adicionar ingredientes ao prato                                                                                              | Could have  | Entrevista   |
-| US59   | O cliente deve poder remover ingredientes do prato                                                                                                | Could have  | Entrevista   |
-| US60   | O cliente deve poder dividir a gorjeta entre as pessoas da mesa                                                                                   | Could have  | Entrevista   |
-| US61   | O cliente deve conseguir alterar o pedido até alguns minutos após realizado                                                                       | Should have | Entrevista   |
-| US62   | O cliente deve poder comentar e/ou curtir os pratos do cardápio                                                                                   | Could have  | Entrevista   |
-| US63   | O cliente deve conseguir visualizar os pratos mais pedidos                                                                                        | Could have  | Entrevista   |
+| Número  | Requisito                                                                                                                                         | Prioridade  | Documento    |
+| :------ | :------------------------------------------------------------------------------------------------------------------------------------------------ | :---------- | :----------- |
+| REQ01   | O usuário deve poder visualizar o cardápio                                                                                                        | Must have   | Storytelling |
+| REQ02   | O usuário deve poder fazer pedidos                                                                                                                | Must have   | Storytelling |
+| REQ03   | O usuário deve poder pedir a conta                                                                                                                | Must have   | Storytelling |
+| REQ04   | O usuário deve poder dividir a conta de forma igual                                                                                               | Must have   | Storytelling |
+| REQ05   | O cozinheiro e o garçom devem poder ver os pedidos de clientes                                                                                    | Must have   | Storytelling |
+| REQ06   | O garçom deve poder adicionar itens de pedidos                                                                                                    | Could have  | Storytelling |
+| REQ07   | O garçom deve poder excluir itens de pedidos                                                                                                      | Could have  | Storytelling |
+| REQ08   | O gerente deve poder gerenciar a conta                                                                                                            | Must have   | Storytelling |
+| REQ09   | O cozinheiro deve poder informar que o pedido está pronto                                                                                         | Must have   | Storytelling |
+| REQ10   | O gerente deve poder gerenciar mesas                                                                                                              | Must have   | Storytelling |
+| REQ11   | O gerente deve poder gerenciar o cardápio                                                                                                         | Must have   | Storytelling |
+| REQ12   | O cliente conseguir chamar garçom/atendente                                                                                                       | Must have   | Benchmarking |
+| REQ13   | O cliente poder editar pedido                                                                                                                     | Should have | Benchmarking |
+| REQ14   | O cliente poder editar os itens                                                                                                                   | Should have | Benchmarking |
+| REQ15   | O cliente poder ver comanda individual                                                                                                            | Must have   | Benchmarking |
+| REQ16   | O cliente poder ver o extrato total do pedido                                                                                                     | Must have   | Benchmarking |
+| REQ17   | O cliente poder pagar separadamente por comanda                                                                                                   | Must have   | Benchmarking |
+| REQ18   | O cliente poder selecionar forma de pagamento                                                                                                     | Could have  | Benchmarking |
+| REQ19   | Quando a cozinha finalizar o pedido, deseja receber uma notificação com as informações da mesa e com o nome do autor do pedido                    | Should have | Introspecção |
+| REQ20   | O gerente poder remover usuários garçons                                                                                                          | Should have | Introspecção |
+| REQ21   | O garçom ser notificado quando o cliente desejar pedir conta                                                                                      | Must have   | Introspecção |
+| REQ22   | O cliente consegui fazer o pedido de forma fácil, mesmo chegando em horário diferente dos demais                                                  | Should have | Introspecção |
+| REQ23   | O cliente poder chamar o garçom pelo app                                                                                                          | Must have   | Introspecção |
+| REQ24   | O cliente poder realizar pedido sem precisar chamar o garçom                                                                                      | Must have   | Introspecção |
+| REQ25   | O cliente poder verificar promoções especiais na tela inicial                                                                                     | Could have  | Introspecção |
+| REQ26   | O cliente poder deixar críticas/sugestões                                                                                                         | Could have  | Introspecção |
+| REQ27   | O cliente poder escolher se a bebida vai ser servida junto da comida                                                                              | Should have | Introspecção |
+| REQ28   | O cozinheiro poder visualizar quando um novo pedido chega na cozinha                                                                              | Must have   | Introspecção |
+| REQ29   | Finalizar o pedido assim que a cozinha prepará-lo                                                                                                 | Must have   | Introspecção |
+| REQ30   | O cliente poder ver os ingredientes do pedido                                                                                                     | Should have | Introspecção |
+| REQ31   | O gerente poder adicionar mesas                                                                                                                   | Must have   | Introspecção |
+| REQ32   | O gerente poder remover mesas                                                                                                                     | Must have   | Introspecção |
+| REQ33   | O gerente poder visualizar todos os pedidos de uma mesa                                                                                           | Must have   | Introspecção |
+| REQ34   | O gerente poder visualizar todos os pedidos de um cliente                                                                                         | Must have   | Introspecção |
+| REQ35   | O gerente poder visualizar todo o histórico de pedidos do restaurante                                                                             | Should have | Introspecção |
+| REQ36   | O garçom poder visualizar o tempo que um pedido demorou para ser finalizado                                                                       | Could have  | Introspecção |
+| REQ37   | O gerente poder adicionar itens do cardápio                                                                                                       | Must have   | Introspecção |
+| REQ38   | O gerente poder remover itens do cardápio                                                                                                         | Must have   | Introspecção |
+| REQ39   | O gerente poder visualizar quem fechou a conta com uma determinada mesa                                                                           | Could have  | Introspecção |
+| REQ40   | O gerente poder criar usuários garçons                                                                                                            | Should have | Introspecção |
+| REQ41   | O cliente conseguir enviar pedido                                                                                                                 | Must have   | Protótipo    |
+| REQ42   | O gerente ser capaz de ver status dos pedidos das mesas                                                                                           | Could have  | Protótipo    |
+| REQ43   | O cliente ser capaz de transitar entre as telas                                                                                                   | Must have   | Protótipo    |
+| REQ44   | O cliente ser capaz de fazer outro pedido                                                                                                         | Must have   | Protótipo    |
+| REQ45   | O garçom ser capaz de ver quais mesas os pedidos foram preparados                                                                                 | Must have   | Protótipo    |
+| REQ46   | O garçom ser capaz de avisar qual mesa o pedido já foi entregue                                                                                   | Must have   | Protótipo    |
+| REQ47   | O garçom ser capaz de ver detalhes do pedido que as mesas pediram                                                                                 | Must have   | Protótipo    |
+| REQ48   | O cozinheiro ser capaz de ver os pedidos ativos das mesas                                                                                         | Should have | Protótipo    |
+| REQ49   | O cozinheiro conseguir avisar que o pedido da mesa x foi terminado                                                                                | Must have   | Protótipo    |
+| REQ50   | O cozinheiro ver os pedidos que foram finalizados                                                                                                 | Must have   | Protótipo    |
+| REQ51   | O gerente ser capaz de editar detalhes das mesas                                                                                                  | Should have | Protótipo    |
+| REQ52   | O garçom deve poder ver uma fila com as mesas que precisam de atendimento.                                                                        | Should have | Questionário |
+| REQ53   | O garçom deve poder ver a quanto tempo as mesas já estão esperando por atendimento.                                                               | Could have  | Questionário |
+| REQ54   | O cliente deve poder visualizar a conta a ser paga por nome das pessoas que fizeram os pedidos, detalhado por item e valor presentes no cardápio. | Must have   | Questionário |
+| REQ55   | O cardápio deve ser dividido por categoria                                                                                                        | Should have | Entrevista   |
+| REQ56   | O cliente deve receber sugestões de pratos, bebidas e sobremesas                                                                                  | Could have  | Entrevista   |
+| REQ57   | O cardápio deve conter imagens, preços e ingredientes do prato                                                                                    | Must have   | Entrevista   |
+| REQ58   | O cliente deve poder adicionar ingredientes ao prato                                                                                              | Could have  | Entrevista   |
+| REQ59   | O cliente deve poder remover ingredientes do prato                                                                                                | Could have  | Entrevista   |
+| REQ60   | O cliente deve poder dividir a gorjeta entre as pessoas da mesa                                                                                   | Could have  | Entrevista   |
+| REQ61   | O cliente deve conseguir alterar o pedido até alguns minutos após realizado                                                                       | Should have | Entrevista   |
+| REQ62   | O cliente deve poder comentar e/ou curtir os pratos do cardápio                                                                                   | Could have  | Entrevista   |
+| REQ63   | O cliente deve conseguir visualizar os pratos mais pedidos                                                                                        | Could have  | Entrevista   |
 
 ## 4. Referências
 
@@ -89,7 +89,8 @@ O MoSCoW (Must have, Should have, Could have and Won’t have) é uma das técni
 
 ## Histórico de Revisões
 
-| Data       | Versão | Descrição                   | Autor(es)                                 |
-| :--------- | :----- | :-------------------------- | :---------------------------------------- |
-| 04/08/2021 | 1.0    | Adição dos tópicos 1, 2 e 3 | [Emily Dias](https://github.com/emysdias) |
-| 05/08/2021 | 1.1    | Adição das priorizações     | [Emily Dias](https://github.com/emysdias) |
+| Data       | Versão | Descrição                   | Autor(es)                                       |
+| :--------- | :----- | :-------------------------- | :---------------------------------------------- |
+| 04/08/2021 | 1.0    | Adição dos tópicos 1, 2 e 3 | [Emily Dias](https://github.com/emysdias)       |
+| 05/08/2021 | 1.1    | Adição das priorizações     | [Emily Dias](https://github.com/emysdias)       |
+| 14/08/2021 | 1.2    | Substituição de US por REQ  | [Sergio Cipriano]https://github.com/sergiosacj) |

@@ -6,7 +6,7 @@ A Notação BPMN (Business Process Model and Notation) é um método de fluxogra
 
 No projeto, a notação BPMN foi utilizada para documentar e especificar as etapas envolvidas na metodologia adotada pela equipe e os diagramas podem ser vistos abaixo.
 
-## 2. Notação BPMN
+## 2. Processos em BPMN
 
 [![BPMN01](../../assets/img/seminario1/bpmn/BPMN01.png)](../../assets/img/seminario1/bpmn/BPMN01.png)
 
@@ -41,3 +41,4 @@ No projeto, a notação BPMN foi utilizada para documentar e especificar as etap
 | :--------- | :----- | :-------- | :------------------------- |
 | 05/08/2021 |  1.0   | Elaboração dos diagramas BPMN        | [Herick Portugues](https://github.com/herickport) |
 | 06/08/2021 |  1.1   | Criação da primeira versão documento | [Herick Portugues](https://github.com/herickport) |
+| 18/08/2021 |  1.2   | Correção do tópico 2          | [Eduarda Servidio](https://github.com/ServideoEC)                                                        |
