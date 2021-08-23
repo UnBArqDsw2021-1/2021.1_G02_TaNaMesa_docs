@@ -58,6 +58,7 @@ nav:
       - 2-Modelagem/Diagramas-Dinamicos/Diagrama-Sequencia.md
       - 2-Modelagem/Diagramas-Dinamicos/Diagrama-de-atividade.md
       - 2-Modelagem/Diagramas-Dinamicos/Diagrama-estado.md
+      - 2-Modelagem/Diagramas-Dinamicos/Diagrama-comunicacao.md
     - Notação UML - Diagramas Estáticos:
       - 2-Modelagem/Diagramas-Estaticos/Diagrama-de-componentes.md
       - 2-Modelagem/Diagramas-Estaticos/Diagrama-de-Pacotes.md
