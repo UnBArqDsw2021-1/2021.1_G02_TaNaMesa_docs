@@ -36,3 +36,4 @@ Para o desenvolvimento do diagrama foram utilizadas as ferramentas do [draw.io](
 | 21/08/2021 | 1.0    | Adição do documento e dos tópicos   | [Emily Dias](https://github.com/emysdias)         |
 | 22/08/2021 | 1.1    | Adição da metodologia e do diagrama | [Herick Portugues](https://github.com/herickport) |
 | 22/08/2021 | 1.2    | Ajeitando documento                 | [Emily Dias](https://github.com/emysdias)         |
+| 22/08/2021 | 1.3    | Revisão                             | [Daniel Primo](https://github.com/danieldagerom)  |
