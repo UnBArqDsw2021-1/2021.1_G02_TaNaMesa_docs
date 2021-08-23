@@ -24,8 +24,21 @@ nav:
       - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Lexicos.md
       - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/5W2H.md
       - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Plano-Riscos.md
-      - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/TAP.md
       - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Prototipo-Baixa-Fidelidade.md
+      - Técnicas de Elicitação:
+        - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Tecnicas-Elicitacao/Brainstorming.md
+        - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Tecnicas-Elicitacao/Benchmarking.md
+        - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Tecnicas-Elicitacao/Introspeccao.md
+        - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Tecnicas-Elicitacao/Storytelling.md
+        - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Tecnicas-Elicitacao/Questionario.md
+        - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Tecnicas-Elicitacao/NFR-Framework.md
+        - Entrevistas:
+          - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Tecnicas-Elicitacao/Entrevistas/Roteiro-Entrevista.md
+          - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Tecnicas-Elicitacao/Entrevistas/Entrevista-1.md
+          - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Tecnicas-Elicitacao/Entrevistas/Entrevista-2.md
+          - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Tecnicas-Elicitacao/Entrevistas/Entrevista-3.md
+          - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Tecnicas-Elicitacao/Entrevistas/Entrevista-4.md
+          - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Tecnicas-Elicitacao/Entrevistas/Entrevista-5.md
       - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Priorizacao-MOSCOW.md
       
     - Processos / Metodologias / Abordagens:
@@ -33,49 +46,38 @@ nav:
       - 1-Base/Processos-Metodologias-Abordagens/Modelagem-BPMN.md
     
     - Extras:
+      - 1-Base/extras/TAP.md
       - 1-Base/extras/Identidade-Visual.md
       - 1-Base/extras/Politica-Contribuicao.md
       - 1-Base/extras/Personas.md
-      - Técnicas de Elicitação:
-        - 1-Base/extras/Tecnicas-Elicitacao/Brainstorming.md
-        - 1-Base/extras/Tecnicas-Elicitacao/Benchmarking.md
-        - 1-Base/extras/Tecnicas-Elicitacao/Introspeccao.md
-        - 1-Base/extras/Tecnicas-Elicitacao/Storytelling.md
-        - 1-Base/extras/Tecnicas-Elicitacao/Questionario.md
-        - 1-Base/extras/Tecnicas-Elicitacao/NFR-Framework.md
-        - Entrevistas:
-          - 1-Base/extras/Tecnicas-Elicitacao/Entrevistas/Roteiro-Entrevista.md
-          - 1-Base/extras/Tecnicas-Elicitacao/Entrevistas/Entrevista-1.md
-          - 1-Base/extras/Tecnicas-Elicitacao/Entrevistas/Entrevista-2.md
-          - 1-Base/extras/Tecnicas-Elicitacao/Entrevistas/Entrevista-3.md
-          - 1-Base/extras/Tecnicas-Elicitacao/Entrevistas/Entrevista-4.md
-          - 1-Base/extras/Tecnicas-Elicitacao/Entrevistas/Entrevista-5.md
 
   - Modelagem:
-    - Modelagem Ágil:
-      - 2-Modelagem/Modelagem Ágil/Backlog.md
+    - Notação UML - Diagramas Estáticos:
+      - 2-Modelagem/Diagramas-Estaticos/diagrama-de-classes.md
+      - 2-Modelagem/Diagramas-Estaticos/Diagrama-de-Pacotes.md
+      - 2-Modelagem/Diagramas-Estaticos/Diagrama-de-componentes.md
+
     - Notação UML - Diagramas Dinâmicos:
       - 2-Modelagem/Diagramas-Dinamicos/Diagrama-Sequencia.md
       - 2-Modelagem/Diagramas-Dinamicos/Diagrama-de-atividade.md
       - 2-Modelagem/Diagramas-Dinamicos/Diagrama-estado.md
       - 2-Modelagem/Diagramas-Dinamicos/Diagrama-comunicacao.md
-    - Notação UML - Diagramas Estáticos:
-      - 2-Modelagem/Diagramas-Estaticos/Diagrama-de-componentes.md
-      - 2-Modelagem/Diagramas-Estaticos/Diagrama-de-Pacotes.md
-      - 2-Modelagem/Diagramas-Estaticos/diagrama-de-classes.md
+
+    - Modelagem Ágil:
+      - 2-Modelagem/Modelagem Ágil/Backlog.md
+    
     - Extras:
       - 2-Modelagem/extras/Casos-de-Uso.md
       - 2-Modelagem/extras/Modelo-Dados.md
       - 2-Modelagem/extras/arquitetura.md
 
-  - Iniciativas Extras:
-      - Documentação das Sprints:
-          - Sprint 01:
-              - 5-Extra/Sprints/Sprint-01/Planning-01.md
-              - 5-Extra/Sprints/Sprint-01/Review-01.md
-          - Sprint 02:
-              - 5-Extra/Sprints/Sprint-02/Planning-02.md
-        #   - 5-Extra/Sprints/Sprint-02/Review-02.md
+  - Sprints:
+    - Sprint 01:
+      - Sprints/Sprint-01/Planning-01.md
+      - Sprints/Sprint-01/Review-01.md
+    - Sprint 02:
+      - Sprints/Sprint-02/Planning-02.md
+      - Sprints/Sprint-02/Review-02.md
 
   - Apresentações:
       - Apresentacoes/entrega-1.md
