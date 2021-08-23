@@ -32,3 +32,4 @@ Nos baseamos, além do material disponibilizado na disciplina, na [Modelagem de 
 | 20/08/2021 | 0.2    | Adição do diagrama de classes | [Abner Filipe](https://github.com/abner423), [Tiago Samuel](https://github.com/tsrrodrigues) |
 | 23/08/2021 | 0.3    | Revisa o documento e adiciona na nav do mkdocs | [Lucas Boaventura](https://github.com/lboaventura25) |
 | 23/08/2021 | 1.0    | Adiciona citação a Modelagem da Dados do projeto | [Lucas Boaventura](https://github.com/lboaventura25) |
+| 23/08/2021 | 1.1    | Revisa o documento                              | [Eduarda Servidio](https://github.com/ServideoEC)                                                         
