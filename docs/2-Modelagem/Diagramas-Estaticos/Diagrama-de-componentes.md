@@ -40,3 +40,4 @@ Para o desenvolvimento do diagrama foram utilizadas as ferramentas do [draw.io](
 | 22/08/2021 | 1.2    | Ajeitando documento                                 | [Emily Dias](https://github.com/emysdias)             |
 | 22/08/2021 | 1.3    | Revisão                                             | [Daniel Primo](https://github.com/danieldagerom)      |
 | 23/08/2021 | 1.4    | Revisão e adição da legenda da imagem do diagrama   | [Lucas Boaventura](https://github.com/lboaventura25)  |
+| 23/08/2021 | 1.5    | Revisa o documento                                  | [Eduarda Servidio](https://github.com/ServideoEC)                                                         
