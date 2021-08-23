@@ -15,7 +15,51 @@ Para o rich picture foi feito a divisão que cada membro faria um modelo desenha
 papel, com isto foi escolhido a rich picture com mais detalhes e mais correta, e por fim foi feito a evolução do sistema
 para obter a versão final do rich picture.
 
-### 2.1 RichPicture 01 - Visão do cliente
+## 3. Versão Final Atualizada dos RichPictures
+
+Corrigimos alguns detalhes dos rich pictures após o feedback da primeira entrega dado pela professora.
+
+Seguindo a metodologia, encontramos problemas na identificação dos fluxos padrões e nos fluxos de requisitos de cada visão.
+Seguindo as 3 versões: os esboços, a primeira versão e a versão final atualizada dos rich pictures, conseguimos corrigir os possíveis erros e inconsistências nesses fluxos.
+
+### 3.1. RichPicture 01 - Visão do cliente
+
+[![RPC01](../../assets/img/seminario1/rich-picture/RPC01.jpg)](../../assets/img/seminario1/rich-picture/RPC01.jpg)
+
+| **RP01**      | **Visão do cliente**                              |
+| ------------- | ------------------------------------------------- |
+| **Descrição** | Pedido na visão do cliente, colocando o cliente como foco central     |
+| **Corrigido por**  | [Eduarda Servidio](https://github.com/ServideoEC) |
+
+### 3.2. RichPicture 02 - Visão da Cozinha
+
+[![RPC02](../../assets/img/seminario1/rich-picture/RPC02.jpg)](../../assets/img/seminario1/rich-picture/RPC02.jpg)
+
+| **RP02**      | **Visão da Cozinha**                              |
+| ------------- | ------------------------------------------------- |
+| **Descrição** | Pedido na visão da cozinha, colocando a cozinha como foco central     |
+| **Corrigido por**  | [Eduarda Servidio](https://github.com/ServideoEC) |
+
+### 3.3. RichPicture 03 - Visão do Garçom
+
+[![RPC03](../../assets/img/seminario1/rich-picture/RPC03.jpg)](../../assets/img/seminario1/rich-picture/RPC03.jpg)
+
+| **RP03**      | **Visão do Garçom**                              |
+| ------------- | ------------------------------------------------- |
+| **Descrição** | Pedido na visão do garçom, colocando o garçom como foco central     |
+| **Corrigido por**  | [Eduarda Servidio](https://github.com/ServideoEC) |
+
+### 3.4. RichPicture 04 - Visão da Gerência
+
+[![RPC04](../../assets/img/seminario1/rich-picture/RPC04.jpg)](../../assets/img/seminario1/rich-picture/RPC04.jpg)
+
+| **RP04**      | **Visão da Gerência**                              |
+| ------------- | ------------------------------------------------- |
+| **Descrição** | Pedido na visão da Gerência, colocando o gerente como foco central     |
+| **Corrigido por**  | [Eduarda Servidio](https://github.com/ServideoEC) |
+
+## 4. Primeira Versão dos Rich Pictures
+### 4.1. RichPicture 01 - Visão do cliente
 
 [![RPF01](../../assets/img/seminario1/rich-picture/RPF01.jpg)](../../assets/img/seminario1/rich-picture/RPF01.jpg)
 
@@ -25,7 +69,7 @@ para obter a versão final do rich picture.
 | **Autor**     | [Sergio Cipriano](https://github.com/sergiosacj)  |
 | **Co-Autor**  | [Eduarda Servidio](https://github.com/ServideoEC) |
 
-### 2.2 RichPicture 02 - Visão da Cozinha
+### 4.2. RichPicture 02 - Visão da Cozinha
 
 [![RPF02](../../assets/img/seminario1/rich-picture/RPF02.jpg)](../../assets/img/seminario1/rich-picture/RPF02.jpg)
 
@@ -35,7 +79,7 @@ para obter a versão final do rich picture.
 | **Autor**     | [Sergio Cipriano](https://github.com/sergiosacj)  |
 | **Co-Autor**  | [Eduarda Servidio](https://github.com/ServideoEC) |
 
-### 2.3 RichPicture 03 - Visão do Garçom
+### 4.3. RichPicture 03 - Visão do Garçom
 
 [![RPF03](../../assets/img/seminario1/rich-picture/RPF03.jpg)](../../assets/img/seminario1/rich-picture/RPF03.jpg)
 
@@ -44,7 +88,7 @@ para obter a versão final do rich picture.
 | **Descrição** | Pedido na visão do garçom.                        |
 | **Autor**     | [Eduarda Servidio](https://github.com/ServideoEC) |
 
-### 2.4 RichPicture 04 - Visão da Gerência
+### 4.4. RichPicture 04 - Visão da Gerência
 
 [![RPF04](../../assets/img/seminario1/rich-picture/RPF04.jpg)](../../assets/img/seminario1/rich-picture/RPF04.jpg)
 
@@ -53,7 +97,7 @@ para obter a versão final do rich picture.
 | **Descrição** | Aplicação na visão do usuário com mais privilégios. |
 | **Autor**     | [Eduarda Servidio](https://github.com/ServideoEC)   |
 
-### 2.5 RichPictures - Esboços no Papel
+### 4.5. RichPictures - Esboços no Papel
 
 [![RP01](../../assets/img/seminario1/rich-picture/RP01.jpeg)](../../assets/img/seminario1/rich-picture/RP01.jpeg)
 <br/>
@@ -71,10 +115,10 @@ Figura 7: Esboço no Papel - Visão da Gerência. Autor: [Eduarda Servidio](http
 <br/>
 Figura 8: Esboço no Papel - Visão do Garçom. Autor: [Eduarda Servidio](https://github.com/ServideoEC)
 
-## 3. Referências Bibliográficas
+## 5. Referências 
 
-> - Rich Pictures. BetterEvaluation. Disponível em: https://www.betterevaluation.org/en/evaluation-options/richpictures, acesso em: 17 de fev. de 2021;
-> - The Rich Picture: A Tool forReasoning About Work Context. Andrew Monk and Steve Howard. Disponível em: https://www.ics.uci.edu/~wscacchi/Software-Process/Readings/RichPicture.pdf, acesso em: 17 de fev. de 2021.
+> - Rich Pictures. BetterEvaluation. Disponível em: <https://www.betterevaluation.org/en/evaluation-options/richpictures>. Acesso em: 17 de fev. de 2021;
+> - The Rich Picture: A Tool forReasoning About Work Context. Andrew Monk and Steve Howard. Disponível em: <https://www.ics.uci.edu/~wscacchi/Software-Process/Readings/RichPicture.pdf>. Acesso em: 17 de fev. de 2021.
 
 ## Histórico de Revisões
 
@@ -91,3 +135,5 @@ Figura 8: Esboço no Papel - Visão do Garçom. Autor: [Eduarda Servidio](https:
 | 02/08/2021 | 1.8    | Adicionando links nas imagens              | [Sergio Cipriano](https://github.com/sergiosacj)                                             |
 | 03/08/2021 | 1.9    | Arrumando paths das imagens                | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |
 | 04/08/2021 | 2.0    | Arrumando espaçamento e path das imagens   | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |
+| 18/08/2021 | 2.1    | Correção dos rich pictures pós feedback da professora   | [Eduarda Servidio](https://github.com/ServideoEC)                                            |
+| 18/08/2021 | 2.2    | Correção dos tópicos   | [Eduarda Servidio](https://github.com/ServideoEC)                                            |

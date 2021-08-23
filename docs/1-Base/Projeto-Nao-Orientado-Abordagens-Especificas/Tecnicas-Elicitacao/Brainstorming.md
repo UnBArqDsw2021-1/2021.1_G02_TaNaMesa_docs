@@ -8,15 +8,15 @@ Brainstorming é uma técnica utilizada para propor soluções a um problema esp
 
 Para a realização do nosso brainstorming, optamos por dividir em diferentes reuniões por meio de diferentes métodos mas sempre guiado por um lider e conversas antes para ambientação e contextualização de todos. Os resultados podem ser observados logo em seguida:
 
-### 2.1 Brainstorming para o tema do projeto
+### 2.1. Brainstorming para o tema do projeto
 
 <img src="../../../../assets/img/seminario1/brainstorming/brain-tema.jpg" alt="brain-tema" width="400"/>
 
-### 2.2 Brainstorming para o nome do projeto
+### 2.2. Brainstorming para o nome do projeto
 
 <img src="../../../../assets/img/seminario1/brainstorming/brain-nome-projeto.jpg" alt="brain-nome-projeto" width="300"/>
 
-### 2.3 Brainstorming para funcionalidades do projeto
+### 2.3. Brainstorming para funcionalidades do projeto
 
 [![brain-funcionalidades](../../../assets/img/seminario1/brainstorming/brain-funcionalidades.png)](../../../assets/img/seminario1/brainstorming/brain-funcionalidades.png)
 
@@ -31,3 +31,4 @@ Para a realização do nosso brainstorming, optamos por dividir em diferentes re
 | 31/07/2021 | 1.0    | Criação do Documento Brainstorming       | [Abner Filipe](https://github.com/abner423)                                                  |
 | 03/08/2021 | 1.1    | Arrumando paths das imagens              | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |
 | 04/08/2021 | 1.2    | Arrumando espaçamento e path das imagens | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |
+| 18/08/2021 | 1.3    | Padronização dos tópicos | [Eduarda Servidio](https://github.com/ServideoEC) |

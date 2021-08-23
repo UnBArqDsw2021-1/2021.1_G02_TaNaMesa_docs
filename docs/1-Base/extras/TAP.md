@@ -115,19 +115,19 @@ Obs: Todos os valores referidos aqui são referentes ao mês de Agosto de 2021.
 
 A finalização do projeto do **Tá Na Mesa** será alcançado quando todo o software estiver desenvolvido e todos os testes e documentação técnica do projeto estiver implementado dentro dos limites de prazo e custos estabelecidos neste documento.
 
-## Referências
+## 10. Referências
 
-> - Documentação Translate-me, 2019. Página TAP - Termo de Abertura do Projeto. Disponível em: <https://translate-me.github.io/docs/documentos/gerencia/tap/>. Acesso em 05 de Agosto de 2021.
+> - Documentação Translate-me, 2019. Página TAP - Termo de Abertura do Projeto. Disponível em: <https://translate-me.github.io/docs/documentos/gerencia/tap/>. Acesso em: 05 de ago. de 2021.
 
-> - Documentação Kalkuli, 2018. Página Termo de Abertura do Projeto. Disponível em: <https://fga-eps-mds.github.io/2018.2-Kalkuli/docs/tap>. Acesso em 05 de Agosto de 2021.
+> - Documentação Kalkuli, 2018. Página Termo de Abertura do Projeto. Disponível em: <https://fga-eps-mds.github.io/2018.2-Kalkuli/docs/tap>. Acesso em: 05 de ago. de 2021.
 
-> - Documentaçaõ QRComer, 2019. Página Termo de Abertura do Projeto. Disponível em: <https://fga-desenho-2019-2.github.io/Wiki/seminario1/tap/> Acesso em 05 de Agosto de 2021.
+> - Documentaçaõ QRComer, 2019. Página Termo de Abertura do Projeto. Disponível em: <https://fga-desenho-2019-2.github.io/Wiki/seminario1/tap/>. Acesso em: 05 de ago. de 2021.
 
-> - Glassdoor Company. Página Salários de Desenvolvedor Júnior em Área de Brasília. Disponível em: <https://www.glassdoor.com.br/Sal%C3%A1rios/bras%C3%ADlia-desenvolvedor-j%C3%BAnior-sal%C3%A1rio-SRCH_IL.0,8_IM1010_KO9,29.htm>. Acesso em 05 de Agosto de 2021.
+> - Glassdoor Company. Página Salários de Desenvolvedor Júnior em Área de Brasília. Disponível em: <https://www.glassdoor.com.br/Sal%C3%A1rios/bras%C3%ADlia-desenvolvedor-j%C3%BAnior-sal%C3%A1rio-SRCH_IL.0,8_IM1010_KO9,29.htm>. Acesso em: 05 de ago. de 2021.
 
-> - Dell. Inspiron I15-3501-A45P. Disponível em: <https://www.pontofrio.com.br/notebook-dell-core-i5-1135g7-8gb-256gb-ssd-tela-15-6-windows-10-inspiron-i15-3501-a45p-55026262/p/55026262?utm_medium=cpc&utm_source=GP_PLA&IdSku=55026262&idLojista=16&utm_campaign=1p_smart-shopping>. Acesso em 05 de Agosto de 2021.
+> - Dell. Inspiron I15-3501-A45P. Disponível em: <https://www.pontofrio.com.br/notebook-dell-core-i5-1135g7-8gb-256gb-ssd-tela-15-6-windows-10-inspiron-i15-3501-a45p-55026262/p/55026262?utm_medium=cpc&utm_source=GP_PLA&IdSku=55026262&idLojista=16&utm_campaign=1p_smart-shopping>. Acesso em: 05 de ago. de 2021.
 
-> - RDS Free Tier. Disponível em: <https://aws.amazon.com/pt/rds/free/> Acesso em 05 de Agosto de 2021.
+> - RDS Free Tier. Disponível em: <https://aws.amazon.com/pt/rds/free/>. Acesso em: 05 de Agosto de 2021.
 
 > - Heroku Pricing. Disponível me: <https://www.heroku.com/pricing> Acesso em 05 de Agosto de 2021.
 
@@ -139,3 +139,4 @@ A finalização do projeto do **Tá Na Mesa** será alcançado quando todo o sof
 | 05/08/2021 |  1.0   | Finalização da primeira versão do documento.| [Tiago Samuel](https://github.com/tsrrodrigues) |
 | 05/08/2021 |  1.1   | Adição de indentação nos parágrafos.| [Tiago Samuel](https://github.com/tsrrodrigues) |
 | 06/08/2021 |  1.2   | Revisão do documento. | [Hérick Portugues](https://github.com/herickport) |
+| 18/08/2021 |  1.3   | Correção tópico referências | [Eduarda Servidio](https://github.com/ServideoEC) |

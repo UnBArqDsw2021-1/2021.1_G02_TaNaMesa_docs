@@ -39,7 +39,7 @@ responsável pela cozinha.
 
 ## 4. Personas do **Tá Na Mesa**
 
-### 4.1 Persona 1
+### 4.1. Persona 1
 
 <img src="https://media.discordapp.net/attachments/752588141298450563/762022517359509524/treinadora.jpeg?width=475&height=475" class="center" width="300", height = "200">
 
@@ -54,7 +54,7 @@ responsável pela cozinha.
 | Relacionamentos:          | Casada                                                                                                                  |
 | Tarefas:                  | Pedir o que deseja comer utilizando o **Tá Na Mesa**                                                                    |
 
-### 4.2 Persona 2
+### 4.2. Persona 2
 
 <img src="https://media.discordapp.net/attachments/752588141298450563/762021875789594704/unknown.png?width=474&height=475" class="center" width="300", height = "200">
 
@@ -69,7 +69,7 @@ responsável pela cozinha.
 | Relacionamentos:          | Solteiro                                                                                                                                 |
 | Tarefas:                  | Atender os clientes, limpar as mesas, entregar os pedidos corretamente                                                                   |
 
-### 4.3 Persona 3
+### 4.3. Persona 3
 
 <img src="https://media.discordapp.net/attachments/752588141298450563/762023496850472980/unknown.png?width=485&height=475" class="center" width="300", height = "200">
 
@@ -84,7 +84,7 @@ responsável pela cozinha.
 | Relacionamentos:          | Solteira                                                                                                                                        |
 | Tarefas:                  | Visualizar e dar baixa nos pedidos                                                                                                              |
 
-### 4.4 Persona 4
+### 4.4. Persona 4
 
 <img src="https://media.discordapp.net/attachments/752588141298450563/762023274770595870/unknown.png?width=469&height=475" class="center" width="300", height = "200">
 
@@ -99,7 +99,7 @@ responsável pela cozinha.
 | Relacionamentos:          | Casado                                                                                                                           |
 | Tarefas:                  | Gerenciar restaurante que utiliza o **Tá Na Mesa**                                                                               |
 
-## 5. Bibliografia
+## 5. Referências
 
 > - BARBOSA, Simone; DINIZ, Bruno. Interação Humano-Computador, Editora Elsevier, Rio de Janeiro, 2010.
 
@@ -110,3 +110,4 @@ responsável pela cozinha.
 | 03/08/2020 |  1.0   | Criação dos 6 tópicos dos documento de personas |                       [Sergio Cipriano](https://github.com/sergiosacj)                       |
 | 03/08/2021 |  1.1   |      Ajuste de tabelas e nome da aplicação      | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |
 | 04/08/2021 |  1.2   |              Arrumando espaçamento              | [Emily Dias](https://github.com/emysdias), [Brenda Santos](https://github.com/brendavsantos) |
+| 18/08/2021 |  1.3   |              Padronização do documento          | [Eduarda Servidio](https://github.com/ServideoEC) |

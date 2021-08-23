@@ -195,22 +195,22 @@ Ao final da etapa de desenvolvimento da aplicação os riscos já foram identifi
 
 |     | Sprint 1 | Sprint 2 | Sprint 3 | Sprint 4 | Sprint 5 | Sprint 6 | Sprint 7 |
 | :-: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
-| R01 |    15    |          |          |          |          |          |          |
-| R02 |    1     |          |          |          |          |          |          |
-| R03 |    8     |          |          |          |          |          |          |
-| R04 |    12    |          |          |          |          |          |          |
-| R05 |    20    |          |          |          |          |          |          |
-| R06 |    12    |          |          |          |          |          |          |
-| R07 |    16    |          |          |          |          |          |          |
-| R08 |    12    |          |          |          |          |          |          |
-| R09 |    20    |          |          |          |          |          |          |
-| R10 |    12    |          |          |          |          |          |          |
-| R11 |    20    |          |          |          |          |          |          |
-| R12 |    20    |          |          |          |          |          |          |
-| R13 |    20    |          |          |          |          |          |          |
-| R14 |    4     |          |          |          |          |          |          |
-| R15 |    12    |          |          |          |          |          |          |
-| R16 |    16    |          |          |          |          |          |          |
+| R01 |    15    |    15    |   15     |          |          |          |          |
+| R02 |    1     |    1     |    8     |          |          |          |          |
+| R03 |    8     |    8     |    8     |          |          |          |          |
+| R04 |    12    |    20    |    20    |          |          |          |          |
+| R05 |    20    |    20    |    20    |          |          |          |          |
+| R06 |    12    |    16    |    16    |          |          |          |          |
+| R07 |    16    |    16    |    16    |          |          |          |          |
+| R08 |    12    |    12    |    12    |          |          |          |          |
+| R09 |    20    |    20    |    20    |          |          |          |          |
+| R10 |    12    |    10    |    10    |          |          |          |          |
+| R11 |    20    |    20    |    20    |          |          |          |          |
+| R12 |    20    |    20    |    20    |          |          |          |          |
+| R13 |    20    |    20    |    20    |          |          |          |          |
+| R14 |    4     |    4     |    4     |          |          |          |          |
+| R15 |    12    |    12    |    12    |          |          |          |          |
+| R16 |    16    |    16    |    16    |          |          |          |          |
 
 ## 6. Referências
 
@@ -222,3 +222,4 @@ Ao final da etapa de desenvolvimento da aplicação os riscos já foram identifi
 | :--------- | :----- | :-------------------------------- | :------------------------------------------------------------------------------------------- |
 | 03/08/2021 | 1.0    | Criação do Documento              | [Brenda Santos](https://github.com/brendavsantos), [Emily Dias](https://github.com/emysdias) |
 | 06/08/2021 | 1.1    | Arrumando enumeração do documento | [Brenda Santos](https://github.com/brendavsantos), [Emily Dias](https://github.com/emysdias) |
+| 18/08/2021 | 1.2    | Adicionando riscos das sprints 2 e 3 | [Brenda Santos](https://github.com/brendavsantos) |
