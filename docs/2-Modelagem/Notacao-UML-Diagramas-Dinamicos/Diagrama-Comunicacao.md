@@ -20,7 +20,15 @@ Separamos nossa metodologia em duas etapas. A primeira envolve a descrição det
 dos microserviços, enquanto a segunda envolve o diagrama de comunicação esquematizado.
 
 ## 2.1 Microserviços detalhados
+[Descrição detalhada dos microserviços](https://unbarqdsw2021-1.github.io/2021.1_G02_TaNaMesa_docs/2-Modelagem/extras/arquitetura/#23-abordagem-arquitetural)
+
 ## 2.2 Microserviços esquematizados
+
+### 2.2.1 fluxo pedido 
+<img src="https://cdn.discordapp.com/attachments/825425258437541938/879404541903274014/fluxo_pedido.png" class="center" width="700", height = "500">
+
+### 2.2.2 fluxo gerente
+<img src="https://cdn.discordapp.com/attachments/825425258437541938/879404537918672906/fluxo_gerente.png" class="center" width="700", height = "500">
 
 ## 3. Referências
 
@@ -30,8 +38,8 @@ dos microserviços, enquanto a segunda envolve o diagrama de comunicação esque
 
 ## 4. Histórico de Revisões
 
-| Data       | Versão | Descrição                                             | Autor(es)                                                                                            |
-| :--------- | :----- | :---------------------------------------------------- | :--------------------------------------------------------------------------------------------------- |
-| 14/08/2021 | 1.0    | Criação da estrutura do documento                     | [Sergio Cipriano1](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
-| 14/08/2021 | 1.1    | Definição da metodologia                              | [Sergio Cipriano1](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
-
+| Data       | Versão | Descrição    | Autor(es)       |
+| :--------- | :----- | :----------- | :-------------- |
+| 14/08/2021 | 1.0    | Criação da estrutura do documento | [Sergio Cipriano1](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
+| 14/08/2021 | 1.1    | Definição da metodologia          | [Sergio Cipriano1](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
+| 23/08/2021 | 1.2    | Adição dos diagramas              | [Sergio Cipriano1](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
