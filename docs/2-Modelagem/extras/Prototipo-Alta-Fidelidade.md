@@ -20,6 +20,8 @@ O design do protótipo segue os padrões de cores, tipografia e versões da logo
 
 ## 3. Protótipo de Alta Fidelidade
 
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FerKLzf6IdUGReBgN5CE9Z8%2FPrototipo-Alta-Fidelidade%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
+
 ## 4. Referências
 
 > ROGERS, Y.; SHARP, H.; PREECE, J. Design de interação: além da Interação humano-computador. 3. ed. Porto Alegre: Bookman, 2013.
@@ -27,8 +29,9 @@ O design do protótipo segue os padrões de cores, tipografia e versões da logo
 
 ## Histórico de Revisões
 
-| Data       | Versão | Descrição                                             | Autores)                                                                                    |
-| :--------- | :----- | :---------------------------------------------------- | :------------------------------------------------------------------------------------------- |
-| 20/08/2021 | 1.0    | Criação do documento e organização dos tópicos   | [Eduarda Servidio](https://github.com/ServideoEC) |
-| 20/08/2021 | 1.1    | Adição da introdução, metodologia e referências  | [Eduarda Servidio](https://github.com/ServideoEC) |
-| 20/08/2021 | 1.2    | Criação do protótipo de alta-fidelidade          | [Brenda Santos](https://github.com/brendavsantos), [Eduarda Servidio](https://github.com/ServideoEC) e [Ítalo Alves](https://github.com/alvesitalo) |
+| Data       | Versão | Descrição                                       | Autores)                                                                                                                                            |
+| :--------- | :----- | :---------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 20/08/2021 | 1.0    | Criação do documento e organização dos tópicos  | [Eduarda Servidio](https://github.com/ServideoEC)                                                                                                   |
+| 20/08/2021 | 1.1    | Adição da introdução, metodologia e referências | [Eduarda Servidio](https://github.com/ServideoEC)                                                                                                   |
+| 20/08/2021 | 1.2    | Criação do protótipo de alta-fidelidade         | [Brenda Santos](https://github.com/brendavsantos), [Eduarda Servidio](https://github.com/ServideoEC) e [Ítalo Alves](https://github.com/alvesitalo) |
+| 23/08/2021 | 1.3    | Revisão e adição do protótipo do Figma          | [Ítalo Alves](https://github.com/alvesitalo)                                                                                                        |
