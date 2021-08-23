@@ -8,7 +8,7 @@ O diagrama é mais comum em abordagem de Orientação a Objetos na parte de agru
 
 ## 2. Metodologia
 
-O diagrama de componentes foi elaborado tendo como referência a [Descrição Arquitetural](../extras/arquitetura.md) do **Tá Na Mesa** e foi dividido em subsistemas, sendo eles: Auth, Order, Menu, Employee, Table e Banco de Dados.
+O diagrama de componentes foi elaborado tendo como referência a [Descrição Arquitetural](https://unbarqdsw2021-1.github.io/2021.1_G02_TaNaMesa_docs/2-Modelagem/extras/arquitetura/) do **Tá Na Mesa** e foi dividido em subsistemas, sendo eles: Auth, Order, Menu, Employee, Table e Banco de Dados.
 
 Para o desenvolvimento do diagrama foram utilizadas as ferramentas do [draw.io](https://app.diagrams.net), por ser de fácil utilização e contar com as formas e símbolos necessários para a elaboração do diagrama.
 
@@ -16,12 +16,12 @@ Para o desenvolvimento do diagrama foram utilizadas as ferramentas do [draw.io](
 
 [![DC01](../../assets/img/seminario2/diagrama-componentes/DiagramaComponentes.png)](../../assets/img/seminario2/diagrama-componentes/DiagramaComponentes.png)
 
-| **DC01**     | **Diagrama de Componentes**                        |
-| ------------- | -------------------------------------------       |
+| **DC01**      | **Diagrama de Componentes**                       |
+| ------------- | ------------------------------------------------- |
 | **Descrição** | Diagrama de Componentes do Sistema                |
 | **Autor**     | [Herick Portugues](https://github.com/herickport) |
 
-## 3. Referências
+## 4. Referências
 
 > - Lucidchart. O que é diagrama de componentes UML?. Disponível em: <https://www.lucidchart.com/pages/pt/diagrama-de-componentes-uml>. Acesso em 21 de Agosto de 2021.
 
@@ -31,7 +31,8 @@ Para o desenvolvimento do diagrama foram utilizadas as ferramentas do [draw.io](
 
 ## Histórico de Revisões
 
-| Data       | Versão | Descrição                         | Autor(es)                                 |
-| :--------- | :----- | :-------------------------------- | :---------------------------------------- |
-| 21/08/2021 | 1.0    | Adição do documento e dos tópicos | [Emily Dias](https://github.com/emysdias) |
+| Data       | Versão | Descrição                           | Autor(es)                                         |
+| :--------- | :----- | :---------------------------------- | :------------------------------------------------ |
+| 21/08/2021 | 1.0    | Adição do documento e dos tópicos   | [Emily Dias](https://github.com/emysdias)         |
 | 22/08/2021 | 1.1    | Adição da metodologia e do diagrama | [Herick Portugues](https://github.com/herickport) |
+| 22/08/2021 | 1.2    | Ajeitando documento                 | [Emily Dias](https://github.com/emysdias)         |
