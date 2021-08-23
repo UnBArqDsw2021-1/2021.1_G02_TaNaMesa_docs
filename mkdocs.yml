@@ -59,6 +59,7 @@ nav:
       - 2-Modelagem/Diagramas-Dinamicos/Diagrama-estado.md
     - Notação UML - Diagramas Estáticos:
       - 2-Modelagem/Diagramas-Estaticos/Diagrama-de-componentes.md
+      - 2-Modelagem/Diagramas-Estaticos/Diagrama-de-Pacotes.md
     - Extras:
       - 2-Modelagem/extras/Casos-de-Uso.md
       - 2-Modelagem/extras/Modelo-Dados.md
