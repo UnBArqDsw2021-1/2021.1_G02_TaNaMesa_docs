@@ -54,3 +54,4 @@ Outro contexto escolhido foi o de classes. Ele foi escolhido pela equipe, pois m
 | Data       | Versão | Descrição            | Autor(es)                                    |
 | :--------- | :----- | :------------------- | :------------------------------------------- |
 | 21/08/2021 | 1.0    | Criação do documento | [Daniel Primo](https://github.com/danieldagerom) e [Tiago Samuel](https://github.com/tsrrodrigues) |
+| 23/08/2021 | 1.1    | Revisado             | [Eduarda Servidio](https://github.com/ServideoEC) |
