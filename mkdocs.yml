@@ -27,33 +27,15 @@ nav:
       - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/TAP.md
       - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Prototipo-Baixa-Fidelidade.md
       - 1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Priorizacao-MOSCOW.md
+      
     - Processos / Metodologias / Abordagens:
       - 1-Base/Processos-Metodologias-Abordagens/Metodologia.md
       - 1-Base/Processos-Metodologias-Abordagens/Modelagem-BPMN.md
-<<<<<<< HEAD
-  - Modelagem:
-    - Módulo Projeto Orientado a Abordagens Tradicionais:
-      - Modelagem UML Estática:
-        - 2-Modelagem/Notacao-UML-Diagramas-Dinamicos/Diagrama-Comunicacao.md
-      - Modelagem UML Dinâmica:
-        - 2-Modelagem/Notacao-UML-Diagramas-Dinamicos/Diagrama-Comunicacao.md
-  - Iniciativas Extras:
-    - Documentação das Sprints:
-      - Sprint 01:
-        - 5-Extra/Sprints/Sprint-01/Planning-01.md
-        - 5-Extra/Sprints/Sprint-01/Review-01.md
-      - Sprint 02:
-        - 5-Extra/Sprints/Sprint-02/Planning-02.md
-      #   - 5-Extra/Sprints/Sprint-02/Review-02.md
-    - Base:
-      - 5-Extra/Base/Personas.md
-=======
     
     - Extras:
       - 1-Base/extras/Identidade-Visual.md
       - 1-Base/extras/Politica-Contribuicao.md
       - 1-Base/extras/Personas.md
->>>>>>> 8abd77bb16398bfbabfad319ac22c9e3cd1a140b
       - Técnicas de Elicitação:
         - 1-Base/extras/Tecnicas-Elicitacao/Brainstorming.md
         - 1-Base/extras/Tecnicas-Elicitacao/Benchmarking.md
@@ -62,17 +44,6 @@ nav:
         - 1-Base/extras/Tecnicas-Elicitacao/Questionario.md
         - 1-Base/extras/Tecnicas-Elicitacao/NFR-Framework.md
         - Entrevistas:
-<<<<<<< HEAD
-          - 5-Extra/Base/Tecnicas-Elicitacao/Entrevistas/Roteiro-Entrevista.md
-          - 5-Extra/Base/Tecnicas-Elicitacao/Entrevistas/Entrevista-1.md
-          - 5-Extra/Base/Tecnicas-Elicitacao/Entrevistas/Entrevista-2.md
-          - 5-Extra/Base/Tecnicas-Elicitacao/Entrevistas/Entrevista-3.md
-          - 5-Extra/Base/Tecnicas-Elicitacao/Entrevistas/Entrevista-4.md
-          - 5-Extra/Base/Tecnicas-Elicitacao/Entrevistas/Entrevista-5.md
-        - 5-Extra/Base/Tecnicas-Elicitacao/NFR-Framework.md
-      - 5-Extra/Base/Identidade-Visual.md
-      - 5-Extra/Base/Politica-Contribuicao.md
-=======
           - 1-Base/extras/Tecnicas-Elicitacao/Entrevistas/Roteiro-Entrevista.md
           - 1-Base/extras/Tecnicas-Elicitacao/Entrevistas/Entrevista-1.md
           - 1-Base/extras/Tecnicas-Elicitacao/Entrevistas/Entrevista-2.md
@@ -87,6 +58,7 @@ nav:
       - 2-Modelagem/Diagramas-Dinamicos/Diagrama-Sequencia.md
       - 2-Modelagem/Diagramas-Dinamicos/Diagrama-de-atividade.md
       - 2-Modelagem/Diagramas-Dinamicos/Diagrama-estado.md
+      - 2-Modelagem/Diagramas-Dinamicos/Diagrama-comunicacao.md
     - Notação UML - Diagramas Estáticos:
       - 2-Modelagem/Diagramas-Estaticos/Diagrama-de-componentes.md
       - 2-Modelagem/Diagramas-Estaticos/Diagrama-de-Pacotes.md
@@ -105,7 +77,6 @@ nav:
               - 5-Extra/Sprints/Sprint-02/Planning-02.md
         #   - 5-Extra/Sprints/Sprint-02/Review-02.md
 
->>>>>>> 8abd77bb16398bfbabfad319ac22c9e3cd1a140b
   - Apresentações:
       - Apresentacoes/entrega-1.md
 
