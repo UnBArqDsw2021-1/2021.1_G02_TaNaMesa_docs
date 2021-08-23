@@ -56,3 +56,4 @@ O diagrama de atividades é considerado um diagrama de comportamento porque desc
 | 15/08/2021 | 1.1    | Adição do documento e dos tópicos | [Emily Dias](https://github.com/emysdias)                                             |
 | 17/08/2021 | 1.2    | Mudando diagrama de cliente       | [Emily Dias](https://github.com/emysdias),[Abner Filipe](https://github.com/abner423) |
 | 18/08/2021 | 1.3    | Correção na introdução            | [Eduarda Servidio](https://github.com/ServideoEC) |
+| 23/08/2021 | 1.4    | Revisa o documento                | [Eduarda Servidio](https://github.com/ServideoEC)                                                         
