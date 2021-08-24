@@ -35,3 +35,4 @@ O design do protótipo segue os padrões de cores, tipografia e versões da logo
 | 20/08/2021 | 1.1    | Adição da introdução, metodologia e referências | [Eduarda Servidio](https://github.com/ServideoEC)                                                                                                   |
 | 20/08/2021 | 1.2    | Criação do protótipo de alta-fidelidade         | [Brenda Santos](https://github.com/brendavsantos), [Eduarda Servidio](https://github.com/ServideoEC) e [Ítalo Alves](https://github.com/alvesitalo) |
 | 23/08/2021 | 1.3    | Revisão e adição do protótipo do Figma          | [Ítalo Alves](https://github.com/alvesitalo)                                                                                                        |
+| 24/08/2021 | 1.4    | Revisão Final                                   | [Sergio Cipriano](https://github.com/sergiosacj), [Daniel Primo](https://github.com/danieldagerom)                                                  |
