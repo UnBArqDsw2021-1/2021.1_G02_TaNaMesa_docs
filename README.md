@@ -52,7 +52,14 @@ Um sistema para que as pessoas possam chegar no restaurante fazer seus pedidos s
 ![componentes](https://media.discordapp.net/attachments/825425258437541938/879522642653233182/Captura_de_tela_de_2021-08-23_21-26-57.png?width=803&height=618)
 
 ## Vídeo(s) Segunda Entrega <<FOCO: DSW(Modelagem)>>
-Adicione o(s)s vídeo(s) da Segunda Entrega.
+
+### Módulo Projeto Orientado a Abordagens Tradicionais:
+
+#### 1 - [notação uml - diagramas estáticos](https://youtu.be/8PvXe6bHX6M)
+
+#### 2 - [notação uml - diagramas dinâmicos](https://youtu.be/-HlNeLZil-c)
+
+#### 3 - [modelagem ágil](https://youtu.be/bByPiIEoHU4)
 
 ## Screenshots Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
 Adicione 2 ou mais screenshots do projeto em termos de artefatos da Terceira Entrega.
