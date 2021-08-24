@@ -43,7 +43,13 @@ Um sistema para que as pessoas possam chegar no restaurante fazer seus pedidos s
 #### 1.2 - [Módulo Processos / Metodologias / Abordagens](https://www.youtube.com/watch?v=nVlvndTlpY4)
 
 ## Screenshots Segunda Entrega <<FOCO: DSW(Modelagem)>>
-Adicione 2 ou mais screenshots do projeto em termos de artefatos da Segunda Entrega.
+
+![comunicacao](https://media.discordapp.net/attachments/825425258437541938/879522648659472444/Captura_de_tela_de_2021-08-23_21-27-52.png?width=540&height=618)
+![estado](https://media.discordapp.net/attachments/825425258437541938/879522647103373342/Captura_de_tela_de_2021-08-23_21-27-38.png)
+![sequencia](https://media.discordapp.net/attachments/825425258437541938/879522646105157752/Captura_de_tela_de_2021-08-23_21-27-29.png?width=558&height=618)
+![classes](https://media.discordapp.net/attachments/825425258437541938/879522644913971200/Captura_de_tela_de_2021-08-23_21-27-20.png)
+![pacotes](https://media.discordapp.net/attachments/825425258437541938/879522643114623016/Captura_de_tela_de_2021-08-23_21-27-11.png?width=465&height=617)
+![componentes](https://media.discordapp.net/attachments/825425258437541938/879522642653233182/Captura_de_tela_de_2021-08-23_21-26-57.png?width=803&height=618)
 
 ## Vídeo(s) Segunda Entrega <<FOCO: DSW(Modelagem)>>
 Adicione o(s)s vídeo(s) da Segunda Entrega.
