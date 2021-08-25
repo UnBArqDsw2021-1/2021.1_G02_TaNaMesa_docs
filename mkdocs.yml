@@ -72,6 +72,24 @@ nav:
       - 2-Modelagem/extras/arquitetura.md
       - 2-Modelagem/extras/Prototipo-Alta-Fidelidade.md
 
+  - Padrões de Projeto:
+    - GRASP(s):
+      - 3-Padroes-de-Projeto/GRASPs/Padroes-Adotados-no-Projeto.md
+      - 3-Padroes-de-Projeto/GRASPs/Padroes-Nao-Adotados-no-Projeto.md
+    - GoF(s):
+      - Criacionais:
+        - 3-Padroes-de-Projeto/GoFs/Criacionais/Padroes-Adotados-no-Projeto.md
+        - 3-Padroes-de-Projeto/GoFs/Criacionais/Padroes-Nao-Adotados-no-Projeto.md
+      - Estruturais:
+        - 3-Padroes-de-Projeto/GoFs/Estruturais/Padroes-Adotados-no-Projeto.md
+        - 3-Padroes-de-Projeto/GoFs/Estruturais/Padroes-Nao-Adotados-no-Projeto.md
+      - Comportamentais:
+        - 3-Padroes-de-Projeto/GoFs/Comportamentais/Padroes-Adotados-no-Projeto.md
+        - 3-Padroes-de-Projeto/GoFs/Comportamentais/Padroes-Nao-Adotados-no-Projeto.md
+    - Extras(Emergentes):
+      - 3-Padroes-de-Projeto/Emergentes/Padroes-Adotados-no-Projeto.md
+
+
   - Sprints:
     - Sprint 01:
       - Sprints/Sprint-01/Planning-01.md

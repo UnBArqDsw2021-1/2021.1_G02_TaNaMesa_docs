@@ -1,0 +1,1 @@
+# Padrões de Projeto GoFs Estruturais Adotados no Projeto
