@@ -1,0 +1,1 @@
+# Padrões de Projeto Emergentes Adotados no Projeto

@@ -1,0 +1,1 @@
+# Padrões de Projeto GoFs Criacionais Não Adotados no Projeto
