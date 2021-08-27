@@ -1,0 +1,1 @@
+# Padrões de Projeto GoFs Criacionais Adotados no Projeto

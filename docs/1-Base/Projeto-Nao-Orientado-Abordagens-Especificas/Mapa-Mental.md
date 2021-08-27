@@ -8,15 +8,15 @@ Mapa mental é uma forma de delinear estratégias já que reduz a carga de infor
 
 Para a realização do nosso Mapa mental, nos baseamos nos brainstormings gerados a partir de reuniões guiadas, com isso conseguimos tirar toda a carga de informações e estruturá-las de forma mais visual, garantindo assim um maior proveito das ideias.
 
-### 2.1 Mapa mental para o tema do projeto
+### 2.1. Mapa mental para o tema do projeto
 
 [![ideias-temas](../../assets/img/seminario1/mapa-mental/ideias-temas.png)](../../assets/img/seminario1/mapa-mental/ideias-temas.png)
 
-### 2.2 Mapa mental para escopo do tema
+### 2.2. Mapa mental para escopo do tema
 
 [![escopo-tema](../../assets/img/seminario1/mapa-mental/escopo-tema.png)](../../assets/img/seminario1/mapa-mental/escopo-tema.png)
 
-### 2.3 Mapa mental para possíveis funcionalidades do produto
+### 2.3. Mapa mental para possíveis funcionalidades do produto
 
 [![mapa-mental-funcionalidades](../../assets/img/seminario1/mapa-mental/mapa-mental-funcionalidades.png)](../../assets/img/seminario1/mapa-mental/mapa-mental-funcionalidades.png)
 
@@ -29,3 +29,4 @@ Para a realização do nosso Mapa mental, nos baseamos nos brainstormings gerado
 | Data       | Versão | Descrição                        | Autor(es)                                   |
 | :--------- | :----- | :------------------------------- | :------------------------------------------ |
 | 05/08/2021 | 1.0    | Criação do Documento mapa mental | [Abner Filipe](https://github.com/abner423) |
+| 18/08/2021 | 1.1    | Padronização dos tópicos | [Eduarda Servidio](https://github.com/ServideoEC) |

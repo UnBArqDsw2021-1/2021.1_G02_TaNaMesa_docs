@@ -1,0 +1,1 @@
+# Padrões de Projeto GoFs Comportamentais Adotados no Projeto

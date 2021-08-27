@@ -1,0 +1,1 @@
+# Padrões de Projeto GRASPs Não Adotados no Projeto
