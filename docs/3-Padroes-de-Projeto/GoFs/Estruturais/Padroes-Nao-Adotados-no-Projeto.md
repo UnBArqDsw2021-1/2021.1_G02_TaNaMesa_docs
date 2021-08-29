@@ -12,10 +12,15 @@ Nesse documento serão abordados os padrões de projeto Gofs Estruturais que nã
 
 É um padrão de design estrutural que permite compor objetos em estruturas de árvores e trabalhar com essas estruturas como se fossem objetos individuais. O padrão composite compõe objetos em termos de uma estrutura em árvore para representar partes e hierarquias inteiras. Não será utilizado, pois no projeto não há a modelagem de estruturas de árvores entre as classes.
 
+### 2.2 Flyweight
+
+É utilizado basicamente para minimizar o uso de recursos quando se trabalha com um grande volume de objetos. Ao se criar muitos objetos idênticos, o Flyweight pode diminuir a quantidade de memória que está sendo usada para um nível, de certa forma, administrável. Ele ajuda a reduzir o custo de armazenamento de um grande número de objetos. Não será utilizado, pois no projeto inteiro há poucas repetições de objetos de classe idênticos, a economia de memória RAM seria mínimo.
+
 ## 3. Referências Bibliográficas
 
 > - SERRANO, Milene. Módulo Padrões de Projeto GoF(s) Estruturais - Material em Slides.
 > - MEDIUM, Composite. Disponível em <https://medium.com/xp-inc/desing-patterns-parte-10-composite-f7600cb3aad7>. Acesso em 29 de agosto de 2021.
+> - DEVMEDIA, Flyweight. Disponível em <https://www.devmedia.com.br/design-patterns-net-aplicando-os-padroes-flyweight-e-decorator/31387>. Acesso em 29 de agosto de 2021.
 
 ## Histórico de Revisões
 
