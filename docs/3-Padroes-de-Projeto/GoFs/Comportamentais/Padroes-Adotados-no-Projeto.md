@@ -1,1 +1,32 @@
 # Padrões de Projeto GoFs Comportamentais Adotados no Projeto
+
+## 1. Introdução
+
+Algo que na maioria das vezes os projetistas avançados fazem é resolver problemas, que reutilizam soluções que funcionaram no passado, e os usam repetidamente em outros projetos, por isso que os padrões de projetos, design patterns, tem chamado a atenção e despertado o interesse dos projetistas de software, por proporcionar elementos que conduzem ao reaproveitamento de soluções, e não apenas a reutilização de código.
+
+Os padrões acabam facilitando reutilizar arquiteturas bem sucedidas para construir softwares de forma mais flexível e fácil de manter. O uso de padrões de projeto pode reduzir a complexidade do processo de projetar software.
+
+Neste arquivo será tratado sobre os padrões de projetos GoFs Comportamentais, onde atuam sobre como responsabilidades são atribuídas as entidades, ou seja, qual o comportamento das entidades. Estes padrões facilitam a comunicação entre os objetos, distribuindo as responsabilidades e definindo a comunicação interna.
+
+## 2. Princípios e Padrões
+
+## 2.1. Observer
+
+Define uma dependência um-para-muitos entre objetos de modo que quando um objeto muda o estado, todos seus dependentes são notificados e atualizados automaticamente. Definir um mecanismo eficiente para reagir às alterações realizadas em determinados objetos.
+
+## 2.2. Visitor
+
+Representa uma operação a ser realizada sobre elementos da estrutura de um objeto. O Visitor permite que se crie uma nova operação sem que se mude a classe dos elementos sobre as quais ela opera. Permite atualizações específicas em uma coleção de objetos de acordo com o tipo particular de cada objeto atualizado.
+
+## 3. Referências Bibliográficas
+
+> - SERRANO, Milene. Módulo Padrões de Projeto GoF(s) Comportamentais - Material em Slides.
+> - DEVMEDIA, Conheça os Padrões de Projeto. Disponível em <https://www.devmedia.com.br/conheca-os-padroes-de-projeto/957>. Acesso em 28 de agosto de 2021.
+> - WIKIPEDIA, Visitor Pattern. Disponível em <https://pt.wikipedia.org/wiki/Visitor_Pattern>. Acesso em 28 de agosto de 2021.
+> - WIKIPEDIA, Observer. Disponível em <https://pt.wikipedia.org/wiki/Observer>. Acesso em 28 de agosto de 2021.
+
+## Histórico de Revisões
+
+| Data       | Versão | Descrição                  | Autor(es)                                 |
+| :--------- | :----- | :------------------------- | :---------------------------------------- |
+| 28/08/2021 | 1.0    | Desenvolvimento de tópicos | [Emily Dias](https://github.com/emysdias) |
