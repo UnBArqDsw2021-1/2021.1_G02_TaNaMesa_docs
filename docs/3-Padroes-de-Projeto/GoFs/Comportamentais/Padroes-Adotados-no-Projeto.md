@@ -18,15 +18,21 @@ Define uma dependência um-para-muitos entre objetos de modo que quando um objet
 
 Representa uma operação a ser realizada sobre elementos da estrutura de um objeto. O Visitor permite que se crie uma nova operação sem que se mude a classe dos elementos sobre as quais ela opera. Permite atualizações específicas em uma coleção de objetos de acordo com o tipo particular de cada objeto atualizado.
 
+# 2.3 Command
+
+É um padrão de projeto comportamental que transforma um pedido em um objeto independente que contém toda a informação sobre o pedido. Essa transformação permite que você parametrize métodos com diferentes pedidos, atrase ou coloque a execução do pedido em uma fila e suporte operações que não podem ser feitas.
+
 ## 3. Referências Bibliográficas
 
 > - SERRANO, Milene. Módulo Padrões de Projeto GoF(s) Comportamentais - Material em Slides.
 > - DEVMEDIA, Conheça os Padrões de Projeto. Disponível em <https://www.devmedia.com.br/conheca-os-padroes-de-projeto/957>. Acesso em 28 de agosto de 2021.
 > - WIKIPEDIA, Visitor Pattern. Disponível em <https://pt.wikipedia.org/wiki/Visitor_Pattern>. Acesso em 28 de agosto de 2021.
 > - WIKIPEDIA, Observer. Disponível em <https://pt.wikipedia.org/wiki/Observer>. Acesso em 28 de agosto de 2021.
+> - WIKIPEDIA, Command. Disponível em <https://pt.wikipedia.org/wiki/Command>. Acesso em 29 de agosto de 2021.
 
 ## Histórico de Revisões
 
-| Data       | Versão | Descrição                  | Autor(es)                                 |
-| :--------- | :----- | :------------------------- | :---------------------------------------- |
-| 28/08/2021 | 1.0    | Desenvolvimento de tópicos | [Emily Dias](https://github.com/emysdias) |
+| Data       | Versão | Descrição                  | Autor(es)                                    |
+| :--------- | :----- | :------------------------- | :------------------------------------------- |
+| 28/08/2021 | 1.0    | Desenvolvimento de tópicos | [Emily Dias](https://github.com/emysdias)    |
+| 29/08/2021 | 1.1    | Adição de tópicos          | [Ítalo Alves](https://github.com/alvesitalo) |
