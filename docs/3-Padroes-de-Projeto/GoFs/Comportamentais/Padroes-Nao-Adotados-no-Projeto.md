@@ -16,12 +16,17 @@ Permite armazenar o estado interno de um objeto em um determinando momento, para
 
 Evita a dependência entre um objeto receptor e um objeto solicitante. A base mantém um ponteiro como "próximo“. Cada classe derivada implementa sua própria contribuição para manusear o pedido (request). Não será utilizado, pois essa parte de ter poder manter um ponteiro para o "próximo" não será necessário no sistema de restaurante do projeto.
 
+# 2.3 Strategy
+
+Permite definir uma família de algoritmos, fazer com que cada algoritmo se torne uma classe e tornar os objetos dessas classes intercambiáveis. Esse padrão nos ajuda a encapsular algoritmos de tomada de decisão em tempo de execução, isso significa que ao invés de implementar um algoritmo com todas as tomadas de decisão pré-definidas, nosso código pode receber instruções em tempo de execução e escolher qual estratégia ele seguirá. Não será utilizado, pois os algoritmos que serão implementados serão exclusivos de cada classe e não possuem complexidade suficiente para serem separados delas.
+
 ## 3. Referências Bibliográficas
 
 > - SERRANO, Milene. Módulo Padrões de Projeto GoF(s) Comportamentais - Material em Slides.
 > - DEVMEDIA, Conheça os Padrões de Projeto. Disponível em <https://www.devmedia.com.br/conheca-os-padroes-de-projeto/957>. Acesso em 28 de agosto de 2021.
 > - WIKIPEDIA, Memento (informática). Disponível em <https://pt.wikipedia.org/wiki/Memento_(inform%C3%A1tica)>. Acesso em 28 de agosto de 2021.
 > - WIKIPEDIA, Chain of Responsibility. Disponível em <https://pt.wikipedia.org/wiki/Chain_of_Responsibility>. Acesso em 28 de agosto de 2021.
+> - Robson Castilho. 2011. Conhecendo Design Patterns e o padrão Strategy. Disponível em <https://robsoncastilho.com.br/2011/06/25/conhecendo-design-patterns-e-o-padrao-strategy/>. Acesso em 28 de agosto de 2021.
 
 ## Histórico de Revisões
 
