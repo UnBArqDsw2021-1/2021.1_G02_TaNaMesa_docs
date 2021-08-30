@@ -37,29 +37,21 @@ pode-se utilizar um padrão, surgindo assim uma classe abstrata. Sendo que as re
 ## 2.5. Alta Coesão
 Mantém a complexidade controlada através da restrição de atividades que cada elemento é responsável por realizar. A alta coesão é mantida, por exemplo, quando cada classe é fortemente focada e realiza apenas funções relacionadas, sem muitas distinções.
 
-## 2.6. Baixo Acomplamento
+## 2.6. Baixo Acoplamento
 O padrão de projeto GRASP tem como objetivo resolver o problema de alta dependência, que resulta em alto impacto de mudança, dificultando sua manutenção, e baixa reutilização. Antes de explicar um pouco mais sobre o padrão, acho importante relembrar o significado de acoplamento.
 
 Acoplamento: uma medida de quão fortemente um elemento é conectado, tem conhecimento de, ou depende de outros. Um elemento com baixo acoplamento não é dependente de muitos outros elementos.
 
 Para isso, é proposto atribuir as responsabilidades de modo que o acoplamento entre classes permaneça baixo. Mesmo propondo o baixo acoplamento, não é recomendado um nível extremo dessa medida, quando não há nenhuma relação entre classes. Importante ressaltar também de que subclasses são fortemente acopladas à sua superclasse.
 
-## 2.7. Indireção
-O princípio Indireção ajuda a manter o baixo acoplamento, delegando responsabilidades através
-de uma classe mediadora. Em suma, evita-se o acomplamento entre duas classes de forma direta.
-Dois componentes não serao interdependentes e sim dependentes da indireçao, possibilitando o reuso quando necessário.
-
-## 2.8. Inversão de Controle
-Inversão de Controle prega para usarmos o controle das instancias de uma determinada classe ser tratada externamente e não dentro da classe em questão, ou seja, inverter o controle de uma classe delegando para o consumidor da classe. Esse padrão auxilia a seguir os princípios SOLID, princípios esses que auxiliam a diminuir o acoplamento, facilitar a manutenção, facilitar a automação de testes, dentre outros benefícios.
-
-## 2.9. Variações Protegidas 
+## 2.7. Variações Protegidas 
 O princípio de variações protegidas é responsável por assegurar que o projeto e seus objetos, subsistemas e demais componentes possam ser alterados ou sofrer instabilidades sem que haja impactos indesejáveis nos demais elementos do sistema. Para isso, interfaces são criadas em volta desses pontos potenciais de variação, motivando também a utilização de encapsulamento, polimorfismo e indireção.
 
-## 2.10. Invenção Pura
-O padrão de Invenção Pura resolve o problema de uma responsabilidade que deve ser alocada a um objeto, mas irá atrapalhar a coesão e/ou o acoplamento daquele objeto. Para solucionar esse problema, é proposto atribuir um conjunto de responsabilidades altamente coeso a uma classe artificial ou de conveniência
-e que não represente um conceito do domínio do problema.
+## 2.8. Invenção Pura
+O padrão de Invenção Pura resolve o problema de uma responsabilidade que deve ser alocada a um objeto, mas irá atrapalhar a coesão e/ou o acoplamento daquele objeto. Para solucionar esse problema, é proposto atribuir um conjunto de responsabilidades altamente coeso a uma classe artificial ou de conveniência e que não represente um conceito do domínio do problema.
 
 Algumas vantagens desse padrão são:
+
 - aumento da coesão à medida em que a nova classe agrega funcionalidades
 altamente correlatas.
 - aumento da capacidade de reutilização decorrente de classes de Invenção Pura
