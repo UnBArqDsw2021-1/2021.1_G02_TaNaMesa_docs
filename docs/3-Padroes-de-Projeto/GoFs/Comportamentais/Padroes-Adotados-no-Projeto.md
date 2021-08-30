@@ -18,7 +18,7 @@ Define uma dependência um-para-muitos entre objetos de modo que quando um objet
 
 Representa uma operação a ser realizada sobre elementos da estrutura de um objeto. O Visitor permite que se crie uma nova operação sem que se mude a classe dos elementos sobre as quais ela opera. Permite atualizações específicas em uma coleção de objetos de acordo com o tipo particular de cada objeto atualizado.
 
-# 2.3 Command
+## 2.3 Command
 
 É um padrão de projeto comportamental que transforma um pedido em um objeto independente que contém toda a informação sobre o pedido. Essa transformação permite que você parametrize métodos com diferentes pedidos, atrase ou coloque a execução do pedido em uma fila e suporte operações que não podem ser feitas.
 
@@ -36,3 +36,4 @@ Representa uma operação a ser realizada sobre elementos da estrutura de um obj
 | :--------- | :----- | :------------------------- | :------------------------------------------- |
 | 28/08/2021 | 1.0    | Desenvolvimento de tópicos | [Emily Dias](https://github.com/emysdias)    |
 | 29/08/2021 | 1.1    | Adição de tópicos          | [Ítalo Alves](https://github.com/alvesitalo) |
+| 29/08/2021 | 1.2    | Ajuste formatação          | [Emily Dias](https://github.com/emysdias)    |
