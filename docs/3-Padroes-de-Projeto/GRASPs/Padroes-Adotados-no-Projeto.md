@@ -2,10 +2,20 @@
 ## 1. Introdução
 O processo de desenvolvimento de software é composto por uma série de tarefas complexas que visam um produto final, utilizável, e que satisfaça as necessidades do cliente. Embora seja comum haver especificidades que diferem os projetos, com o passar do tempo foram estabelecidos padrões de projeto que viabilizam um design mais flexível, coeso, de fácil manutenção e permitem a reutilização do software. 
 
-No intuito de estruturar melhor projetos desenvolvidos utilizando programação orientada a objetos (especificamente), foi construido um padrão de projeto composto por diretrizes encarregadas de atribuir responsabilidade à classes e objetos. Esse padrão de projeto, denominado GRASP (General Responsability Assignment Software Patterns), visa realizar essa atribuição de forma que o contexto de utilização de cada uma das classes e objetos seja adaptado de acordo com suas obrigações na resolução do problema. Para isso, são utilizados nove princípios: 
+No intuito de estruturar melhor projetos desenvolvidos utilizando programação orientadaa objetos (especificamente), foi construido um padrão de projeto composto por diretrizes encarregadas de atribuir responsabilidade à classes e objetos. Esse padrão de projeto, denominado GRASP (General Responsability Assignment Software Patterns), visa realizar essa atribuição de forma que o contexto de utilização de cada uma das classes e objetos seja adaptado de acordo com suas obrigações na resolução do problema. Para isso, são utilizados dez princípios: 
 
 ## 2. Princípios e Padrões 
 ## 2.1. Criador
+O padrão Criador tem como objetivo determinar qual classe deve ser a responsável pela criação 
+de instâncias de determinados objetos.
+
+Por exemplo, se for decidido que as instâncias de uma classe A devem ser criadas por uma
+classe B, é importante observar os pontos a seguir:
+
+- B “contém” A ou é uma composição de A.
+- B registra A.
+- B usa A de maneira muito próxima.
+- B tem dados iniciais de A, os quais serão passados para A quando este for criado. B é um “especialista” em relação à criação de A.
 
 ## 2.2. Especialista
 O princípio de especialista na informação é utilizado para atribuir responsabilidades. Consiste em delegar a responsabilidade à quem possui as informações necessárias para cumpri-la. Para isso primeiro é identificado qual seria a informação e em seguida onde ela foi armazenada, viabilizando assim o acesso da informação e, consequentemente, a atribuição.
@@ -18,6 +28,11 @@ Um caso de uso controlador deve ser usado para lidar com todos os eventos de cas
 É definido como o primeiro objeto além da camada de interface do usuário que recebe e coordena operações do sistema. O controlador deve delegar o trabalho que precisa ser feito para outros objetos. Ele coordena ou controla a atividade e não deve fazer muito trabalho por si próprio. O padrão Controlador pode ser considerado uma parte da camada de aplicação/serviço.
 
 ## 2.4. Polimorfismo
+O padrão polimorfismo é amplamente conhecido, sendo muito aplicado ao contexto de Programação 
+orientada à objeto. Quando se tem duas ou mais classes com comportamentos semelhantes,
+pode-se utilizar um padrão, surgindo assim uma classe abstrata. Sendo que as responsabilidades
+ das ações estão nessa classe abstrata, e as outras classes do sistema surgem dessa abstração.
+ As classes podem ter modos diferentes na implementação dos métodos, dependendo da necessidade.
 
 ## 2.5. Alta Coesão
 Mantém a complexidade controlada através da restrição de atividades que cada elemento é responsável por realizar. A alta coesão é mantida, por exemplo, quando cada classe é fortemente focada e realiza apenas funções relacionadas, sem muitas distinções.
@@ -30,6 +45,9 @@ Acoplamento: uma medida de quão fortemente um elemento é conectado, tem conhec
 Para isso, é proposto atribuir as responsabilidades de modo que o acoplamento entre classes permaneça baixo. Mesmo propondo o baixo acoplamento, não é recomendado um nível extremo dessa medida, quando não há nenhuma relação entre classes. Importante ressaltar também de que subclasses são fortemente acopladas à sua superclasse.
 
 ## 2.7. Indireção
+O princípio Indireção ajuda a manter o baixo acoplamento, delegando responsabilidades através
+de uma classe mediadora. Em suma, evita-se o acomplamento entre duas classes de forma direta.
+Dois componentes não serao interdependentes e sim dependentes da indireçao, possibilitando o reuso quando necessário.
 
 ## 2.8. Inversão de Controle
 Inversão de Controle prega para usarmos o controle das instancias de uma determinada classe ser tratada externamente e não dentro da classe em questão, ou seja, inverter o controle de uma classe delegando para o consumidor da classe. Esse padrão auxilia a seguir os princípios SOLID, princípios esses que auxiliam a diminuir o acoplamento, facilitar a manutenção, facilitar a automação de testes, dentre outros benefícios.
@@ -61,5 +79,6 @@ Em alguns casos essas classes artificiais são tratados e nomeados como "serviç
 ## 4. Histórico de Revisões
 |    Data    | Versão | Descrição       | Autor(es)     |
 | :--------- | :----- | :-------------- | :------------ |
-| 26/08/2021 | 0.1    | Criação do documento e desenvolvimento de tópicos | [Brenda Santos](https://github.com/brendavsantos)  |
+| 26/08/2021 | 0.1    | Criação do documento e desenvolvimento de tópicos | [Brenda Santos](https://github.com/brendavsantos)                               |
 | 28/08/2021 | 0.2    | Desenvolvimento dos padrões Baixo Acoplamento, Controlador e Inversão de Controle | [Tiago Samuel](https://github.com/tsrrodrigues) |
+| 29/08/2021 | 0.3    | Desenvolvimento dos padrões Polimorfismo, Indireção e Criador         | [Eduarda Servidio](https://github.com/ServideoEC)           |
