@@ -67,7 +67,7 @@ que agrupam comportamentos muito utilizados.
 
 Em alguns casos essas classes artificiais são tratados e nomeados como "serviços" na aplicação, o que define melhor o objetivo daquele elemento, de realizar um serviço em específico que não está diretamente conectado ao domínio.
 
-## 3. Referências Bibliográficas
+## 3. Referências
 > - SERRANO, Milene. Aula - GRASP - PARTE I
 > - SERRANO, Milene. Slide Arquitetura e Desenho de Software AULA - GRASP_B - COMPLEMENTAR. Disponível [aqui](https://aprender3.unb.br/pluginfile.php/897140/mod_label/intro/Arquitetura%20e%20Desenho%20de%20Software%20-%20Aula%20GRASP_B%20-%20Profa.%20Milene%20-%20Complementar.pdf). Acesso em 28 de agosto de 2021.
 > - DEVMEDIA, Desenvolvimento com qualidade com GRASP Disponível [aqui](]https://www.devmedia.com.br/desenvolvimento-com-qualidade-com-grasp/28704). Acesso em 26 de agosto de 2021.
@@ -81,4 +81,4 @@ Em alguns casos essas classes artificiais são tratados e nomeados como "serviç
 | :--------- | :----- | :-------------- | :------------ |
 | 26/08/2021 | 0.1    | Criação do documento e desenvolvimento de tópicos | [Brenda Santos](https://github.com/brendavsantos)                               |
 | 28/08/2021 | 0.2    | Desenvolvimento dos padrões Baixo Acoplamento, Controlador e Inversão de Controle | [Tiago Samuel](https://github.com/tsrrodrigues) |
-| 29/08/2021 | 0.3    | Desenvolvimento dos padrões Polimorfismo, Indireção e Criador         | [Eduarda Servidio](https://github.com/ServideoEC)           |
+| 29/08/2021 | 0.3    | Desenvolvimento dos padrões Polimorfismo, Indireção e Criador e padronização tópico referências        | [Eduarda Servidio](https://github.com/ServideoEC)           |
