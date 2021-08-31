@@ -8,7 +8,7 @@ Nesse documento serão abordados os padrões de projeto Gofs Estruturais que vis
 
 ## 2. Princípios e Padrões
 
-### 2.1 Facade
+### 2.1. Facade
 
 Oculta toda a complexidade de uma ou mais classes através de uma Facade (Fachada). A intenção desse Padrão de Projeto é simplificar uma interface, biblioteca ou conjunto complexo de classes. Uma fachada é uma classe que fornece uma interface simples para um subsistema complexo que contém muitas partes que se movem. Ela pode fornecer funcionalidades limitadas em comparação com trabalhar com os subsistemas diretamente.
 
