@@ -1,23 +1,19 @@
 # Padrões de Projeto GRASPs Não Adotados no Projeto
 ## 1. Introdução
-Neste documento serão descritos os padrões de projetos GRASPs que buscamos estudamos, porém optamos por não adotar no projeto.
+Neste documento serão descritos os padrões de projetos GRASPs que foram estudados, porém optamos por não adotar no projeto.
 Ao final de cada descrição de padrão, foi descrito o porquê do mesmo não ter sido escolhido para uso pela equipe.
 
 ## 2. Princípios e Padrões
 ## 2.1. Indireção
-O princípio Indireção ajuda a manter o baixo acoplamento, delegando responsabilidades através
-de uma classe mediadora. Em suma, evita-se o acomplamento entre duas classes de forma direta.
-Dois componentes não serão interdependentes e sim dependentes da indireçao, possibilitando o reuso quando necessário.
-Decidimos que não vamos utilizar no projeto, pois não há uma situação que se encaixe no problema citado, e que valha a pena
-ser implementado esse padrão de projeto.
+O princípio Indireção ajuda a manter o baixo acoplamento, delegando responsabilidades através de uma classe mediadora. Em suma, evita-se o acomplamento entre duas classes de forma direta. Dois componentes não serão interdependentes e sim dependentes da indireçao, possibilitando o reuso quando necessário. 
+
+**Justificativa**: Decidimos por não utilizar no projeto, pois não há uma situação que se encaixe no problema citado, e que valha a pena ser implementado esse padrão de projeto.
 
 ## 2.2. Inversão de Controle
-Inversão de Controle prega para usarmos o controle das instancias de uma determinada classe para ser tratada externamente e
-não dentro da classe em questão, ou seja, inverter o controle de uma classe delegando para o consumidor da classe. Esse padrão
-auxilia a seguir os princípios SOLID, princípios esses que auxiliam a diminuir o acoplamento, facilitar a manutenção, facilitar a
-automação de testes, dentre outros benefícios.
-Decidimos que não vamos utilizar no projeto, pois o problema da inversão de controle não acontece em nenhum contexto da nossa aplicação,
-logo não é válido implementar este padrão de projeto. 
+Inversão de Controle prega para usarmos o controle das instancias de uma determinada classe para ser tratada externamente e não dentro da classe em questão, ou seja, inverter o controle de uma classe delegando para o consumidor da classe. Esse padrão
+auxilia a seguir os princípios SOLID, princípios esses que auxiliam a diminuir o acoplamento, facilitar a manutenção, facilitar a automação de testes, dentre outros benefícios.
+
+**Justificativa**: Decidimos não utilizar no projeto, pois o problema da inversão de controle não acontece em nenhum contexto da nossa aplicação, logo não é válido implementar este padrão de projeto. 
 
 ## 3. Referências
 > - SERRANO, Milene. Aula - GRASP - PARTE I
