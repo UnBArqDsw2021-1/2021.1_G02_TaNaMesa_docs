@@ -31,7 +31,7 @@
 | [Módulo Padrões de Projeto GoF(s) Estruturais](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/104)| Italo, Abner | 5 |
 | [Módulo Padrões de Projeto GoF(s) Comportamentais](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/100)|Italo, Daniel e Emily | 3 |
 | [Criar a divisão das pastas da entrega](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/96)| Tiago | 2 |
-| [Criar repositórios de backend)](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service/issues/1) | Lucas | 2 |
+| [Criar repositórios de backend](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service/issues/1) | Lucas | 2 |
 | Configurar banco de dados | Lucas e Sérgio | 5 |
 | [Criar as models utilizando o Sequelize](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/98)| Abner, Tiago, Emily e Daniel | 5 |
 | [Documento de sprint](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/95) | Brenda | 3 |
