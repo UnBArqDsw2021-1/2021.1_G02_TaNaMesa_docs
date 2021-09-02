@@ -60,7 +60,7 @@
 
 ## 6. Análise do Scrum Master
 ### Time
-O time tem se desenvolvido cada vez mais com o passar do tempo mas as demais matérias e estágio implicam em constantes atrasos no desenvolvimento das issues e nos pareamentos mais frequentes. Organização melhorou considerávelmente com o passar das sprints assim como o foco nas tarefas/reuniões.
+O time tem se desenvolvido cada vez mais com o passar do tempo mas as demais matérias e estágio implicam em constantes atrasos no desenvolvimento das issues e nos pareamentos mais frequentes. Organização melhorou consideravelmente com o passar das sprints assim como o foco nas tarefas/reuniões.
 
 ### Histórias
-Histórias andaram bem, embora com certa demora para serem iniciadas, mas algumas foram atraṕalhadas devido à falta de conhecimento e pareamento. Divisão de pontos foi eficiente mas surgiu uma issue durante a sprint, por isso o número de pontos planejados ficou maior que o do planning.
+Histórias andaram bem, embora com certa demora para serem iniciadas, mas algumas foram atrapalhadas devido à falta de conhecimento e pareamento. Divisão de pontos foi eficiente mas surgiu uma issue durante a sprint, por isso o número de pontos planejados ficou maior que o do planning.
