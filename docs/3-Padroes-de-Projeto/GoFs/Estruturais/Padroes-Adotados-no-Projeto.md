@@ -10,15 +10,15 @@ Nesse documento serão abordados os padrões de projeto Gofs Estruturais que vis
 
 ### 2.1. Facade
 
-Oculta toda a complexidade de uma ou mais classes através de uma Facade (Fachada). A intenção desse Padrão de Projeto é simplificar uma interface, biblioteca ou conjunto complexo de classes. Uma fachada é uma classe que fornece uma interface simples para um subsistema complexo que contém muitas partes que se movem. Ela pode fornecer funcionalidades limitadas em comparação com trabalhar com os subsistemas diretamente.
+Oculta toda a complexidade de uma ou mais classes através de uma Facade (Fachada). A intenção desse Padrão de Projeto é simplificar uma interface, biblioteca ou conjunto complexo de classes. Uma fachada é uma classe que fornece uma interface simples para um subsistema complexo que contém muitas partes que se movem. Ela pode fornecer funcionalidades limitadas em comparação com trabalhar com os subsistemas diretamente. Será utilizado no contexto da nossa aplicação porque iremos trabalhar com diversas bibliotecas que basicamente atuam como Facade, ou seja, que "escondem" sua implementação para resolução de um problema complexo.
 
 ### 2.2. Decorator
 
-O decorator permite uma melhor adaptação do objeto, ou seja, ele permite adicionar uma funcionalidade ou um comportamento de forma dinâmica colocando os objetos dentro de um envoltório (wrapper) de outros objetos que contém os comportamentos.
+O decorator permite uma melhor adaptação do objeto, ou seja, ele permite adicionar uma funcionalidade ou um comportamento de forma dinâmica colocando os objetos dentro de um envoltório (wrapper) de outros objetos que contém os comportamentos. Será utilizado no contexto da nossa aplicação porque iremos trabalhar com Decorator que o próprio node dá suporte.
 
 ### 2.3. Proxy
 
-O proxy funciona como uma barreira permitindo controlar o acesso ao objeto original funcionando como se fosse um interceptador. Como por exemplo, caso tenhamos endpoint na nossa api que não podem ser acessados por qualquer um, podemos implementar um proxy que faça validação de ip, User agent ou até mesmo de token. É um padrão de projeto que nos permite maior segurança e controle a determinados serviços.
+O proxy funciona como uma barreira permitindo controlar o acesso ao objeto original funcionando como se fosse um interceptador. Como por exemplo, caso tenhamos endpoint na nossa api que não podem ser acessados por qualquer um, podemos implementar um proxy que faça validação de ip, User agent ou até mesmo de token. É um padrão de projeto que nos permite maior segurança e controle a determinados serviços. Será utilizado no contexto da nossa aplicação porque iremos trabalhar com middleware como por exemplo na verificação de token
 
 ## 3. Referências Bibliográficas
 
