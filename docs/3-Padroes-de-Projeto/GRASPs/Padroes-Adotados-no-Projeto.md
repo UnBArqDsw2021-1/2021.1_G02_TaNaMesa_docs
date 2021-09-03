@@ -6,8 +6,7 @@ No intuito de estruturar melhor projetos desenvolvidos utilizando programação 
 
 ## 2. Princípios e Padrões 
 ## 2.1. Criador
-O padrão Criador tem como objetivo determinar qual classe deve ser a responsável pela criação 
-de instâncias de determinados objetos.
+O padrão Criador tem como objetivo determinar qual classe deve ser a responsável pela criação de instâncias de determinados objetos.
 
 Por exemplo, se for decidido que as instâncias de uma classe A devem ser criadas por uma
 classe B, é importante observar os pontos a seguir:
@@ -17,8 +16,12 @@ classe B, é importante observar os pontos a seguir:
 - B usa A de maneira muito próxima.
 - B tem dados iniciais de A, os quais serão passados para A quando este for criado. B é um “especialista” em relação à criação de A.
 
+**Justificativa**: Viabiliza o reaproveitamento de código.
+
 ## 2.2. Especialista
 O princípio de especialista na informação é utilizado para atribuir responsabilidades. Consiste em delegar a responsabilidade à quem possui as informações necessárias para cumpri-la. Para isso primeiro é identificado qual seria a informação e em seguida onde ela foi armazenada, viabilizando assim o acesso da informação e, consequentemente, a atribuição.
+
+**Justificativa**: Evita a criação de soluções desnecessariamente complexas e estimula a análise de qual seria mais objetiva.
 
 ## 2.3. Controlador
 O padrão Controlador atribui a responsabilidade de receber ou lidar com um evento do sistema para uma classe que representa todo o sistema, um subsistema e um cenário de casos de uso.
@@ -27,15 +30,18 @@ Um caso de uso controlador deve ser usado para lidar com todos os eventos de cas
 
 É definido como o primeiro objeto além da camada de interface do usuário que recebe e coordena operações do sistema. O controlador deve delegar o trabalho que precisa ser feito para outros objetos. Ele coordena ou controla a atividade e não deve fazer muito trabalho por si próprio. O padrão Controlador pode ser considerado uma parte da camada de aplicação/serviço.
 
+**Justificativa**: Vai ser utilizado para conectar os componentes do frontend às models do backend, delegando trabalho para os elementos responsáveis.
+
 ## 2.4. Polimorfismo
-O padrão polimorfismo é amplamente conhecido, sendo muito aplicado ao contexto de Programação 
-orientada à objeto. Quando se tem duas ou mais classes com comportamentos semelhantes,
-pode-se utilizar um padrão, surgindo assim uma classe abstrata. Sendo que as responsabilidades
- das ações estão nessa classe abstrata, e as outras classes do sistema surgem dessa abstração.
- As classes podem ter modos diferentes na implementação dos métodos, dependendo da necessidade.
+O padrão polimorfismo é amplamente conhecido, sendo muito aplicado ao contexto de Programação orientada à objeto. O polimorfismo trabalha na análise inversa a herança,
+representada em sua hierarquia de classes, indicando que cada subclasse pode assumir as características e funcionalidades de sua superclasse. As classes podem ter modos diferentes na implementação dos métodos, dependendo da necessidade.
+
+**Justificativa**: Permite especializações evitando a redundância de dados e permitindo o reaproveitamento de comportamentos entre as classes.
 
 ## 2.5. Alta Coesão
 Mantém a complexidade controlada através da restrição de atividades que cada elemento é responsável por realizar. A alta coesão é mantida, por exemplo, quando cada classe é fortemente focada e realiza apenas funções relacionadas, sem muitas distinções.
+
+**Justificativa**: Evita o compormetimento de grande parte do funcionamento da aplicação pois isola o funcionamento de cada coisa, além de permitir alterações mais específicas caso necessário.
 
 ## 2.6. Baixo Acoplamento
 O padrão de projeto GRASP tem como objetivo resolver o problema de alta dependência, que resulta em alto impacto de mudança, dificultando sua manutenção, e baixa reutilização. Antes de explicar um pouco mais sobre o padrão, acho importante relembrar o significado de acoplamento.
@@ -44,20 +50,19 @@ Acoplamento: uma medida de quão fortemente um elemento é conectado, tem conhec
 
 Para isso, é proposto atribuir as responsabilidades de modo que o acoplamento entre classes permaneça baixo. Mesmo propondo o baixo acoplamento, não é recomendado um nível extremo dessa medida, quando não há nenhuma relação entre classes. Importante ressaltar também de que subclasses são fortemente acopladas à sua superclasse.
 
+**Justificativa**: Assim como a alta coesão, possui papel importante na diminuição da dependência entre as pequenas partes que compoem o sistema e também facilita o reaproveitamento de código, melhorando assim a qualidade do produto.
+
 ## 2.7. Variações Protegidas 
 O princípio de variações protegidas é responsável por assegurar que o projeto e seus objetos, subsistemas e demais componentes possam ser alterados ou sofrer instabilidades sem que haja impactos indesejáveis nos demais elementos do sistema. Para isso, interfaces são criadas em volta desses pontos potenciais de variação, motivando também a utilização de encapsulamento, polimorfismo e indireção.
 
+**Justificativa**: Favorece o desenvolvimento de um sistema mais estável, onde parte pode entrar em inatividade sem comprometer integralmente o funcionamento das demais.
+
 ## 2.8. Invenção Pura
-O padrão de Invenção Pura resolve o problema de uma responsabilidade que deve ser alocada a um objeto, mas irá atrapalhar a coesão e/ou o acoplamento daquele objeto. Para solucionar esse problema, é proposto atribuir um conjunto de responsabilidades altamente coeso a uma classe artificial ou de conveniência e que não represente um conceito do domínio do problema.
+O padrão de Invenção Pura resolve o problema de uma responsabilidade que deve ser alocada a um objeto, mas irá atrapalhar a coesão e/ou o acoplamento daquele objeto. Para solucionar esse problema, é proposto atribuir um conjunto de responsabilidades altamente coeso a uma classe artificial ou de conveniência e que não represente um conceito do domínio do problema. Em alguns casos essas classes artificiais são tratados e nomeados como "serviços" na aplicação, o que define melhor o objetivo daquele elemento, de realizar um serviço em específico que não está diretamente conectado ao domínio.
 
-Algumas vantagens desse padrão são:
-
-- aumento da coesão à medida em que a nova classe agrega funcionalidades
-altamente correlatas.
-- aumento da capacidade de reutilização decorrente de classes de Invenção Pura
+**Justificativa**: aumento da coesão à medida em que a nova classe agrega funcionalidades
+altamente correlatas e da capacidade de reutilização decorrente de classes de Invenção Pura
 que agrupam comportamentos muito utilizados.
-
-Em alguns casos essas classes artificiais são tratados e nomeados como "serviços" na aplicação, o que define melhor o objetivo daquele elemento, de realizar um serviço em específico que não está diretamente conectado ao domínio.
 
 ## 3. Referências
 > - SERRANO, Milene. Aula - GRASP - PARTE I
@@ -71,6 +76,7 @@ Em alguns casos essas classes artificiais são tratados e nomeados como "serviç
 ## Histórico de Revisões
 |    Data    | Versão | Descrição       | Autor(es)     |
 | :--------- | :----- | :-------------- | :------------ |
-| 26/08/2021 | 1.0    | Criação do documento e desenvolvimento de tópicos | [Brenda Santos](https://github.com/brendavsantos)                               |
+| 26/08/2021 | 1.0    | Criação do documento e desenvolvimento de tópicos | [Brenda Santos](https://github.com/brendavsantos) |
 | 28/08/2021 | 1.2    | Desenvolvimento dos padrões Baixo Acoplamento, Controlador e Inversão de Controle | [Tiago Samuel](https://github.com/tsrrodrigues) |
 | 29/08/2021 | 1.3    | Desenvolvimento dos padrões Polimorfismo, Indireção e Criador e padronização tópico referências        | [Eduarda Servidio](https://github.com/ServideoEC)           |
+| 03/09/2021 |  1.4   | Adição das justificativas de uso | [Brenda Santos](https://github.com/brendavsantos)    |
