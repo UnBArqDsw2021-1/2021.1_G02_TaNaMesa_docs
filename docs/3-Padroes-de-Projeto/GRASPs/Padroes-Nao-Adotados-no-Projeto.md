@@ -24,7 +24,7 @@ auxilia a seguir os princípios SOLID, princípios esses que auxiliam a diminuir
 > - Slide GRASP: Designing - Objetos com Responsabilidades. Disponível [aqui](https://www.ic.unicamp.br/~ariadne/mc436/1s2017/Lar16GRASP.pdf). Acesso em 28 de agosto de 2021.
 > - Inversão de Controle (IoC) e Injeção de Dependência (DI) - Diferenças. Disponível [aqui](http://www.linhadecodigo.com.br/artigo/3418/inversao-de-controle-ioc-e-injecao-de-dependencia-di-diferencas.aspx#:~:text=Invers%C3%A3o%20de%20Controle%20ou%20Inversion,outra%20classe%2C%20interface%2C%20componente%2C). Acesso em 28 de agosto de 2021.
 
-## 4. Histórico de Revisões
+## Histórico de Revisões
 |    Data    | Versão | Descrição       | Autor(es)     |
 | :--------- | :----- | :-------------- | :------------ |
 | 30/08/2021 | 1.0    | Criação do documento | [Tiago Samuel](https://github.com/tsrrodrigues), [Brenda Santos](https://github.com/brendavsantos) e [Eduarda Servidio](https://github.com/ServideoEC) |

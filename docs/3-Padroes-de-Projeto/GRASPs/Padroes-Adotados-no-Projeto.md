@@ -68,9 +68,9 @@ Em alguns casos essas classes artificiais são tratados e nomeados como "serviç
 > - Slide GRASP: Designing - Objetos com Responsabilidades. Disponível [aqui](https://www.ic.unicamp.br/~ariadne/mc436/1s2017/Lar16GRASP.pdf). Acesso em 28 de agosto de 2021.
 > - Inversão de Controle (IoC) e Injeção de Dependência (DI) - Diferenças. Disponível [aqui](http://www.linhadecodigo.com.br/artigo/3418/inversao-de-controle-ioc-e-injecao-de-dependencia-di-diferencas.aspx#:~:text=Invers%C3%A3o%20de%20Controle%20ou%20Inversion,outra%20classe%2C%20interface%2C%20componente%2C). Acesso em 28 de agosto de 2021.
 
-## 4. Histórico de Revisões
+## Histórico de Revisões
 |    Data    | Versão | Descrição       | Autor(es)     |
 | :--------- | :----- | :-------------- | :------------ |
-| 26/08/2021 | 0.1    | Criação do documento e desenvolvimento de tópicos | [Brenda Santos](https://github.com/brendavsantos)                               |
-| 28/08/2021 | 0.2    | Desenvolvimento dos padrões Baixo Acoplamento, Controlador e Inversão de Controle | [Tiago Samuel](https://github.com/tsrrodrigues) |
-| 29/08/2021 | 0.3    | Desenvolvimento dos padrões Polimorfismo, Indireção e Criador e padronização tópico referências        | [Eduarda Servidio](https://github.com/ServideoEC)           |
+| 26/08/2021 | 1.0    | Criação do documento e desenvolvimento de tópicos | [Brenda Santos](https://github.com/brendavsantos)                               |
+| 28/08/2021 | 1.2    | Desenvolvimento dos padrões Baixo Acoplamento, Controlador e Inversão de Controle | [Tiago Samuel](https://github.com/tsrrodrigues) |
+| 29/08/2021 | 1.3    | Desenvolvimento dos padrões Polimorfismo, Indireção e Criador e padronização tópico referências        | [Eduarda Servidio](https://github.com/ServideoEC)           |
