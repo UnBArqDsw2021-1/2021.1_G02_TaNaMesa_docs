@@ -78,5 +78,6 @@ que agrupam comportamentos muito utilizados.
 | :--------- | :----- | :-------------- | :------------ |
 | 26/08/2021 | 1.0    | Criação do documento e desenvolvimento de tópicos | [Brenda Santos](https://github.com/brendavsantos) |
 | 28/08/2021 | 1.2    | Desenvolvimento dos padrões Baixo Acoplamento, Controlador e Inversão de Controle | [Tiago Samuel](https://github.com/tsrrodrigues) |
-| 29/08/2021 | 1.3    | Desenvolvimento dos padrões Polimorfismo, Indireção e Criador e padronização tópico referências        | [Eduarda Servidio](https://github.com/ServideoEC)           |
-| 03/09/2021 |  1.4   | Adição das justificativas de uso | [Brenda Santos](https://github.com/brendavsantos)    |
+| 29/08/2021 | 1.3    | Desenvolvimento dos padrões Polimorfismo, Indireção e Criador e padronização tópico referências | [Eduarda Servidio](https://github.com/ServideoEC) |
+| 03/09/2021 | 1.4    | Adição das justificativas de uso | [Brenda Santos](https://github.com/brendavsantos) |
+| 03/09/2021 | 1.5    | Revisão do documento | [Sergio Cipriano](https://github.com/sergiosacj), [Emily Dias](https://github.com/emysdias) |

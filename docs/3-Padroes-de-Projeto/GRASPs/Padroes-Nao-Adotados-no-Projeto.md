@@ -28,3 +28,4 @@ auxilia a seguir os princípios SOLID, princípios esses que auxiliam a diminuir
 |    Data    | Versão | Descrição       | Autor(es)     |
 | :--------- | :----- | :-------------- | :------------ |
 | 30/08/2021 | 1.0    | Criação do documento | [Tiago Samuel](https://github.com/tsrrodrigues), [Brenda Santos](https://github.com/brendavsantos) e [Eduarda Servidio](https://github.com/ServideoEC) |
+| 03/09/2021 | 1.1    | Revisão do documento | [Sergio Cipriano](https://github.com/sergiosacj), [Emily Dias](https://github.com/emysdias) |
