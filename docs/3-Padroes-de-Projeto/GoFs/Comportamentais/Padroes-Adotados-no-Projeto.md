@@ -30,13 +30,19 @@ Representa uma operação a ser realizada sobre elementos da estrutura de um obj
 
 O Padrão de Projeto Template Method define os passos de um algoritmo e permite que a implementação de um ou mais desses passos seja fornecida por subclasses. Assim, o Template Method protege o algoritmo e fornece métodos abstratos para que as subclasses possam implementá-los.
 
+**Justificativa**: Sua descrição faz sentido com o projeto. Será usado porque o gerente é o algoritmo primário e os outros atores irão herdar partes das funções do gerente.
+
 ## 2.5 Iterator
 
 O Iterator é um padrão de projeto comportamental que permite a você percorrer elementos de uma coleção sem expor as representações dele (lista, pilha, árvore, etc.).
 
+**Justificativa**: Será usado porque será necessário iterações em algumas partes do código, para gerenciamento de dados e etapas.
+
 ## 2.6 State
 
 O padrão state permite que um objeto altere o seu comportamento quando o seu estado interno muda. O objeto parecerá ter mudado de classe. O padrão encapsula os estados em classes separadas e delega as tarefas para o objeto que representa o estado atual, nós sabemos que os comportamentos mudam juntamento com o estado interno.
+
+**Justificativa**: O uso de estados são comuns de serem utilizados no React JS, por isso, também será utilizado.
 
 ## 3. Referências Bibliográficas
 
@@ -59,3 +65,4 @@ O padrão state permite que um objeto altere o seu comportamento quando o seu es
 | 29/08/2021 | 1.2    | Ajuste formatação          | [Emily Dias](https://github.com/emysdias)        |
 | 29/08/2021 | 1.3    | Adição de tópicos          | [Daniel Primo](https://github.com/danieldagerom) |
 | 03/09/2021 | 1.4    | Adição de justificativas   | [Emily Dias](https://github.com/emysdias)        |
+| 03/09/2021 | 1.5    | Adição de justificativas   | [Daniel Primo](https://github.com/danieldagerom)        |
