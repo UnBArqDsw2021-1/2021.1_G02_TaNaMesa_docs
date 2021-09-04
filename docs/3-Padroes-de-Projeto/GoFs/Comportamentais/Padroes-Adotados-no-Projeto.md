@@ -14,9 +14,13 @@ Neste arquivo será tratado sobre os padrões de projetos GoFs Comportamentais, 
 
 Define uma dependência um-para-muitos entre objetos de modo que quando um objeto muda o estado, todos seus dependentes são notificados e atualizados automaticamente. Definir um mecanismo eficiente para reagir às alterações realizadas em determinados objetos.
 
+**Justificativa**: Como ele é muito bom nessa relação de um-para-muitos, onde um estado muda e seus dependentes são notificados, faz muito sentido na nossa aplicação por exemplo na parte da cozinha em relação ao cliente, onde a cozinha pode preparar para diversos clientes, e quando atualizar o estado do pedido, o cliente saberá.
+
 ## 2.2. Visitor
 
 Representa uma operação a ser realizada sobre elementos da estrutura de um objeto. O Visitor permite que se crie uma nova operação sem que se mude a classe dos elementos sobre as quais ela opera. Permite atualizações específicas em uma coleção de objetos de acordo com o tipo particular de cada objeto atualizado.
+
+**Justificativa**: Será utilizado pois o visitor permite atualizações específicas de objetos, onde vai ser utilizado na nossa aplicação essa parte de uma ação conseguir atualizar o estado de um objeto.
 
 ## 2.3 Command
 
@@ -48,9 +52,10 @@ O padrão state permite que um objeto altere o seu comportamento quando o seu es
 
 ## Histórico de Revisões
 
-| Data       | Versão | Descrição                  | Autor(es)                                    |
-| :--------- | :----- | :------------------------- | :------------------------------------------- |
-| 28/08/2021 | 1.0    | Desenvolvimento de tópicos | [Emily Dias](https://github.com/emysdias)    |
-| 29/08/2021 | 1.1    | Adição de tópicos          | [Ítalo Alves](https://github.com/alvesitalo) |
-| 29/08/2021 | 1.2    | Ajuste formatação          | [Emily Dias](https://github.com/emysdias)    |
+| Data       | Versão | Descrição                  | Autor(es)                                        |
+| :--------- | :----- | :------------------------- | :----------------------------------------------- |
+| 28/08/2021 | 1.0    | Desenvolvimento de tópicos | [Emily Dias](https://github.com/emysdias)        |
+| 29/08/2021 | 1.1    | Adição de tópicos          | [Ítalo Alves](https://github.com/alvesitalo)     |
+| 29/08/2021 | 1.2    | Ajuste formatação          | [Emily Dias](https://github.com/emysdias)        |
 | 29/08/2021 | 1.3    | Adição de tópicos          | [Daniel Primo](https://github.com/danieldagerom) |
+| 03/09/2021 | 1.4    | Adição de justificativas   | [Emily Dias](https://github.com/emysdias)        |

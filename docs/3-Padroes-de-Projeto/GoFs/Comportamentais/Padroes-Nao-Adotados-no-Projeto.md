@@ -10,19 +10,27 @@ Neste arquivo será tratado sobre os padrões de projetos GoFs Comportamentais q
 
 ## 2.1. Memento
 
-Permite armazenar o estado interno de um objeto em um determinando momento, para que seja possível retorná-lo a este estado, sem que isso cause problemas com o encapsulamento. Uma classe é responsável por salvar o estado do objeto desejado; enquanto que outra classe fica responsável por armazenar todas essas copias (mementos). Não será utilizado, pois essa parte de outra classe ficar responsável por armazenar todas as cópias não será necessário no projeto.
+Permite armazenar o estado interno de um objeto em um determinando momento, para que seja possível retorná-lo a este estado, sem que isso cause problemas com o encapsulamento. Uma classe é responsável por salvar o estado do objeto desejado; enquanto que outra classe fica responsável por armazenar todas essas copias (mementos).
+
+**Justificativa**: Não será utilizado, pois essa parte de outra classe ficar responsável por armazenar todas as cópias não será necessário no projeto.
 
 ## 2.2. Chain of Responsibility
 
-Evita a dependência entre um objeto receptor e um objeto solicitante. A base mantém um ponteiro como "próximo“. Cada classe derivada implementa sua própria contribuição para manusear o pedido (request). Não será utilizado, pois essa parte de ter poder manter um ponteiro para o "próximo" não será necessário no sistema de restaurante do projeto.
+Evita a dependência entre um objeto receptor e um objeto solicitante. A base mantém um ponteiro como "próximo“. Cada classe derivada implementa sua própria contribuição para manusear o pedido (request).
+
+**Justificativa**: Não será utilizado, pois essa parte de ter poder manter um ponteiro para o "próximo" não será necessário no sistema de restaurante do projeto.
 
 ## 2.3 Strategy
 
-Permite definir uma família de algoritmos, fazer com que cada algoritmo se torne uma classe e tornar os objetos dessas classes intercambiáveis. Esse padrão nos ajuda a encapsular algoritmos de tomada de decisão em tempo de execução, isso significa que ao invés de implementar um algoritmo com todas as tomadas de decisão pré-definidas, nosso código pode receber instruções em tempo de execução e escolher qual estratégia ele seguirá. Não será utilizado, pois os algoritmos que serão implementados serão exclusivos de cada classe e não possuem complexidade suficiente para serem separados delas.
+Permite definir uma família de algoritmos, fazer com que cada algoritmo se torne uma classe e tornar os objetos dessas classes intercambiáveis. Esse padrão nos ajuda a encapsular algoritmos de tomada de decisão em tempo de execução, isso significa que ao invés de implementar um algoritmo com todas as tomadas de decisão pré-definidas, nosso código pode receber instruções em tempo de execução e escolher qual estratégia ele seguirá.
+
+**Justificativa**: Não será utilizado, pois os algoritmos que serão implementados serão exclusivos de cada classe e não possuem complexidade suficiente para serem separados delas.
 
 ## 2.4 Mediator
 
-Permite definir um objeto que encapsula a forma como um conjunto de objetos interage. O Mediator promove o acoplamento fraco ao evitar que os objetos se refiram uns aos outros explicitamente e permite variar suas interações de forma independente. Ou seja, reduza as dependências caóticas entre objetos. Não será utilizado, pois as relações entre as classes estão bem definidas e não há dependências circulares.
+Permite definir um objeto que encapsula a forma como um conjunto de objetos interage. O Mediator promove o acoplamento fraco ao evitar que os objetos se refiram uns aos outros explicitamente e permite variar suas interações de forma independente. Ou seja, reduza as dependências caóticas entre objetos.
+
+**Justificativa**: Não será utilizado, pois as relações entre as classes estão bem definidas e não há dependências circulares.
 
 ## 3. Referências Bibliográficas
 
@@ -40,3 +48,4 @@ Permite definir um objeto que encapsula a forma como um conjunto de objetos inte
 | 28/08/2021 | 1.0    | Desenvolvimento de tópicos | [Emily Dias](https://github.com/emysdias)    |
 | 29/08/2021 | 1.1    | Adição de tópicos          | [Ítalo Alves](https://github.com/alvesitalo) |
 | 29/08/2021 | 1.2    | Ajuste formatação          | [Emily Dias](https://github.com/emysdias)    |
+| 03/09/2021 | 1.3    | Adição de justificativas   | [Emily Dias](https://github.com/emysdias)    |
