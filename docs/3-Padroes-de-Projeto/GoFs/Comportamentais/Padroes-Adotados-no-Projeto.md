@@ -26,6 +26,8 @@ Representa uma operação a ser realizada sobre elementos da estrutura de um obj
 
 É um padrão de projeto comportamental que transforma um pedido em um objeto independente que contém toda a informação sobre o pedido. Essa transformação permite que você parametrize métodos com diferentes pedidos, atrase ou coloque a execução do pedido em uma fila e suporte operações que não podem ser feitas.
 
+**Justificativa**: Será utilizado pois no aplicativo haverá requisições que serão feitas para a API por meio de uma componente/classe específica que possui métodos que irão lidar com cada tipo de requisição (comando).
+
 ## 2.4 Template Method
 
 O Padrão de Projeto Template Method define os passos de um algoritmo e permite que a implementação de um ou mais desses passos seja fornecida por subclasses. Assim, o Template Method protege o algoritmo e fornece métodos abstratos para que as subclasses possam implementá-los.
@@ -65,4 +67,5 @@ O padrão state permite que um objeto altere o seu comportamento quando o seu es
 | 29/08/2021 | 1.2    | Ajuste formatação          | [Emily Dias](https://github.com/emysdias)        |
 | 29/08/2021 | 1.3    | Adição de tópicos          | [Daniel Primo](https://github.com/danieldagerom) |
 | 03/09/2021 | 1.4    | Adição de justificativas   | [Emily Dias](https://github.com/emysdias)        |
-| 03/09/2021 | 1.5    | Adição de justificativas   | [Daniel Primo](https://github.com/danieldagerom)        |
+| 03/09/2021 | 1.5    | Adição de justificativas   | [Daniel Primo](https://github.com/danieldagerom) |
+| 05/08/2021 | 2.0    | Adição de justificativas   | [Ítalo Alves](https://github.com/alvesitalo)     |
