@@ -2,7 +2,7 @@
 
 ## 1. Introdução
 
-Como falado no arquitvo de padrões adotados no projeto de GoFs comportamentais, os padrões acabam facilitando reutilizar arquiteturas bem sucedidas para construir softwares de forma mais flexível e fácil de manter. O uso de padrões de projeto pode reduzir a complexidade do processo de projetar software.
+Como falado no arquivo de padrões adotados no projeto de GoFs comportamentais, os padrões acabam facilitando reutilizar arquiteturas bem sucedidas para construir softwares de forma mais flexível e fácil de manter. O uso de padrões de projeto pode reduzir a complexidade do processo de projetar software.
 
 Neste arquivo será tratado sobre os padrões de projetos GoFs Comportamentais que não serão utilizados no projeto.
 
@@ -49,3 +49,4 @@ Permite definir um objeto que encapsula a forma como um conjunto de objetos inte
 | 29/08/2021 | 1.1    | Adição de tópicos          | [Ítalo Alves](https://github.com/alvesitalo) |
 | 29/08/2021 | 1.2    | Ajuste formatação          | [Emily Dias](https://github.com/emysdias)    |
 | 03/09/2021 | 1.3    | Adição de justificativas   | [Emily Dias](https://github.com/emysdias)    |
+| 06/09/2021 | 1.4    | Revisão e correção ortográfica   | [Tiago Samuel](https://github.com/tsrrodrigues)    |

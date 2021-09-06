@@ -2,7 +2,7 @@
 
 ## 1. Introdução
 
-Algo que na maioria das vezes os projetistas avançados fazem é resolver problemas, que reutilizam soluções que funcionaram no passado, e os usam repetidamente em outros projetos, por isso que os padrões de projetos, design patterns, tem chamado a atenção e despertado o interesse dos projetistas de software, por proporcionar elementos que conduzem ao reaproveitamento de soluções, e não apenas a reutilização de código.
+Algo que na maioria das vezes os projetistas avançados fazem é resolver problemas que reutilizam soluções que funcionaram no passado e os usam repetidamente em outros projetos, por isso que os padrões de projetos e design patterns têm chamado a atenção e despertado o interesse dos projetistas de software, por proporcionar elementos que conduzem ao reaproveitamento de soluções e não apenas a reutilização de código.
 
 Os padrões acabam facilitando reutilizar arquiteturas bem sucedidas para construir softwares de forma mais flexível e fácil de manter. O uso de padrões de projeto pode reduzir a complexidade do processo de projetar software.
 
@@ -14,19 +14,19 @@ Neste arquivo será tratado sobre os padrões de projetos GoFs Comportamentais, 
 
 Define uma dependência um-para-muitos entre objetos de modo que quando um objeto muda o estado, todos seus dependentes são notificados e atualizados automaticamente. Definir um mecanismo eficiente para reagir às alterações realizadas em determinados objetos.
 
-**Justificativa**: Como ele é muito bom nessa relação de um-para-muitos, onde um estado muda e seus dependentes são notificados, faz muito sentido na nossa aplicação por exemplo na parte da cozinha em relação ao cliente, onde a cozinha pode preparar para diversos clientes, e quando atualizar o estado do pedido, o cliente saberá.
+**Justificativa**: Como ele é muito bom nessa relação de um-para-muitos, onde um estado muda e seus dependentes são notificados, faz muito sentido na nossa aplicação, por exemplo na parte da cozinha em relação ao cliente, onde a cozinha pode preparar para diversos clientes e, quando atualizar o estado do pedido, o cliente saberá.
 
 ## 2.2. Visitor
 
 Representa uma operação a ser realizada sobre elementos da estrutura de um objeto. O Visitor permite que se crie uma nova operação sem que se mude a classe dos elementos sobre as quais ela opera. Permite atualizações específicas em uma coleção de objetos de acordo com o tipo particular de cada objeto atualizado.
 
-**Justificativa**: Será utilizado pois o visitor permite atualizações específicas de objetos, onde vai ser utilizado na nossa aplicação essa parte de uma ação conseguir atualizar o estado de um objeto.
+**Justificativa**: Será utilizado, pois o Visitor permite atualizações específicas de objetos, nas quais vão ser utilizadas na nossa aplicação o fato de uma ação conseguir atualizar o estado de um objeto.
 
 ## 2.3 Command
 
 É um padrão de projeto comportamental que transforma um pedido em um objeto independente que contém toda a informação sobre o pedido. Essa transformação permite que você parametrize métodos com diferentes pedidos, atrase ou coloque a execução do pedido em uma fila e suporte operações que não podem ser feitas.
 
-**Justificativa**: Será utilizado pois no aplicativo haverá requisições que serão feitas para a API por meio de uma componente/classe específica que possui métodos que irão lidar com cada tipo de requisição (comando).
+**Justificativa**: Será utilizado, pois no aplicativo haverá requisições que serão feitas para a API por meio de uma componente/classe específica que possui métodos que irão lidar com cada tipo de requisição (comando).
 
 ## 2.4 Template Method
 
@@ -69,3 +69,4 @@ O padrão state permite que um objeto altere o seu comportamento quando o seu es
 | 03/09/2021 | 1.4    | Adição de justificativas   | [Emily Dias](https://github.com/emysdias)        |
 | 03/09/2021 | 1.5    | Adição de justificativas   | [Daniel Primo](https://github.com/danieldagerom) |
 | 05/08/2021 | 2.0    | Adição de justificativas   | [Ítalo Alves](https://github.com/alvesitalo)     |
+| 06/09/2021 | 2.1    | Revisão e correção ortográfica   | [Tiago Samuel](https://github.com/tsrrodrigues)    |
