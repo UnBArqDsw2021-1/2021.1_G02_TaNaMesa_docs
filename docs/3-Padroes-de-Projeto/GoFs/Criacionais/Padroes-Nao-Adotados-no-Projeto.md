@@ -1,7 +1,7 @@
 # Padrões de Projeto GoFs Criacionais Não Adotados no Projeto
 
 ## 1. Introdução
-Neste documento serão descritos os padrões de projetos GOFs Criacionais que foram estudados, porém optamos por não adotar no projeto. Ao final de cada descrição de padrão, foi descrito o porquê do mesmo não ter sido escolhido para uso pela equipe.
+Neste documento serão descritos padrões de projetos GOFs Criacionais que foram estudados, porém que optamos por não adotar no projeto. Ao final de cada descrição de padrão, foi descrito o porquê do mesmo não ter sido escolhido para uso pela equipe.
 
 ## 2. Princípios e Padrões
 ### 2.1. Abstract Factory
@@ -12,7 +12,7 @@ Em suma, uma interface é definida para criar todos os produtos, mas a criação
 é feita por classes fábricas concretas. Cada fábrica corresponde a um tipo de produto seguindo
 a interface definida.
 
-Justificativa: Não encontramos, até então, no nosso projeto pontos que podem envolver esse padrão de projeto.
+**Justificativa**: Não encontramos, até então, no nosso projeto pontos que podem envolver esse padrão de projeto.
 
 ### 2.2. Builder
 
@@ -22,7 +22,7 @@ construção possa criar diferentes representações. Esse padrão facilita muit
 lógica de criação de nossos objetos, evitando que as classes que representam esses objetos
 finais fiquem muito complexas.
 
-Justificativa: Não encontramos, até então, no nosso projeto pontos que podem envolver esse padrão de projeto.
+**Justificativa**: Não encontramos, até então, no nosso projeto pontos que podem envolver esse padrão de projeto.
 
 ### 2.3. Object Pool
 
@@ -32,26 +32,22 @@ de usado, quando não mais necessário, ele retorna ao pool permitindo que seja 
 quando preciso, sem repetir o processo de instanciação. Caso algum objeto não estiver presente
 no pool, um novo é criado e adicionado. 
 
-Justificativa: Não encontramos, até então, no nosso projeto pontos que podem envolver esse padrão de projeto.
+**Justificativa**: Não encontramos, até então, no nosso projeto pontos que podem envolver esse padrão de projeto.
 
 ## 3. Referências
+
 > - BIGARDI, G. Arquitetura e Desenvolvimento de Software - Parte 2 - Abstract Factory. Disponível em: <https://medium.com/@gbbigardi/arquitetura-e-desenvolvimento-de-software-parte-2-abstract-factory-f603ccc6a1ea>. Acesso em: 28 de ago. de 2021
 
 > - BIGARDI, G. Arquitetura e Desenvolvimento de Software - Parte 4 - Builder. Disponível em: <https://medium.com/@gbbigardi/arquitetura-e-desenvolvimento-de-software-parte-4-builder-848867107f71>. Acesso em: 28 de ago. de 2021
 
 > - REFACTORING GURU. Abstrac Factory. Disponível em: <https://refactoring.guru/pt-br/design-patterns/abstract-factory>.Acesso em 28 de ago. de 2021.
 
-> - REFACTORING GURU. Factory Method. Disponível em: <https://refactoring.guru/design-patterns/factory-method>. Acesso em 30 de ago. de 2021.
-
-> - REFACTORING GURU. Singleton. Disponível em: <https://refactoring.guru/design-patterns/singleton>. Acesso em 30 de ago. de 2021.
-
 > - SERRANO, Milene. Arquitetura e desenho de software. Módulo Padrões de Projeto GoF(s) Criacionais - Material em Slide. Acesso em: 30 de Agosto de 2021.
 
 > - SERRANO, Milene. Arquitetura e desenho de software. Módulo Padrões de Projeto GoF(s) Criacionais - 08a - Vídeo-Aula - DSW - GoFs - Criacionais. Acesso em: 30 de Agosto de 2021.
 
-> - WIKIPEDIA. Multiton pattern. Disponível em: <https://en.wikipedia.org/wiki/Multiton_pattern>. Acesso em 30 de ago. de 2021.
-
 ## Histórico de Revisões
 |    Data    | Versão | Descrição       | Autor(es)     |
 | :--------- | :----- | :-------------- | :------------ |
-| 05/09/2021 | 1.0    | Criação do documento e desenvolvimento dos tópicos   | [Eduarda Servidio](https://github.com/ServideoEC) e [Herick Portugues](https://github.com/herickport)          |
+| 05/09/2021 | 1.0 | Criação do documento e desenvolvimento dos tópicos | [Eduarda Servidio](https://github.com/ServideoEC) e [Herick Portugues](https://github.com/herickport) |
+| 06/09/2021 | 1.1 | Revisão do documento e atualização de referências | [Herick Portugues](https://github.com/herickport) |

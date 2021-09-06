@@ -20,15 +20,14 @@ sugere que chamadas diretas de construção de objetos sejam substituídas por c
 para um método *fábrica* especial (Refactoring.Guru). Dessa forma, a ideia é encapsular
 a escolha da classe concreta que será utilizada na criação de um determinado objeto.
 
-Justificativa: 
+**Justificativa**: Este padrão de projeto é aplicado dentro do Node.js, para criação de objetos. 
 
 ### 2.2. Singleton
 
 O padrão Singleton é um padrão de projeto criacional que permite a criação de apenas uma
 instância de uma classe, provendo um ponto de acesso global para essa instância.
 
-Justificativa: será utilizado para fazer instância de banco de dados, onde até mesmo a instância do React já é feita
-seguindo esse padrão.
+**Justificativa**: Será utilizado para garantir uma instância única da aplicação com o banco de dados.
 
 ### 2.3. Multiton
 
@@ -36,14 +35,9 @@ O padrão Multion é um padrão de projeto criacional que generaliza o padrão S
 o Singleton permite a criação de apenas uma instância de uma classe, o padrão Multiton permite
 a criação de uma quantidade controlada de instâncias e fornece um modo para recuperá-las.
 
-Justificativa: será utilizado para fazer os componentes do React.
+**Justificativa**: Uma das aplicações no projeto será para a criação de componentes no React, em que será possível instanciar diversos componentes iguais, mas que possuem informações diferentes.
 
 ## 3. Referências
-> - BIGARDI, G. Arquitetura e Desenvolvimento de Software - Parte 2 - Abstract Factory. Disponível em: <https://medium.com/@gbbigardi/arquitetura-e-desenvolvimento-de-software-parte-2-abstract-factory-f603ccc6a1ea>. Acesso em: 28 de ago. de 2021
-
-> - BIGARDI, G. Arquitetura e Desenvolvimento de Software - Parte 4 - Builder. Disponível em: <https://medium.com/@gbbigardi/arquitetura-e-desenvolvimento-de-software-parte-4-builder-848867107f71>. Acesso em: 28 de ago. de 2021
-
-> - REFACTORING GURU. Abstrac Factory. Disponível em: <https://refactoring.guru/pt-br/design-patterns/abstract-factory>.Acesso em 28 de ago. de 2021.
 
 > - REFACTORING GURU. Factory Method. Disponível em: <https://refactoring.guru/design-patterns/factory-method>. Acesso em 30 de ago. de 2021.
 
@@ -64,3 +58,4 @@ Justificativa: será utilizado para fazer os componentes do React.
 | 30/08/2021 | 1.1    | Adição dos padrões Factory Method, Singleton e Multiton | [Herick Portugues](https://github.com/herickport) |
 | 05/09/2021 | 1.2    | Atualização dos padrões que serão utilizados | [Eduarda Servidio](https://github.com/ServideoEC) e [Herick Portugues](https://github.com/herickport) |
 | 05/09/2021 | 1.3    | Adição tópico introdução | [Eduarda Servidio](https://github.com/ServideoEC) |
+| 06/09/2021 | 1.4    | Atualização nas justificativas e correção de referências | [Herick Portugues](https://github.com/herickport) |
