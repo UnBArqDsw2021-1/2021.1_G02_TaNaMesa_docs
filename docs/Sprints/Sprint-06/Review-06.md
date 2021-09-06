@@ -25,22 +25,22 @@
 
 ## 3. Resultados
 
-### 3.1 Repositório de Documentação
+### 3.1 Repositório de [Documentação](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs)
 |  História  | Responsáveis  | pontuação | Status |
 | :--------  | :-----------  | :-------: | :----: |
 | Projeto de padrões emergentes | Todos os membros | 5 |
 | Realizar uma análise sobre os padrṍes estudados sprint passada | Todos os membros | 3 |
-| Finalização dos documentos GRASP | Eduarda, Tiago, Brenda | 5 |
-| Finalização dos documentos GOFS criacionais | Herick, Eduarda | 5 |
-| Finalização dos documentos GOFS comportamentais | Italo, Daniel e Emily | 5 | 
+| [#99 Finalização dos documentos GRASP](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/99) | Eduarda, Tiago, Brenda | 5 |
+| [#101 Finalização dos documentos GOFS criacionais](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/101) | Herick, Eduarda | 5 |
+| [#100 Finalização dos documentos GOFS comportamentais](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/100) | Italo, Daniel e Emily | 5 | 
 
-### 3.2 Repositório Frontend
+### 3.2 Repositório [Frontend](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend)
 |  História  | Responsáveis  | pontuação | Status |
 | :--------  | :-----------  | :-------: | :----: |
-| Criação dos componentes no front end | Brenda, Eduarda, Sergio, Lucas | 5 |
-| Criação de um gerenciador de estados de tema | Lucas e Herick | 2 |
+| [#5 Criação dos componentes no front end](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/5) | Brenda, Eduarda, Sergio, Lucas | 5 |
+| [#4 Criação de um gerenciador de estados de tema](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/4) | Lucas e Herick | 2 |
 
-### 3.3 Repositório Order-service
+### 3.3 Repositório [Order-service](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service)
 |  História  | Responsáveis  | pontuação | Status |
 | :--------  | :-----------  | :-------: | :----: |
 | Finalizar separação do back end | Lucas e Sergio | 2 |
