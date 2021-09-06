@@ -12,7 +12,7 @@ Em suma, uma interface é definida para criar todos os produtos, mas a criação
 é feita por classes fábricas concretas. Cada fábrica corresponde a um tipo de produto seguindo
 a interface definida.
 
-Justificativa:
+Justificativa: Não encontramos, até então, no nosso projeto pontos que podem envolver esse padrão de projeto.
 
 ### 2.2. Builder
 
@@ -22,7 +22,7 @@ construção possa criar diferentes representações. Esse padrão facilita muit
 lógica de criação de nossos objetos, evitando que as classes que representam esses objetos
 finais fiquem muito complexas.
 
-Justificativa:
+Justificativa: Não encontramos, até então, no nosso projeto pontos que podem envolver esse padrão de projeto.
 
 ### 2.3. Object Pool
 
@@ -32,7 +32,7 @@ de usado, quando não mais necessário, ele retorna ao pool permitindo que seja 
 quando preciso, sem repetir o processo de instanciação. Caso algum objeto não estiver presente
 no pool, um novo é criado e adicionado. 
 
-Justificativa:
+Justificativa: Não encontramos, até então, no nosso projeto pontos que podem envolver esse padrão de projeto.
 
 ## 3. Referências
 > - BIGARDI, G. Arquitetura e Desenvolvimento de Software - Parte 2 - Abstract Factory. Disponível em: <https://medium.com/@gbbigardi/arquitetura-e-desenvolvimento-de-software-parte-2-abstract-factory-f603ccc6a1ea>. Acesso em: 28 de ago. de 2021
