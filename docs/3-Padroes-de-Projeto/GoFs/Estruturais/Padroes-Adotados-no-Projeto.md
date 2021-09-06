@@ -39,3 +39,4 @@ O proxy funciona como uma barreira permitindo controlar o acesso ao objeto origi
 | 29/08/2021 | 1.0    | Adiciona Tópicos                   | [Ítalo Alves](https://github.com/alvesitalo) |
 | 30/08/2021 | 2.0    | Adiciona Tópicos Decorator e Proxy | [Abner Filipe](https://github.com/abner423)  |
 | 05/09/2021 | 2.1    | Destaca e revisa as justificativas | [Ítalo Alves](https://github.com/alvesitalo) |
+| 05/09/2021 | 2.2    | Revisão do documento               | [Sergio Cipriano](https://github.com/sergiosacj), [Emily Dias](https://github.com/emysdias) |
