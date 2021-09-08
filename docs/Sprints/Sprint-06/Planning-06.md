@@ -33,6 +33,8 @@
 | [#99 Finalização dos documentos GRASP](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/99) | Eduarda, Tiago, Brenda | 5 |
 | [#101 Finalização dos documentos GOFS criacionais](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/101) | Herick, Eduarda | 5 |
 | [#100 Finalização dos documentos GOFS comportamentais](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/100) | Italo, Daniel e Emily | 5 | 
+| [#104 Finalização dos documentos GOFS estruturais](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/104) | Italo e Abner | 5 |
+| [#106 Documentação da sprint](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/106) | Brenda | 3 |
 
 ### 3.2 Repositório [Frontend](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend)
 |  História  | Responsáveis  | pontuação |
@@ -46,4 +48,4 @@
 | Finalizar separação do back end | Lucas e Sergio | 2 |
 | [Criar as models utilizando o Sequelize (dívida)](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/98)| Abner, Tiago, Emily e Daniel | 5 |
 
-**Total de pontos planejados:** 37
+**Total de pontos planejados:** 45
