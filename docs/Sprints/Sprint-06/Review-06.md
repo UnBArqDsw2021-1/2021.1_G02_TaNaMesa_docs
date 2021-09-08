@@ -40,7 +40,7 @@
 |  História  | Responsáveis  | pontuação | Status |
 | :--------  | :-----------  | :-------: | :----: |
 | [#5 Criação dos componentes no front end](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/5) | Brenda, Eduarda, Sergio, Lucas | 5 | Prolongado |
-| [#4 Criação de um gerenciador de estados de tema](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/4) | Lucas e Herick | 2 | Não concluido |
+| [#4 Criação de um gerenciador de estados de tema](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/4) | Lucas e Herick | 2 | Concluido |
 
 ### 3.3 Repositório [Order-service](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service)
 |  História  | Responsáveis  | pontuação | Status |
@@ -49,7 +49,7 @@
 | [Criar as models utilizando o Sequelize (dívida)](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/98)| Abner, Tiago, Emily e Daniel | 5 | Concluido |
 
 **Total de pontos planejados:** 45
-**Total de pontos entregues:** 33
+**Total de pontos entregues:** 35
 
 ## 4. Retrospectiva
 
