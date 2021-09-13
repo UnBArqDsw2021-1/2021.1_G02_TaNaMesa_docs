@@ -193,24 +193,24 @@ Através da multiplicação entre as estimativas de impacto e probabilidade é p
 
 Ao final da etapa de desenvolvimento da aplicação os riscos já foram identificados, monitorados e tratados(ou não) de forma completa. Tendo em mãos toda a evolução ou involução desses riscos, é possível estabelecer algumas relações entre o período em que o projeto se encontra e o comportamento dos riscos. Com o principal objetivo de ilustrar de forma clara e simplificada o desdobramento ao longo das sprints, foi desenvolvida uma tabela das prioridades atribuidas a cada risco em cada sprint.
 
-|     | Sprint 1 | Sprint 2 | Sprint 3 | Sprint 4 | Sprint 5 | Sprint 6 | Sprint 7 |
-| :-: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
-| R01 |    15    |    15    |   15     |          |          |          |          |
-| R02 |    1     |    1     |    8     |          |          |          |          |
-| R03 |    8     |    8     |    8     |          |          |          |          |
-| R04 |    12    |    20    |    20    |          |          |          |          |
-| R05 |    20    |    20    |    20    |          |          |          |          |
-| R06 |    12    |    16    |    16    |          |          |          |          |
-| R07 |    16    |    16    |    16    |          |          |          |          |
-| R08 |    12    |    12    |    12    |          |          |          |          |
-| R09 |    20    |    20    |    20    |          |          |          |          |
-| R10 |    12    |    10    |    10    |          |          |          |          |
-| R11 |    20    |    20    |    20    |          |          |          |          |
-| R12 |    20    |    20    |    20    |          |          |          |          |
-| R13 |    20    |    20    |    20    |          |          |          |          |
-| R14 |    4     |    4     |    4     |          |          |          |          |
-| R15 |    12    |    12    |    12    |          |          |          |          |
-| R16 |    16    |    16    |    16    |          |          |          |          |
+|     | Sprint 1 | Sprint 2 | Sprint 3 | Sprint 4 | Sprint 5 | Sprint 6 | Sprint 7 | Sprint 8 | Sprint 9 | Sprint 10 | Sprint 11 | Sprint 12 |
+| :-: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :-------: | :-------: | :-------: |
+| R01 |    15    |    15    |   15     |   15     |    15    |    15    |   15     |
+| R02 |    1     |    1     |    8     |    8     |    8     |    8     |    8     |
+| R03 |    8     |    8     |    8     |    8     |    8     |    8     |    8     |
+| R04 |    12    |    20    |    20    |    20    |    20    |    20    |    20    |
+| R05 |    20    |    20    |    20    |    20    |    20    |    20    |    20    |
+| R06 |    12    |    16    |    16    |    16    |    16    |    16    |    16    | 
+| R07 |    16    |    16    |    16    |    16    |    16    |    16    |    16    |
+| R08 |    12    |    12    |    12    |    12    |    12    |    12    |    12    |
+| R09 |    20    |    20    |    20    |    20    |    20    |    20    |    20    |
+| R10 |    12    |    10    |    10    |    10    |    10    |    10    |    10    |
+| R11 |    20    |    20    |    20    |    20    |    20    |    20    |    20    |
+| R12 |    20    |    20    |    20    |    20    |    20    |    20    |    20    |
+| R13 |    20    |    20    |    20    |    20    |    20    |    20    |    20    |
+| R14 |    4     |    4     |    4     |    4     |    4     |    4     |    4     |
+| R15 |    12    |    12    |    12    |    12    |    12    |    12    |    12    |
+| R16 |    16    |    16    |    16    |    16    |    16    |    16    |    16    |
 
 ## 6. Referências
 
