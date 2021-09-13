@@ -47,17 +47,18 @@
 | [#8 CRUD comanda](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service/issues/8)     | Abner e Daniel  | 3 | Concluido |
 
 **Total de pontos planejados:** 39
+
 **Total de pontos entregues:** 36
 
 ## 4. Retrospectiva
 
 ### Pontos Positivos:
 * Membros ainda mais pontuais
-* Tempo de reunião mais otimizada
+* Tempo de reunião mais otimizado
 
 ### Pontos Negativos:
 * Problemas pessoais afetando a produtividade da matéria
-* Houve história não concluida devido à dificuldade dos membros de comparecer a reunião marcada previamente
+* Houve história não concluida devido à dificuldade dos membros de comparecer à reunião marcada previamente
 * Mesmos revisores sobrecarregados nos PR's
 * Semestre ja está extremamente cansativo, matérias pesando muito
 * Calor e umidade atrapalhando o rendimento
@@ -67,7 +68,7 @@
 
 ## 5. Análise do Scrum Master
 ### Time
-O cansaço e as outras disciplinas tem dificultado a produtividade dos membros, principalmente aqueles que além de estudar fazem estágio. O grupo continua melhorando aspectos de pontualidade e otimização do tempo de reuniões mas tÊm tido mais dificuldade em comparecer à essas reuniões. 
+O cansaço e as outras disciplinas tem dificultado a produtividade dos membros, principalmente aqueles que além de estudar fazem estágio. O grupo continua melhorando aspectos de pontualidade e otimização do tempo de reuniões mas têm tido mais dificuldade em comparecer a essas reuniões. 
 
 ### Histórias
-Continuam sendo concluidas mesmo que tardiamente (devido à necessidade de administrar o tempo necesário para realizar atividades de todas as disciplinas), houve problemas apenas nas que precisavam de todos os membros presentes. Algumas histórias agruparam duas atividades em apenas uma issue pois foram designidas à mesma dupla na divisão de tarefas.
+Continuam sendo concluidas mesmo que tardiamente (devido à necessidade de administrar o tempo necessário para realizar atividades de todas as disciplinas), houve problemas apenas nas que precisavam de todos os membros presentes. Algumas histórias agruparam duas atividades em apenas uma issue pois foram designidas à mesma dupla na divisão de tarefas.
