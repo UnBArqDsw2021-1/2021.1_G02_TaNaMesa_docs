@@ -35,7 +35,7 @@
 | Configurar banco de dados | Lucas e Sérgio | 5 | Concluido |
 | [Criar as models utilizando o Sequelize](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/98)| Abner, Tiago, Emily e Daniel | 5 | Não concluido |
 | [Documento de sprint](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/95) | Brenda | 3 | Concluido |
-| [Cofiguração inicial do repositório](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/1) | Sergio | 5 | Concluido |
+| [Configuração inicial do repositório Frontend](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/1) | Sergio | 5 | Concluido |
 
 **Total de pontos planejados:** 40
 **Total de pontos realizados:** 35
