@@ -10,7 +10,7 @@ Os Padrões emergentes são mais ligados a plataformas e tecnologias da atualida
 
 Este padrão ajuda na tarefa de separar as responsabilidades promovendo um baixo acoplamento e alta coesão, tornando o sistema escalável.
 
-### 2.1. Alguns Benefícios
+### 2.1. Benefícios
 
 - Separação muito clara entre as camadas de visualização e regras de negócios;
 - Manutenção do sistema se torna mais fácil.
@@ -24,6 +24,20 @@ Este padrão ajuda na tarefa de separar as responsabilidades promovendo um baixo
 
 [![model](../../assets/img/seminario3/padroes-emergentes/model.png)](../../assets/img/seminario3/padroes-emergentes/model.png)
 
+## 3. Component Pattern 
+A padronização de componentes no React visa dividir a interface em partes independentes e reutilizáveis, de forma que cada parte seja tratada como bloco isolado, livre de outras dependências externas. Os componentes aceitam entradas e retornam elementos React que descrevem o que deve aparecer na tela.
+
+### 3.1. Benefícios
+* Baixo acoplamento
+* Alta coesão
+* Viabiliza a reutilização de código
+
+### 3.2. Utilização no projeto
+
+#### Componente
+
+[![componente](https://cdn.discordapp.com/attachments/831297250541436928/887111848107868220/Captura_de_tela_de_2021-09-13_20-04-15.png)](https://cdn.discordapp.com/attachments/831297250541436928/887111848107868220/Captura_de_tela_de_2021-09-13_20-04-15.png)
+
 ## 3. Referências Bibliográficas
 
 > - Higor. Introdução ao padrão MVC. Devmedia, 2013. Disponível em: <https://www.devmedia.com.br/introducao-ao-padrao-mvc/29308>. Acesso em: 11/09/2021.
@@ -35,3 +49,4 @@ Este padrão ajuda na tarefa de separar as responsabilidades promovendo um baixo
 | Data       | Versão | Descrição                        | Autor(es)                                 |
 | :--------- | :----- | :------------------------------- | :---------------------------------------- |
 | 11/09/2021 | 1.0    | Adicionando tópicos do documento | [Emily Dias](https://github.com/emysdias) |
+| 13/09/2021 | 1.1    | Complementando documento e revisando | [Brenda Santos](https://github.com/brendavsantos) |
