@@ -28,7 +28,7 @@
 ### 3.1 Repositório de [Documentação](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs)
 |  História  | Responsáveis  | pontuação |
 | :--------  | :-----------  | :-------: |
-| Projeto de padrões emergentes(dívida) | Todos os membros | 5 | Concluido |
+| [#113 Projeto de padrões emergentes(dívida)](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/113) | Todos os membros | 5 | Concluido |
 | Alinhar diagramas documentados nas sprints passadas | Todos os membros | 3 | Não concluido |
 | [#112 Documentação da sprint](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/112) | Brenda | 3 | Concluido |
 
@@ -40,11 +40,11 @@
 ### 3.3 Repositório [Order-service](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service)
 |     História     |  Responsáveis   | pontuação |
 | :--------------  | :-------------  | :-------: |
-| CRUD funcionario | Herick e Daniel | 3 | Concluido |
-| CRUD cliente     | Tiago e Italo   | 3 | Concluido |
-| CRUD itens       | Tiago e Italo   | 3 | Concluido |
-| CRUD mesa        | Abner e Daniel  | 3 | Concluido |
-| CRUD comanda     | Abner e Daniel  | 3 | Concluido |
+| [#9 CRUD funcionario](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service/issues/9) | Herick e Daniel | 3 | Concluido |
+| [#6 CRUD cliente](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service/issues/6)     | Tiago e Italo   | 3 | Concluido |
+| [#6 CRUD itens](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service/issues/6)       | Tiago e Italo   | 3 | Concluido |
+| [#8 CRUD mesa](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service/issues/8)        | Abner e Daniel  | 3 | Concluido |
+| [#8 CRUD comanda](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service/issues/8)     | Abner e Daniel  | 3 | Concluido |
 
 **Total de pontos planejados:** 39
 **Total de pontos entregues:** 36
@@ -67,7 +67,7 @@
 
 ## 5. Análise do Scrum Master
 ### Time
-
+O cansaço e as outras disciplinas tem dificultado a produtividade dos membros, principalmente aqueles que além de estudar fazem estágio. O grupo continua melhorando aspectos de pontualidade e otimização do tempo de reuniões mas tÊm tido mais dificuldade em comparecer à essas reuniões. 
 
 ### Histórias
-
+Continuam sendo concluidas mesmo que tardiamente (devido à necessidade de administrar o tempo necesário para realizar atividades de todas as disciplinas), houve problemas apenas nas que precisavam de todos os membros presentes. Algumas histórias agruparam duas atividades em apenas uma issue pois foram designidas à mesma dupla na divisão de tarefas.
