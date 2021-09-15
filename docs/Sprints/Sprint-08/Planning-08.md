@@ -35,16 +35,13 @@
 ### 3.2 Repositório [Frontend](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend)
 |  História  | Responsáveis  | pontuação |
 | :--------  | :-----------  | :-------: |
-| [#8 Criar botão reutilizável](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/8) | | |
-| [#9 Colocar inputs do modal de login](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/9) | | |
-| [#10 Fazer side bar da página](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/10) | | |
-| [#11 Fazer checkbox do modal de cliente](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/11) | | |
-| [#12 Pagina de pedido](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/12) | | |
-| [#13 Tela principal](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/13) | | |
-| [#14 Modal de comanda](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/14) | | |
-| [#15 Modais adicionais](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/15) | | |
-| [#16 Modal de pedido](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/16) | | |
-| [#17 Tela de menu](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/17) | | |
+| [#8 Criar botão reutilizável](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/8) | Herick e Eduarda | 3 |
+| [#9 Colocar inputs do modal de login](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/9) | Emily | 3 |
+| [#10 Fazer side bar da página](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/10) | Brenda | 3 | (e divida de botoes)
+| [#11 Fazer checkbox do modal de cliente](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/11) | Italo | 3 |
+| [#12 Pagina de pedido](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/12) | Eduarda e Herick | 3 |
+| [#14 Modal de comanda](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/14) | Italo | 3 |
+| [#15 Modais adicionais](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/15) | Emily | 3 |
 
 ### 3.3 Repositório [Order-service](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service)
 |     História     |  Responsáveis   | pontuação |
