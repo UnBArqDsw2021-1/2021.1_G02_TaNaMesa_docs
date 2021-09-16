@@ -46,6 +46,14 @@
 ### 3.3 Repositório [Order-service](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service)
 |     História     |  Responsáveis   | pontuação |
 | :--------------  | :-------------  | :-------: |
-| 
+| Adicionar tratamento de imagens no CRUD de itens | | |
+| Criar lógica de chamar garçom e adicionar coluna no banco para esse tratamento | | |
+| Criar listagem de mesas que precisam de ajuda | | |
+| Alterar método PUT de mesas para liberar a mesa do pedido de ajuda | | |
+| Criar filtro para listar pedidos por pessoa e por mesa | | |
+| Criar rota para adicionar item a comanda | | |
+| Criar mesas atendidas pelo garçom | | |
+| Criar relação de mesa com garçom | | |
+| Criar lógica de notificação de garçom quando o pedido estiver pronto | | |
 
 **Total de pontos planejados:** 
