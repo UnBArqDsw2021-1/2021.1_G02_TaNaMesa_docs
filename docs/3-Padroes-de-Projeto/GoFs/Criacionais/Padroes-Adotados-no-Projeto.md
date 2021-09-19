@@ -12,6 +12,7 @@ Ou seja, os GoFs Criacionais são relativos à criação de objetos, à criaçã
 processos de instanciação.
 
 ## 2. Princípios e Padrões
+
 ### 2.1. Factory Method
 
 O padrão Factory Method fornece uma interface para criar objetos em uma superclasse, 
@@ -52,6 +53,7 @@ a criação de uma quantidade controlada de instâncias e fornece um modo para r
 > - GAMMA, Erich; HELM, Richard; JOHNSON, Ralph; VLISSIDES, John. "Padrões de projeto: soluções reutilizáveis de software orientado a objetos". Artmed Editora S.A, 2000.
 
 ## Histórico de Revisões
+
 |    Data    | Versão | Descrição       | Autor(es)     |
 | :--------- | :----- | :-------------- | :------------ |
 | 29/08/2021 | 1.0    | Criação do documento e desenvolvimento dos tópicos builder, object pool e abstract factory     | [Eduarda Servidio](https://github.com/ServideoEC)           |
@@ -59,3 +61,4 @@ a criação de uma quantidade controlada de instâncias e fornece um modo para r
 | 05/09/2021 | 1.2    | Atualização dos padrões que serão utilizados | [Eduarda Servidio](https://github.com/ServideoEC) e [Herick Portugues](https://github.com/herickport) |
 | 05/09/2021 | 1.3    | Adição tópico introdução | [Eduarda Servidio](https://github.com/ServideoEC) |
 | 06/09/2021 | 1.4    | Atualização nas justificativas e correção de referências | [Herick Portugues](https://github.com/herickport) |
+| 19/09/2021 | 1.5    | Revisão do documento | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |

@@ -47,7 +47,9 @@ no pool, um novo é criado e adicionado.
 > - SERRANO, Milene. Arquitetura e desenho de software. Módulo Padrões de Projeto GoF(s) Criacionais - 08a - Vídeo-Aula - DSW - GoFs - Criacionais. Acesso em: 30 de Agosto de 2021.
 
 ## Histórico de Revisões
+
 |    Data    | Versão | Descrição       | Autor(es)     |
 | :--------- | :----- | :-------------- | :------------ |
-| 05/09/2021 | 1.0 | Criação do documento e desenvolvimento dos tópicos | [Eduarda Servidio](https://github.com/ServideoEC) e [Herick Portugues](https://github.com/herickport) |
-| 06/09/2021 | 1.1 | Revisão do documento e atualização de referências | [Herick Portugues](https://github.com/herickport) |
+| 05/09/2021 | 1.0    | Criação do documento e desenvolvimento dos tópicos | [Eduarda Servidio](https://github.com/ServideoEC) e [Herick Portugues](https://github.com/herickport) |
+| 06/09/2021 | 1.1    | Revisão do documento e atualização de referências | [Herick Portugues](https://github.com/herickport) |
+| 19/09/2021 | 1.2    | Revisão do documento | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
