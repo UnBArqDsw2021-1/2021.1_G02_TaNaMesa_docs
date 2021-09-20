@@ -20,17 +20,29 @@ Evita a dependência entre um objeto receptor e um objeto solicitante. A base ma
 
 **Justificativa**: Não será utilizado, pois essa parte de ter poder manter um ponteiro para o "próximo" não será necessário no sistema de restaurante do projeto.
 
-## 2.3 Strategy
+## 2.3. Strategy
 
 Permite definir uma família de algoritmos, fazer com que cada algoritmo se torne uma classe e tornar os objetos dessas classes intercambiáveis. Esse padrão nos ajuda a encapsular algoritmos de tomada de decisão em tempo de execução, isso significa que ao invés de implementar um algoritmo com todas as tomadas de decisão pré-definidas, nosso código pode receber instruções em tempo de execução e escolher qual estratégia ele seguirá.
 
 **Justificativa**: Não será utilizado, pois os algoritmos que serão implementados serão exclusivos de cada classe e não possuem complexidade suficiente para serem separados delas.
 
-## 2.4 Mediator
+## 2.4. Mediator
 
 Permite definir um objeto que encapsula a forma como um conjunto de objetos interage. O Mediator promove o acoplamento fraco ao evitar que os objetos se refiram uns aos outros explicitamente e permite variar suas interações de forma independente. Ou seja, reduza as dependências caóticas entre objetos.
 
 **Justificativa**: Não será utilizado, pois as relações entre as classes estão bem definidas e não há dependências circulares.
+
+## 2.5. Observer
+
+Define uma dependência um-para-muitos entre objetos de modo que quando um objeto muda o estado, todos seus dependentes são notificados e atualizados automaticamente. Definir um mecanismo eficiente para reagir às alterações realizadas em determinados objetos.
+
+**Justificativa**: Não será utilizado, pois na aplicação não haverá método de Observer.
+
+## 2.6. Visitor
+
+Representa uma operação a ser realizada sobre elementos da estrutura de um objeto. O Visitor permite que se crie uma nova operação sem que se mude a classe dos elementos sobre as quais ela opera. Permite atualizações específicas em uma coleção de objetos de acordo com o tipo particular de cada objeto atualizado.
+
+**Justificativa**: Não será utilizado, pois o Visitor permite atualizações específicas de objetos, nas quais vão ser utilizadas na nossa aplicação o fato de uma ação conseguir atualizar o estado de um objeto, mas na nossa aplicação será feito com o State.
 
 ## 3. Referências Bibliográficas
 
@@ -43,10 +55,11 @@ Permite definir um objeto que encapsula a forma como um conjunto de objetos inte
 
 ## Histórico de Revisões
 
-| Data       | Versão | Descrição                  | Autor(es)                                    |
-| :--------- | :----- | :------------------------- | :------------------------------------------- |
-| 28/08/2021 | 1.0    | Desenvolvimento de tópicos | [Emily Dias](https://github.com/emysdias)    |
-| 29/08/2021 | 1.1    | Adição de tópicos          | [Ítalo Alves](https://github.com/alvesitalo) |
-| 29/08/2021 | 1.2    | Ajuste formatação          | [Emily Dias](https://github.com/emysdias)    |
-| 03/09/2021 | 1.3    | Adição de justificativas   | [Emily Dias](https://github.com/emysdias)    |
-| 06/09/2021 | 1.4    | Revisão e correção ortográfica   | [Tiago Samuel](https://github.com/tsrrodrigues)    |
+| Data       | Versão | Descrição                      | Autor(es)                                       |
+| :--------- | :----- | :----------------------------- | :---------------------------------------------- |
+| 28/08/2021 | 1.0    | Desenvolvimento de tópicos     | [Emily Dias](https://github.com/emysdias)       |
+| 29/08/2021 | 1.1    | Adição de tópicos              | [Ítalo Alves](https://github.com/alvesitalo)    |
+| 29/08/2021 | 1.2    | Ajuste formatação              | [Emily Dias](https://github.com/emysdias)       |
+| 03/09/2021 | 1.3    | Adição de justificativas       | [Emily Dias](https://github.com/emysdias)       |
+| 06/09/2021 | 1.4    | Revisão e correção ortográfica | [Tiago Samuel](https://github.com/tsrrodrigues) |
+| 20/09/2021 | 1.5    | Adição de tópicos              | [Emily Dias](https://github.com/emysdias)       |

@@ -10,41 +10,71 @@ Neste arquivo será tratado sobre os padrões de projetos GoFs Comportamentais, 
 
 ## 2. Princípios e Padrões
 
-## 2.1. Observer
-
-Define uma dependência um-para-muitos entre objetos de modo que quando um objeto muda o estado, todos seus dependentes são notificados e atualizados automaticamente. Definir um mecanismo eficiente para reagir às alterações realizadas em determinados objetos.
-
-**Justificativa**: Como ele é muito bom nessa relação de um-para-muitos, onde um estado muda e seus dependentes são notificados, faz muito sentido na nossa aplicação, por exemplo na parte da cozinha em relação ao cliente, onde a cozinha pode preparar para diversos clientes e, quando atualizar o estado do pedido, o cliente saberá.
-
-## 2.2. Visitor
-
-Representa uma operação a ser realizada sobre elementos da estrutura de um objeto. O Visitor permite que se crie uma nova operação sem que se mude a classe dos elementos sobre as quais ela opera. Permite atualizações específicas em uma coleção de objetos de acordo com o tipo particular de cada objeto atualizado.
-
-**Justificativa**: Será utilizado, pois o Visitor permite atualizações específicas de objetos, nas quais vão ser utilizadas na nossa aplicação o fato de uma ação conseguir atualizar o estado de um objeto.
-
-## 2.3 Command
+## 2.1. Command
 
 É um padrão de projeto comportamental que transforma um pedido em um objeto independente que contém toda a informação sobre o pedido. Essa transformação permite que você parametrize métodos com diferentes pedidos, atrase ou coloque a execução do pedido em uma fila e suporte operações que não podem ser feitas.
 
 **Justificativa**: Será utilizado, pois no aplicativo haverá requisições que serão feitas para a API por meio de uma componente/classe específica que possui métodos que irão lidar com cada tipo de requisição (comando).
 
-## 2.4 Template Method
+## 2.2. Template Method
 
 O Padrão de Projeto Template Method define os passos de um algoritmo e permite que a implementação de um ou mais desses passos seja fornecida por subclasses. Assim, o Template Method protege o algoritmo e fornece métodos abstratos para que as subclasses possam implementá-los.
 
 **Justificativa**: Sua descrição faz sentido com o projeto. Será usado porque o gerente é o algoritmo primário e os outros atores irão herdar partes das funções do gerente.
 
-## 2.5 Iterator
+## 2.3. Iterator
 
 O Iterator é um padrão de projeto comportamental que permite a você percorrer elementos de uma coleção sem expor as representações dele (lista, pilha, árvore, etc.).
 
 **Justificativa**: Será usado porque será necessário iterações em algumas partes do código, para gerenciamento de dados e etapas.
 
-## 2.6 State
+```js
+import React from "react";
+
+const ListaDePedidos = () => {
+  const pedidos = ["pedido1", "pedido2", "pedido3", "pedido4", "pedido4"];
+
+  return (
+    <ul>
+      {pedidos.map((pedidos) => (
+        <li>{pedidos}</li>
+      ))}
+    </ul>
+  );
+};
+
+export default ListaDePedidos;
+```
+
+## 2.4. State
 
 O padrão state permite que um objeto altere o seu comportamento quando o seu estado interno muda. O objeto parecerá ter mudado de classe. O padrão encapsula os estados em classes separadas e delega as tarefas para o objeto que representa o estado atual, nós sabemos que os comportamentos mudam juntamento com o estado interno.
 
 **Justificativa**: O uso de estados são comuns de serem utilizados no React JS, por isso, também será utilizado.
+
+No código abaixo mostra uma parte de mudança de estado, com um modal.
+
+```js
+import React, { useState } from "react";
+import Modal from "components/Modal/LoginModal/index";
+
+function Example() {
+  const [modalOpen, setModalOpen] = useState(false);
+  const onCloseModal = (event: any): void => {
+    event.preventDefault();
+    setModalOpen(false);
+  };
+
+  return (
+    <div>
+      <Modal title="Login" visible={modalOpen} onClose={onCloseModal} />
+      <button type="button" onClick={() => setModalOpen(true)}>
+        Abrir modal
+      </button>
+    </div>
+  );
+}
+```
 
 ## 3. Referências Bibliográficas
 
@@ -60,13 +90,14 @@ O padrão state permite que um objeto altere o seu comportamento quando o seu es
 
 ## Histórico de Revisões
 
-| Data       | Versão | Descrição                  | Autor(es)                                        |
-| :--------- | :----- | :------------------------- | :----------------------------------------------- |
-| 28/08/2021 | 1.0    | Desenvolvimento de tópicos | [Emily Dias](https://github.com/emysdias)        |
-| 29/08/2021 | 1.1    | Adição de tópicos          | [Ítalo Alves](https://github.com/alvesitalo)     |
-| 29/08/2021 | 1.2    | Ajuste formatação          | [Emily Dias](https://github.com/emysdias)        |
-| 29/08/2021 | 1.3    | Adição de tópicos          | [Daniel Primo](https://github.com/danieldagerom) |
-| 03/09/2021 | 1.4    | Adição de justificativas   | [Emily Dias](https://github.com/emysdias)        |
-| 03/09/2021 | 1.5    | Adição de justificativas   | [Daniel Primo](https://github.com/danieldagerom) |
-| 05/08/2021 | 2.0    | Adição de justificativas   | [Ítalo Alves](https://github.com/alvesitalo)     |
-| 06/09/2021 | 2.1    | Revisão e correção ortográfica   | [Tiago Samuel](https://github.com/tsrrodrigues)    |
+| Data       | Versão | Descrição                      | Autor(es)                                        |
+| :--------- | :----- | :----------------------------- | :----------------------------------------------- |
+| 28/08/2021 | 1.0    | Desenvolvimento de tópicos     | [Emily Dias](https://github.com/emysdias)        |
+| 29/08/2021 | 1.1    | Adição de tópicos              | [Ítalo Alves](https://github.com/alvesitalo)     |
+| 29/08/2021 | 1.2    | Ajuste formatação              | [Emily Dias](https://github.com/emysdias)        |
+| 29/08/2021 | 1.3    | Adição de tópicos              | [Daniel Primo](https://github.com/danieldagerom) |
+| 03/09/2021 | 1.4    | Adição de justificativas       | [Emily Dias](https://github.com/emysdias)        |
+| 03/09/2021 | 1.5    | Adição de justificativas       | [Daniel Primo](https://github.com/danieldagerom) |
+| 05/08/2021 | 2.0    | Adição de justificativas       | [Ítalo Alves](https://github.com/alvesitalo)     |
+| 06/09/2021 | 2.1    | Revisão e correção ortográfica | [Tiago Samuel](https://github.com/tsrrodrigues)  |
+| 20/09/2021 | 2.2    | Adição de códigos              | [Emily Dias](https://github.com/emysdias)        |
