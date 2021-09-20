@@ -26,6 +26,35 @@ a escolha da classe concreta que será utilizada na criação de um determinado 
 
 **Justificativa**: Este padrão de projeto é aplicado dentro do Node.js, para criação de objetos. 
 
+No código abaixo, damos um exemplo de onde utilizamos este padrão de projeto.
+
+```
+testConnection(): void {
+    this.connection
+      .authenticate()
+      .then(async () => {
+        console.log("\n\n🗃️ Banco de Dados conectado!\n");
+
+        this.order = OrderFactory(this.connection);
+        await this.order.sync();
+
+        this.item = ItemFactory(this.connection);
+        await this.item.sync();
+
+        this.client = ClientFactory(this.connection);
+        await this.client.sync();
+
+        this.employee = EmployeeFactory(this.connection);
+        await this.employee.sync();
+
+        this.table = TableFactory(this.connection);
+        await this.table.sync();
+      })
+      .catch(() => {
+        console.log("\n\n😵‍💫❌ Erro ao conectar no Banco\n");
+      });
+  }
+```
 ### 2.2. Singleton
 ### 2.2.1. Definição
 
@@ -71,6 +100,31 @@ a criação de uma quantidade controlada de instâncias e fornece um modo para r
 ### 2.3.2. Uso no Projeto
 
 **Justificativa**: Uma das aplicações no projeto será para a criação de componentes no React, em que será possível instanciar diversos componentes iguais, mas que possuem informações diferentes.
+
+No código abaixo, damos um exemplo de onde utilizamos este padrão de projeto.
+O multiton permite a criação de diversos componentes iguais, mas com informações
+distintas. Um dos exemplos são os itens da tela de Pedidos.
+
+```
+interface Item {
+  quantity: number;
+  name: string;
+  price: number;
+  obs?: string;
+}
+```
+
+```
+return (
+  <Item>
+    <h2>
+      {item.quantity}x {item.name}
+      {item.obs ? <h3>Observação: {item.obs}</h3> : <br />}
+    </h2>
+    <h2>R$ {item.price.toFixed(2)}</h2>
+  </Item>
+);
+```
 
 ## 3. Referências
 
