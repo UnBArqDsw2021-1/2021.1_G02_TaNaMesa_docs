@@ -24,13 +24,48 @@ O princípio de especialista na informação é utilizado para atribuir responsa
 **Justificativa**: Evita a criação de soluções desnecessariamente complexas e estimula a análise de qual seria mais objetiva.
 
 ## 2.3. Controlador
+
+### 2.3.1. Definição
 O padrão Controlador atribui a responsabilidade de receber ou lidar com um evento do sistema para uma classe que representa todo o sistema, um subsistema e um cenário de casos de uso.
 
 Um caso de uso controlador deve ser usado para lidar com todos os eventos de casos de uso e pode ser usado para mais de um caso de uso, por exemplo, para casos de uso como Criar usuário e Excluir usuário, pode ter um único UserController, em vez de dois controllers de casos de uso separados.
 
 É definido como o primeiro objeto além da camada de interface do usuário que recebe e coordena operações do sistema. O controlador deve delegar o trabalho que precisa ser feito para outros objetos. Ele coordena ou controla a atividade e não deve fazer muito trabalho por si próprio. O padrão Controlador pode ser considerado uma parte da camada de aplicação/serviço.
 
-**Justificativa**: Vai ser utilizado para conectar os componentes do frontend às models do backend, delegando trabalho para os elementos responsáveis.
+### 2.3.2. Uso no projeto
+
+**Justificativa**: Vai ser utilizado para conectar os componentes do frontend às models do backend, delegando trabalho para os elementos responsáveis. Também é utilizado no backend para delegar as funções responsáveis por cada rota da aplicação, segue um exemplo abaixo.
+
+No código exemplo, temos um método de uma controller responsável por lidar com a listagem de Itens da aplicação. Nela temos toda a lógica da rota, e nela que obtemos o resultaod final a ser enviado para o usuário.
+
+```
+const getAll = async (
+  request: Request,
+  response: Response
+): Promise<Response> => {
+  try {
+    const filters = {};
+    if (request.query.category) filters.category = request.query.category;
+
+    return response.json({
+      success: true,
+      items: await database.item.findAll({
+        where: {
+          ...filters,
+        },
+      }),
+    });
+  } catch (error) {
+    console.log("ERROR ---> ", error);
+    return response.status(500).json({
+      success: false,
+      message:
+        "Ocorreu um erro ao realizar a operação, tente novamente mais tarde.",
+      error: error.toString(),
+    });
+  }
+};
+```
 
 ## 2.4. Polimorfismo
 O padrão polimorfismo é amplamente conhecido, sendo muito aplicado ao contexto de Programação orientada à objeto. O polimorfismo trabalha na análise inversa a herança,
@@ -44,13 +79,77 @@ Mantém a complexidade controlada através da restrição de atividades que cada
 **Justificativa**: Evita o compormetimento de grande parte do funcionamento da aplicação pois isola o funcionamento de cada coisa, além de permitir alterações mais específicas caso necessário.
 
 ## 2.6. Baixo Acoplamento
+
+## 2.6.1. Definição
 O padrão de projeto GRASP tem como objetivo resolver o problema de alta dependência, que resulta em alto impacto de mudança, dificultando sua manutenção, e baixa reutilização. Antes de explicar um pouco mais sobre o padrão, acho importante relembrar o significado de acoplamento.
 
 Acoplamento: uma medida de quão fortemente um elemento é conectado, tem conhecimento de, ou depende de outros. Um elemento com baixo acoplamento não é dependente de muitos outros elementos.
 
 Para isso, é proposto atribuir as responsabilidades de modo que o acoplamento entre classes permaneça baixo. Mesmo propondo o baixo acoplamento, não é recomendado um nível extremo dessa medida, quando não há nenhuma relação entre classes. Importante ressaltar também de que subclasses são fortemente acopladas à sua superclasse.
 
+### 2.6.2. Uso no projeto
+
 **Justificativa**: Assim como a alta coesão, possui papel importante na diminuição da dependência entre as pequenas partes que compoem o sistema e também facilita o reaproveitamento de código, melhorando assim a qualidade do produto.
+
+No código abaixo, damos um exemplo de onde utilizamos este padrão de projeto. Note que a classe Database tem um único propósito de se comunicar com o banco de dados, mesmo sendo utilizada em outros trechos da API ela não tem acoplamento com outras classes e realiza o seu trabalho independentemente de fatores externos.
+```
+class Database {
+  public connection: Sequelize;
+
+  public order: OrderStatic;
+
+  public item: ItemStatic;
+
+  public client: ClientStatic;
+
+  public employee: EmployeeStatic;
+
+  public table: TableStatic;
+
+  constructor(test: boolean) {
+    this.init(test);
+  }
+
+  init(test: boolean): void {
+    try {
+      this.connection = new Sequelize(
+        databaseConfig[test ? "test" : process.env.NODE_ENV]
+      );
+    } catch (error) {
+      console.log(error.message);
+    } finally {
+      this.testConnection();
+    }
+  }
+
+  testConnection(): void {
+    this.connection
+      .authenticate()
+      .then(async () => {
+        console.log("\n\n🗃️ Banco de Dados conectado!\n");
+
+        this.order = OrderFactory(this.connection);
+        await this.order.sync();
+
+        this.item = ItemFactory(this.connection);
+        await this.item.sync();
+
+        this.client = ClientFactory(this.connection);
+        await this.client.sync();
+
+        this.employee = EmployeeFactory(this.connection);
+        await this.employee.sync();
+
+        this.table = TableFactory(this.connection);
+        await this.table.sync();
+      })
+      .catch(() => {
+        console.log("\n\n😵‍💫❌ Erro ao conectar no Banco\n");
+      });
+  }
+}
+
+```
 
 ## 2.7. Variações Protegidas 
 O princípio de variações protegidas é responsável por assegurar que o projeto e seus objetos, subsistemas e demais componentes possam ser alterados ou sofrer instabilidades sem que haja impactos indesejáveis nos demais elementos do sistema. Para isso, interfaces são criadas em volta desses pontos potenciais de variação, motivando também a utilização de encapsulamento, polimorfismo e indireção.
