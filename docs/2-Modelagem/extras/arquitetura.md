@@ -40,6 +40,12 @@ PostgreSQL é um SGBD(Sistema Gerenciador de Banco de Dados) relacional, desenvo
 
 As tecnologias disponíveis no mercado foram analisadas e basicamente todas realizam as operações necessárias para a nossa aplicação, por fim foi levado em consideração a opinião pessoal de cada membro e suas respectivas familiaridades com as tecnologias avaliadas.
 
+Uma motivação levada em consideração pelo grupo para esta arquitetura foi o desafio de se atingir um **Microsserviços** de fato. Pensando nisso e baseado no artigo do [Martin Fowler](https://martinfowler.com/articles/microservices.html), foi colocado um plano de ação para alcançar esta arquitetura:
+
+- Em um primeiro momento teremos um *Monolito*, onde iremos iniciar o desenvolvimento da aplicação.
+- Em um segundo momento, vamos evoluir para um *Monolito Distribuído*.
+- Por fim, partiremos para uma Arquitetura de *Microsserviços*.
+
 ### 2.3 Abordagem arquitetural
 
 - **Microsserviços**
@@ -129,3 +135,5 @@ O PWA (Progressive Web App), que será usado no Front-end da aplicação possui 
 | 20/08/2021 | 2.1    | Revisa o documento                                     | [Tiago Rodrigues](https://github.com/tsrrodrigues)   |
 | 23/08/2021 | 2.2    | Revisa o documento                                     | [Ítalo Alves](https://github.com/alvesitalo)         |
 | 23/08/2021 | 2.3    | Corrige erro ortográfico                               | [Herick Portugues](https://github.com/herickport)    |
+| 20/09/2021 | 3.0    | Adicionando nova motivação arquitetural                | [Lucas Boaventura](https://github.com/lboaventura25) |
+| 20/09/2021 | 3.1    | Revisão do documento                                   | [Herick Portugues](https://github.com/herickport), [Tiago Samuel](https://github.com/tsrrodrigues), [Sergio Cipriano](https://github.com/sergiosacj) |
