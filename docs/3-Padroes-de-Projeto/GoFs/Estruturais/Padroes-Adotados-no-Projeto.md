@@ -44,6 +44,13 @@ O proxy funciona como uma barreira permitindo controlar o acesso ao objeto origi
 
 **Justificativa**: Será utilizado no contexto da nossa aplicação, porque iremos trabalhar com middleware, como por exemplo, na verificação de token.
 
+~~~
+app.get('/clientes', verifyJWT, (req, res, next) => { 
+    console.log("Retornou todos clientes!");
+    res.json([{id:1,nome:'luiz'}]);
+})
+~~~
+
 ## 3. Referências Bibliográficas
 
 > - SERRANO, Milene. Módulo Padrões de Projeto GoF(s) Estruturais - Material em Slides.
