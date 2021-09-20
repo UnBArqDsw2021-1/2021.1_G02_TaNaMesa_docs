@@ -137,5 +137,6 @@ O PWA (Progressive Web App), que será usado no Front-end da aplicação possui 
 | 20/08/2021 | 2.1    | Revisa o documento                                     | [Tiago Rodrigues](https://github.com/tsrrodrigues)   |
 | 23/08/2021 | 2.2    | Revisa o documento                                     | [Ítalo Alves](https://github.com/alvesitalo)         |
 | 23/08/2021 | 2.3    | Corrige erro ortográfico                               | [Herick Portugues](https://github.com/herickport)    |
-| 20/09/2021 | 2.4    | Adicionando nova motivação arquitetural                                       | [Lucas Boaventura](https://github.com/lboaventura25) |
+| 20/09/2021 | 2.4    | Adicionando nova motivação arquitetural                | [Lucas Boaventura](https://github.com/lboaventura25) |
 | 20/09/2021 | 3.0    | Adicionando referências de acordo com o documento                                       | [Lucas Boaventura](https://github.com/lboaventura25) |
+| 20/09/2021 | 3.1    | Revisão do documento                                   | [Herick Portugues](https://github.com/herickport), [Tiago Samuel](https://github.com/tsrrodrigues), [Sergio Cipriano](https://github.com/sergiosacj) |
