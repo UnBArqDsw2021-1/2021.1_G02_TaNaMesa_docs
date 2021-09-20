@@ -20,6 +20,8 @@ O decorator permite uma melhor adaptação do objeto, ou seja, ele permite adici
 
 **Justificativa**: Será utilizado no contexto da nossa aplicação, porque iremos trabalhar com Decorator que o próprio Node.js dá suporte e também os componentes do React.
 
+No código abaixo, temos um exemplo da criação da model Client, utilizando os decorators do orm.
+Obs: Não é um trecho do nosso código mas encaixa no contexto da nossa aplicação
 ~~~
 @Entity()
 export class Client {
@@ -43,6 +45,9 @@ export class Client {
 O proxy funciona como uma barreira permitindo controlar o acesso ao objeto original funcionando como se fosse um interceptador. Como por exemplo, caso tenhamos endpoint na nossa api que não podem ser acessados por qualquer um, podemos implementar um proxy que faça validação de ip, User agent ou até mesmo de token. É um padrão de projeto que nos permite maior segurança e controle a determinados serviços.
 
 **Justificativa**: Será utilizado no contexto da nossa aplicação, porque iremos trabalhar com middleware, como por exemplo, na verificação de token.
+
+No código abaixo, temos um exemplo da utilização de middlewares funcionando como um proxy de autenticação no node.
+Obs: Não é um trecho do nosso código mas encaixa no contexto da nossa aplicação
 
 ~~~
 app.get('/clientes', verifyJWT, (req, res, next) => { 
