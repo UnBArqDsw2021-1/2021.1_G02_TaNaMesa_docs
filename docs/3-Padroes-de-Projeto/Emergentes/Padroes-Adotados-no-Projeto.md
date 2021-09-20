@@ -2,7 +2,7 @@
 
 ## 1. Introdução
 
-Os Padrões emergentes são mais ligados a plataformas e tecnologias da atualidade. Abaixo segue alguns padrões que está sendo utilizado no projeto.
+Os Padrões emergentes são mais ligados a plataformas e tecnologias da atualidade. Abaixo segue alguns padrões que estão sendo utilizados no projeto.
 
 ## 2. MVC
 
@@ -50,3 +50,4 @@ A padronização de componentes no React visa dividir a interface em partes inde
 | :--------- | :----- | :------------------------------- | :---------------------------------------- |
 | 11/09/2021 | 1.0    | Adicionando tópicos do documento | [Emily Dias](https://github.com/emysdias) |
 | 13/09/2021 | 1.1    | Complementando documento e revisando | [Brenda Santos](https://github.com/brendavsantos) |
+| 19/09/2021 | 1.2    | Pequena correção ortográfica e revisão do documento | [Eduarda Servidio](https://github.com/ServideoEC), [Sergio Cipriano](https://github.com/sergisacj) |
