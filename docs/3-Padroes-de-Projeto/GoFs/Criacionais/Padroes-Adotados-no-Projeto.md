@@ -83,29 +83,34 @@ instância de uma classe, provendo um ponto de acesso global para essa instânci
 ### 2.2.2. Uso no Projeto
 
 **Justificativa**: Alguns dos usos do padrão Singleton no projeto são o localStorage, 
-utilizado para gerenciar o tema da aplicação no FrontEnd, e a inicialização do servidor
-no BackEnd, fazendo uma instância única da aplicação e do banco de dados.
+utilizado para gerenciar o tema da aplicação no FrontEnd, além de garantir uma instância
+única da aplicação e do banco de dados no BackEnd.
 
-No código abaixo, é apresentado a inicialização do servidor do repositório Order Service:
+No código abaixo, é exemplificado a criação da Classe App, exportando uma única
+instância.
 
 ```js
-import app from "./app";
-import Database from "./db";
+class App {
+  public server: Application;
 
-const port = process.env.PORT || 3333;
+  constructor() {
+    this.server = express();
 
-(async () => {
-  try {
-    await Database.connection.sync();
-
-    app.listen(port, () => {
-      console.log("\n😝 Bem-vindo!");
-      console.log(`🚀 Order service started on port ${port}\n\n`);
-    });
-  } catch (error) {
-    console.log(error);
+    this.middlewares();
+    this.routes();
   }
-})();
+
+  middlewares() {
+    this.server.use(cors());
+    this.server.use(express.json());
+  }
+
+  routes() {
+    this.server.use(routes);
+  }
+}
+
+export default new App().server;
 
 ```
 
@@ -160,3 +165,4 @@ No código abaixo, é exemplificado a criação de itens do cardápio, utilizand
 | 19/09/2021 | 1.5    | Revisão do documento | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
 | 20/09/2021 | 1.6    | Adição de códigos referentes aos padrões | [Eduarda Servidio](https://github.com/ServideoEC) e [Herick Portugues](https://github.com/herickport)|
 | 20/09/2021 | 2.0    | Atualização da introdução e refatoração dos códigos e justificativas | [Herick Portugues](https://github.com/herickport) |
+| 20/09/2021 | 2.1    | Alterando exemplo do padrão Singleton | [Herick Portugues](https://github.com/herickport) |
