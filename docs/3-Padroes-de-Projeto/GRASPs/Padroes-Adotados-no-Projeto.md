@@ -74,8 +74,10 @@ const create = async (request, response) => {
 }
 ```
 ## 2.2. Especialista
+### 2.2.1. Definição
 O princípio de especialista na informação é utilizado para atribuir responsabilidades. Consiste em delegar a responsabilidade à quem possui as informações necessárias para cumpri-la. Para isso primeiro é identificado qual seria a informação e em seguida onde ela foi armazenada, viabilizando assim o acesso da informação e, consequentemente, a atribuição.
 
+### 2.2.2. Uso no projeto
 **Justificativa**: Evita a criação de soluções desnecessariamente complexas e estimula a análise de qual seria mais objetiva.
 
 ## 2.3. Controlador
@@ -122,27 +124,24 @@ const getAll = async (
 };
 ```
 
-## 2.4. Polimorfismo
-O padrão polimorfismo é amplamente conhecido, sendo muito aplicado ao contexto de Programação orientada à objeto. O polimorfismo trabalha na análise inversa a herança,
-representada em sua hierarquia de classes, indicando que cada subclasse pode assumir as características e funcionalidades de sua superclasse. As classes podem ter modos diferentes na implementação dos métodos, dependendo da necessidade.
+## 2.4. Alta Coesão
+### 2.4.1. Definição
 
-**Justificativa**: Permite especializações evitando a redundância de dados e permitindo o reaproveitamento de comportamentos entre as classes.
-
-## 2.5. Alta Coesão
 Mantém a complexidade controlada através da restrição de atividades que cada elemento é responsável por realizar. A alta coesão é mantida, por exemplo, quando cada classe é fortemente focada e realiza apenas funções relacionadas, sem muitas distinções.
 
+### 2.4.2. Uso no projeto
 **Justificativa**: Evita o compormetimento de grande parte do funcionamento da aplicação pois isola o funcionamento de cada coisa, além de permitir alterações mais específicas caso necessário.
 
-## 2.6. Baixo Acoplamento
+## 2.5. Baixo Acoplamento
 
-## 2.6.1. Definição
+## 2.5.1. Definição
 O padrão de projeto GRASP tem como objetivo resolver o problema de alta dependência, que resulta em alto impacto de mudança, dificultando sua manutenção, e baixa reutilização. Antes de explicar um pouco mais sobre o padrão, acho importante relembrar o significado de acoplamento.
 
 Acoplamento: uma medida de quão fortemente um elemento é conectado, tem conhecimento de, ou depende de outros. Um elemento com baixo acoplamento não é dependente de muitos outros elementos.
 
 Para isso, é proposto atribuir as responsabilidades de modo que o acoplamento entre classes permaneça baixo. Mesmo propondo o baixo acoplamento, não é recomendado um nível extremo dessa medida, quando não há nenhuma relação entre classes. Importante ressaltar também de que subclasses são fortemente acopladas à sua superclasse.
 
-### 2.6.2. Uso no projeto
+### 2.5.2. Uso no projeto
 
 **Justificativa**: Assim como a alta coesão, possui papel importante na diminuição da dependência entre as pequenas partes que compoem o sistema e também facilita o reaproveitamento de código, melhorando assim a qualidade do produto.
 
@@ -206,14 +205,20 @@ class Database {
 
 ```
 
-## 2.7. Variações Protegidas 
+## 2.6. Variações Protegidas 
+### 2.6.1. Definição
+
 O princípio de variações protegidas é responsável por assegurar que o projeto e seus objetos, subsistemas e demais componentes possam ser alterados ou sofrer instabilidades sem que haja impactos indesejáveis nos demais elementos do sistema. Para isso, interfaces são criadas em volta desses pontos potenciais de variação, motivando também a utilização de encapsulamento, polimorfismo e indireção.
 
+### 2.6.2. Uso no projeto
 **Justificativa**: Favorece o desenvolvimento de um sistema mais estável, onde parte pode entrar em inatividade sem comprometer integralmente o funcionamento das demais.
 
-## 2.8. Invenção Pura
+## 2.7. Invenção Pura
+### 2.7.1. Definição
+
 O padrão de Invenção Pura resolve o problema de uma responsabilidade que deve ser alocada a um objeto, mas irá atrapalhar a coesão e/ou o acoplamento daquele objeto. Para solucionar esse problema, é proposto atribuir um conjunto de responsabilidades altamente coeso a uma classe artificial ou de conveniência e que não represente um conceito do domínio do problema. Em alguns casos essas classes artificiais são tratados e nomeados como "serviços" na aplicação, o que define melhor o objetivo daquele elemento, de realizar um serviço em específico que não está diretamente conectado ao domínio.
 
+### 2.7.2. Uso no projeto
 **Justificativa**: aumento da coesão à medida em que a nova classe agrega funcionalidades
 altamente correlatas e da capacidade de reutilização decorrente de classes de Invenção Pura
 que agrupam comportamentos muito utilizados.
