@@ -20,6 +20,24 @@ O decorator permite uma melhor adaptação do objeto, ou seja, ele permite adici
 
 **Justificativa**: Será utilizado no contexto da nossa aplicação, porque iremos trabalhar com Decorator que o próprio Node.js dá suporte e também os componentes do React.
 
+~~~
+@Entity()
+export class Client {
+
+    @PrimaryGeneratedColumn()
+    idClient: Number;
+
+    @Column()
+    name: string;
+
+    @Column()
+    createdAt: Date;
+ 
+    @Column()
+    updatedAt: Date;
+}
+~~~
+
 ### 2.3. Proxy
 
 O proxy funciona como uma barreira permitindo controlar o acesso ao objeto original funcionando como se fosse um interceptador. Como por exemplo, caso tenhamos endpoint na nossa api que não podem ser acessados por qualquer um, podemos implementar um proxy que faça validação de ip, User agent ou até mesmo de token. É um padrão de projeto que nos permite maior segurança e controle a determinados serviços.
