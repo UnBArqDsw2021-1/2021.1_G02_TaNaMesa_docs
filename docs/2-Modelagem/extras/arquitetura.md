@@ -106,21 +106,23 @@ O PWA (Progressive Web App), que será usado no Front-end da aplicação possui 
 
 > - DONG, Tao. **Flutter**. [S. l.], 2019. Disponível em: https://medium.com/flutter. Acesso em: 16 de agosto de 2021.
 
-> - **NODE.JS**. In: WIKIPÉDIA, a enciclopédia livre. Flórida: Wikimedia Foundation, 2019. Disponível em: https://pt.wikipedia.org/w/index.php?title=Node.js&oldid=55592828. Acesso em: 16 de agosto de 2021.
+> - **NODE.JS**. In: WIKIPÉDIA, a enciclopédia livre. Flórida: Wikimedia Foundation, 2019. Disponível em: [Node.js](https://pt.wikipedia.org/w/index.php?title=Node.js&oldid=55592828). Acesso em: 16 de agosto de 2021.
 
-> - MALLAWAARACHCHI, Vijini. 10 Common Software Architectural Patterns in a nutshell. [S. l.], 2017. Disponível em: https://towardsdatascience.com/10-common-software-architectural-patterns-in-a-nutshell-a0b47a1e9013. Acesso em: 16 de agosto de 2021.
+> - MALLAWAARACHCHI, Vijini. 10 Common Software Architectural Patterns in a nutshell. [S. l.], 2017. Disponível em: [10 Common Software Architectural Patterns in a nutshell](https://towardsdatascience.com/10-common-software-architectural-patterns-in-a-nutshell-a0b47a1e9013). Acesso em: 16 de agosto de 2021.
 
-> - PANT, Prabhu. **A complete guide to PostgreSQL**. [S. l.], 2018. Disponível em: https://medium.com/@heyPrabhu/a-complete-guide-to-postgresql-e4d1cefb9866. Acesso em: 16 de agosto de 2021.
+> - PANT, Prabhu. **A complete guide to PostgreSQL**. [S. l.], 2018. Disponível em: [A complete guide to PostgreSQL](https://medium.com/@heyPrabhu/a-complete-guide-to-postgresql-e4d1cefb9866). Acesso em: 16 de agosto de 2021.
 
-> - RICHARDSON, Chris. **Pattern**: Decompose by subdomain. [S. l.]. Disponível em: https://microservices.io/patterns/decomposition/decompose-by-subdomain.html. Acesso em: 16 de agosto de 2021.
+> - RICHARDSON, Chris. **Pattern**: Decompose by subdomain. [S. l.]. Disponível em: [Pattern](https://microservices.io/patterns/decomposition/decompose-by-subdomain.html). Acesso em: 16 de agosto de 2021.
 
-> - RICHARDSON, Chris. **What are microservices?**. [S. l.]. Disponível em: https://microservices.io/index.html. Acesso em: 16 de agosto de 2021.
+> - RICHARDSON, Chris. **What are microservices?**. [S. l.]. Disponível em: [What are microservices?](https://microservices.io/index.html). Acesso em: 16 de agosto de 2021.
 
-> - WAYNER, Peter. **The top 5 software architecture patterns**. Disponível em: https://techbeacon.com/app-dev-testing/top-5-software-architecture-patterns-how-make-right-choice. 16 de agosto de 2021.
+> - WAYNER, Peter. **The top 5 software architecture patterns**. Disponível em: [The top 5 software architecture patterns](https://techbeacon.com/app-dev-testing/top-5-software-architecture-patterns-how-make-right-choice). 16 de agosto de 2021.
 
-> - GoodBarber Team. **PWAs - Fundamentos da tecnologia e estudos de casos poderosos**. Disponível em: https://pt.goodbarber.com/blog/pwas-fundamentos-da-tecnologia-e-estudos-de-casos-poderosos-a783/. 17 de agosto de 2021.
+> - GoodBarber Team. **PWAs - Fundamentos da tecnologia e estudos de casos poderosos**. Disponível em: [PWAs - Fundamentos da tecnologia e estudos de casos poderosos](https://pt.goodbarber.com/blog/pwas-fundamentos-da-tecnologia-e-estudos-de-casos-poderosos-a783/). 17 de agosto de 2021.
 
-> - Thiago Távora. **O que é API RESTful?**. Disponível em: https://www.iset.com.br/blog/o-que-e-api-restful-entenda-aqui/. 17 de agosto de 2021.
+> - Thiago Távora. **O que é API RESTful?**. Disponível em: [O que é API RESTful?](https://www.iset.com.br/blog/o-que-e-api-restful-entenda-aqui/). 17 de agosto de 2021.
+
+> - Martin Fowler. **Microservices**. Disponível em: [Martin Fowler](https://martinfowler.com/articles/microservices.html). 15 de setembro de 2021.
 
 ## Histórico de Revisões
 
@@ -135,4 +137,5 @@ O PWA (Progressive Web App), que será usado no Front-end da aplicação possui 
 | 20/08/2021 | 2.1    | Revisa o documento                                     | [Tiago Rodrigues](https://github.com/tsrrodrigues)   |
 | 23/08/2021 | 2.2    | Revisa o documento                                     | [Ítalo Alves](https://github.com/alvesitalo)         |
 | 23/08/2021 | 2.3    | Corrige erro ortográfico                               | [Herick Portugues](https://github.com/herickport)    |
-| 20/09/2021 | 3.0    | Adicionando nova motivação arquitetural                                       | [Lucas Boaventura](https://github.com/lboaventura25) |
+| 20/09/2021 | 2.4    | Adicionando nova motivação arquitetural                                       | [Lucas Boaventura](https://github.com/lboaventura25) |
+| 20/09/2021 | 3.0    | Adicionando referências de acordo com o documento                                       | [Lucas Boaventura](https://github.com/lboaventura25) |
