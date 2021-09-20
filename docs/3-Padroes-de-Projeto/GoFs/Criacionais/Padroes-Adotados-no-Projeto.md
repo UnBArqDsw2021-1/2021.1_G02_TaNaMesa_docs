@@ -14,7 +14,7 @@ processos de instanciação.
 ## 2. Princípios e Padrões
 
 ### 2.1. Factory Method
-####2.1.1. Definição
+### 2.1.1. Definição
 
 O padrão Factory Method fornece uma interface para criar objetos em uma superclasse, 
 mas permite que as subclasses alterem o tipo de objetos que serão criados. Assim, o padrão
@@ -22,17 +22,17 @@ sugere que chamadas diretas de construção de objetos sejam substituídas por c
 para um método *fábrica* especial (Refactoring.Guru). Dessa forma, a ideia é encapsular
 a escolha da classe concreta que será utilizada na criação de um determinado objeto.
 
-####2.1.2. Uso no Projeto
+### 2.1.2. Uso no Projeto
 
 **Justificativa**: Este padrão de projeto é aplicado dentro do Node.js, para criação de objetos. 
 
 ### 2.2. Singleton
-#### 2.2.1. Definição
+### 2.2.1. Definição
 
 O padrão Singleton é um padrão de projeto criacional que permite a criação de apenas uma
 instância de uma classe, provendo um ponto de acesso global para essa instância.
 
-#### 2.2.2. Uso no Projeto
+### 2.2.2. Uso no Projeto
 
 **Justificativa**: Será utilizado para garantir uma instância única da aplicação com o banco de dados.
 
@@ -62,13 +62,13 @@ const port = process.env.PORT || 3333;
 
 ### 2.3. Multiton
 
-#### 2.3.1. Definição
+### 2.3.1. Definição
 
 O padrão Multiton é um padrão de projeto criacional que generaliza o padrão Singleton. Enquanto
 o Singleton permite a criação de apenas uma instância de uma classe, o padrão Multiton permite
 a criação de uma quantidade controlada de instâncias e fornece um modo para recuperá-las.
 
-#### 2.3.2. Uso no Projeto
+### 2.3.2. Uso no Projeto
 
 **Justificativa**: Uma das aplicações no projeto será para a criação de componentes no React, em que será possível instanciar diversos componentes iguais, mas que possuem informações diferentes.
 
