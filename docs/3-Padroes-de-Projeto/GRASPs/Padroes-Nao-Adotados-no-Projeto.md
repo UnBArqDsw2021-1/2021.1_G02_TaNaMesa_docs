@@ -15,6 +15,12 @@ auxilia a seguir os princípios SOLID, princípios esses que auxiliam a diminuir
 
 **Justificativa**: Decidimos não utilizar no projeto, pois o problema da inversão de controle não acontece em nenhum contexto da nossa aplicação, logo não é válido implementar este padrão de projeto. 
 
+## 2.3. Polimorfismo
+O padrão polimorfismo é amplamente conhecido, sendo muito aplicado ao contexto de Programação orientada à objeto. O polimorfismo trabalha na análise inversa a herança,
+representada em sua hierarquia de classes, indicando que cada subclasse pode assumir as características e funcionalidades de sua superclasse. As classes podem ter modos diferentes na implementação dos métodos, dependendo da necessidade.
+
+**Justificativa**: Decidimos não utilizar no projeto, devido as limitações do JavaScript, em especial, não suportar classes abstratas.
+
 ## 3. Referências
 > - SERRANO, Milene. Aula - GRASP - PARTE I
 > - SERRANO, Milene. Slide Arquitetura e Desenho de Software AULA - GRASP_B - COMPLEMENTAR. Disponível [aqui](https://aprender3.unb.br/pluginfile.php/897140/mod_label/intro/Arquitetura%20e%20Desenho%20de%20Software%20-%20Aula%20GRASP_B%20-%20Profa.%20Milene%20-%20Complementar.pdf). Acesso em 28 de agosto de 2021.
