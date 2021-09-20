@@ -86,11 +86,10 @@ nav:
       - Comportamentais:
         - 3-Padroes-de-Projeto/GoFs/Comportamentais/Padroes-Adotados-no-Projeto.md
         - 3-Padroes-de-Projeto/GoFs/Comportamentais/Padroes-Nao-Adotados-no-Projeto.md
-    - Extras(Emergentes):
-      - 3-Padroes-de-Projeto/Emergentes/Padroes-Adotados-no-Projeto.md
 
     - Extras:
-      - ''
+      - Padrões de Projeto Emergentes:
+        - 3-Padroes-de-Projeto/Emergentes/Padroes-Adotados-no-Projeto.md
 
   - Sprints:
     - Sprint 01:
