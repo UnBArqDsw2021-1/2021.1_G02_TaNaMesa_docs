@@ -6,6 +6,7 @@ No intuito de estruturar melhor projetos desenvolvidos utilizando programação 
 
 ## 2. Princípios e Padrões 
 ## 2.1. Criador
+### 2.1.1. Definição
 O padrão Criador tem como objetivo determinar qual classe deve ser a responsável pela criação de instâncias de determinados objetos.
 
 Por exemplo, se for decidido que as instâncias de uma classe A devem ser criadas por uma
@@ -16,8 +17,62 @@ classe B, é importante observar os pontos a seguir:
 - B usa A de maneira muito próxima.
 - B tem dados iniciais de A, os quais serão passados para A quando este for criado. B é um “especialista” em relação à criação de A.
 
+### 2.1.2. Uso no Projeto
+
 **Justificativa**: Viabiliza o reaproveitamento de código.
 
+Nos códigos exemplos, temos parte da controller Client e parte da controller Item,
+respectivamente, onde são responsáveis pela criação dos usuários e dos itens que serão
+listados na aplicação.
+
+```
+const create = async (request, response) => {
+  try {
+    if (!request.body.client.name) return response.status(400).json({
+      success: false,
+      message: 'O campo nome é obrigatório'
+    })
+    return response.json({
+      success: true,
+      client: await database.client.create(request.body.client)
+    });
+  } catch (error) {
+    console.log('ERROR ---> ', error);
+    return response.status(500).json({
+      success: false,
+      message: 'Ocorreu um erro ao realizar a operação, tente novamente mais tarde.',
+      error: error.toString()
+    })
+  }
+}
+```
+
+```
+const create = async (request, response) => {
+  try {
+    const fieldsToValidate = ['name', 'price', 'description', 'category'];
+    for (let field of fieldsToValidate) {
+      if (!request.body.item[field]) {
+        return response.status(400).json({
+          success: false,
+          message: `O campo ${field} é obrigatório`
+        });
+      }
+    }
+    return response.json({
+      success: true,
+      item: await database.item.create(request.body.item)
+    });
+  } catch (error) {
+    console.log('ERROR ---> ', error);
+    return response.status(500).json({
+      success: false,
+      message: 'Ocorreu um erro ao realizar a operação, tente novamente mais tarde.',
+      error: error.toString()
+    });
+  }
+}
+```
 ## 2.2. Especialista
 O princípio de especialista na informação é utilizado para atribuir responsabilidades. Consiste em delegar a responsabilidade à quem possui as informações necessárias para cumpri-la. Para isso primeiro é identificado qual seria a informação e em seguida onde ela foi armazenada, viabilizando assim o acesso da informação e, consequentemente, a atribuição.
 
@@ -36,7 +91,7 @@ Um caso de uso controlador deve ser usado para lidar com todos os eventos de cas
 
 **Justificativa**: Vai ser utilizado para conectar os componentes do frontend às models do backend, delegando trabalho para os elementos responsáveis. Também é utilizado no backend para delegar as funções responsáveis por cada rota da aplicação, segue um exemplo abaixo.
 
-No código exemplo, temos um método de uma controller responsável por lidar com a listagem de Itens da aplicação. Nela temos toda a lógica da rota, e nela que obtemos o resultaod final a ser enviado para o usuário.
+No código exemplo, temos um método de uma controller responsável por lidar com a listagem de Itens da aplicação. Nela temos toda a lógica da rota, e nela que obtemos o resultado final a ser enviado para o usuário.
 
 ```
 const getAll = async (
@@ -180,3 +235,4 @@ que agrupam comportamentos muito utilizados.
 | 29/08/2021 | 1.3    | Desenvolvimento dos padrões Polimorfismo, Indireção e Criador e padronização tópico referências | [Eduarda Servidio](https://github.com/ServideoEC) |
 | 03/09/2021 | 1.4    | Adição das justificativas de uso | [Brenda Santos](https://github.com/brendavsantos) |
 | 03/09/2021 | 1.5    | Revisão do documento | [Sergio Cipriano](https://github.com/sergiosacj), [Emily Dias](https://github.com/emysdias) |
+| 19/09/2021 | 1.6    | Adição de códigos referentes aos padrões | [Eduarda Servidio](https://github.com/ServideoEC) e  [Tiago Samuel](https://github.com/tsrrodrigues)|
