@@ -22,23 +22,10 @@ O decorator permite uma melhor adaptação do objeto, ou seja, ele permite adici
 
 No código abaixo, temos um exemplo da criação da model Client, utilizando os decorators do orm.
 Obs: Não é um trecho do nosso código mas encaixa no contexto da nossa aplicação
-~~~
-@Entity()
-export class Client {
 
-    @PrimaryGeneratedColumn()
-    idClient: Number;
+[![Decorator](../../../assets/img/seminario3/padroes-gofs/decorator.png)](../../../assets/img/seminario3/padroes-gofs/decorator.png)
 
-    @Column()
-    name: string;
-
-    @Column()
-    createdAt: Date;
- 
-    @Column()
-    updatedAt: Date;
-}
-~~~
+<figcaption>Figura 1. Exemplo do padrão GoFs de Decorator</figcaption>
 
 ### 2.3. Proxy
 
@@ -49,12 +36,9 @@ O proxy funciona como uma barreira permitindo controlar o acesso ao objeto origi
 No código abaixo, temos um exemplo da utilização de middlewares funcionando como um proxy de autenticação no node.
 Obs: Não é um trecho do nosso código mas encaixa no contexto da nossa aplicação
 
-~~~
-app.get('/clientes', verifyJWT, (req, res, next) => { 
-    console.log("Retornou todos clientes!");
-    res.json([{id:1,nome:'luiz'}]);
-})
-~~~
+[![Proxy](../../../assets/img/seminario3/padroes-gofs/proxy.png)](../../../assets/img/seminario3/padroes-gofs/proxy.png)
+
+<figcaption>Figura 2. Exemplo do padrão GoFs de Proxy</figcaption>
 
 ## 3. Referências Bibliográficas
 
@@ -70,3 +54,4 @@ app.get('/clientes', verifyJWT, (req, res, next) => {
 | 30/08/2021 | 2.0    | Adiciona Tópicos Decorator e Proxy | [Abner Filipe](https://github.com/abner423)  |
 | 05/09/2021 | 2.1    | Destaca e revisa as justificativas | [Ítalo Alves](https://github.com/alvesitalo) |
 | 05/09/2021 | 2.2    | Revisão do documento               | [Sergio Cipriano](https://github.com/sergiosacj), [Emily Dias](https://github.com/emysdias) |
+| 20/09/2021 | 3.0    | Adição de imagens e revisão do documento | [Lucas Boaventura](https://github.com/lboaventura25) |
