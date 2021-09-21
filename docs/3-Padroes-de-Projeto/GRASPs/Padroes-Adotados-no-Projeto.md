@@ -25,54 +25,14 @@ Nos códigos exemplos, temos parte da controller Client e parte da controller It
 respectivamente, onde são responsáveis pela criação dos usuários e dos itens que serão
 listados na aplicação.
 
-```
-const create = async (request, response) => {
-  try {
-    if (!request.body.client.name) return response.status(400).json({
-      success: false,
-      message: 'O campo nome é obrigatório'
-    })
-    return response.json({
-      success: true,
-      client: await database.client.create(request.body.client)
-    });
-  } catch (error) {
-    console.log('ERROR ---> ', error);
-    return response.status(500).json({
-      success: false,
-      message: 'Ocorreu um erro ao realizar a operação, tente novamente mais tarde.',
-      error: error.toString()
-    })
-  }
-}
-```
+[![Criador](../../assets/img/seminario3/padroes-grasp/criador.png)](../../assets/img/seminario3/padroes-grasp/criador.png)
 
-```
-const create = async (request, response) => {
-  try {
-    const fieldsToValidate = ['name', 'price', 'description', 'category'];
-    for (let field of fieldsToValidate) {
-      if (!request.body.item[field]) {
-        return response.status(400).json({
-          success: false,
-          message: `O campo ${field} é obrigatório`
-        });
-      }
-    }
-    return response.json({
-      success: true,
-      item: await database.item.create(request.body.item)
-    });
-  } catch (error) {
-    console.log('ERROR ---> ', error);
-    return response.status(500).json({
-      success: false,
-      message: 'Ocorreu um erro ao realizar a operação, tente novamente mais tarde.',
-      error: error.toString()
-    });
-  }
-}
-```
+<figcaption>Figura 1. Exemplo do padrão GRASP de Criador</figcaption>
+
+[![Criador](../../assets/img/seminario3/padroes-grasp/criador2.png)](../../assets/img/seminario3/padroes-grasp/criador2.png)
+
+<figcaption>Figura 2. Exemplo do padrão GRASP de Criador</figcaption>
+
 ## 2.2. Especialista
 ### 2.2.1. Definição
 O princípio de especialista na informação é utilizado para atribuir responsabilidades. Consiste em delegar a responsabilidade à quem possui as informações necessárias para cumpri-la. Para isso primeiro é identificado qual seria a informação e em seguida onde ela foi armazenada, viabilizando assim o acesso da informação e, consequentemente, a atribuição.
@@ -95,34 +55,9 @@ Um caso de uso controlador deve ser usado para lidar com todos os eventos de cas
 
 No código exemplo, temos um método de uma controller responsável por lidar com a listagem de Itens da aplicação. Nela temos toda a lógica da rota, e nela que obtemos o resultado final a ser enviado para o usuário.
 
-```
-const getAll = async (
-  request: Request,
-  response: Response
-): Promise<Response> => {
-  try {
-    const filters = {};
-    if (request.query.category) filters.category = request.query.category;
+[![Controlador](../../assets/img/seminario3/padroes-grasp/controlador.png)](../../assets/img/seminario3/padroes-grasp/controlador.png)
 
-    return response.json({
-      success: true,
-      items: await database.item.findAll({
-        where: {
-          ...filters,
-        },
-      }),
-    });
-  } catch (error) {
-    console.log("ERROR ---> ", error);
-    return response.status(500).json({
-      success: false,
-      message:
-        "Ocorreu um erro ao realizar a operação, tente novamente mais tarde.",
-      error: error.toString(),
-    });
-  }
-};
-```
+<figcaption>Figura 3. Exemplo do padrão GRASP de Controlador</figcaption>
 
 ## 2.4. Alta Coesão
 ### 2.4.1. Definição
@@ -146,64 +81,10 @@ Para isso, é proposto atribuir as responsabilidades de modo que o acoplamento e
 **Justificativa**: Assim como a alta coesão, possui papel importante na diminuição da dependência entre as pequenas partes que compoem o sistema e também facilita o reaproveitamento de código, melhorando assim a qualidade do produto.
 
 No código abaixo, damos um exemplo de onde utilizamos este padrão de projeto. Note que a classe Database tem um único propósito de se comunicar com o banco de dados, mesmo sendo utilizada em outros trechos da API ela não tem acoplamento com outras classes e realiza o seu trabalho independentemente de fatores externos.
-```
-class Database {
-  public connection: Sequelize;
 
-  public order: OrderStatic;
+[![Baixo Acoplamento](../../assets/img/seminario3/padroes-grasp/baixo-acoplamento.png)](../../assets/img/seminario3/padroes-grasp/baixo-acoplamento.png)
 
-  public item: ItemStatic;
-
-  public client: ClientStatic;
-
-  public employee: EmployeeStatic;
-
-  public table: TableStatic;
-
-  constructor(test: boolean) {
-    this.init(test);
-  }
-
-  init(test: boolean): void {
-    try {
-      this.connection = new Sequelize(
-        databaseConfig[test ? "test" : process.env.NODE_ENV]
-      );
-    } catch (error) {
-      console.log(error.message);
-    } finally {
-      this.testConnection();
-    }
-  }
-
-  testConnection(): void {
-    this.connection
-      .authenticate()
-      .then(async () => {
-        console.log("\n\n🗃️ Banco de Dados conectado!\n");
-
-        this.order = OrderFactory(this.connection);
-        await this.order.sync();
-
-        this.item = ItemFactory(this.connection);
-        await this.item.sync();
-
-        this.client = ClientFactory(this.connection);
-        await this.client.sync();
-
-        this.employee = EmployeeFactory(this.connection);
-        await this.employee.sync();
-
-        this.table = TableFactory(this.connection);
-        await this.table.sync();
-      })
-      .catch(() => {
-        console.log("\n\n😵‍💫❌ Erro ao conectar no Banco\n");
-      });
-  }
-}
-
-```
+<figcaption>Figura 4. Exemplo do padrão GRASP de Baixo Acoplamento</figcaption>
 
 ## 2.6. Variações Protegidas 
 ### 2.6.1. Definição
@@ -241,3 +122,4 @@ que agrupam comportamentos muito utilizados.
 | 03/09/2021 | 1.4    | Adição das justificativas de uso | [Brenda Santos](https://github.com/brendavsantos) |
 | 03/09/2021 | 1.5    | Revisão do documento | [Sergio Cipriano](https://github.com/sergiosacj), [Emily Dias](https://github.com/emysdias) |
 | 19/09/2021 | 1.6    | Adição de códigos referentes aos padrões | [Eduarda Servidio](https://github.com/ServideoEC) e  [Tiago Samuel](https://github.com/tsrrodrigues)|
+| 20/09/2021 | 2.0    | Adição de imagens e revisão do documento | [Lucas Boaventura](https://github.com/lboaventura25) |
