@@ -117,6 +117,7 @@ nav:
   - Apresentações:
       - Apresentacoes/entrega-1.md
       - Apresentacoes/entrega-2.md
+      - Apresentacoes/entrega-3.md
 
 plugins:
   - search

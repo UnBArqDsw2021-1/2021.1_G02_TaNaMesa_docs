@@ -62,10 +62,19 @@ Um sistema para que as pessoas possam chegar no restaurante fazer seus pedidos s
 #### 3 - [modelagem ágil](https://youtu.be/bByPiIEoHU4)
 
 ## Screenshots Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
-Adicione 2 ou mais screenshots do projeto em termos de artefatos da Terceira Entrega.
+![Padrões grasps](https://cdn.discordapp.com/attachments/866657417030402059/889655866775724132/unknown.png)
+![Padrões GoFs Criacionais](https://cdn.discordapp.com/attachments/866657417030402059/889656442968211526/unknown.png)
+![Padrões GoFs Estruturais](https://cdn.discordapp.com/attachments/866657417030402059/889656503903084604/unknown.png)
+![Padrões GoFs Comportamentais](https://cdn.discordapp.com/attachments/866657417030402059/889656545342783508/unknown.png)
+![Padrões Emergentes](https://cdn.discordapp.com/attachments/866657417030402059/889656582500122684/unknown.png)
+
 
 ## Vídeo(s) Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
-Adicione o(s)s vídeo(s) da Terceira Entrega.
+### [Padrões de Projeto GRASPs](https://youtu.be/1_TiAAuAfEg)
+
+### [Padrões de Projeto GoFs](https://www.youtube.com/watch?v=BDHSkO81mXY&ab_channel=DanielPrimo)
+
+### [Padrões de Projeto Extras](https://www.youtube.com/watch?v=N_d7smK35tQ&ab_channel=DanielPrimo)
 
 ## Screenshots Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
 Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.

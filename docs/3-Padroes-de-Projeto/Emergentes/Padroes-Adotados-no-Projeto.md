@@ -24,6 +24,8 @@ Este padrão ajuda na tarefa de separar as responsabilidades promovendo um baixo
 
 [![model](../../assets/img/seminario3/padroes-emergentes/model.png)](../../assets/img/seminario3/padroes-emergentes/model.png)
 
+<figcaption>Figura 1. Exemplo de Model</figcaption>
+
 ## 3. Component Pattern 
 A padronização de componentes no React visa dividir a interface em partes independentes e reutilizáveis, de forma que cada parte seja tratada como bloco isolado, livre de outras dependências externas. Os componentes aceitam entradas e retornam elementos React que descrevem o que deve aparecer na tela.
 
@@ -38,6 +40,8 @@ A padronização de componentes no React visa dividir a interface em partes inde
 
 [![componente](https://cdn.discordapp.com/attachments/831297250541436928/887111848107868220/Captura_de_tela_de_2021-09-13_20-04-15.png)](https://cdn.discordapp.com/attachments/831297250541436928/887111848107868220/Captura_de_tela_de_2021-09-13_20-04-15.png)
 
+<figcaption>Figura 2. Exemplo de Componente</figcaption>
+
 ## 3. Referências Bibliográficas
 
 > - Higor. Introdução ao padrão MVC. Devmedia, 2013. Disponível em: <https://www.devmedia.com.br/introducao-ao-padrao-mvc/29308>. Acesso em: 11/09/2021.
@@ -51,3 +55,4 @@ A padronização de componentes no React visa dividir a interface em partes inde
 | 11/09/2021 | 1.0    | Adicionando tópicos do documento | [Emily Dias](https://github.com/emysdias) |
 | 13/09/2021 | 1.1    | Complementando documento e revisando | [Brenda Santos](https://github.com/brendavsantos) |
 | 19/09/2021 | 1.2    | Pequena correção ortográfica e revisão do documento | [Eduarda Servidio](https://github.com/ServideoEC), [Sergio Cipriano](https://github.com/sergisacj) |
+| 19/09/2021 | 2.0   | Revisa o documento e adiciona legendas nas imagens | [Lucas Boaventura](https://github.com/lboaventura25) |
