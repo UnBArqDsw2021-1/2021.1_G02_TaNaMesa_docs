@@ -6,9 +6,9 @@
 
 **Data de Início:** 13/09/2021   
 
-**Data de Término:** 20/09/2021   
+**Data de Término:** 21/09/2021   
 
-**Duração:** 7 dias       
+**Duração:** 8 dias       
 
 ## 2. Membros
 |      Papel       |          Membro            |
