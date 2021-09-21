@@ -28,23 +28,9 @@ O Iterator é um padrão de projeto comportamental que permite a você percorrer
 
 **Justificativa**: Será usado porque será necessário iterações em algumas partes do código, para gerenciamento de dados e etapas.
 
-```js
-import React from "react";
+[![Iterator](../../../assets/img/seminario3/padroes-gofs/iterator.png)](../../../assets/img/seminario3/padroes-gofs/iterator.png)
 
-const ListaDePedidos = () => {
-  const pedidos = ["pedido1", "pedido2", "pedido3", "pedido4", "pedido4"];
-
-  return (
-    <ul>
-      {pedidos.map((pedidos) => (
-        <li>{pedidos}</li>
-      ))}
-    </ul>
-  );
-};
-
-export default ListaDePedidos;
-```
+<figcaption>Figura 1. Exemplo do padrão GoFs de Iterator</figcaption>
 
 ## 2.4. State
 
@@ -54,27 +40,9 @@ O padrão state permite que um objeto altere o seu comportamento quando o seu es
 
 No código abaixo mostra uma parte de mudança de estado, com um modal.
 
-```js
-import React, { useState } from "react";
-import Modal from "components/Modal/LoginModal/index";
+[![State](../../../assets/img/seminario3/padroes-gofs/state.png)](../../../assets/img/seminario3/padroes-gofs/state.png)
 
-function Example() {
-  const [modalOpen, setModalOpen] = useState(false);
-  const onCloseModal = (event: any): void => {
-    event.preventDefault();
-    setModalOpen(false);
-  };
-
-  return (
-    <div>
-      <Modal title="Login" visible={modalOpen} onClose={onCloseModal} />
-      <button type="button" onClick={() => setModalOpen(true)}>
-        Abrir modal
-      </button>
-    </div>
-  );
-}
-```
+<figcaption>Figura 2. Exemplo do padrão GoFs de State</figcaption>
 
 ## 3. Referências Bibliográficas
 
@@ -101,3 +69,4 @@ function Example() {
 | 05/08/2021 | 2.0    | Adição de justificativas       | [Ítalo Alves](https://github.com/alvesitalo)     |
 | 06/09/2021 | 2.1    | Revisão e correção ortográfica | [Tiago Samuel](https://github.com/tsrrodrigues)  |
 | 20/09/2021 | 2.2    | Adição de códigos              | [Emily Dias](https://github.com/emysdias)        |
+| 20/09/2021 | 3.0    | Adição de imagens e revisão do documento | [Lucas Boaventura](https://github.com/lboaventura25) |
