@@ -37,7 +37,7 @@
 | :--------  | :-----------  | :-------: |
 | [#8 Criar botão reutilizável](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/8) | Herick e Eduarda | 3 |
 | [#9 Colocar inputs do modal de login](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/9) | Emily | 3 |
-| [#10 Fazer side bar da página](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/10) | Brenda | 3 | (e divida de botoes)
+| [#10 Fazer side bar da página](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/10) | Brenda | 3 | 
 | [#11 Fazer checkbox do modal de cliente](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/11) | Italo | 3 |
 | [#12 Pagina de pedido](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/12) | Eduarda e Herick | 3 |
 | [#14 Modal de comanda](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/14) | Italo | 3 |
@@ -46,14 +46,10 @@
 ### 3.3 Repositório [Order-service](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service)
 |     História     |  Responsáveis   | pontuação |
 | :--------------  | :-------------  | :-------: |
-| Adicionar tratamento de imagens no CRUD de itens | | |
-| Criar lógica de chamar garçom e adicionar coluna no banco para esse tratamento | | |
-| Criar listagem de mesas que precisam de ajuda | | |
-| Alterar método PUT de mesas para liberar a mesa do pedido de ajuda | | |
-| Criar filtro para listar pedidos por pessoa e por mesa | | |
-| Criar rota para adicionar item a comanda | | |
-| Criar mesas atendidas pelo garçom | | |
-| Criar relação de mesa com garçom | | |
-| Criar lógica de notificação de garçom quando o pedido estiver pronto | | |
+| [#13 Adicionar tratamento de imagens no CRUD de itens](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service/issues/13) | Tiago | 5 |
+| Criar lógica de chamar garçom  | Abner | 3 | 
+| Criar filtro para listar pedidos por pessoa e por mesa | Abner | 3 | 
+| [#12 Criar rota para adicionar item a comanda](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service/issues/12) | Sergio | 5 |
+| Criar lógica de notificação de garçom quando o pedido estiver pronto | Daniel | 3 | 
 
-**Total de pontos planejados:** 
+**Total de pontos planejados:** 48
