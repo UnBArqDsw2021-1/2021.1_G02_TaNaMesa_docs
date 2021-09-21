@@ -31,48 +31,9 @@ utilizando a biblioteca sequelize.
 
 No código abaixo, temos um exemplo da criação da model Client, utilizando sequelize:
 
-```js
-interface ClientAttributes {
-  idClient: number;
-  name: string;
-}
+[![Factory](../../../assets/img/seminario3/padroes-gofs/factory.png)](../../../assets/img/seminario3/padroes-gofs/factory.png)
 
-export interface ClientModel extends Model<ClientAttributes>, ClientAttributes { }
-export class Client extends Model<ClientModel, ClientAttributes> { }
-
-export type ClientStatic = typeof Model & {
-  new(values?: object, options?: BuildOptions): ClientModel;
-};
-
-export function ClientFactory(sequelize: Sequelize): ClientStatic {
-  return <ClientStatic>sequelize.define(
-    "clients",
-    {
-      idClient: {
-        type: INTEGER,
-        primaryKey: true,
-        autoIncrement: true,
-      },
-      name: STRING(50),
-      createdAt: {
-        type: DATE,
-        allowNull: false,
-        defaultValue: Sequelize.fn("now"),
-      },
-      updatedAt: {
-        type: DATE,
-        allowNull: false,
-        defaultValue: Sequelize.fn("now"),
-      },
-    },
-    {
-      freezeTableName: true,
-      timestamps: false,
-      underscored: true,
-    }
-  );
-}
-```
+<figcaption>Figura 1. Exemplo do padrão GoFs de Factory</figcaption>
 
 ### 2.2. Singleton
 ### 2.2.1. Definição
@@ -89,30 +50,9 @@ utilizado para gerenciar o tema da aplicação no FrontEnd, além de garantir um
 No código abaixo, é exemplificado a criação da Classe App, exportando uma única
 instância.
 
-```js
-class App {
-  public server: Application;
+[![Singleton](../../../assets/img/seminario3/padroes-gofs/singleton.png)](../../../assets/img/seminario3/padroes-gofs/singleton.png)
 
-  constructor() {
-    this.server = express();
-
-    this.middlewares();
-    this.routes();
-  }
-
-  middlewares() {
-    this.server.use(cors());
-    this.server.use(express.json());
-  }
-
-  routes() {
-    this.server.use(routes);
-  }
-}
-
-export default new App().server;
-
-```
+<figcaption>Figura 2. Exemplo do padrão GoFs de Singleton</figcaption>
 
 ### 2.3. Multiton
 
@@ -129,14 +69,9 @@ em que será possível instanciar diversos componentes iguais, mas que possuem i
 
 No código abaixo, é exemplificado a criação de itens do cardápio, utilizando um componente:
 
-```js
-<MenuItem
-  image="https://blog.finamac.com/wp-content/uploads/2019/10/309956-como-oferecer-os-melhores-sabores-de-milkshake-para-os-clientes-1280x640.jpg"
-  name="Milkshake"
-  price="16.90"
-  description="Disponível nos sabores morango, chocolate, oreo e creme de avelã."
-/>
-```
+[![Multiton](../../../assets/img/seminario3/padroes-gofs/multiton.png)](../../../assets/img/seminario3/padroes-gofs/multiton.png)
+
+<figcaption>Figura 3. Exemplo do padrão GoFs de Multiton</figcaption>
 
 ## 3. Referências
 
@@ -166,3 +101,4 @@ No código abaixo, é exemplificado a criação de itens do cardápio, utilizand
 | 20/09/2021 | 1.6    | Adição de códigos referentes aos padrões | [Eduarda Servidio](https://github.com/ServideoEC) e [Herick Portugues](https://github.com/herickport)|
 | 20/09/2021 | 2.0    | Atualização da introdução e refatoração dos códigos e justificativas | [Herick Portugues](https://github.com/herickport) |
 | 20/09/2021 | 2.1    | Alterando exemplo do padrão Singleton | [Herick Portugues](https://github.com/herickport) |
+| 20/09/2021 | 3.0    | Adição de imagens e revisão do documento | [Lucas Boaventura](https://github.com/lboaventura25) |
