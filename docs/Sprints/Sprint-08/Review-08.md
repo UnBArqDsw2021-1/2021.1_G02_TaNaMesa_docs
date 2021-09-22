@@ -37,7 +37,7 @@
 | :--------  | :-----------  | :-------: | :----: |
 | [#8 Criar botão reutilizável](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/8) | Herick e Eduarda | 3 | Concluido |
 | [#9 Colocar inputs do modal de login](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/9) | Emily | 3 | Concluido |
-| [#10 Fazer side bar da página](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/10) | Brenda | 3 | Concluido |
+| [#10 Fazer side bar da página](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/10) | Brenda | 3 | Não concluido |
 | [#11 Fazer checkbox do modal de cliente](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/11) | Italo | 3 | Não concluido |
 | [#12 Pagina de pedido](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/12) | Eduarda e Herick | 3 | Não concluido |
 | [#14 Modal de comanda](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/14) | Italo | 3 | Não concluido | 
