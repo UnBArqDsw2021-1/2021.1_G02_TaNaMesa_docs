@@ -34,7 +34,7 @@
 |  História  | Responsáveis  | pontuação | 
 | :--------  | :-----------  | :-------: | 
 | [#11 Fazer checkbox do modal de cliente](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/11) | Italo | 3 | 
-| [#12 Pagina de pedido](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/12) | Eduarda e Herick | 3 | 
+| [#12 Pagina de pedido](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/12) | Eduarda e Herick | 5 | 
 | [#14 Modal de comanda](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/14) | Italo | 3 |  
 | [Tela principal](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/13) | Lucas e Brenda | 3 |
 | [#24 Botão de ajuda](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/24) | Emily | 3 |
