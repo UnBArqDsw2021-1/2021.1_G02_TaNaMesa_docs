@@ -31,11 +31,11 @@
 | [#126 Documentação da sprint](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/126) | Brenda | 3 |
 
 ### 3.2 Repositório [Frontend](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend)
-|  História  | Responsáveis  | pontuação | Status |
-| :--------  | :-----------  | :-------: | :----: |
-| [#11 Fazer checkbox do modal de cliente](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/11) | Italo | 3 | Concluido |
-| [#12 Pagina de pedido](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/12) | Eduarda e Herick | 3 | Concluido |
-| [#14 Modal de comanda](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/14) | Italo | 3 | Concluido | 
+|  História  | Responsáveis  | pontuação | 
+| :--------  | :-----------  | :-------: | 
+| [#11 Fazer checkbox do modal de cliente](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/11) | Italo | 3 | 
+| [#12 Pagina de pedido](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/12) | Eduarda e Herick | 3 | 
+| [#14 Modal de comanda](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/14) | Italo | 3 |  
 | [Tela principal](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/13) | Lucas e Brenda | 3 |
 | [#24 Botão de ajuda](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/24) | Emily | 3 |
 
@@ -50,4 +50,4 @@
 | [#17 Autenticação](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service/issues/17) | Abner, Lucas | 3 | 
 
 
-**Total de pontos planejados:** 37
+**Total de pontos planejados:** 39
