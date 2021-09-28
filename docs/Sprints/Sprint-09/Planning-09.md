@@ -44,7 +44,7 @@
 |     História     |  Responsáveis   | pontuação | 
 | :--------------  | :-------------  | :-------: | 
 | [#13 Adicionar tratamento de imagens no CRUD de itens](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service/issues/13) | Tiago | 5 | 
-| Criar lógica de chamar garçom  | Abner | 3 | 
+| [#16 Criar filtro para listar pedidos por pessoa e por mesa](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service/issues/16)  | Abner | 3 | 
 | [#12 Criar rota para adicionar item a comanda](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service/issues/12) | Sergio | 5 | 
 | [#19 Criar lógica de notificação de garçom quando o pedido estiver pronto](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service/issues/19) | Daniel | 3 | 
 | [#17 Autenticação](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service/issues/17) | Abner, Lucas | 3 | 
