@@ -75,3 +75,33 @@
 * Criação de CRUD - mesa
 * Criação de CRUD - comanda
 
+## Sprint 8 
+* Criação dos roadmaps
+* Criação de botão reutilizável
+* Side bar da aplicação
+* Checkbox do modal de cliente
+* Página de pedido
+* Modal de comanda
+* Modais adicionais
+* Tratamento de imagens no CRUD de itens
+* Criar lógica de chamar garçom
+* Filtro para listar pedidos por pessoa e por mesa
+* Rota para adicionar item à comanda
+* Lógica de notificação de garçom quando pedido estiver pronto
+
+## Sprint 9
+* Botão de ajuda
+* Autenticação
+* Dívidas
+
+## Sprint 10
+* Criar telas que faltam do fluxo de gerente
+* Tela de menu
+* Arrumar responsividade da tela de menu
+* Modal de pedido
+* Integração de login
+* Criação de tela do fluxo da cozinha
+* Criação da tela de edição e adição de produtos 
+* Tela de solicitação de ajuda
+* Criar filtro para listar pedidos por pessoa e por mesa
+
