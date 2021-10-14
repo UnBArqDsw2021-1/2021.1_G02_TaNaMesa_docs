@@ -30,8 +30,8 @@
 
 | História                                    | Responsáveis    | Pontuação |
 | :------------------------------------------ | :-------------- | :-------: |
-| Documentação da sprint                      | Brenda e Hérick |     3     |
-| Criar documento de arquitetura (DAS)        | Lucas e Daniel  |     3     |
+| [#132 Documentação da sprint](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/132)                      | Brenda e Hérick |     3     |
+| [#133 Criar documento de arquitetura (DAS)](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/133)        | Lucas e Daniel  |     3     |
 | Criar documento de reutilização de software | Brenda e Abner  |     5     |
 | Atualizar documento de modelagem de dados   | Sérgio          |     2     |
 
@@ -39,18 +39,20 @@
 
 | História                                 | Responsáveis    | Pontuação |
 | :--------------------------------------- | :-------------- | :-------: |
-| Ajustes no front                         | Emily           |     2     |
-| Integrar a parte de pedido com o backend | Herick e Daniel |     5     |
+| [#51 Ajustes no front](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/51)                         | Emily           |     2     |
 | Transformar front em PWA                 | Lucas           |     5     |
-| Integrar botão de pedir conta com modal  | Eduarda e Italo |     3     |
+| [#50 Integrar botão de pedir conta com modal](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/50)  | Eduarda e Italo |     3     |
+| [#45 Integrar o modal de comanda](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/45) | Eduarda e Lucas | 5 |
+| [#35 Criação de tela do fluxo da cozinha](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/35)| Italo | 5 |
+| [#16 Modal de pedido](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/16) | Herick | 5 |
 
 ### 3.3 Repositório [Order-service](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service)
 
 | História                                                                                                                                  | Responsáveis | Pontuação |
 | :---------------------------------------------------------------------------------------------------------------------------------------- | :----------- | :-------: |
-| Arrumar imagens dos SEEDS                                                                                                                 | Tiago        |     2     |
+| [#38 Arrumar imagens dos SEEDS](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service/issues/38)                                                                                                                 | Tiago        |     2     |
 | [#32 Adicionar quantidade e observação na tabela contain](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service/issues/32) | Sérgio       |     2     |
 | [#34 Atualizar seeds com novos atributos](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service/issues/34)                 | Sérgio       |     2     |
 | [#31 Eager Loading da listagem de pedidos](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service/issues/31)                | Tiago        |     2     |
 
-**Total de pontos planejados**: 36
+**Total de pontos planejados**: 46
