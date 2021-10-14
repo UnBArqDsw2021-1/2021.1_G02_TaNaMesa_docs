@@ -12,13 +12,13 @@
 
 ## 2. Membros
 
-| Papel            | Membro                                                                                                                                                  |
-| :--------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Scrum Master     | Brenda Santos                                                                                                                                           |
-| DevOps           | Sérgio Cipriano                                                                                                                                         |
-| Product Owner    | Daniel Primo                                                                                                                                            |
-| Desenvolvedor(a) | Brenda Santos, Daniel Primo, Ítalo Alves, Hérick Portugues, Lucas Boaventura, Eduarda Servidio, Tiago Samuel, Sergio Cipriano, Abner Filipe, Emily Dias |
-| Arquiteto(a)     | Brenda Santos, Daniel Primo, Ítalo Alves, Hérick Portugues, Lucas Boaventura, Eduarda Servidio, Tiago Samuel, Sergio Cipriano, Abner Filipe, Emily Dias |
+|      Papel       |          Membro            |
+| :--------------  | :-----------------------   |
+|    Scrum Master  |       Brenda Santos        |
+|      DevOps      |      Sérgio Cipriano       |
+|   Product Owner  |       Daniel Primo         |
+| Desenvolvedor(a) |Brenda Santos, Daniel Primo, Ítalo Alves, Hérick Portugues, Lucas Boaventura, Eduarda Servidio, Tiago Samuel, Sergio Cipriano, Abner Filipe, Emily Dias |
+|   Arquiteto(a)   |Brenda Santos, Daniel Primo, Ítalo Alves, Hérick Portugues, Lucas Boaventura, Eduarda Servidio, Tiago Samuel, Sergio Cipriano, Abner Filipe, Emily Dias| 
 
 **Membros presentes no planejamento da sprint:** Hérick, Emily, Sérgio, Eduarda, Tiago, Italo
 
@@ -30,12 +30,11 @@
 
 | História               | Responsáveis | pontuação | Status       |
 | :--------------------- | :----------- | :-------: | ------------ |
-| Documentação da sprint | Brenda       |     3     | Em andamento |
+| Documentação da sprint | Brenda       |     3     | Concluido |
 
-### 3.2 Repositório [Frontend](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend)
-
-| História                                       | Responsáveis    | pontuação | Status        |
-| :--------------------------------------------- | :-------------- | :-------: | ------------- |
+### 3.2 Repositório [Frontend](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend)  
+|  História  | Responsáveis  | pontuação | Status |
+| :--------  | :-----------  | :-------: | :----: |
 | [#16 Modal de pedido](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/16)                                | Herick          |     5     | Não concluido |
 | [#39 Integração de login](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/39)                   | Lucas           |     3     | Concluído  |
 | [#35 Criação de tela do fluxo da cozinha](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/35)            | Italo           |     5     | Não concluido |
@@ -48,17 +47,14 @@
 | [#44 Integrar tela de solicitação de pagamento](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/44)             | Emily           |     3     | Concluído     |
 
 ### 3.3 Repositório [Order-service](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service)
-
-| História                                               | Responsáveis | pontuação | Status    |
-| :----------------------------------------------------- | :----------- | :-------: | --------- |
+|     História     |  Responsáveis   | pontuação | Status |
+| :--------------  | :-------------  | :-------: | :----: |
 | [#16 Criar filtro para listar pedidos por pessoa e por mesa](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service/issues/16) | Abner        |     3     | Concluído |
 | [#34 Atualizar seeds com novos atributos](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service/pull/35)                               | Sergio       |     3     | Concluído |
 
 **Total de pontos planejados:** 44
 
 **Total de pontos entregues:** 29
-
-Obs: As issues com status **em andamento** vão ser entregues até 12/10/2021 e contaram como pontos entregues
 
 ### Pontos Positivos:
 
@@ -77,12 +73,13 @@ Obs: As issues com status **em andamento** vão ser entregues até 12/10/2021 e 
 - Regras do frontend estão ficando complicadas (componentes fazendo várias coisas)
 
 ### Melhorias:
-* Organizar melhor o tempo individual para todos entregarem as issues propostas
+
+- Organizar melhor o tempo individual para todos entregarem as issues propostas
 
 ## 5. Análise do Scrum Master
 
 ### Time
-  Os Membros estão demorando as atividades por causa do fim de semestre, onde tem muitas tarefas finais para fazer, e isso ta prejudicando as entregas.
+Todos os membros já apresentam sinais de saturação e sobrecarga devido ao final do semestre, trabalho e demais atividades pessoais. Houve, assim como nas ultimas sprints, falta de comprometimento na entrega das histórias; atrasos e entregas ficando como dívida foram frequentes.
 
 ### Histórias
-  Foram prejudicadas devido à falta de comprometimento e fatores externos. A sprint foi finalizada com dívidas e resultou em um atraso no frontend, para finalizar o projeto.
+Tiveram a entrega prejudicada por conta de fatores relacionados aos membros individualmente, além de resultar em dívidas para a ultima sprint.
