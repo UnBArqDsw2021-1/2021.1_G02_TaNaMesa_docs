@@ -54,9 +54,9 @@
 | [#16 Criar filtro para listar pedidos por pessoa e por mesa](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service/issues/16) | Abner        |     3     | Concluído |
 | [#34 Atualizar seeds com novos atributos](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service/pull/35)                               | Sergio       |     3     | Concluído |
 
-**Total de pontos planejados:** 51
+**Total de pontos planejados:** 44
 
-**Total de pontos entregues:** 46
+**Total de pontos entregues:** 29
 
 Obs: As issues com status **em andamento** vão ser entregues até 12/10/2021 e contaram como pontos entregues
 

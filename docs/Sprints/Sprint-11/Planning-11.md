@@ -51,4 +51,4 @@
 | [#16 Criar filtro para listar pedidos por pessoa e por mesa](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service/issues/16) | Abner | 3 | 
 | [#34 Atualizar seeds com novos atributos](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service/pull/35) | Sergio | 3 |
 
-**Total de pontos planejados**: 51
+**Total de pontos planejados**: 44
