@@ -28,16 +28,16 @@
 ### 3.1 Repositório de [Documentação](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs)
 |  História  | Responsáveis  | pontuação | 
 | :--------  | :-----------  | :-------: | 
-| [#132 Documentação da sprint](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/132)                      | Brenda e Hérick |     3     |
-| [#133 Criar documento de arquitetura (DAS)](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/133)        | Lucas e Daniel  |     3     |
-| Criar documento de reutilização de software | Brenda e Abner  |     5     |
-| Atualizar documento de modelagem de dados   | Sérgio          |     2     |
+| [#132 Documentação da sprint](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/132) | Brenda e Hérick | 3 |
+| [#133 Criar documento de arquitetura (DAS)](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/133)  | Lucas e Daniel | 3 |
+| [#137 Criar documento de reutilização de software](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/137) | Brenda e Abner  | 5 |
+| [#136 Atualizar documento de modelagem de dados](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/136) | Sérgio | 2 |
 
 ### 3.2 Repositório [Frontend](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend)
 |  História  | Responsáveis  | pontuação | 
 | :--------  | :-----------  | :-------: |
-| [#51 Ajustes no front](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/51)                         | Emily           |     2     |
-| Transformar front em PWA                 | Lucas           |     5     |
+| [#51 Ajustes no front](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/51) | Emily  | 2 |
+| Transformar front em PWA | Lucas | 5 |
 | [#50 Integrar botão de pedir conta com modal](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/50)  | Eduarda e Italo |     3     |
 | [#45 Integrar o modal de comanda](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/45) | Eduarda e Lucas | 5 |
 | [#35 Criação de tela do fluxo da cozinha](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/35)| Italo | 5 |
