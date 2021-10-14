@@ -27,7 +27,7 @@
 
 ### 3.1 Repositório de [Documentação](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs)
 |  História  | Responsáveis  | pontuação | Status |
-| :--------  | :-----------  | :-------: | 
+| :--------  | :-----------  | :-------: |        |
 | [#128 Documentação da sprint](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/128) | Brenda | 3 | Concluido |
 | [Criar telas que faltam do fluxo de gerente](https://www.figma.com/file/erKLzf6IdUGReBgN5CE9Z8/Prototipo-Alta-Fidelidade?node-id=0%3A1) | Brenda | 5 | Concluido |
 

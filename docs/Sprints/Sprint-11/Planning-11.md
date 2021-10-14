@@ -34,25 +34,21 @@
 ### 3.2 Repositório [Frontend](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend)
 |  História  | Responsáveis  | pontuação | 
 | :--------  | :-----------  | :-------: | 
-| Modal de pedido | Herick | 5 |
-| Integrar a parte de pedido com o backend | Herick | 5 |
-| Integração de login (divida) | Lucas | 3 | 
-| Criação de tela do fluxo da cozinha | Italo | 5 | 
-| Criação da tela de edição e adição de produtos | Sergio | 5 | 
-| Fazer tela de rota não encontrada | Emily | 1 |
-| Ajuste no import das imagens | Emily | 1 |
-| Integrar logica de chamar garçom | Daniel | 2 |
-| Integrar minha conta | Brenda | 2 |
-| Integrar o modal de comanda | Eduarda e Lucas | 5 |
-| excluir itens quando aperta com o check | Emily | 5 |
-| página de solicitação de pagamento | Emily | 3 |
-
-
+| [#16 Modal de pedido](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/16) | Herick | 5 |
+| [#39 Integração de login](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/39) | Lucas | 3 | 
+| [#35 Criação de tela do fluxo da cozinha](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/35)| Italo | 5 | 
+| [#34 Criação da tela de edição e adição de produtos](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/34) | Sergio | 5 | 
+| [#37 Fazer tela de rota não encontrada](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/37) | Emily | 1 |
+| [#38 Ajuste no import das imagens](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/38) | Emily | 1 |
+| [#42 Integrar logica de chamar garçom](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/42) | Daniel | 2 |
+| [#45 Integrar o modal de comanda](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/45) | Eduarda e Lucas | 5 |
+| [#43 excluir itens quando aperta com o check](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/43) | Emily | 5 |
+| [#44 Integrar tela de solicitação de pagamento](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/44) | Emily | 3 |
 
 ### 3.3 Repositório [Order-service](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service)
 |     História     |  Responsáveis   | pontuação | 
 | :--------------  | :-------------  | :-------: | 
-| Criar filtro para listar pedidos por pessoa e por mesa | Abner | 3 | 
-| Criar SEEDS da aplicação | Sergio | 3 |
+| [#16 Criar filtro para listar pedidos por pessoa e por mesa](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service/issues/16) | Abner | 3 | 
+| [#34 Atualizar seeds com novos atributos](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service/pull/35) | Sergio | 3 |
 
 **Total de pontos planejados**: 51

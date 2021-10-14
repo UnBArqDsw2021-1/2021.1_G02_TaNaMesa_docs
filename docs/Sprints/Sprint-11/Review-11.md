@@ -2,11 +2,11 @@
 
 ## 1. Visão Geral
 
-**Número da Sprint:** 10
+**Número da Sprint:** 11
 
-**Data de Início:** 27/09/2021
+**Data de Início:** 04/10/2021
 
-**Data de Término:** 04/10/2021
+**Data de Término:** 11/10/2021 
 
 **Duração:** 7 dias
 
@@ -36,25 +36,23 @@
 
 | História                                       | Responsáveis    | pontuação | Status        |
 | :--------------------------------------------- | :-------------- | :-------: | ------------- |
-| Modal de pedido                                | Herick          |     5     | Em andamento  |
-| Integrar a parte de pedido com o backend       | Herick          |     5     | Não concluído |
-| Integração de login (divida)                   | Lucas           |     3     | Em andamento  |
-| Criação de tela do fluxo da cozinha            | Italo           |     5     | Em andamento  |
-| Criação da tela de edição e adição de produtos | Sergio          |     5     | Concluído     |
-| Fazer tela de rota não encontrada              | Emily           |     1     | Concluído     |
-| Ajuste no import das imagens                   | Emily           |     1     | Concluído     |
-| Integrar logica de chamar garçom               | Daniel          |     2     | Concluído     |
-| Integrar minha conta                           | Brenda          |     2     | Concluído     |
-| Integrar o modal de comanda                    | Eduarda e Lucas |     5     | Em andamento  |
-| excluir itens quando aperta com o check        | Emily           |     5     | Concluído     |
-| página de solicitação de pagamento             | Emily           |     3     | Concluído     |
+| [#16 Modal de pedido](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/16)                                | Herick          |     5     | Não concluido |
+| [#39 Integração de login](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/39)                   | Lucas           |     3     | Concluído  |
+| [#35 Criação de tela do fluxo da cozinha](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/35)            | Italo           |     5     | Não concluido |
+| [#34 Criação da tela de edição e adição de produtos](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/34) | Sergio          |     5     | Concluído     |
+| [#37 Fazer tela de rota não encontrada](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/37)              | Emily           |     1     | Concluído     |
+| [#38 Ajuste no import das imagens](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/38)                   | Emily           |     1     | Concluído     |
+| [#42 Integrar logica de chamar garçom](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/42)               | Daniel          |     2     | Concluído     |
+| [#45 Integrar o modal de comanda](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/45)                    | Eduarda e Lucas |     5     | Não concluido  |
+| [#43 excluir itens quando aperta com o check](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/43)        | Emily           |     5     | Concluído     |
+| [#44 Integrar tela de solicitação de pagamento](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/44)             | Emily           |     3     | Concluído     |
 
 ### 3.3 Repositório [Order-service](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service)
 
 | História                                               | Responsáveis | pontuação | Status    |
 | :----------------------------------------------------- | :----------- | :-------: | --------- |
-| Criar filtro para listar pedidos por pessoa e por mesa | Abner        |     3     | Concluído |
-| Criar SEEDS da aplicação                               | Sergio       |     3     | Concluído |
+| [#16 Criar filtro para listar pedidos por pessoa e por mesa](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service/issues/16) | Abner        |     3     | Concluído |
+| [#34 Atualizar seeds com novos atributos](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service/pull/35)                               | Sergio       |     3     | Concluído |
 
 **Total de pontos planejados:** 51
 
@@ -79,15 +77,12 @@ Obs: As issues com status **em andamento** vão ser entregues até 12/10/2021 e 
 - Regras do frontend estão ficando complicadas (componentes fazendo várias coisas)
 
 ### Melhorias:
-
-<!-- TODO -->
+* Organizar melhor o tempo individual para todos entregarem as issues propostas
 
 ## 5. Análise do Scrum Master
 
 ### Time
-
-<!-- TODO -->
+  Os Membros estão demorando as atividades por causa do fim de semestre, onde tem muitas tarefas finais para fazer, e isso ta prejudicando as entregas.
 
 ### Histórias
-
-<!-- TODO -->
+  Foram prejudicadas devido à falta de comprometimento e fatores externos. A sprint foi finalizada com dívidas e resultou em um atraso no frontend, para finalizar o projeto.
