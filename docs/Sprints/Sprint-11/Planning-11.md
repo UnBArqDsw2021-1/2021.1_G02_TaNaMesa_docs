@@ -28,7 +28,7 @@
 ### 3.1 Repositório de [Documentação](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs)
 |  História  | Responsáveis  | pontuação | 
 | :--------  | :-----------  | :-------: | 
-| Documentação da sprint | Brenda | 3 |
+| [#131 Documentação da sprint](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/issues/131) | Brenda | 3 |
 
 
 ### 3.2 Repositório [Frontend](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend)
