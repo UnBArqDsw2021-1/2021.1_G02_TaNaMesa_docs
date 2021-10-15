@@ -57,11 +57,11 @@ TABLE(_idTable_, cpfWaiter, needHelp, password)
 
 ## 4. Diagrama Entidade-Relacionamento (DE-R)
 
-[![DER](https://media.discordapp.net/attachments/825425258437541938/876457342718345226/DER.png)](https://cdn.discordapp.com/attachments/825425258437541938/876128978639945799/DER.png)
+[![DER](https://media.discordapp.net/attachments/825425258437541938/898398121086824458/DER.png?width=520&height=458)](https://media.discordapp.net/attachments/825425258437541938/898398121086824458/DER.png?width=520&height=458)
 
 ## 5. Diagrama Lógico de Dados (DLD)
 
-[![DLD](https://media.discordapp.net/attachments/825425258437541938/876457233406394378/DLD.png)](https://cdn.discordapp.com/attachments/825425258437541938/876128973476728852/DLD.png)
+[![DLD](https://media.discordapp.net/attachments/825425258437541938/898398124542943262/DLD.png?width=602&height=458)](https://media.discordapp.net/attachments/825425258437541938/898398124542943262/DLD.png?width=602&height=458)
 
 ## 6. Dicionário de Dados
 
