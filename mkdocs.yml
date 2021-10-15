@@ -131,6 +131,9 @@ nav:
       - Apresentacoes/entrega-2.md
       - Apresentacoes/entrega-3.md
 
+  - Reutilização:
+      - Reutilizacao/Reutilizacao-de-software.md
+
 plugins:
   - search
 
