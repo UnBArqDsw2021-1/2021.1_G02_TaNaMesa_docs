@@ -91,8 +91,9 @@ nav:
       - Padrões de Projeto Emergentes:
         - 3-Padroes-de-Projeto/Emergentes/Padroes-Adotados-no-Projeto.md
 
-  - DAS:
+  - DAS e Reutilização:
     - 4-DAS/DAS.md
+    - Reutilizacao/Reutilizacao-de-software.md
 
   - Sprints:
     - Sprint 01:
@@ -133,9 +134,7 @@ nav:
       - Apresentacoes/entrega-1.md
       - Apresentacoes/entrega-2.md
       - Apresentacoes/entrega-3.md
-
-  - Reutilização:
-      - Reutilizacao/Reutilizacao-de-software.md
+      
 
 plugins:
   - search
