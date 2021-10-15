@@ -1,12 +1,12 @@
 # Documento de Arquitetura de Software
 
-## 1 Introdução
+## 1. Introdução
 
-### 1.1 Finalidade
+### 1.1. Finalidade
 
 A intenção desse documento de arquitetura é mostrar e documentar informações e decisões relevantes do projeto Tá na Mesa do ponto de vista arquitetural. Facilitando a visualização e entendimento da estrutura do projeto.
 
-### 1.2 Escopo
+### 1.2. Escopo
 
 Este Documento de Arquitetura de Software se aplica ao Projeto Tá Na Mesa. Desenvolvido na disciplina de Arquitetura e Desenho de Software da Universidade de Brasília.
 
@@ -23,7 +23,7 @@ Por conseguinte do que se mostra na imagem acima, as visões presentes neste mod
 - Visão de Processo.
 - Visão de Implantação.
 - Visão de Dados, que é opcional.
-### 1.3 Definições, Acrônimos e Abreviações
+### 1.3. Definições, Acrônimos e Abreviações
 
 - UnB - Universidade de Brasília
 - Tá na Mesa - Sistema web e mobile focado em restaurantes e lanchonetes com o objetivo de melhorar a qualidade do atendimento e experiência no local
@@ -31,33 +31,33 @@ Por conseguinte do que se mostra na imagem acima, as visões presentes neste mod
 - Frontend - Parte do sistema responsável por ser a interfáce entre o sistema e o usuário
 - DAS - Documento de Arquitetura de Software
 
-## 2 Representação da Arquitetura
+## 2. Representação da Arquitetura
 
-### 2.1 Tecnologias
+### 2.1. Tecnologias
 
-### 2.1.1 Frontend
+### 2.1.1. Frontend
 
 #### ReactJS
 
 ReactJS é uma biblioteca de código aberto com foco em criar interfaces de usuário em páginas Web. Este framework é mantido pelo Facebook, Instagram e outras empresas além de um comunidade de desenvolvedores. 
 
-### PWA
+#### PWA
 
 PWA (Progressive Web App) é uma aplicação híbrida entre web e mobile onde é possível fazer o download de um site para que ele vire uma aplicação no celular.
 
-### 2.1.2 Backend
-#### 
+### 2.1.2. Backend
+#### Node.js
 
 Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite execução de códigos JavScript fora do navegador. Este software foi criado utilizando a linguagem JavaScript.
 
-### 2.1.3 Banco de Dados
+### 2.1.3. Banco de Dados
 #### PostgreSQL
 
 PostgreSQL é um SGBD(Sistema Gerenciador de Banco de Dados) relacional, desenvolvido como um projeto de código aberto, que já conta com mais de 30 anos de desenvolvimento ativo. É um sistema muito conhecido por sua forte reputação de confiabilidade e recursos de desempenho.
 
-## 3 Requisitos e Restrições Arquiteturais
+## 3. Requisitos e Restrições Arquiteturais
 
-### 3.1 Requisitos
+### 3.1. Requisitos
 
 |Requisitos||
 |:-----|:------|
@@ -65,7 +65,7 @@ PostgreSQL é um SGBD(Sistema Gerenciador de Banco de Dados) relacional, desenvo
 |Deploy|A aplicação deve possuir deploy automatizado|
 |Segurança|A aplicação deve possuir mecanismos de proteção dos dados mais sensíveis dos usuários|
 
-### 3.2 Restrições
+### 3.2. Restrições
 
 |Restrições||
 |:-----|:------|
@@ -76,9 +76,11 @@ PostgreSQL é um SGBD(Sistema Gerenciador de Banco de Dados) relacional, desenvo
 |Equipe|A equipe possui apenas 10 integrantes|
 |Conectividade|É necessária a conexão com internet para utilização da aplicação|       
                                                                                                                                                                                                                                            
-## 4 Visão de Casos de Uso
+## 4. Visão de Casos de Uso
 
 A _Visão de Casos de Uso_ busca demonstrar um modelo de alto nível em relação as funcionalidades do sistema. Neste caso será feito através dos **Diagramas de Caso de Uso**.
+
+### 4.1. UC01 - Realizar pedido
 
 ![UC01](../assets/img/seminario2/casos-de-uso/uc01.png)
 <figcaption>Figura 03. Imagem que contém o diagrama do caso de uso UC01.</figcaption>
@@ -94,7 +96,7 @@ A _Visão de Casos de Uso_ busca demonstrar um modelo de alto nível em relaçã
 | Pós-condições | O ator irá esperar pelo pedido ficar pronto |
 | Rastreabilidade | Requisitos Funcionais 1, 2, 13, 14, 22, 26, 27, 30, 41, 44, 56-61, 63  do [documento de Priorização](https://unbarqdsw2021-1.github.io/2021.1_G02_TaNaMesa_docs/1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Priorizacao-MOSCOW/) |
 
-### 2.2. UC02 - Chamar o garçom
+### 4.2. UC02 - Chamar o garçom
 
 ![UC02](../assets/img/seminario2/casos-de-uso/uc02.png)
 <figcaption>Figura 04. Imagem que contém o diagrama do caso de uso UC02.</figcaption>
@@ -110,7 +112,7 @@ A _Visão de Casos de Uso_ busca demonstrar um modelo de alto nível em relaçã
 | Pós-condições | O cliente foi atendido pelo garçom |
 | Rastreabilidade | Requisitos Funcionais 12, 21, 23 do [documento de Priorização](https://unbarqdsw2021-1.github.io/2021.1_G02_TaNaMesa_docs/1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Priorizacao-MOSCOW/) |
 
-### 2.3. UC03 - Ver pedidos
+### 4.3. UC03 - Ver pedidos
 
 ![UC03](../assets/img/seminario2/casos-de-uso/uc03.png)
 <figcaption>Figura 05. Imagem que contém o diagrama do caso de uso UC03.</figcaption>
@@ -126,7 +128,7 @@ A _Visão de Casos de Uso_ busca demonstrar um modelo de alto nível em relaçã
 | Pós-condições | O ator visualizou os pedidos realizados |
 | Rastreabilidade | Requisitos Funcionais 3-7, 9, 13, 15-19, 24, 28-29, 33-36, 42, 45-50, 54 do [documento de Priorização](https://unbarqdsw2021-1.github.io/2021.1_G02_TaNaMesa_docs/1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Priorizacao-MOSCOW/) |
 
-### 2.4. UC04 - Ver mesas
+### 4.4. UC04 - Ver mesas
 
 ![UC04](../assets/img/seminario2/casos-de-uso/uc04.png)
 <figcaption>Figura 06. Imagem que contém o diagrama do caso de uso UC04.</figcaption>
@@ -142,7 +144,7 @@ A _Visão de Casos de Uso_ busca demonstrar um modelo de alto nível em relaçã
 | Pós-condições | O ator visualizou ou gerenciou as mesas |
 | Rastreabilidade | Requisitos Funcionais 10, 31-32, 51-53 do [documento de Priorização](https://unbarqdsw2021-1.github.io/2021.1_G02_TaNaMesa_docs/1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Priorizacao-MOSCOW/) |
 
-### 2.5. UC05 - Gerenciar garçons
+### 4.5. UC05 - Gerenciar garçons
 
 ![UC05](../assets/img/seminario2/casos-de-uso/uc05.png)
 <figcaption>Figura 07. Imagem que contém o diagrama do caso de uso UC05.</figcaption>
@@ -158,7 +160,7 @@ A _Visão de Casos de Uso_ busca demonstrar um modelo de alto nível em relaçã
 | Pós-condições | O gerente gerenciou ou visualizou um garçom |
 | Rastreabilidade | Requisitos Funcionais 20, 39-40  do [documento de Priorização](https://unbarqdsw2021-1.github.io/2021.1_G02_TaNaMesa_docs/1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Priorizacao-MOSCOW/) |
 
-### 2.6. UC06 - Gerenciar cardápio
+### 4.6. UC06 - Gerenciar cardápio
 
 ![UC06](../assets/img/seminario2/casos-de-uso/uc06.png)
 <figcaption>Figura 08. Imagem que contém o diagrama do caso de uso UC06.</figcaption>
@@ -174,11 +176,11 @@ A _Visão de Casos de Uso_ busca demonstrar um modelo de alto nível em relaçã
 | Pós-condições | O ator gerenciou ou visualizou o cardápio |
 | Rastreabilidade | Requisitos Funcionais 1, 11, 37-38, 55, 57, 62-63 do [documento de Priorização](https://unbarqdsw2021-1.github.io/2021.1_G02_TaNaMesa_docs/1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Priorizacao-MOSCOW/) |
 
-## 3 Visão Lógica
+## 5. Visão Lógica
 
 A _Visão Lógica_ busca demonstrar a organização conceitual da aplicação em termos de **camadas**, **pacotes**, **classes** e **interfaces**.
 
-### 3.1 Diagrama de Contexto
+### 5.1. Diagrama de Contexto
 
 Este diagrama é focado em demonstrar o escopo da aplicação através do fluxo de dados de maior nível, ou seja, representando todo o sistema. Este diagrama foi desenvolvido no início do projeto e de acordo com as necessidades foi sendo alterado e pode ser vista em *[Descrição Arquitetural](https://unbarqdsw2021-1.github.io/2021.1_G02_TaNaMesa_docs/2-Modelagem/extras/arquitetura/)*. Abaixo segue a versão mais atualizada:
 
@@ -187,7 +189,7 @@ Este diagrama é focado em demonstrar o escopo da aplicação através do fluxo 
 <figcaption>Figura 09. Resultado do diagrama de contexto.</figcaption>
 
 
-### 3.2 Diagramas de Pacotes
+### 5.2. Diagramas de Pacotes
 
 [![DP01](../assets/img/seminario2/diagrama-de-pacotes/DP01.png)](../../assets/img/seminario2/diagrama-de-pacotes/DP01.png)
 <figcaption>Figura 09. Imagem que contém o diagrama de pacotes da aplicação.</figcaption>
@@ -199,10 +201,10 @@ Este diagrama é focado em demonstrar o escopo da aplicação através do fluxo 
 | **Autor(es)**     | [Daniel Primo](https://github.com/danieldagerom) e [Tiago Samuel](https://github.com/tsrrodrigues) |
  
 
- ## 4 Visão de Implementação
+## 6. Visão de Implementação
 
 A _Visão de Implementação_ mostra como, de fato, a aplicação será desenvolvida.
-### 4.1 Diagrama de Pacotes de Classes
+### 6.1. Diagrama de Pacotes de Classes
 
 [![DP02](../assets/img/seminario2/diagrama-de-pacotes/DP02.png)](../../assets/img/seminario2/diagrama-de-pacotes/DP02.png)
 <figcaption>Figura 10. Imagem que contém o diagrama de pacotes de classes.</figcaption>
@@ -214,9 +216,9 @@ A _Visão de Implementação_ mostra como, de fato, a aplicação será desenvol
 | **Autor(es)**     | [Daniel Primo](https://github.com/danieldagerom) e [Tiago Samuel](https://github.com/tsrrodrigues) |
 
 
-### 4.2 Diagrama de classes
+### 6.2. Diagrama de classes
 
-### 4.2.1 Descrição
+### 6.2.1. Descrição
 Diagramas de classes mapeiam de forma clara a estrutura de um determinado sistema ao modelar suas classes, seus atributos, operações e relações entre objetos. A forma de classe em si consiste em um retângulo com três linhas. A linha superior contém o nome da classe, a linha do meio, os atributos da classe e a linha inferior expressa os métodos ou operações que a classe pode utilizar. Classes e subclasses são agrupadas juntas para mostrar a relação estática entre cada objeto.
 
 Para o diagrama de classes do nosso projeto, escolhemos realizar um único diagrama geral. Foi escolhido dessa maneira, pois temos apenas um banco de dados, o que nos fez escolher apenas um diagrama de classes para representar a aplicação como um todo.
@@ -231,9 +233,9 @@ Nos baseamos, além do material disponibilizado na disciplina, na [Modelagem de 
 | **Descrição** | Diagrama UML de classes da aplicação |
 | **Autor**     | [Abner Filipe](https://github.com/abner423) e [Tiago Samuel](https://github.com/tsrrodrigues) |
 
-## 5 Visão de Processo
+## 7. Visão de Processo
 
-### 5.1 Realizar Pedido
+### 7.1. Realizar Pedido
 
 [![DS01](../assets/img/seminario2/diagrama-sequencia/DiagramaPedido.png)](../assets/img/seminario2/diagrama-sequencia/DiagramaPedido.png)
 
@@ -244,17 +246,17 @@ Nos baseamos, além do material disponibilizado na disciplina, na [Modelagem de 
 | **Descrição** | Fluxo de realização do pedido, com os atores Cliente, Garçom e Cozinha                               |
 | **Autor**     | [Daniel Primo](https://github.com/danieldagerom) e [Herick Portugues](https://github.com/herickport) |
 
-## 7 Visão de Dados
+## 8. Visão de Dados
 
-### 7.1 Diagrama Entidade-Relacionamento (DE-R)
+### 8.1. Diagrama Entidade-Relacionamento (DE-R)
 
 [![DER](https://media.discordapp.net/attachments/825425258437541938/898398121086824458/DER.png?width=520&height=458)](https://media.discordapp.net/attachments/825425258437541938/898398121086824458/DER.png?width=520&height=458)
 
-### 7.2 Diagrama Lógico de Dados (DLD)
+### 8.2. Diagrama Lógico de Dados (DLD)
 
 [![DLD](https://media.discordapp.net/attachments/825425258437541938/898398124542943262/DLD.png?width=602&height=458)](https://media.discordapp.net/attachments/825425258437541938/898398124542943262/DLD.png?width=602&height=458)
 
-### 7.3 Dicionário de Dados
+### 8.3. Dicionário de Dados
 
 Entidade: **EMPLOYEE**
 
@@ -305,7 +307,7 @@ Entidade: **TABLE**
 | needHelp  |      Obrigatório       |   boolean    |                Ferramenta para cliente chamar garçom                |
 | password  |      Obrigatório       |    string    |                   Senha para autenticação da mesa                   |
 
-## 8 Referências
+## 9. Referências
 
 > - PANT, Prabhu. A complete guide to PostgreSQL. [S. l.], 2018. Disponível [aqui](<https://medium.com/@heyPrabhu/a-complete-guide-to-postgresql-e4d1cefb9866>). Acesso em: 13 Outubro 2021.
 
@@ -329,4 +331,5 @@ Entidade: **TABLE**
 | 15/10/2021 | 0.5    | Atualiza tópico de visão de dados | [Abner Filipe](https://github.com/abner423), [Sergio Cipriano](https://github.com/herickport), [Hérick Portugues](https://github.com/sergiosacj) |
 | 15/10/2021 | 1.0    | Atualiza dicionário de dados  | [Eduarda Servidio](https://github.com/ServidioEC), [Brenda Santos](https://github.com/herickport), [ítalo Alves](https://github.com/alvesitalo) |
 | 15/10/2021 | 2.0    | Revisa o documento e altera algumas formatações  | [Lucas Boaventura](https://github.com/lboaventura25) |
+| 15/10/2021 | 2.1    | Corrige numeração do documento  | [Herick Portugues](https://github.com/herickport) |
 
