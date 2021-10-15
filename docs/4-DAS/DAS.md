@@ -21,7 +21,7 @@ Por conseguinte do que se mostra na imagem acima, as visões presentes neste mod
 - Visão Lógica.
 - Visão de Implementação.
 - Visão de Processo.
-- Visão de Imaplantação.
+- Visão de Implantação.
 - Visão de Dados, que é opcional.
 ### 1.3 Definições, Acrônimos e Abreviações
 
@@ -328,4 +328,5 @@ Entidade: **TABLE**
 | 15/10/2021 | 0.4    | Atualiza diagrama de contexto | [Emily Dias](https://github.com/emysdias), [Hérick Portugues](https://github.com/herickport) |
 | 15/10/2021 | 0.5    | Atualiza tópico de visão de dados | [Abner Filipe](https://github.com/abner423), [Sergio Cipriano](https://github.com/herickport), [Hérick Portugues](https://github.com/sergiosacj) |
 | 15/10/2021 | 1.0    | Atualiza dicionário de dados  | [Eduarda Servidio](https://github.com/ServidioEC), [Brenda Santos](https://github.com/herickport), [ítalo Alves](https://github.com/alvesitalo) |
+| 15/10/2021 | 2.0    | Revisa o documento e altera algumas formatações  | [Lucas Boaventura](https://github.com/lboaventura25) |
 
