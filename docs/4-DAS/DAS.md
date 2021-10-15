@@ -10,13 +10,26 @@ A intenção desse documento de arquitetura é mostrar e documentar informaçõe
 
 Este Documento de Arquitetura de Software se aplica ao Projeto Tá Na Mesa. Desenvolvido na disciplina de Arquitetura e Desenho de Software da Universidade de Brasília.
 
+Uma prática comum em projetos desenvolvidos com o auxílio do _RUP (Rational Unified Procces)_é utilizar o DAS (Documento de Arquitetura de Sofwtare), divididido em módulos que são chamado de modelo de visualização 4+1.
+
+![visualização 4+1](../assets/img/rup.png)
+<figcaption>Figura 01. Imagem que contém representação do modelo de visualização 4+1.</figcaption>
+
+Por conseguinte do que se mostra na imagem acima, as visões presentes neste modelo são:
+
+- Visão de Casos de Uso.
+- Visão Lógica.
+- Visão de Implementação.
+- Visão de Processo.
+- Visão de Imaplantação.
+- Visão de Dados, que é opcional.
 ### 1.3 Definições, Acrônimos e Abreviações
 
 - UnB - Universidade de Brasília
 - Tá na Mesa - Sistema web e mobile focado em restaurantes e lanchonetes com o objetivo de melhorar a qualidade do atendimento e experiência no local
 - Backend - Parte do sistema responsável por prover e organizar recursos para a interfáce do sistema
 - Frontend - Parte do sistema responsável por ser a interfáce entre o sistema e o usuário
-
+- DAS - Documento de Arquitetura de Software
 
 ## 2 Representação da Arquitetura
 
@@ -42,31 +55,33 @@ Node.js é um software de código aberto, multiplataforma, baseado no interpreta
 
 PostgreSQL é um SGBD(Sistema Gerenciador de Banco de Dados) relacional, desenvolvido como um projeto de código aberto, que já conta com mais de 30 anos de desenvolvimento ativo. É um sistema muito conhecido por sua forte reputação de confiabilidade e recursos de desempenho.
 
-### 2.2 Diagrama de Arquitetura
+## 3 Requisitos e Restrições Arquiteturais
 
-![representacao-arquitetural](../assets/img/seminario2/arquitetura/arquitetura.png)
+### 3.1 Requisitos
 
-## 3 Metas e Restrições Arquiteturais
-### 3.1 Metas
-| Meta    ||
-| --- | --- |
-| Escalabilidade   | A aplicação deve ser escalável    |
-| Segurança   | A aplicação deve tratar de forma segura os dados sensíveis dos usuários  |
-| Deploy    |     A aplicação deve possuir deploy automatizado|                                                                                          
+|Requisitos||
+|:-----|:------|
+|Escalabilidade|A aplicação deve ser escalável|
+|Deploy|A aplicação deve possuir deploy automatizado|
+|Segurança|A aplicação deve possuir mecanismos de proteção dos dados mais sensíveis dos usuários|
+
 ### 3.2 Restrições
-| Restrição  ||
-| --- |--- |
-| Conectividade   |É necessária a conexão com internet para utilização do App |
-| Plataforma   | A aplicação terá suporte somente para Android  |
-| Público    | A aplicação será desenvolvida voltada ao público brasileiro              
-| Linguagem    | A aplicação será desenvolvida em português do Brasil            
-| Equipe    | A equipe possui apenas 10 integrantes            
-| Prazo    | O escopo proposto pode ser alterado ao longo da disciplina            
-                                                                                                                                                                                                                                            
+
+|Restrições||
+|:-----|:------|
+|Plataforma|A aplicação terá suporte para browsers no computador, tablet e celular|
+|Público|A aplicação será desenvolvida voltada ao público brasileiro e que possui empreendimentos no ramo alimentício|
+|Linguagem|A aplicação será desenvolvida em português do Brasil|
+|Prazo|O escopo proposto deve ser terminado até o final da disciplina|
+|Equipe|A equipe possui apenas 10 integrantes|
+|Conectividade|É necessária a conexão com internet para utilização da aplicação|       
+                                                                                                                                                                                                                                           
 ## 4 Visão de Casos de Uso
 
+A _Visão de Casos de Uso_ busca demonstrar um modelo de alto nível em relação as funcionalidades do sistema. Neste caso será feito através dos **Diagramas de Caso de Uso**.
+
 ![UC01](../assets/img/seminario2/casos-de-uso/uc01.png)
-<figcaption>Figura 01. Imagem que contém o diagrama do caso de uso UC01.</figcaption>
+<figcaption>Figura 03. Imagem que contém o diagrama do caso de uso UC01.</figcaption>
 
 |   UC01   |  Informações  |
 | ----------------- | ------- |
@@ -82,7 +97,7 @@ PostgreSQL é um SGBD(Sistema Gerenciador de Banco de Dados) relacional, desenvo
 ### 2.2. UC02 - Chamar o garçom
 
 ![UC02](../assets/img/seminario2/casos-de-uso/uc02.png)
-<figcaption>Figura 02. Imagem que contém o diagrama do caso de uso UC02.</figcaption>
+<figcaption>Figura 04. Imagem que contém o diagrama do caso de uso UC02.</figcaption>
 
 |   UC01   |  Informações  |
 | ----------------- | ------- |
@@ -98,7 +113,7 @@ PostgreSQL é um SGBD(Sistema Gerenciador de Banco de Dados) relacional, desenvo
 ### 2.3. UC03 - Ver pedidos
 
 ![UC03](../assets/img/seminario2/casos-de-uso/uc03.png)
-<figcaption>Figura 03. Imagem que contém o diagrama do caso de uso UC03.</figcaption>
+<figcaption>Figura 05. Imagem que contém o diagrama do caso de uso UC03.</figcaption>
 
 |   UC01   |  Informações  |
 | ----------------- | ------- |
@@ -114,7 +129,7 @@ PostgreSQL é um SGBD(Sistema Gerenciador de Banco de Dados) relacional, desenvo
 ### 2.4. UC04 - Ver mesas
 
 ![UC04](../assets/img/seminario2/casos-de-uso/uc04.png)
-<figcaption>Figura 04. Imagem que contém o diagrama do caso de uso UC04.</figcaption>
+<figcaption>Figura 06. Imagem que contém o diagrama do caso de uso UC04.</figcaption>
 
 |   UC01   |  Informações  |
 | ----------------- | ------- |
@@ -130,7 +145,7 @@ PostgreSQL é um SGBD(Sistema Gerenciador de Banco de Dados) relacional, desenvo
 ### 2.5. UC05 - Gerenciar garçons
 
 ![UC05](../assets/img/seminario2/casos-de-uso/uc05.png)
-<figcaption>Figura 05. Imagem que contém o diagrama do caso de uso UC05.</figcaption>
+<figcaption>Figura 07. Imagem que contém o diagrama do caso de uso UC05.</figcaption>
 
 |   UC01   |  Informações  |
 | ----------------- | ------- |
@@ -146,7 +161,7 @@ PostgreSQL é um SGBD(Sistema Gerenciador de Banco de Dados) relacional, desenvo
 ### 2.6. UC06 - Gerenciar cardápio
 
 ![UC06](../assets/img/seminario2/casos-de-uso/uc06.png)
-<figcaption>Figura 06. Imagem que contém o diagrama do caso de uso UC06.</figcaption>
+<figcaption>Figura 08. Imagem que contém o diagrama do caso de uso UC06.</figcaption>
 
 |   UC01   |  Informações  |
 | ----------------- | ------- |
@@ -159,14 +174,23 @@ PostgreSQL é um SGBD(Sistema Gerenciador de Banco de Dados) relacional, desenvo
 | Pós-condições | O ator gerenciou ou visualizou o cardápio |
 | Rastreabilidade | Requisitos Funcionais 1, 11, 37-38, 55, 57, 62-63 do [documento de Priorização](https://unbarqdsw2021-1.github.io/2021.1_G02_TaNaMesa_docs/1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Priorizacao-MOSCOW/) |
 
-## 5 Visão Lógica
+## 3 Visão Lógica
 
-Modelagens em padrão UML, que representam os aspectos arquiteturais do sistema.
+A _Visão Lógica_ busca demonstrar a organização conceitual da aplicação em termos de **camadas**, **pacotes**, **classes** e **interfaces**.
 
-### 5.1 Diagramas de Pacotes
+### 3.1 Diagrama de Contexto
+
+Este diagrama é focado em demonstrar o escopo da aplicação através do fluxo de dados de maior nível, ou seja, representando todo o sistema. Este diagrama foi desenvolvido no início do projeto e de acordo com as necessidades foi sendo alterado e pode ser vista em *[Descrição Arquitetural](https://unbarqdsw2021-1.github.io/2021.1_G02_TaNaMesa_docs/2-Modelagem/extras/arquitetura/)*. Abaixo segue a versão mais atualizada:
+
+[ ![Arquitetura](../../assets/img/DAS.png) ](../../assets/img/DAS.png)
+
+<figcaption>Figura 09. Resultado do diagrama de contexto.</figcaption>
+
+
+### 3.2 Diagramas de Pacotes
 
 [![DP01](../assets/img/seminario2/diagrama-de-pacotes/DP01.png)](../../assets/img/seminario2/diagrama-de-pacotes/DP01.png)
-<figcaption>Figura 1. Imagem que contém o diagrama de pacotes da aplicação.</figcaption>
+<figcaption>Figura 09. Imagem que contém o diagrama de pacotes da aplicação.</figcaption>
 
 | DP01       | Diagrama de Pacotes da Aplicação  |
 | :--------- | :------------------  |
@@ -174,10 +198,14 @@ Modelagens em padrão UML, que representam os aspectos arquiteturais do sistema.
 | **Descrição** | Diagrama UML de pacotes da aplicação |
 | **Autor(es)**     | [Daniel Primo](https://github.com/danieldagerom) e [Tiago Samuel](https://github.com/tsrrodrigues) |
  
-### 5.2 Diagrama de Pacotes de Classes
+
+ ## 4 Visão de Implementação
+
+A _Visão de Implementação_ mostra como, de fato, a aplicação será desenvolvida.
+### 4.1 Diagrama de Pacotes de Classes
 
 [![DP02](../assets/img/seminario2/diagrama-de-pacotes/DP02.png)](../../assets/img/seminario2/diagrama-de-pacotes/DP02.png)
-<figcaption>Figura 2. Imagem que contém o diagrama de pacotes de classes.</figcaption>
+<figcaption>Figura 10. Imagem que contém o diagrama de pacotes de classes.</figcaption>
 
 | DP02       | Diagrama de Pacotes de Classes  |
 | :--------- | :------------------  |
@@ -186,18 +214,16 @@ Modelagens em padrão UML, que representam os aspectos arquiteturais do sistema.
 | **Autor(es)**     | [Daniel Primo](https://github.com/danieldagerom) e [Tiago Samuel](https://github.com/tsrrodrigues) |
 
 
-### 5.2 Diagrama de classes
+### 4.2 Diagrama de classes
 
-### 5.2.1 Descrição
+### 4.2.1 Descrição
 Diagramas de classes mapeiam de forma clara a estrutura de um determinado sistema ao modelar suas classes, seus atributos, operações e relações entre objetos. A forma de classe em si consiste em um retângulo com três linhas. A linha superior contém o nome da classe, a linha do meio, os atributos da classe e a linha inferior expressa os métodos ou operações que a classe pode utilizar. Classes e subclasses são agrupadas juntas para mostrar a relação estática entre cada objeto.
 
-Para o diagrama de classes do nosso projeto, escolhemos realizar um único diagrama geral. Foi escolhido dessa maneira, pois, por mais que estamos utilizando uma arquitetura de microsserviços, temos apenas um banco de dados, o que nos fez escolher apenas um diagrama de classes para representar a aplicação como um todo.
+Para o diagrama de classes do nosso projeto, escolhemos realizar um único diagrama geral. Foi escolhido dessa maneira, pois temos apenas um banco de dados, o que nos fez escolher apenas um diagrama de classes para representar a aplicação como um todo.
 Nos baseamos, além do material disponibilizado na disciplina, na [Modelagem de Dados](https://unbarqdsw2021-1.github.io/2021.1_G02_TaNaMesa_docs/2-Modelagem/extras/Modelo-Dados/) do **Tá Na Mesa** e em um projeto antigo da disciplina chamado [QR Comer](https://fga-desenho-2019-2.github.io/Wiki/seminario3/diagramas_estaticos/#4-diagrama-de-classes-e-microservicos), que possui um sistema semelhante ao nosso, o que nos deu uma visão de métodos e atributos que não foram pensados em um primeiro momento pela equipe.
 
-### 5.2.2 Diagrama
-
 ![Diagrama de Classes](../assets/img/seminario2/diagrama-de-classes/diagrama-de-classes.png)
-<figcaption>Figura 01. Imagem que contém o diagrama de classes da aplicação.</figcaption>
+<figcaption>Figura 11. Imagem que contém o diagrama de classes da aplicação.</figcaption>
 
 | DC01       | Diagrama de Classes  |
 | :--------- | :------------------  |
@@ -205,29 +231,28 @@ Nos baseamos, além do material disponibilizado na disciplina, na [Modelagem de 
 | **Descrição** | Diagrama UML de classes da aplicação |
 | **Autor**     | [Abner Filipe](https://github.com/abner423) e [Tiago Samuel](https://github.com/tsrrodrigues) |
 
-## 6 Visão de Processo
+## 5 Visão de Processo
 
-### 6.1 Realizar Pedido
+### 5.1 Realizar Pedido
 
 [![DS01](../assets/img/seminario2/diagrama-sequencia/DiagramaPedido.png)](../assets/img/seminario2/diagrama-sequencia/DiagramaPedido.png)
 
-<figcaption>Figura 1. Resultado do diagrama de sequência da aplicação.</figcaption>
+<figcaption>Figura 12. Resultado do diagrama de sequência da aplicação.</figcaption>
 
 | **DS01**      | **Diagrama de Sequência - Realizar Pedido**                                                          |
 | ------------- | ---------------------------------------------------------------------------------------------------- |
 | **Descrição** | Fluxo de realização do pedido, com os atores Cliente, Garçom e Cozinha                               |
 | **Autor**     | [Daniel Primo](https://github.com/danieldagerom) e [Herick Portugues](https://github.com/herickport) |
 
+## 6 Visão de Dados
 
-
-
-## 7 Visão de Dados
-
-### 7.1 Diagrama Lógico de Dados (DLD)
+### 6.1 Diagrama Lógico de Dados (DLD)
 
 [![DLD](https://media.discordapp.net/attachments/825425258437541938/876457233406394378/DLD.png)](https://cdn.discordapp.com/attachments/825425258437541938/876128973476728852/DLD.png)
+<figcaption>Figura 13. Resultado do diagrama lógico de dados.</figcaption>
 
-### 7.2 Dicionário de Dados
+
+### 6.2 Dicionário de Dados
 
 Entidade: **FUNCIONARIO**
 
@@ -275,7 +300,6 @@ Entidade: **MESA**
 
 
     
-
 ## 8 Referências
 
 
@@ -291,5 +315,14 @@ Entidade: **MESA**
 > - QRComer. Disponível [aqui](https://fga-desenho-2019-2.github.io/Wiki/seminario5/arquitetura/). Acesso em: 09 de Outubro 2021.
 
 
+## Histórico de Revisões
 
+| Data       | Versão | Descrição                                              | Autor(es)                                            |
+| :--------- | :----- | :----------------------------------------------------- | :--------------------------------------------------- |
+| 13/10/2021 | 0.1    | Adiciona estrutura do documento                        | [Tiago Rodrigues](https://github.com/tsrrodrigues) |
+| 14/10/2021 | 0.2    | Cria o documento                                       | [Lucas Boaventura](https://github.com/lboaventura25) |
+| 15/10/2021 | 0.3    | Adiciona imagens                                       | [Daniel Primo](https://github.com/danieldagerom) |
+| 15/10/2021 | 0.4    | Atualiza diagrama de contexto | [Emily Dias](https://github.com/emysdias), [Hérick Portugues](https://github.com/herickport) |
+| 15/10/2021 | 0.5    | Atualiza tópico de visão de dados | [Abner Filipe](https://github.com/abner423), [Sergio Cipriano](https://github.com/herickport), [Hérick Portugues](https://github.com/sergiosacj) |
+| 15/10/2021 | 0.5    | Atualiza diagrama de  | [Eduarda Servidio](https://github.com/ServidioEC), [Brenda Santos](https://github.com/herickport), [ítalo Alves](https://github.com/alvesitalo) |
 
