@@ -244,64 +244,68 @@ Nos baseamos, além do material disponibilizado na disciplina, na [Modelagem de 
 | **Descrição** | Fluxo de realização do pedido, com os atores Cliente, Garçom e Cozinha                               |
 | **Autor**     | [Daniel Primo](https://github.com/danieldagerom) e [Herick Portugues](https://github.com/herickport) |
 
-## 6 Visão de Dados
+## 7 Visão de Dados
 
-### 6.1 Diagrama Lógico de Dados (DLD)
+### 7.1 Diagrama Entidade-Relacionamento (DE-R)
 
-[![DLD](https://media.discordapp.net/attachments/825425258437541938/876457233406394378/DLD.png)](https://cdn.discordapp.com/attachments/825425258437541938/876128973476728852/DLD.png)
-<figcaption>Figura 13. Resultado do diagrama lógico de dados.</figcaption>
+[![DER](https://media.discordapp.net/attachments/825425258437541938/898398121086824458/DER.png?width=520&height=458)](https://media.discordapp.net/attachments/825425258437541938/898398121086824458/DER.png?width=520&height=458)
 
+### 7.2 Diagrama Lógico de Dados (DLD)
 
-### 6.2 Dicionário de Dados
+[![DLD](https://media.discordapp.net/attachments/825425258437541938/898398124542943262/DLD.png?width=602&height=458)](https://media.discordapp.net/attachments/825425258437541938/898398124542943262/DLD.png?width=602&height=458)
 
-Entidade: **FUNCIONARIO**
+### 7.3 Dicionário de Dados
 
-| Atributo | Propriedade do aributo | Tipo de Dado | Tamanho | Descrição |
-| :-: | :-: | :-: | :-: | :-: |
-| cpf | Chave Primária | bigint | 11 | Identificador de cada funcionário |
-| nome | Obrigatório | varchar | 50 | Nome completo de cada funcionário |
-| ocupacao | Obrigatório | enum('gerente','cozinha', 'garcom') | 10 | Representa a atuação do funcionário dentro do restaurante |
+Entidade: **EMPLOYEE**
 
-Entidade: **CLIENTE**
+|  Atributo  | Propriedade do aributo |            Tipo de Dado             |                         Descrição                         |
+| :--------: | :--------------------: | :---------------------------------: | :-------------------------------------------------------: |
+|    cpf     |     Chave Primária     |               number                |             Identificador de cada funcionário             |
+|    name    |      Obrigatório       |               string                |             Nome completo de cada funcionário             |
+| occupation |      Obrigatório       | enum('gerente','cozinha', 'garcom') | Representa a atuação do funcionário dentro do restaurante |
+|  password  |      Obrigatório       |               string                |          Senha para autenticação do funcionário           |
 
-| Atributo | Propriedade do aributo | Tipo de Dado | Tamanho | Descrição |
-| :-: | :-: | :-: | :-: | :-: |
-| idCliente | Chave Primária | int | - | Chave identificadora do cliente, é gerada automaticamente pelo banco |
-| nome | Chave Primária | varchar | 50 | Nome fornecido pelo cliente para constar na comanda individual |
-| idComanda | Chave Estrangeira | int | - | Chave identificadora de cada comanda individual realizado por uma mesa |
+Entidade: **CLIENT**
 
-Entidade: **COMANDA**
+| Atributo | Propriedade do aributo | Tipo de Dado |                              Descrição                               |
+| :------: | :--------------------: | :----------: | :------------------------------------------------------------------: |
+| idClient |     Chave Primária     |    number    | Chave identificadora do cliente, é gerada automaticamente pelo banco |
+|   name   |     Chave Primária     |    string    |    Nome fornecido pelo cliente para constar na comanda individual    |
 
-| Atributo | Propriedade do aributo | Tipo de Dado | Tamanho | Descrição |
-| :-: | :-: | :-: | :-: | :-: |
-| idComanda | Chave Primária | int | - | Chave identificadora de cada comanda individual realizado por uma mesa |
-| status | Obrigatório | enum('na fila','na cozinha','preparado','na mesa')| 10 | Situação do comanda após ser efetuado pelo cliente |
-| idMesa | Chave Estrangeira | int | - | Chave identificadora de cada mesa disbonivel para uso dos clientes |
+Entidade: **ORDER**
+
+|  Atributo  | Propriedade do aributo |                    Tipo de Dado                    |                               Descrição                                |
+| :--------: | :--------------------: | :------------------------------------------------: | :--------------------------------------------------------------------: |
+|  idOrder   |     Chave Primária     |                       number                       | Chave identificadora de cada comanda individual realizado por uma mesa |
+|   status   |      Obrigatório       | enum('na fila','na cozinha','preparado','na mesa') |           Situação do comanda após ser efetuado pelo cliente           |
+|  idTable   |   Chave Estrangeira    |                       number                       |   Chave identificadora de cada mesa disponível para uso dos clientes   |
+|  idClient  |   Chave Estrangeira    |                       number                       |         Chave identificadora do cliente que realizou o pedido          |
+| nameClient |   Chave Estrangeira    |                       string                       |    Chave identificadora com o nome do cliente que realizou o pedido    |
+|    date    |      Obrigatório       |                        Date                        |                     Data em que o pedido foi feito                     |
 
 Entidade: **ITEM**
 
-| Atributo | Propriedade do aributo | Tipo de Dado | Tamanho | Descrição |
-| :-: | :-: | :-: | :-: | :-: |
-| idItem | Chave Primária | int | - | Chave identificadora de cada item disponível para comandas no cardápio|
-| nome | Obrigatório | varchar | 50 | Nome do item fornecido pelo gerente no momento do cadastro |
-| preco | Obrigatório | float | (4,2) | Preço individual do item sem incluir qualquer desconto |
-| desconto | Opcional | int | 2 | Desconto que pode ser aplicado ao item em caso de promoção (sempre em porcentagem) |
-| descricao | Obrigatório | varchar | 100 | Descrição do item contendo todos os ingredientes presentes em sua composição |
-| observacao | Opcional | varchar | 100 | Observação manual que pode ser feita pelos clientes caso queiram retirar algum ingrediente do item |
-| categoria | Obrigatório | enum('hamburgueres','petiscos',<br />'molhos adicionais',<br />'saladas','bebidas','sobremesas')| 20 | Grupo no qual os itens disponíveis são divididos |
-| cpfGerente | Chave Estrangeira | bigint | 11 | Chave identificadora do gerente do estabelecimento, responsável pela criação e edição dos itens |
+|  Atributo   | Propriedade do aributo |                                           Tipo de Dado                                           |                                             Descrição                                              |
+| :---------: | :--------------------: | :----------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: |
+|   idItem    |     Chave Primária     |                                              number                                              |               Chave identificadora de cada item disponível para comandas no cardápio               |
+|    name     |        Opcional        |                                              string                                              |                     Nome do item fornecido pelo gerente no momento do cadastro                     |
+|    price    |        Opcional        |                                              number                                              |                       Preço individual do item sem incluir qualquer discount                       |
+|  discount   |        Opcional        |                                              number                                              |         Desconto que pode ser aplicado ao item em caso de promoção (sempre em porcentagem)         |
+|    image    |        Opcional        |                                              string                                              |                                           Imagem do item                                           |
+| description |        Opcional        |                                              string                                              |            Descrição do item contendo todos os ingredientes presentes em sua composição            |
+|    notes    |        Opcional        |                                              string                                              | Observação manual que pode ser feita pelos clientes caso queiram retirar algum ingrediente do item |
+|  category   |      Obrigatório       | enum('hamburgueres','petiscos',<br />'molhos adicionais',<br />'saladas','bebidas','sobremesas') |                          Grupo no qual os itens disponíveis são divididos                          |
 
-Entidade: **MESA**
+Entidade: **TABLE**
 
-| Atributo | Propriedade do aributo | Tipo de Dado | Tamanho | Descrição |
-| :-: | :-: | :-: | :-: | :-: |
-| idMesa | Chave Primária | int | - | Chave identificadora de cada mesa disbonivel para uso dos clientes |
-| cpfGarcom | Chave Estrangeira | bigint | 11 | Chave identificadora do garçom responsável pelo atendimento da mesa |
+| Atributo  | Propriedade do aributo | Tipo de Dado |                              Descrição                              |
+| :-------: | :--------------------: | :----------: | :-----------------------------------------------------------------: |
+|  idTable  |     Chave Primária     |    number    | Chave identificadora de cada mesa disponível para uso dos clientes  |
+| cpfWaiter |   Chave Estrangeira    |    string    | Chave identificadora do garçom responsável pelo atendimento da mesa |
+| needHelp  |      Obrigatório       |   boolean    |                Ferramenta para cliente chamar garçom                |
+| password  |      Obrigatório       |    string    |                   Senha para autenticação da mesa                   |
 
-
-    
 ## 8 Referências
-
 
 > - PANT, Prabhu. A complete guide to PostgreSQL. [S. l.], 2018. Disponível [aqui](<https://medium.com/@heyPrabhu/a-complete-guide-to-postgresql-e4d1cefb9866>). Acesso em: 13 Outubro 2021.
 
@@ -310,7 +314,6 @@ Entidade: **MESA**
 > - Documento de arquitetura de software. Disponível [aqui](<https://www.cin.ufpe.br/~gta/rup-vc/extend.formal_resources/guidances/examples/resources/sadoc_v1.htm>) Acesso em: 11 de Outubro 2021.
 
 > - Documento de arquitetura de software. Disponível [aqui](<https://www.cin.ufpe.br/~gta/rup-vc/core.informal_resources/guidances/examples/resources/ex_sad.htm>) Acesso em: 10 de Outubro 2021.
-
 
 > - QRComer. Disponível [aqui](https://fga-desenho-2019-2.github.io/Wiki/seminario5/arquitetura/). Acesso em: 09 de Outubro 2021.
 
@@ -324,5 +327,5 @@ Entidade: **MESA**
 | 15/10/2021 | 0.3    | Adiciona imagens                                       | [Daniel Primo](https://github.com/danieldagerom) |
 | 15/10/2021 | 0.4    | Atualiza diagrama de contexto | [Emily Dias](https://github.com/emysdias), [Hérick Portugues](https://github.com/herickport) |
 | 15/10/2021 | 0.5    | Atualiza tópico de visão de dados | [Abner Filipe](https://github.com/abner423), [Sergio Cipriano](https://github.com/herickport), [Hérick Portugues](https://github.com/sergiosacj) |
-| 15/10/2021 | 0.5    | Atualiza diagrama de  | [Eduarda Servidio](https://github.com/ServidioEC), [Brenda Santos](https://github.com/herickport), [ítalo Alves](https://github.com/alvesitalo) |
+| 15/10/2021 | 1.0    | Atualiza dicionário de dados  | [Eduarda Servidio](https://github.com/ServidioEC), [Brenda Santos](https://github.com/herickport), [ítalo Alves](https://github.com/alvesitalo) |
 
