@@ -46,24 +46,24 @@ Uma motivação levada em consideração pelo grupo para esta arquitetura foi o 
 - Em um segundo momento, vamos evoluir para um *Monolito Distribuído*.
 - Por fim, partiremos para uma Arquitetura de *Microsserviços*.
 
+Por motivos de escopo e tempo da disciplina, além da experimentação que foi feita com o microsserviços, optamos por manter a aplicação no estágio 1 como um Monolito.
+
 ### 2.3 Abordagem arquitetural
 
-- **Microsserviços**
+- **Monolítica**
 
-A arquitetura de microsserviços é uma abordagem que separa uma aplicação única em pequenos blocos independentes. Estes blocos são chamados de serviços que executam suas próprias regras de negócio e se comunicam, quase sempre, por meio de métodos HTTP. A divisão dos serviços no projeto **Tá Na Mesa** foi feita levando em conta a abordagem de sub-domínios, técnica que leva em conta o ponto de vista de negócio para estabelecer a distribução de responsabilidades entre os serviços.
+A arquitetura monolítica é uma abordagem que constrói a aplicação integrada em um único bloco. Este bloco possui um Back-End, que é responsável por executar suas próprias regras de negócio e se comunicar por meio de métodos HTTP, e possui um Front-End responsável pelas interfaces da aplicaçãoda aplicação **Tá Na Mesa**.
 
-A API Gateway é um padrão de projeto voltado para microsserviços muito utilizado, mas não obrigatória. Nós vamos utilizar ela para ter um único ponto de entrada no Back-End do software, assim será fornecido uma API personalizada pro cliente, com mais um nível de segurança na camada que lida com o banco de dados e que cuidará da autenticação dos usuários.
-
-Dentro de cada serviço usaremos a API RESTful, que é uma arquitetura baseada em **protocolo HTTP** (Comunicação Web). REST é um tipo de arquitetura e comunicação muito utilizado para os serviços Web.
+Dentro do Back-End usaremos a API RESTful, que é uma arquitetura baseada em **protocolo HTTP** (Comunicação Web). REST é um tipo de arquitetura e comunicação muito utilizado para os serviços Web.
 
 No software descrito nessa Wiki possui os seguintes módulos:
 
 - **Order**, responsável por toda interação com os pedidos dos clientes.
-- **Menu**, responsável por toda criação de produtos e separação por categorias.
+- **Item**, responsável por toda criação de produtos e separação por categorias.
 - **Auth**, responsável por todo sistema de autenticação dos usuários no sistema.
 - **Employee**, responsável por toda interação dos garçons no sistema, como serem chamados por alguma mesa.
 - **Table**, responsável por toda interação com as mesas do estabelecimento.
-- **Gateway**, responsável por intermediar a comunicação entre o Front-End e o Back-End.
+- **Contain**, responsável por toda relação dos clientes com os itens do pedido.
 
 ---
 
@@ -73,7 +73,7 @@ O PWA (Progressive Web App), que será usado no Front-end da aplicação possui 
 
 ### 2.4 Diagrama de Contexto
 
-[ ![Arquitetura](../../assets/img/seminario2/arquitetura/arquitetura.png) ](../../assets/img/seminario2/arquitetura/arquitetura.png)
+[ ![Arquitetura](../../assets/img/DAS.png) ](../../assets/img/DAS.png)
 
 <figcaption>Figura 1. Resultado do diagrama de contexto.</figcaption>
 
@@ -140,3 +140,4 @@ O PWA (Progressive Web App), que será usado no Front-end da aplicação possui 
 | 20/09/2021 | 2.4    | Adicionando nova motivação arquitetural                | [Lucas Boaventura](https://github.com/lboaventura25) |
 | 20/09/2021 | 3.0    | Adicionando referências de acordo com o documento                                       | [Lucas Boaventura](https://github.com/lboaventura25) |
 | 20/09/2021 | 3.1    | Revisão do documento                                   | [Herick Portugues](https://github.com/herickport), [Tiago Samuel](https://github.com/tsrrodrigues), [Sergio Cipriano](https://github.com/sergiosacj) |
+| 14/10/2021 | 4.0    | Adiciona versão final do DAS                                   | [Lucas Boaventura](https://github.com/lboaventura25) |

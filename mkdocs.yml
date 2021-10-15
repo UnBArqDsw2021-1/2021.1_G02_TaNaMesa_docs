@@ -91,6 +91,9 @@ nav:
       - Padrões de Projeto Emergentes:
         - 3-Padroes-de-Projeto/Emergentes/Padroes-Adotados-no-Projeto.md
 
+  - DAS:
+    - 4-DAS/DAS.md
+
   - Sprints:
     - Sprint 01:
       - Sprints/Sprint-01/Planning-01.md
