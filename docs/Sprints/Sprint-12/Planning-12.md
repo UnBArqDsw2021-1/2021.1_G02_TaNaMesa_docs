@@ -37,7 +37,7 @@
 |  História  | Responsáveis  | pontuação | 
 | :--------  | :-----------  | :-------: |
 | [#51 Ajustes no front](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/51) | Emily  | 2 |
-| Transformar front em PWA | Lucas | 5 |
+| [#53 Transformar front em PWA](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/53) | Lucas | 5 |
 | [#50 Integrar botão de pedir conta com modal](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/50)  | Eduarda e Italo |     3     |
 | [#45 Integrar o modal de comanda](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/45) | Eduarda e Lucas | 5 |
 | [#35 Criação de tela do fluxo da cozinha](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/35)| Italo | 5 |
