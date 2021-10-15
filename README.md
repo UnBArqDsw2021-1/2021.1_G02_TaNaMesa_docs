@@ -77,21 +77,30 @@ Um sistema para que as pessoas possam chegar no restaurante fazer seus pedidos s
 ### [Padrões de Projeto Extras](https://www.youtube.com/watch?v=N_d7smK35tQ&ab_channel=DanielPrimo)
 
 ## Screenshots Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
-Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
+![Tela de Login](https://cdn.discordapp.com/attachments/866656685593460759/898693370526982194/Captura_de_tela_de_2021-10-15_19-04-54.png)
+![Tela inicial para clientes](https://cdn.discordapp.com/attachments/866656685593460759/898693377799888916/Captura_de_tela_de_2021-10-15_19-05-15.png)
+![Tela Menu - Categoria Hamburgueres](https://cdn.discordapp.com/attachments/866656685593460759/898693377523077190/Captura_de_tela_de_2021-10-15_19-05-21.png)
+![Modal para personalizar o item desejado](https://cdn.discordapp.com/attachments/866656685593460759/898693376784875570/Captura_de_tela_de_2021-10-15_19-05-25.png)
+![Tela de Visualização do Pedido](https://cdn.discordapp.com/attachments/866656685593460759/898693377233682432/Captura_de_tela_de_2021-10-15_19-05-47.png)
+![Tela de Visualização do Garçom sobre mesas que solicitaram ajuda](https://cdn.discordapp.com/attachments/866656685593460759/898695764178522133/Captura_de_tela_de_2021-10-15_19-12-28.png)
+![Tela Informativa pro garçom após ele informar que já auxiliou a mesa](https://cdn.discordapp.com/attachments/866656685593460759/898695767601086514/Captura_de_tela_de_2021-10-15_19-13-32.png)
+![Tela Inicial área de Cozinha](https://cdn.discordapp.com/attachments/866656685593460759/898695772890091570/Captura_de_tela_de_2021-10-15_19-14-26.png)
+![Tela para atualização do status do pedido na cozinha](https://cdn.discordapp.com/attachments/866656685593460759/898695772168683540/Captura_de_tela_de_2021-10-15_19-14-30.png)
+![Tela para visualização dos itens no pedido para a cozinha](https://cdn.discordapp.com/attachments/866656685593460759/898695778741145601/Captura_de_tela_de_2021-10-15_19-14-57.png)
+
 
 ## Vídeo(s) Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
-Adicione o(s)s vídeo(s) da Entrega Final.
+### [Módulo Estilos e Padrões Arquiteturais](https://youtu.be/Bt7MWPEaAYk)
+
+### [Módulo Reutilização de Software](https://www.youtube.com/watch?v=a5faVKHbb2c)
 
 ## Descritivo dos Principais Aspectos Técnicos 
-**Principal(is) Metodologia(s) Adotada(s)**: xxxxxx<br>
-**Principais Linguagens Utilizadas e/ou Pretendidas**: xxxxxx<br>
-**Principais Tecnologias Utilizadas e/ou Pretendidas**: xxxxxx<br>
-**Principal(is) Estilo(s) Arquitetural(is) Adotado(s)**: xxxxxx<br>
+**Principal(is) Metodologia(s) Adotada(s)**: Scrum<br>
+**Principais Linguagens Utilizadas e/ou Pretendidas**: Javascript/Typescript<br>
+**Principais Tecnologias Utilizadas e/ou Pretendidas**: ReactJS, node.JS e PostgreSQL<br>
+**Principal(is) Estilo(s) Arquitetural(is) Adotado(s)**: Monilítico/Microsserviços<br>
 
 ## O Projeto está rodando?
-( ) SIM
+(x) SIM
 ( ) NÃO
-Se SIM, insira um manual (ou um script) para auxiliar ainda mais os interessados em consultar o projeto.
 
-## Informações Complementares 
-Quaisquer outras informações sobre seu projeto podem ser descritas nessa seção.
