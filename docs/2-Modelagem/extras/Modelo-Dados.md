@@ -15,53 +15,45 @@ o Dicionário de Dados, descrevendo as entidades e os atributos do nosso modelo.
 
 ## 2.1 Notação
 
-| **Nomenclatura** | **Descrição** |
-|:--:|:--:|
-|Entidades|nome em maiúsculo|
-|Chave primária|começa e termina com o caracter '\_'(underline)|
-|Atributo multivalorado|escrito entre chaves|
-|Atributo composto|atributos precisam estar entre parêntese|
-|Atributo obrigatório|Sinônimo de NOT NULL|
+|    **Nomenclatura**    |                  **Descrição**                  |
+| :--------------------: | :---------------------------------------------: |
+|       Entidades        |                name em maiúsculo                |
+|     Chave primária     | começa e termina com o caracter '\_'(underline) |
+| Atributo multivalorado |              escrito entre chaves               |
+|   Atributo composto    |    atributos precisam estar entre parêntese     |
+|  Atributo obrigatório  |              Sinônimo de NOT NULL               |
 
 ## 3. Modelo Entidade-Relacionamento (ME-R)
 
 ### 3.1 Descrevendo as Entidades
 
 ```
-FUNCIONARIO
-CLIENTE
-COMANDA
+EMPLOYEE
+CLIENT
+ORDER
 ITEM
-MESA
+TABLE
 ```
 
 ### 3.2 Descrevendo os Atributos
 
 ```
-FUNCIONARIO(_cpf_, nome, ocupacao)
-CLIENTE(_idCliente_, _nome_)
-COMANDA(_idComanda_, status, data, idMesa, idCliente, nomeCliente)
-ITEM(_idItem_, nome, preco, desconto, descricao, observacao, categoria, cpfGerente)
-MESA(_idMesa_, cpfGarcom)
+EMPLOYEE(_cpf_, name, occupation, password)
+CLIENT(_idClient_, _name_)
+ORDER(_idOrder_, status, date, idTable, idClient, nameClient)
+ITEM(_idItem_, name, price, discount, image, description, notes, category)
+TABLE(_idTable_, cpfWaiter, needHelp, password)
 ```
 
 ### 3.3 Descrevendo os Relacionamentos
 
-| **Entidade A** | **Relação (A com B)** | **Entidade B** | **Descrição** | **Cardinalidade**|
-|:--:|:--:|:--:|:--:|:--:|
-| COMANDA | pertence | CLIENTE | Um ou vários CLIENTE possuem uma ou várias COMANDA com um ou vários itens | n:1 |
-| COMANDA | contem | ITEM | Um COMANDA pode conter um ou mais ITEM e um ITEM pode estar contido em um ou mais COMANDA diferentes | n:m |
-| FUNCIONARIO | atende | MESA | Um FUNCIONARIO atende uma ou várias MESA, mas uma mesa pode ser atendida por apenas um FUNCIONARIO | 1:n |
-| MESA | possui | COMANDA | Uma mesa possui um ou vários COMANDA, enquanto um COMANDA precisa associado à apenas uma MESA | 1:n |
-| FUNCIONARIO | gerencia | ITEM | Um FUNCIONARIO pode adicionar ou remover um ou vários ITEM e um ITEM pode ser gerenciado por apenas uma ocupacao de FUNCIONARIO | 1:n |
-
-### 3.4 Descrevendo usuários
-
-| **Usuário** | **Descrição** | **Permissões** | **Tabela** |
-|:--:|:--:|:--:|:--:|
-| COZINHA | Pode visualizar e atualizar o status dos comandas | SELECT, UPDATE | COMANDA |
-| GARCOM  | Pode visualizar e atualizar o status dos comandas | SELECT, UPDATE | COMANDA |
-| GERENTE | Pode visualizar e editar todas as tabelas da base de dados | * | * |
+| **Entidade A** | **Relação (A com B)** | **Entidade B** |                                                        **Descrição**                                                        | **Cardinalidade** |
+| :------------: | :-------------------: | :------------: | :-------------------------------------------------------------------------------------------------------------------------: | :---------------: |
+|     ORDER      |         from          |     CLIENT     |                           Um ou vários CLIENT possuem uma ou várias ORDER com um ou vários itens                            |        n:1        |
+|     ORDER      |        contain        |      ITEM      |              Um ORDER pode conter um ou mais ITEM e um ITEM pode estar contido em um ou mais ORDER diferentes               |        n:m        |
+|    EMPLOYEE    |         meets         |     TABLE      |                Um EMPLOYEE atende uma ou várias TABLE, mas uma mesa pode ser atendida por apenas um EMPLOYEE                |        1:n        |
+|     TABLE      |          has          |     ORDER      |                 Uma mesa possui um ou vários ORDER, enquanto um ORDER precisa associado à apenas uma TABLE                  |        1:n        |
+|    EMPLOYEE    |        manage         |      ITEM      | Um EMPLOYEE pode adicionar ou remover um ou vários ITEM e um ITEM pode ser gerenciado por apenas uma occupation de EMPLOYEE |        1:n        |
 
 ## 4. Diagrama Entidade-Relacionamento (DE-R)
 
@@ -73,61 +65,67 @@ MESA(_idMesa_, cpfGarcom)
 
 ## 6. Dicionário de Dados
 
-Entidade: **FUNCIONARIO**
+Entidade: **EMPLOYEE**
 
-| Atributo | Propriedade do aributo | Tipo de Dado | Tamanho | Descrição |
-| :-: | :-: | :-: | :-: | :-: |
-| cpf | Chave Primária | bigint | 11 | Identificador de cada funcionário |
-| nome | Obrigatório | varchar | 50 | Nome completo de cada funcionário |
-| ocupacao | Obrigatório | enum('gerente','cozinha', 'garcom') | 10 | Representa a atuação do funcionário dentro do restaurante |
+|  Atributo  | Propriedade do aributo |            Tipo de Dado             |                         Descrição                         |
+| :--------: | :--------------------: | :---------------------------------: | :-------------------------------------------------------: |
+|    cpf     |     Chave Primária     |               number                |             Identificador de cada funcionário             |
+|    name    |      Obrigatório       |               string                |             Nome completo de cada funcionário             |
+| occupation |      Obrigatório       | enum('gerente','cozinha', 'garcom') | Representa a atuação do funcionário dentro do restaurante |
+|  password  |      Obrigatório       |               string                |          Senha para autenticação do funcionário           |
 
-Entidade: **CLIENTE**
+Entidade: **CLIENT**
 
-| Atributo | Propriedade do aributo | Tipo de Dado | Tamanho | Descrição |
-| :-: | :-: | :-: | :-: | :-: |
-| idCliente | Chave Primária | int | - | Chave identificadora do cliente, é gerada automaticamente pelo banco |
-| nome | Chave Primária | varchar | 50 | Nome fornecido pelo cliente para constar na comanda individual |
-| idComanda | Chave Estrangeira | int | - | Chave identificadora de cada comanda individual realizado por uma mesa |
+| Atributo | Propriedade do aributo | Tipo de Dado |                              Descrição                               |
+| :------: | :--------------------: | :----------: | :------------------------------------------------------------------: |
+| idClient |     Chave Primária     |    number    | Chave identificadora do cliente, é gerada automaticamente pelo banco |
+|   name   |     Chave Primária     |    string    |    Nome fornecido pelo cliente para constar na comanda individual    |
 
-Entidade: **COMANDA**
+Entidade: **ORDER**
 
-| Atributo | Propriedade do aributo | Tipo de Dado | Tamanho | Descrição |
-| :-: | :-: | :-: | :-: | :-: |
-| idComanda | Chave Primária | int | - | Chave identificadora de cada comanda individual realizado por uma mesa |
-| status | Obrigatório | enum('na fila','na cozinha','preparado','na mesa')| 10 | Situação do comanda após ser efetuado pelo cliente |
-| idMesa | Chave Estrangeira | int | - | Chave identificadora de cada mesa disbonivel para uso dos clientes |
+|  Atributo  | Propriedade do aributo |                    Tipo de Dado                    |                               Descrição                                |
+| :--------: | :--------------------: | :------------------------------------------------: | :--------------------------------------------------------------------: |
+|  idOrder   |     Chave Primária     |                       number                       | Chave identificadora de cada comanda individual realizado por uma mesa |
+|   status   |      Obrigatório       | enum('na fila','na cozinha','preparado','na mesa') |           Situação do comanda após ser efetuado pelo cliente           |
+|  idTable   |   Chave Estrangeira    |                       number                       |   Chave identificadora de cada mesa disponível para uso dos clientes   |
+|  idClient  |   Chave Estrangeira    |                       number                       |         Chave identificadora do cliente que realizou o pedido          |
+| nameClient |   Chave Estrangeira    |                       string                       |    Chave identificadora com o nome do cliente que realizou o pedido    |
+|    date    |      Obrigatório       |                        Date                        |                     Data em que o pedido foi feito                     |
 
 Entidade: **ITEM**
 
-| Atributo | Propriedade do aributo | Tipo de Dado | Tamanho | Descrição |
-| :-: | :-: | :-: | :-: | :-: |
-| idItem | Chave Primária | int | - | Chave identificadora de cada item disponível para comandas no cardápio|
-| nome | Obrigatório | varchar | 50 | Nome do item fornecido pelo gerente no momento do cadastro |
-| preco | Obrigatório | float | (4,2) | Preço individual do item sem incluir qualquer desconto |
-| desconto | Opcional | int | 2 | Desconto que pode ser aplicado ao item em caso de promoção (sempre em porcentagem) |
-| descricao | Obrigatório | varchar | 100 | Descrição do item contendo todos os ingredientes presentes em sua composição |
-| observacao | Opcional | varchar | 100 | Observação manual que pode ser feita pelos clientes caso queiram retirar algum ingrediente do item |
-| categoria | Obrigatório | enum('hamburgueres','petiscos',<br />'molhos adicionais',<br />'saladas','bebidas','sobremesas')| 20 | Grupo no qual os itens disponíveis são divididos |
-| cpfGerente | Chave Estrangeira | bigint | 11 | Chave identificadora do gerente do estabelecimento, responsável pela criação e edição dos itens |
+|  Atributo   | Propriedade do aributo |                                           Tipo de Dado                                           |                                             Descrição                                              |
+| :---------: | :--------------------: | :----------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: |
+|   idItem    |     Chave Primária     |                                              number                                              |               Chave identificadora de cada item disponível para comandas no cardápio               |
+|    name     |        Opcional        |                                              string                                              |                     Nome do item fornecido pelo gerente no momento do cadastro                     |
+|    price    |        Opcional        |                                              number                                              |                       Preço individual do item sem incluir qualquer discount                       |
+|  discount   |        Opcional        |                                              number                                              |         Desconto que pode ser aplicado ao item em caso de promoção (sempre em porcentagem)         |
+|    image    |        Opcional        |                                              string                                              |                                           Imagem do item                                           |
+| description |        Opcional        |                                              string                                              |            Descrição do item contendo todos os ingredientes presentes em sua composição            |
+|    notes    |        Opcional        |                                              string                                              | Observação manual que pode ser feita pelos clientes caso queiram retirar algum ingrediente do item |
+|  category   |      Obrigatório       | enum('hamburgueres','petiscos',<br />'molhos adicionais',<br />'saladas','bebidas','sobremesas') |                          Grupo no qual os itens disponíveis são divididos                          |
 
-Entidade: **MESA**
+Entidade: **TABLE**
 
-| Atributo | Propriedade do aributo | Tipo de Dado | Tamanho | Descrição |
-| :-: | :-: | :-: | :-: | :-: |
-| idMesa | Chave Primária | int | - | Chave identificadora de cada mesa disbonivel para uso dos clientes |
-| cpfGarcom | Chave Estrangeira | bigint | 11 | Chave identificadora do garçom responsável pelo atendimento da mesa |
-
+| Atributo  | Propriedade do aributo | Tipo de Dado |                              Descrição                              |
+| :-------: | :--------------------: | :----------: | :-----------------------------------------------------------------: |
+|  idTable  |     Chave Primária     |    number    | Chave identificadora de cada mesa disponível para uso dos clientes  |
+| cpfWaiter |   Chave Estrangeira    |    string    | Chave identificadora do garçom responsável pelo atendimento da mesa |
+| needHelp  |      Obrigatório       |   boolean    |                Ferramenta para cliente chamar garçom                |
+| password  |      Obrigatório       |    string    |                   Senha para autenticação da mesa                   |
 
 ## Histórico de Revisões
 
-| Data | Versão | Descrição | Autor(es) |
-| :-: | :-: | :-: | :-: |
-| 12/08/2020 | 1.0 | Criação do documento com a Introdução e a Metodologia | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
-| 12/08/2020 | 1.1 | Adição de tópico sobre as notações                    | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
-| 13/08/2020 | 1.2 | Criação do ME-R                                       | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
-| 14/08/2020 | 1.3 | Criação do dicionário de dados                        | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
-| 14/08/2020 | 1.4 | Criação do DE-R                                       | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
-| 15/08/2020 | 1.5 | Adicionando novo atributo data para comanda           | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
-| 15/08/2020 | 1.5 | Corrigindo relacionamento entre COMANDA e CLIENTE     | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
-| 15/08/2020 | 1.6 | Atualizando imagens do DE-R e DLD                     | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
-
+|    Data    | Versão |                       Descrição                       |                                              Autor(es)                                              |
+| :--------: | :----: | :---------------------------------------------------: | :-------------------------------------------------------------------------------------------------: |
+| 12/08/2021 |  1.0   | Criação do documento com a Introdução e a Metodologia | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
+| 12/08/2021 |  1.1   |          Adição de tópico sobre as notações           | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
+| 13/08/2021 |  1.2   |                    Criação do ME-R                    | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
+| 14/08/2021 |  1.3   |            Criação do dicionário de dados             | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
+| 14/08/2021 |  1.4   |                    Criação do DE-R                    | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
+| 15/08/2021 |  1.5   |      Adicionando novo atributo date para comanda      | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
+| 15/08/2021 |  1.5   |    Corrigindo relacionamento entre ORDER e CLIENT     | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
+| 15/08/2021 |  1.6   |           Atualizando imagens do DE-R e DLD           | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
+| 14/10/2021 |  1.7   |    Colocando todos os nomes da modelagem em inglês    | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
+| 14/10/2021 |  1.8   |  Atualizando modelagem com mudanças de implementação  | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
+| 14/10/2021 |  1.9   |          Removendo usuários (não utilizados)          | [Sergio Cipriano](https://github.com/sergiosacj), [Brenda Santos](https://github.com/brendavsantos) |
