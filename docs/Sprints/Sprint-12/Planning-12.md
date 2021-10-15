@@ -41,7 +41,7 @@
 | [#50 Integrar botão de pedir conta com modal](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/50)  | Eduarda e Italo |     3     |
 | [#45 Integrar o modal de comanda](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/45) | Eduarda e Lucas | 5 |
 | [#35 Criação de tela do fluxo da cozinha](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/35)| Italo | 5 |
-| [#16 Modal de pedido](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/16) | Herick | 5 |
+| [#57 Integração tela de pedido](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Frontend/issues/57) | Herick | 5 |
 
 ### 3.3 Repositório [Order-service](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_Order_Service)
 |     História     |  Responsáveis   | pontuação | 
