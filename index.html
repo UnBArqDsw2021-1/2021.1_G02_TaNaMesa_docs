@@ -1,0 +1,198 @@
+<!DOCTYPE HTML>
+<html lang="pt">
+
+<head>
+  <meta charset=”UTF-8”>
+  <title></title>
+  <link rel="stylesheet" href="./assets/css/landing-page.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./favicon.ico" />
+</head>
+
+<script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+<script> 
+
+$(window).scroll(function(){
+  $(".logo").css("width", (25 + $(window).scrollTop() / 250) + "vw" );
+
+  if($(window).scrollTop() < 700) {
+    $(".landing-section").css("opacity", 1 - $(window).scrollTop() / 1000);
+  }
+});
+
+</script>
+
+<body>
+  <div class="landing-section">
+    <img class="logo" src="./assets/img/logo-contorno.png">
+  </div>
+  <div class="container">
+    <div class="section">
+      <p class="presentation">
+        Uma aplica&ccedil;&atilde;o para facilitar a vida de restaurantes e clientes
+      </p>
+      <p class="presentation">
+        Da mesa pra cozinha e da cozinha pra mesa.
+      </p>
+      <section class="buttons-container">
+        <div class="card">
+          <a class="link-handler" href="./1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Design-Sprint">
+            <img class="imgs" src="./assets/img/doc.svg" />
+            <h2>Documentac&atilde;o</h2>
+          </a>
+        </div>
+        <div class="card">
+          <a class="link-handler" href="https://github.com/orgs/UnBArqDsw2021-1/teams/grupo-02-ta-na-mesa/repositories">
+            <img class="imgs" src="./assets/img/github.svg">
+            <h2>Reposit&oacute;rios</h2>
+          </a>
+        </div>
+      </section>
+    </div>
+    <div class="section2">
+      <h1>Colaboradores</h1>
+      <div class="pictures">
+
+        <a href="https://github.com/abner423">
+          <div class="round-card">
+            <img class="member-photo" src="./assets/img/abner.jpeg">
+            <div class="overlay">
+              <div class="text">
+                Abner Filipe
+                <hr class="line">
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://github.com/brendavsantos">
+          <div class="round-card">
+            <img class="member-photo" src="./assets/img/brenda.jpeg">
+            <div class="overlay">
+              <div class="text">
+                Brenda Santos
+                <hr class="line">
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://github.com/danieldagerom">
+          <div class="round-card">
+            <img class="member-photo" src="./assets/img/daniel.jpeg">
+            <div class="overlay">
+              <div class="text">
+                Daniel Primo
+                <hr class="line">
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://github.com/ServidioEC">
+          <div class="round-card">
+            <img class="member-photo" src="./assets/img/eduarda.jpeg">
+            <div class="overlay">
+              <div class="text">
+                Eduarda Serv&iacute;dio
+                <hr class="line">
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://github.com/emysdias">
+          <div class="round-card">
+            <img class="member-photo" src="./assets/img/emily.jpeg">
+            <div class="overlay">
+              <div class="text">
+                Emily Dias
+                <hr class="line">
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://github.com/herickport">
+          <div class="round-card">
+            <img class="member-photo" src="./assets/img/herick.jpeg">
+            <div class="overlay">
+              <div class="text">
+                H&eacute;rick Portugues
+                <hr class="line">
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://github.com/alvesitalo">
+          <div class="round-card">
+            <img class="member-photo" src="./assets/img/italo.jpeg">
+            <div class="overlay">
+              <div class="text">
+                &lacute;talo Alves
+                <hr class="line">
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://github.com/lboaventura25">
+          <div class="round-card">
+            <img class="member-photo" src="./assets/img/lucas.jpeg">
+            <div class="overlay">
+              <div class="text">
+                Lucas Boaventura
+                <hr class="line">
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://github.com/sergiosacj">
+          <div class="round-card">
+            <img class="member-photo" src="./assets/img/sergio.jpeg">
+            <div class="overlay">
+              <div class="text">
+                Sergio Cipriano
+                <hr class="line">
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://github.com/tsrrodrigues">
+          <div class="round-card">
+            <img class="member-photo" src="./assets/img/tiago.jpeg">
+            <div class="overlay">
+              <div class="text">
+                Tiago Rodrigues
+                <hr class="line">
+              </div>
+            </div>
+          </div>
+        </a>
+
+      </div>
+
+    </div>
+  </div>
+  <div class="footer">
+  </div>
+</body>
+
+</html>
+
+<!-- ## Alunos
+|Matrícula    | Aluno                              | GitHub                                                     |
+| ----------  | ---------------------------------- | ---------------------------------------------------------- |
+| 19/0041871  | Abner Filipe Cunha Ribeiro         | [@abner423](https://github.com/daniso123)                  |
+| 18/0041444  | Brenda Vitória dos Santos          | [@brendavsantos](https://github.com/brendavsantos)         |
+| 18/0063162  | Daniel Primo de Melo               | [@danieldagerom](https://github.com/danieldagerom)         |
+| 17/0161897  | Eduarda Servidio Claudino          | [@ServidioEC](https://github.com/ServidioEC)               |
+| 18/0015966  | Emily Dias Sousa                   | [@emysdias](https://github.com/emysdias)                   |
+| 18/0033034  | Hérick Ferreira de Souza Portugues | [@herickport](https://github.com/herickport)               |
+| 18/0113666  | Ítalo Alves Guimarães              | [@alvesitalo](https://github.com/alvesitalo)               |
+| 18/0114093  | Lucas Ursulino Boaventura          | [@lboaventura25](https://github.com/lboaventura25)         |
+| 18/0037439  | Sergio de Almeida Cipriano Júnior  | [@sergiosacj](https://github.com/sergiosacj)               |
+| 18/0114689  | Tiago Samuel Rodrigues             | [@tsrrodrigues](https://github.com/tsrrodrigues)           | -->

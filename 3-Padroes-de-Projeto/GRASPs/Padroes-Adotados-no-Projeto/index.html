@@ -1,0 +1,3292 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Repositório da documentação da aplicação Tá Na Mesa desenvolvido na disciplina de Desenho e Arquitetura de Software">
+      
+      
+      
+      
+      <link rel="icon" href="../../../assets/img/logo-dagua.png">
+      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.3.3">
+    
+    
+      
+        <title>Padrões de Projeto GRASP Adotados no Projeto - Tá Na Mesa</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.5143246d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.3f5d1f46.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#ef5552">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../../assets/css/extra.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/landing-page.css">
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="red" data-md-color-accent="">
+  
+    
+    <script>function __prefix(e){return new URL("../../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#padroes-de-projeto-grasp-adotados-no-projeto" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Tá Na Mesa" class="md-header__button md-logo" aria-label="Tá Na Mesa" data-md-component="logo">
+      
+  <img src="../../../assets/img/logo-dagua.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Tá Na Mesa
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Padrões de Projeto GRASP Adotados no Projeto
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        
+<a href="https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Design-Sprint/" class="md-tabs__link">
+        Base
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../2-Modelagem/Diagramas-Estaticos/diagrama-de-classes/" class="md-tabs__link">
+        Modelagem
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="./" class="md-tabs__link md-tabs__link--active">
+        Padrões de Projeto
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../4-DAS/DAS/" class="md-tabs__link">
+        DAS e Reutilização
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../Sprints/Sprint-01/Planning-01/" class="md-tabs__link">
+        Sprints
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../Apresentacoes/entrega-1/" class="md-tabs__link">
+        Apresentações
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Tá Na Mesa" class="md-nav__button md-logo" aria-label="Tá Na Mesa" data-md-component="logo">
+      
+  <img src="../../../assets/img/logo-dagua.png" alt="logo">
+
+    </a>
+    Tá Na Mesa
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1">
+          Base
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Base" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Base
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1" type="checkbox" id="__nav_1_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1_1">
+          Projeto Não Orientado a Abordagens Específicas
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Projeto Não Orientado a Abordagens Específicas" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Projeto Não Orientado a Abordagens Específicas
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Design-Sprint/" class="md-nav__link">
+        Design Sprint
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Rich-Picture/" class="md-nav__link">
+        Rich Pictures
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Mapa-Mental/" class="md-nav__link">
+        Mapa mental
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Ishikawa/" class="md-nav__link">
+        Diagrama de Ishikawa
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Lexicos/" class="md-nav__link">
+        Léxicos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/5W2H/" class="md-nav__link">
+        5W2H
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Plano-Riscos/" class="md-nav__link">
+        Plano de Gerenciamento de Risco
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Prototipo-Baixa-Fidelidade/" class="md-nav__link">
+        Protótipo de baixa fidelidade
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1_9" type="checkbox" id="__nav_1_1_9" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1_1_9">
+          Técnicas de Elicitação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Técnicas de Elicitação" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_1_9">
+          <span class="md-nav__icon md-icon"></span>
+          Técnicas de Elicitação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Tecnicas-Elicitacao/Brainstorming/" class="md-nav__link">
+        Brainstorming
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Tecnicas-Elicitacao/Benchmarking/" class="md-nav__link">
+        Estudo de Benchmarking
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Tecnicas-Elicitacao/Introspeccao/" class="md-nav__link">
+        Introspecção
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Tecnicas-Elicitacao/Storytelling/" class="md-nav__link">
+        Storytelling
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Tecnicas-Elicitacao/Questionario/" class="md-nav__link">
+        Questionário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Tecnicas-Elicitacao/NFR-Framework/" class="md-nav__link">
+        NFR Framework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1_9_7" type="checkbox" id="__nav_1_1_9_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1_1_9_7">
+          Entrevistas
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Entrevistas" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_1_9_7">
+          <span class="md-nav__icon md-icon"></span>
+          Entrevistas
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Tecnicas-Elicitacao/Entrevistas/Roteiro-Entrevista/" class="md-nav__link">
+        Roteiro da Entrevista
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Tecnicas-Elicitacao/Entrevistas/Entrevista-1/" class="md-nav__link">
+        Entrevista 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Tecnicas-Elicitacao/Entrevistas/Entrevista-2/" class="md-nav__link">
+        Entrevista 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Tecnicas-Elicitacao/Entrevistas/Entrevista-3/" class="md-nav__link">
+        Entrevista 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Tecnicas-Elicitacao/Entrevistas/Entrevista-4/" class="md-nav__link">
+        Entrevista 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Tecnicas-Elicitacao/Entrevistas/Entrevista-5/" class="md-nav__link">
+        Entrevista 5
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Priorizacao-MOSCOW/" class="md-nav__link">
+        Priorização
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_2" type="checkbox" id="__nav_1_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1_2">
+          Processos / Metodologias / Abordagens
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Processos / Metodologias / Abordagens" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Processos / Metodologias / Abordagens
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1-Base/Processos-Metodologias-Abordagens/Metodologia/" class="md-nav__link">
+        Metodologia do Projeto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1-Base/Processos-Metodologias-Abordagens/Modelagem-BPMN/" class="md-nav__link">
+        Modelagem BPMN
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3" type="checkbox" id="__nav_1_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1_3">
+          Extras
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Extras" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_3">
+          <span class="md-nav__icon md-icon"></span>
+          Extras
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1-Base/extras/TAP/" class="md-nav__link">
+        Termo de abertura do projeto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1-Base/extras/Identidade-Visual/" class="md-nav__link">
+        Identidade Visual
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1-Base/extras/Politica-Contribuicao/" class="md-nav__link">
+        Política de Contribuição
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1-Base/extras/Personas/" class="md-nav__link">
+        Personas
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Modelagem
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Modelagem" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Modelagem
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1">
+          Notação UML - Diagramas Estáticos
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Notação UML - Diagramas Estáticos" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Notação UML - Diagramas Estáticos
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../2-Modelagem/Diagramas-Estaticos/diagrama-de-classes/" class="md-nav__link">
+        Diagrama de Classes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../2-Modelagem/Diagramas-Estaticos/Diagrama-de-Pacotes/" class="md-nav__link">
+        Diagrama de Pacotes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../2-Modelagem/Diagramas-Estaticos/Diagrama-de-componentes/" class="md-nav__link">
+        Diagrama de Componentes
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          Notação UML - Diagramas Dinâmicos
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Notação UML - Diagramas Dinâmicos" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Notação UML - Diagramas Dinâmicos
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../2-Modelagem/Diagramas-Dinamicos/Diagrama-Sequencia/" class="md-nav__link">
+        Diagrama de Sequência
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../2-Modelagem/Diagramas-Dinamicos/Diagrama-de-atividade/" class="md-nav__link">
+        Diagrama de Atividades
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../2-Modelagem/Diagramas-Dinamicos/Diagrama-estado/" class="md-nav__link">
+        Diagramas de Estados
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../2-Modelagem/Diagramas-Dinamicos/Diagrama-comunicacao/" class="md-nav__link">
+        Diagrama de Comunicação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3">
+          Modelagem Ágil
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Modelagem Ágil" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Modelagem Ágil
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../2-Modelagem/Modelagem%20%C3%81gil/Backlog/" class="md-nav__link">
+        Backlog do Produto
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" type="checkbox" id="__nav_2_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_4">
+          Extras
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Extras" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          Extras
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../2-Modelagem/extras/Casos-de-Uso/" class="md-nav__link">
+        Casos de Uso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../2-Modelagem/extras/Modelo-Dados/" class="md-nav__link">
+        Modelagem de Dados
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../2-Modelagem/extras/arquitetura/" class="md-nav__link">
+        Descrição Arquitetural
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../2-Modelagem/extras/Prototipo-Alta-Fidelidade/" class="md-nav__link">
+        Protótipo de Alta Fidelidade
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Padrões de Projeto
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Padrões de Projeto" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Padrões de Projeto
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1">
+          GRASP(s)
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="GRASP(s)" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          GRASP(s)
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Padrões de Projeto GRASP Adotados no Projeto
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Padrões de Projeto GRASP Adotados no Projeto
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    1. Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-principios-e-padroes" class="md-nav__link">
+    2. Princípios e Padrões
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#21-criador" class="md-nav__link">
+    2.1. Criador
+  </a>
+  
+    <nav class="md-nav" aria-label="2.1. Criador">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#211-definicao" class="md-nav__link">
+    2.1.1. Definição
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#212-uso-no-projeto" class="md-nav__link">
+    2.1.2. Uso no Projeto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#22-especialista" class="md-nav__link">
+    2.2. Especialista
+  </a>
+  
+    <nav class="md-nav" aria-label="2.2. Especialista">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#221-definicao" class="md-nav__link">
+    2.2.1. Definição
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#222-uso-no-projeto" class="md-nav__link">
+    2.2.2. Uso no projeto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#23-controlador" class="md-nav__link">
+    2.3. Controlador
+  </a>
+  
+    <nav class="md-nav" aria-label="2.3. Controlador">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#231-definicao" class="md-nav__link">
+    2.3.1. Definição
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#232-uso-no-projeto" class="md-nav__link">
+    2.3.2. Uso no projeto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#24-alta-coesao" class="md-nav__link">
+    2.4. Alta Coesão
+  </a>
+  
+    <nav class="md-nav" aria-label="2.4. Alta Coesão">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#241-definicao" class="md-nav__link">
+    2.4.1. Definição
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#242-uso-no-projeto" class="md-nav__link">
+    2.4.2. Uso no projeto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#25-baixo-acoplamento" class="md-nav__link">
+    2.5. Baixo Acoplamento
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#251-definicao" class="md-nav__link">
+    2.5.1. Definição
+  </a>
+  
+    <nav class="md-nav" aria-label="2.5.1. Definição">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#252-uso-no-projeto" class="md-nav__link">
+    2.5.2. Uso no projeto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#26-variacoes-protegidas" class="md-nav__link">
+    2.6. Variações Protegidas
+  </a>
+  
+    <nav class="md-nav" aria-label="2.6. Variações Protegidas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#261-definicao" class="md-nav__link">
+    2.6.1. Definição
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#262-uso-no-projeto" class="md-nav__link">
+    2.6.2. Uso no projeto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#27-invencao-pura" class="md-nav__link">
+    2.7. Invenção Pura
+  </a>
+  
+    <nav class="md-nav" aria-label="2.7. Invenção Pura">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#271-definicao" class="md-nav__link">
+    2.7.1. Definição
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#272-uso-no-projeto" class="md-nav__link">
+    2.7.2. Uso no projeto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-referencias" class="md-nav__link">
+    3. Referências
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-revisoes" class="md-nav__link">
+    Histórico de Revisões
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Padroes-Nao-Adotados-no-Projeto/" class="md-nav__link">
+        Padrões de Projeto GRASPs Não Adotados no Projeto
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2">
+          GoF(s)
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="GoF(s)" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          GoF(s)
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_1" type="checkbox" id="__nav_3_2_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2_1">
+          Criacionais
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Criacionais" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Criacionais
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../GoFs/Criacionais/Padroes-Adotados-no-Projeto/" class="md-nav__link">
+        Padrões de Projeto GoFs Criacionais Adotados no Projeto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../GoFs/Criacionais/Padroes-Nao-Adotados-no-Projeto/" class="md-nav__link">
+        Padrões de Projeto GoFs Criacionais Não Adotados no Projeto
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_2" type="checkbox" id="__nav_3_2_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2_2">
+          Estruturais
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Estruturais" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Estruturais
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../GoFs/Estruturais/Padroes-Adotados-no-Projeto/" class="md-nav__link">
+        Padrões de Projeto GoFs Estruturais Adotados no Projeto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../GoFs/Estruturais/Padroes-Nao-Adotados-no-Projeto/" class="md-nav__link">
+        Padrões de Projeto GoFs Estruturais Não Adotados no Projeto
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_3" type="checkbox" id="__nav_3_2_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2_3">
+          Comportamentais
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Comportamentais" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Comportamentais
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../GoFs/Comportamentais/Padroes-Adotados-no-Projeto/" class="md-nav__link">
+        Padrões de Projeto GoFs Comportamentais Adotados no Projeto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../GoFs/Comportamentais/Padroes-Nao-Adotados-no-Projeto/" class="md-nav__link">
+        Padrões de Projeto GoFs Comportamentais Não Adotados no Projeto
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3" type="checkbox" id="__nav_3_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3">
+          Extras
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Extras" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          Extras
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_1" type="checkbox" id="__nav_3_3_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_1">
+          Padrões de Projeto Emergentes
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Padrões de Projeto Emergentes" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          Padrões de Projeto Emergentes
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Emergentes/Padroes-Adotados-no-Projeto/" class="md-nav__link">
+        Padrões de Projeto Emergentes Adotados no Projeto
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          DAS e Reutilização
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="DAS e Reutilização" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          DAS e Reutilização
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../4-DAS/DAS/" class="md-nav__link">
+        Documento de Arquitetura de Software
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Reutilizacao/Reutilizacao-de-software/" class="md-nav__link">
+        Reutilização de Software
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Sprints
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sprints" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Sprints
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_1" type="checkbox" id="__nav_5_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_1">
+          Sprint 01
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sprint 01" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_1">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 01
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Sprints/Sprint-01/Planning-01/" class="md-nav__link">
+        Planejamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Sprints/Sprint-01/Review-01/" class="md-nav__link">
+        Análise e Restrospectiva
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2" type="checkbox" id="__nav_5_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_2">
+          Sprint 02
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sprint 02" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_2">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 02
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Sprints/Sprint-02/Planning-02/" class="md-nav__link">
+        Planejamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Sprints/Sprint-02/Review-02/" class="md-nav__link">
+        Análise e Restrospectiva
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3" type="checkbox" id="__nav_5_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_3">
+          Sprint 03
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sprint 03" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_3">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 03
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Sprints/Sprint-03/Planning-03/" class="md-nav__link">
+        Planejamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Sprints/Sprint-03/Review-03/" class="md-nav__link">
+        Análise e Restrospectiva
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_4" type="checkbox" id="__nav_5_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_4">
+          Sprint 04
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sprint 04" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_4">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 04
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Sprints/Sprint-04/Planning-04/" class="md-nav__link">
+        Planejamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Sprints/Sprint-04/Review-04/" class="md-nav__link">
+        Análise e Restrospectiva
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_5" type="checkbox" id="__nav_5_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_5">
+          Sprint 05
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sprint 05" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_5">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 05
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Sprints/Sprint-05/Planning-05/" class="md-nav__link">
+        Planejamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Sprints/Sprint-05/Review-05/" class="md-nav__link">
+        Análise e Restrospectiva
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_6" type="checkbox" id="__nav_5_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_6">
+          Sprint 06
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sprint 06" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_6">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 06
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Sprints/Sprint-06/Planning-06/" class="md-nav__link">
+        Planejamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Sprints/Sprint-06/Review-06/" class="md-nav__link">
+        Análise e Restrospectiva
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_7" type="checkbox" id="__nav_5_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_7">
+          Sprint 07
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sprint 07" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_7">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 07
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Sprints/Sprint-07/Planning-07/" class="md-nav__link">
+        Planejamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Sprints/Sprint-07/Review-07/" class="md-nav__link">
+        Análise e Restrospectiva
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_8" type="checkbox" id="__nav_5_8" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_8">
+          Sprint 08
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sprint 08" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_8">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 08
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Sprints/Sprint-08/Planning-08/" class="md-nav__link">
+        Planejamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Sprints/Sprint-08/Review-08/" class="md-nav__link">
+        Análise e Restrospectiva
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_9" type="checkbox" id="__nav_5_9" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_9">
+          Sprint 09
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sprint 09" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_9">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 09
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Sprints/Sprint-09/Planning-09/" class="md-nav__link">
+        Planejamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Sprints/Sprint-09/Review-09/" class="md-nav__link">
+        Análise e Restrospectiva
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_10" type="checkbox" id="__nav_5_10" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_10">
+          Sprint 10
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sprint 10" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_10">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 10
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Sprints/Sprint-10/Planning-10/" class="md-nav__link">
+        Planejamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Sprints/Sprint-10/Review-10/" class="md-nav__link">
+        Análise e Restrospectiva
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_11" type="checkbox" id="__nav_5_11" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_11">
+          Sprint 11
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sprint 11" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_11">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 11
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Sprints/Sprint-11/Planning-11/" class="md-nav__link">
+        Planejamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Sprints/Sprint-11/Review-11/" class="md-nav__link">
+        Análise e Restrospectiva
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_12" type="checkbox" id="__nav_5_12" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_12">
+          Sprint 12
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sprint 12" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_12">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 12
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Sprints/Sprint-12/Planning-12/" class="md-nav__link">
+        Planejamento
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          Apresentações
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Apresentações" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Apresentações
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Apresentacoes/entrega-1/" class="md-nav__link">
+        Base
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Apresentacoes/entrega-2/" class="md-nav__link">
+        Modelagem
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Apresentacoes/entrega-3/" class="md-nav__link">
+        Padrões de Projeto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Apresentacoes/entrega-final/" class="md-nav__link">
+        Arquitetura de Software & Reutilização
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    1. Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-principios-e-padroes" class="md-nav__link">
+    2. Princípios e Padrões
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#21-criador" class="md-nav__link">
+    2.1. Criador
+  </a>
+  
+    <nav class="md-nav" aria-label="2.1. Criador">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#211-definicao" class="md-nav__link">
+    2.1.1. Definição
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#212-uso-no-projeto" class="md-nav__link">
+    2.1.2. Uso no Projeto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#22-especialista" class="md-nav__link">
+    2.2. Especialista
+  </a>
+  
+    <nav class="md-nav" aria-label="2.2. Especialista">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#221-definicao" class="md-nav__link">
+    2.2.1. Definição
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#222-uso-no-projeto" class="md-nav__link">
+    2.2.2. Uso no projeto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#23-controlador" class="md-nav__link">
+    2.3. Controlador
+  </a>
+  
+    <nav class="md-nav" aria-label="2.3. Controlador">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#231-definicao" class="md-nav__link">
+    2.3.1. Definição
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#232-uso-no-projeto" class="md-nav__link">
+    2.3.2. Uso no projeto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#24-alta-coesao" class="md-nav__link">
+    2.4. Alta Coesão
+  </a>
+  
+    <nav class="md-nav" aria-label="2.4. Alta Coesão">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#241-definicao" class="md-nav__link">
+    2.4.1. Definição
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#242-uso-no-projeto" class="md-nav__link">
+    2.4.2. Uso no projeto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#25-baixo-acoplamento" class="md-nav__link">
+    2.5. Baixo Acoplamento
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#251-definicao" class="md-nav__link">
+    2.5.1. Definição
+  </a>
+  
+    <nav class="md-nav" aria-label="2.5.1. Definição">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#252-uso-no-projeto" class="md-nav__link">
+    2.5.2. Uso no projeto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#26-variacoes-protegidas" class="md-nav__link">
+    2.6. Variações Protegidas
+  </a>
+  
+    <nav class="md-nav" aria-label="2.6. Variações Protegidas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#261-definicao" class="md-nav__link">
+    2.6.1. Definição
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#262-uso-no-projeto" class="md-nav__link">
+    2.6.2. Uso no projeto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#27-invencao-pura" class="md-nav__link">
+    2.7. Invenção Pura
+  </a>
+  
+    <nav class="md-nav" aria-label="2.7. Invenção Pura">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#271-definicao" class="md-nav__link">
+    2.7.1. Definição
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#272-uso-no-projeto" class="md-nav__link">
+    2.7.2. Uso no projeto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-referencias" class="md-nav__link">
+    3. Referências
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-revisoes" class="md-nav__link">
+    Histórico de Revisões
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/edit/master/docs/3-Padroes-de-Projeto/GRASPs/Padroes-Adotados-no-Projeto.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="padroes-de-projeto-grasp-adotados-no-projeto">Padrões de Projeto GRASP Adotados no Projeto</h1>
+<h2 id="1-introducao">1. Introdução</h2>
+<p>O processo de desenvolvimento de software é composto por uma série de tarefas complexas que visam um produto final, utilizável, e que satisfaça as necessidades do cliente. Embora seja comum haver especificidades que diferem os projetos, com o passar do tempo foram estabelecidos padrões de projeto que viabilizam um design mais flexível, coeso, de fácil manutenção e permitem a reutilização do software. </p>
+<p>No intuito de estruturar melhor projetos desenvolvidos utilizando programação orientadaa objetos (especificamente), foi construido um padrão de projeto composto por diretrizes encarregadas de atribuir responsabilidade à classes e objetos. Esse padrão de projeto, denominado GRASP (General Responsability Assignment Software Patterns), visa realizar essa atribuição de forma que o contexto de utilização de cada uma das classes e objetos seja adaptado de acordo com suas obrigações na resolução do problema. Para isso, são utilizados dez princípios: </p>
+<h2 id="2-principios-e-padroes">2. Princípios e Padrões</h2>
+<h2 id="21-criador">2.1. Criador</h2>
+<h3 id="211-definicao">2.1.1. Definição</h3>
+<p>O padrão Criador tem como objetivo determinar qual classe deve ser a responsável pela criação de instâncias de determinados objetos.</p>
+<p>Por exemplo, se for decidido que as instâncias de uma classe A devem ser criadas por uma
+classe B, é importante observar os pontos a seguir:</p>
+<ul>
+<li>B “contém” A ou é uma composição de A.</li>
+<li>B registra A.</li>
+<li>B usa A de maneira muito próxima.</li>
+<li>B tem dados iniciais de A, os quais serão passados para A quando este for criado. B é um “especialista” em relação à criação de A.</li>
+</ul>
+<h3 id="212-uso-no-projeto">2.1.2. Uso no Projeto</h3>
+<p><strong>Justificativa</strong>: Viabiliza o reaproveitamento de código.</p>
+<p>Nos códigos exemplos, temos parte da controller Client e parte da controller Item,
+respectivamente, onde são responsáveis pela criação dos usuários e dos itens que serão
+listados na aplicação.</p>
+<p><a href="../../../assets/img/seminario3/padroes-grasp/criador.png"><img alt="Criador" src="../../../assets/img/seminario3/padroes-grasp/criador.png" /></a></p>
+<figcaption>Figura 1. Exemplo do padrão GRASP de Criador</figcaption>
+
+<p><a href="../../../assets/img/seminario3/padroes-grasp/criador2.png"><img alt="Criador" src="../../../assets/img/seminario3/padroes-grasp/criador2.png" /></a></p>
+<figcaption>Figura 2. Exemplo do padrão GRASP de Criador</figcaption>
+
+<h2 id="22-especialista">2.2. Especialista</h2>
+<h3 id="221-definicao">2.2.1. Definição</h3>
+<p>O princípio de especialista na informação é utilizado para atribuir responsabilidades. Consiste em delegar a responsabilidade à quem possui as informações necessárias para cumpri-la. Para isso primeiro é identificado qual seria a informação e em seguida onde ela foi armazenada, viabilizando assim o acesso da informação e, consequentemente, a atribuição.</p>
+<h3 id="222-uso-no-projeto">2.2.2. Uso no projeto</h3>
+<p><strong>Justificativa</strong>: Evita a criação de soluções desnecessariamente complexas e estimula a análise de qual seria mais objetiva.</p>
+<h2 id="23-controlador">2.3. Controlador</h2>
+<h3 id="231-definicao">2.3.1. Definição</h3>
+<p>O padrão Controlador atribui a responsabilidade de receber ou lidar com um evento do sistema para uma classe que representa todo o sistema, um subsistema e um cenário de casos de uso.</p>
+<p>Um caso de uso controlador deve ser usado para lidar com todos os eventos de casos de uso e pode ser usado para mais de um caso de uso, por exemplo, para casos de uso como Criar usuário e Excluir usuário, pode ter um único UserController, em vez de dois controllers de casos de uso separados.</p>
+<p>É definido como o primeiro objeto além da camada de interface do usuário que recebe e coordena operações do sistema. O controlador deve delegar o trabalho que precisa ser feito para outros objetos. Ele coordena ou controla a atividade e não deve fazer muito trabalho por si próprio. O padrão Controlador pode ser considerado uma parte da camada de aplicação/serviço.</p>
+<h3 id="232-uso-no-projeto">2.3.2. Uso no projeto</h3>
+<p><strong>Justificativa</strong>: Vai ser utilizado para conectar os componentes do frontend às models do backend, delegando trabalho para os elementos responsáveis. Também é utilizado no backend para delegar as funções responsáveis por cada rota da aplicação, segue um exemplo abaixo.</p>
+<p>No código exemplo, temos um método de uma controller responsável por lidar com a listagem de Itens da aplicação. Nela temos toda a lógica da rota, e nela que obtemos o resultado final a ser enviado para o usuário.</p>
+<p><a href="../../../assets/img/seminario3/padroes-grasp/controlador.png"><img alt="Controlador" src="../../../assets/img/seminario3/padroes-grasp/controlador.png" /></a></p>
+<figcaption>Figura 3. Exemplo do padrão GRASP de Controlador</figcaption>
+
+<h2 id="24-alta-coesao">2.4. Alta Coesão</h2>
+<h3 id="241-definicao">2.4.1. Definição</h3>
+<p>Mantém a complexidade controlada através da restrição de atividades que cada elemento é responsável por realizar. A alta coesão é mantida, por exemplo, quando cada classe é fortemente focada e realiza apenas funções relacionadas, sem muitas distinções.</p>
+<h3 id="242-uso-no-projeto">2.4.2. Uso no projeto</h3>
+<p><strong>Justificativa</strong>: Evita o compormetimento de grande parte do funcionamento da aplicação pois isola o funcionamento de cada coisa, além de permitir alterações mais específicas caso necessário.</p>
+<h2 id="25-baixo-acoplamento">2.5. Baixo Acoplamento</h2>
+<h2 id="251-definicao">2.5.1. Definição</h2>
+<p>O padrão de projeto GRASP tem como objetivo resolver o problema de alta dependência, que resulta em alto impacto de mudança, dificultando sua manutenção, e baixa reutilização. Antes de explicar um pouco mais sobre o padrão, acho importante relembrar o significado de acoplamento.</p>
+<p>Acoplamento: uma medida de quão fortemente um elemento é conectado, tem conhecimento de, ou depende de outros. Um elemento com baixo acoplamento não é dependente de muitos outros elementos.</p>
+<p>Para isso, é proposto atribuir as responsabilidades de modo que o acoplamento entre classes permaneça baixo. Mesmo propondo o baixo acoplamento, não é recomendado um nível extremo dessa medida, quando não há nenhuma relação entre classes. Importante ressaltar também de que subclasses são fortemente acopladas à sua superclasse.</p>
+<h3 id="252-uso-no-projeto">2.5.2. Uso no projeto</h3>
+<p><strong>Justificativa</strong>: Assim como a alta coesão, possui papel importante na diminuição da dependência entre as pequenas partes que compoem o sistema e também facilita o reaproveitamento de código, melhorando assim a qualidade do produto.</p>
+<p>No código abaixo, damos um exemplo de onde utilizamos este padrão de projeto. Note que a classe Database tem um único propósito de se comunicar com o banco de dados, mesmo sendo utilizada em outros trechos da API ela não tem acoplamento com outras classes e realiza o seu trabalho independentemente de fatores externos.</p>
+<p><a href="../../../assets/img/seminario3/padroes-grasp/baixo-acoplamento.png"><img alt="Baixo Acoplamento" src="../../../assets/img/seminario3/padroes-grasp/baixo-acoplamento.png" /></a></p>
+<figcaption>Figura 4. Exemplo do padrão GRASP de Baixo Acoplamento</figcaption>
+
+<h2 id="26-variacoes-protegidas">2.6. Variações Protegidas</h2>
+<h3 id="261-definicao">2.6.1. Definição</h3>
+<p>O princípio de variações protegidas é responsável por assegurar que o projeto e seus objetos, subsistemas e demais componentes possam ser alterados ou sofrer instabilidades sem que haja impactos indesejáveis nos demais elementos do sistema. Para isso, interfaces são criadas em volta desses pontos potenciais de variação, motivando também a utilização de encapsulamento, polimorfismo e indireção.</p>
+<h3 id="262-uso-no-projeto">2.6.2. Uso no projeto</h3>
+<p><strong>Justificativa</strong>: Favorece o desenvolvimento de um sistema mais estável, onde parte pode entrar em inatividade sem comprometer integralmente o funcionamento das demais.</p>
+<h2 id="27-invencao-pura">2.7. Invenção Pura</h2>
+<h3 id="271-definicao">2.7.1. Definição</h3>
+<p>O padrão de Invenção Pura resolve o problema de uma responsabilidade que deve ser alocada a um objeto, mas irá atrapalhar a coesão e/ou o acoplamento daquele objeto. Para solucionar esse problema, é proposto atribuir um conjunto de responsabilidades altamente coeso a uma classe artificial ou de conveniência e que não represente um conceito do domínio do problema. Em alguns casos essas classes artificiais são tratados e nomeados como "serviços" na aplicação, o que define melhor o objetivo daquele elemento, de realizar um serviço em específico que não está diretamente conectado ao domínio.</p>
+<h3 id="272-uso-no-projeto">2.7.2. Uso no projeto</h3>
+<p><strong>Justificativa</strong>: aumento da coesão à medida em que a nova classe agrega funcionalidades
+altamente correlatas e da capacidade de reutilização decorrente de classes de Invenção Pura
+que agrupam comportamentos muito utilizados.</p>
+<h2 id="3-referencias">3. Referências</h2>
+<blockquote>
+<ul>
+<li>SERRANO, Milene. Aula - GRASP - PARTE I</li>
+<li>SERRANO, Milene. Slide Arquitetura e Desenho de Software AULA - GRASP_B - COMPLEMENTAR. Disponível <a href="https://aprender3.unb.br/pluginfile.php/897140/mod_label/intro/Arquitetura%20e%20Desenho%20de%20Software%20-%20Aula%20GRASP_B%20-%20Profa.%20Milene%20-%20Complementar.pdf">aqui</a>. Acesso em 28 de agosto de 2021.</li>
+<li>DEVMEDIA, Desenvolvimento com qualidade com GRASP Disponível <a href="]https://www.devmedia.com.br/desenvolvimento-com-qualidade-com-grasp/28704">aqui</a>. Acesso em 26 de agosto de 2021.</li>
+<li>Slide Padrões de Projeto - Bruna Diirr. Disponível <a href="http://www.ic.uff.br/~anselmo/cursos/ProjSoft/apresentacoes/Padroes%20de%20projeto.pdf">aqui</a>. Acesso em 28 de agosto de 2021.</li>
+<li>Slide Padrões GRASP. Disponível <a href="http://www.facom.ufu.br/~bacala/ESOF/05a-Padr%C3%B5es%20GRASP.pdf">aqui</a>. Acesso em 28 de agosto de 2021.</li>
+<li>Slide GRASP: Designing - Objetos com Responsabilidades. Disponível <a href="https://www.ic.unicamp.br/~ariadne/mc436/1s2017/Lar16GRASP.pdf">aqui</a>. Acesso em 28 de agosto de 2021.</li>
+<li>Inversão de Controle (IoC) e Injeção de Dependência (DI) - Diferenças. Disponível <a href="http://www.linhadecodigo.com.br/artigo/3418/inversao-de-controle-ioc-e-injecao-de-dependencia-di-diferencas.aspx#:~:text=Invers%C3%A3o%20de%20Controle%20ou%20Inversion,outra%20classe%2C%20interface%2C%20componente%2C">aqui</a>. Acesso em 28 de agosto de 2021.</li>
+</ul>
+</blockquote>
+<h2 id="historico-de-revisoes">Histórico de Revisões</h2>
+<table>
+<thead>
+<tr>
+<th align="left">Data</th>
+<th align="left">Versão</th>
+<th align="left">Descrição</th>
+<th align="left">Autor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">26/08/2021</td>
+<td align="left">1.0</td>
+<td align="left">Criação do documento e desenvolvimento de tópicos</td>
+<td align="left"><a href="https://github.com/brendavsantos">Brenda Santos</a></td>
+</tr>
+<tr>
+<td align="left">28/08/2021</td>
+<td align="left">1.2</td>
+<td align="left">Desenvolvimento dos padrões Baixo Acoplamento, Controlador e Inversão de Controle</td>
+<td align="left"><a href="https://github.com/tsrrodrigues">Tiago Samuel</a></td>
+</tr>
+<tr>
+<td align="left">29/08/2021</td>
+<td align="left">1.3</td>
+<td align="left">Desenvolvimento dos padrões Polimorfismo, Indireção e Criador e padronização tópico referências</td>
+<td align="left"><a href="https://github.com/ServideoEC">Eduarda Servidio</a></td>
+</tr>
+<tr>
+<td align="left">03/09/2021</td>
+<td align="left">1.4</td>
+<td align="left">Adição das justificativas de uso</td>
+<td align="left"><a href="https://github.com/brendavsantos">Brenda Santos</a></td>
+</tr>
+<tr>
+<td align="left">03/09/2021</td>
+<td align="left">1.5</td>
+<td align="left">Revisão do documento</td>
+<td align="left"><a href="https://github.com/sergiosacj">Sergio Cipriano</a>, <a href="https://github.com/emysdias">Emily Dias</a></td>
+</tr>
+<tr>
+<td align="left">19/09/2021</td>
+<td align="left">1.6</td>
+<td align="left">Adição de códigos referentes aos padrões</td>
+<td align="left"><a href="https://github.com/ServideoEC">Eduarda Servidio</a> e  <a href="https://github.com/tsrrodrigues">Tiago Samuel</a></td>
+</tr>
+<tr>
+<td align="left">20/09/2021</td>
+<td align="left">2.0</td>
+<td align="left">Adição de imagens e revisão do documento</td>
+<td align="left"><a href="https://github.com/lboaventura25">Lucas Boaventura</a></td>
+</tr>
+</tbody>
+</table>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../../../2-Modelagem/extras/Prototipo-Alta-Fidelidade/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Protótipo de Alta Fidelidade" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Protótipo de Alta Fidelidade
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../Padroes-Nao-Adotados-no-Projeto/" class="md-footer__link md-footer__link--next" aria-label="Next: Padrões de Projeto GRASPs Não Adotados no Projeto" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Padrões de Projeto GRASPs Não Adotados no Projeto
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2021, <a href="https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs" target="_blank">Tá Na Mesa</a>
+          </div>
+        
+        
+          Made with
+          <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+            Material for MkDocs
+          </a>
+        
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../../assets/javascripts/workers/search.8397ff9e.min.js", "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.f89c2efe.min.js"></script>
+      
+        <script src="../../../assets/js/jquery.min.js"></script>
+      
+        <script src="../../../assets/js/jquery.zoom.min.js"></script>
+      
+        <script src="../../../assets/js/extra.js"></script>
+      
+    
+  </body>
+</html>
